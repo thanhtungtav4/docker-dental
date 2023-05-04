@@ -14,6 +14,7 @@ app.init = function () {
   app.headerFix();
   app.smoothScroll();
   app.showBox();
+  app.slideCer();
 
 };
 
@@ -225,6 +226,19 @@ app.showBox = function () {
         $(this).children('span').text('Hiện');
       }
     })
+  }
+}
+
+app.slideCer = function () {
+  if($('.js-slide-cer').length) {
+    var swiper = new Swiper(".js-slide-cer", {
+      slidesPerView: "auto",
+      spaceBetween: 14,
+      navigation: {
+        nextEl: '.swiper-next',
+        prevEl: '.swiper-prev'
+      }
+    });
   }
 }
 
