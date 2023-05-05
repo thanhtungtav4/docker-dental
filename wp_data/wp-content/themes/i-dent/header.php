@@ -5,18 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
     <meta name="charset" content="utf-8">
     <meta name="format-detection" content="telephone=no">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="content-language" content="vi-vn" />
     <meta property="og:title" content="">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="">
-    <meta property="og:image" content="">
-    <meta property="og:site_name" content="">
-    <meta property="og:description" content="">
-    <meta property="fb:app_id" content="0000000000000000">
-    <meta name="twitter:card" content="summary">
-    <meta name="description" content="">
-    <meta name="keywords" content="">
-    <title>TOP</title>
-    <link rel="icon" href="<?php echo get_stylesheet_directory_uri() ?>/assets/images/favicon.ico">
+    <meta property="og:locale" content="vi_VN" />
+    <meta property="og:url" content="<?php echo (isset($_SERVER['HTTPS']) ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]"; ?>">
+    <meta property="og:site_name" content="<?php echo get_bloginfo( 'name' );?>">
+    <meta property="og:description" content="<?php echo get_bloginfo( 'description' );?>">
+    <link rel="canonical" href="<?php echo (isset($_SERVER['HTTPS']) ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]"; ?>">
+    <link rel="alternate" href="<?php echo (isset($_SERVER['HTTPS']) ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]"; ?>" hreflang="vi-vn" />
+    <meta property="fb:app_id" content="263634224110155" />
+    <meta property="fb:pages" content="1501028436840514" />
+    <meta property="fb:admins" content="100003294784231,100022444733784,100028756207651,100000185834839" />
+    <meta name="author" content="Bs.Nguyễn Hiếu Tùng">
+    <meta name="copyright" content="Copyright ® 2014 - 2016 nhakhoaident.com. All rights reserved" />
+    <meta name="p:domain_verify" content="7c1c3e8895bfc859a4ae8796fa04d548" />
+    <meta name="google-site-verification" content="cExJeNm-uwIJhwMYhWpttuIaALlhk-a42lVTWC-I5lQ" />
+    <meta name="geo.region" content="VN" />
+    <meta name="geo.placename" content="TpHCM" />
+    <meta name="geo.position" content="10.789725;106.711259" />
+    <meta name="ICBM" content="10.789725;106.711259" />
+    <link rel="icon" href="<?php echo get_stylesheet_directory_uri() ?>/assets/images/favicon.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet">
