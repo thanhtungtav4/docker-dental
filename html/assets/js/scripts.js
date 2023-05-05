@@ -15,6 +15,7 @@ app.init = function () {
   app.smoothScroll();
   app.showBox();
   app.slideCer();
+  app.accordion();
 
 };
 
@@ -239,6 +240,21 @@ app.slideCer = function () {
         prevEl: '.swiper-prev'
       }
     });
+  }
+}
+
+app.accordion = function () {
+  if($('.l-faq').length) {
+    $('.l-faq .m-btn').click(function(){
+      $(this).toggleClass('active');
+      if($(this).hasClass('active')) {
+        $(this).children('a').text('Thu gọn');
+        $(this).parent().next('.answer').stop().slideDown();
+      } else {
+        $(this).children('a').text('Trả lời');
+        $(this).parent().next('.answer').stop().slideUp();
+      }
+    })
   }
 }
 
