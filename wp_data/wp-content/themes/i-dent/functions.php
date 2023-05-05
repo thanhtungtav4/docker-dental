@@ -6,7 +6,8 @@
  *
  * @package recruit
  */
-require_once( get_stylesheet_directory() . '/functions/init.php' );
+include_once(get_stylesheet_directory() .  '/functions/aria-walker-nav-menu.php');
+ require_once( get_stylesheet_directory() . '/functions/init.php' );
 require_once( get_stylesheet_directory() . '/functions/security.php' );
 require_once( get_stylesheet_directory() . '/functions/optimize.php' );
 require_once( get_stylesheet_directory() . '/functions/slug.php' );
