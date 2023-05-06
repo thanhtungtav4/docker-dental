@@ -16,6 +16,7 @@ app.init = function () {
   app.showBox();
   app.slideCer();
   app.accordion();
+  app.slideCustomer();
 
 };
 
@@ -179,6 +180,27 @@ app.paperSlide = function () {
       slidesToScroll: 1,
       arrows: true,
       dots: true,
+      responsive: [
+        {
+          breakpoint: 767,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            infinite: true,
+          }
+        },
+      ]
+    });
+  }
+}
+
+app.slideCustomer = function () {
+  if($('.js-demo').length) {
+    $('.js-demo').slick({
+      slidesToShow: 2,
+      slidesToScroll: 1,
+      arrows: true,
+      dots: false,
       responsive: [
         {
           breakpoint: 767,
