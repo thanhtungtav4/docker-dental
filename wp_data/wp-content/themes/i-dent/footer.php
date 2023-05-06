@@ -17,19 +17,19 @@
           <div class="c-footer_inner">
             <div class="c-footer_block"><strong class="title">KẾT NỐI VỚI I-DENT</strong>
               <ul class="l-social">
-                <li><a class="trans" href=""><img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/ico_facebook.svg" alt="facebook"></a></li>
-                <li><a class="trans" href=""><img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/ico_youtube.svg" alt="youtube"></a></li>
-                <li><a class="trans" href=""><img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/ico_inst.svg" alt=insta"></a></li>
-                <li><a class="trans" href=""><img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/ico_twitter.svg" alt="twitter"></a></li>
+                <li><a class="trans"  target="_blank" href="https://www.facebook.com/NhaKhoaIDent"><img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/ico_facebook.svg" alt="facebook"></a></li>
+                <li><a class="trans"  target="_blank" href="https://www.youtube.com/channel/UCqFZe36HfQU_h0y-lhVmgEQ?sub_confirmation=1"><img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/ico_youtube.svg" alt="youtube"></a></li>
+                <li><a class="trans"  target="_blank" href="https://www.instagram.com/identdentalclinic"><img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/ico_inst.svg" alt=insta"></a></li>
+                <li><a class="trans"  target="_blank" href="https://twitter.com/TrungTamImplant"><img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/ico_twitter.svg" alt="twitter"></a></li>
               </ul><strong class="title">ĐỐI TÁC THANH TOÁN</strong>
               <ul class="l-payment">
-                <li><a href=""><img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/ico_mc.svg" alt="mc"></a></li>
-                <li><a href=""><img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/ico_visa.svg" alt="visa"></a></li>
-                <li><a href=""><img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/ico_jcb.svg" alt="jcb"></a></li>
+                <li><img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/ico_mc.svg" alt="mc"></li>
+                <li><img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/ico_visa.svg" alt="visa"></li>
+                <li><img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/ico_jcb.svg" alt="jcb"></li>
               </ul>
               <ul class="l-certi">
-                <li><a href=""><img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/ico_bct.svg" alt="bct"></a></li>
-                <li><a href=""><img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/ico_dmca.svg" alt="dmca"></a></li>
+                <li><a target="_blank"  href="http://online.gov.vn/CustomWebsiteDisplay.aspx?DocId=33862"><img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/ico_bct.svg" alt="Đã thông báo với bộ công thương"></a></li>
+                <li><a  target="_blank" title="DMCA.com Protection Status" href="http://www.dmca.com/Protection/Status.aspx?ID=ba5e7d05-c2fe-4fa7-949d-113ec65a9b6e&refurl=https://nhakhoaident.com/"><img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/ico_dmca.svg" alt="DMCA.com Protection Status"></a></li>
               </ul>
             </div>
             <div class="c-footer_block"><strong class="title">NHA KHOA IMPLANT I-DENT</strong>
@@ -58,16 +58,13 @@
               </div>
             </div>
             <div class="c-footer_block"><strong class="title">THÔNG TIN CẦN BIẾT</strong>
-              <ul class="l-info">
-                <li><a href="">Giới thiệu về Nha khoa I-DENT</a></li>
-                <li><a href="">Tiến sĩ - Bác sĩ Nguyễn Hiếu Tùng</a></li>
-                <li><a href="">Đội ngũ Tiến sĩ - Bác sĩ</a></li>
-                <li><a href="">Tại sao chọn chúng tôi ?</a></li>
-                <li><a href="">Cơ sở vật chất tại I-DENT</a></li>
-                <li><a href="">Cam kết chất lượng</a></li>
-                <li><a href="">Liên hệ</a></li>
-                <li><a href="">Chuyên gia răng miệng</a></li>
-              </ul>
+            <?php if (has_nav_menu( 'footer-menu' )) {
+                  wp_nav_menu( array(
+                  'container'         => 'false',
+                  'menu_class'        => 'l-info',
+                  'items_wrap'        => '<ul class="%2$s">%3$s</ul>',
+                  'theme_location'    => 'footer-menu' ) );
+              } ?>
             </div>
           </div>
         </div>
