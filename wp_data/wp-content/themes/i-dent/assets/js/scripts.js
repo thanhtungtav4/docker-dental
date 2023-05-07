@@ -15,6 +15,9 @@ app.init = function () {
   app.smoothScroll();
   app.showBox();
   app.slideCer();
+  app.accordion();
+  app.slideCustomer();
+  app.promoDoc();
 
 };
 
@@ -143,6 +146,36 @@ app.docSlide = function () {
   });
 }
 
+app.promoDoc = function () {
+  $('.js-doctors').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: false,
+    fade: true,
+    swipe: false,
+    asNavFor: '.js-doc-thumb'
+  });
+  $('.js-doc-thumb').slick({
+    slidesToShow: 5,
+    slidesToScroll: 1,
+    asNavFor: '.js-doctors',
+    dots: false,
+    centerMode: true,
+    focusOnSelect: true,
+    arrows: true,
+    responsive: [
+      {
+        breakpoint: 767,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          infinite: true,
+        }
+      },
+    ]
+  });
+}
+
 app.cusSlide = function () {
   if($('.js-cus-slide').length) {
     $('.js-cus-slide').slick({
@@ -178,6 +211,27 @@ app.paperSlide = function () {
       slidesToScroll: 1,
       arrows: true,
       dots: true,
+      responsive: [
+        {
+          breakpoint: 767,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            infinite: true,
+          }
+        },
+      ]
+    });
+  }
+}
+
+app.slideCustomer = function () {
+  if($('.js-demo').length) {
+    $('.js-demo').slick({
+      slidesToShow: 2,
+      slidesToScroll: 1,
+      arrows: true,
+      dots: false,
       responsive: [
         {
           breakpoint: 767,
@@ -239,6 +293,21 @@ app.slideCer = function () {
         prevEl: '.swiper-prev'
       }
     });
+  }
+}
+
+app.accordion = function () {
+  if($('.l-faq').length) {
+    $('.l-faq .m-btn').click(function(){
+      $(this).toggleClass('active');
+      if($(this).hasClass('active')) {
+        $(this).children('a').text('Thu gọn');
+        $(this).parent().next('.answer').stop().slideDown();
+      } else {
+        $(this).children('a').text('Trả lời');
+        $(this).parent().next('.answer').stop().slideUp();
+      }
+    })
   }
 }
 

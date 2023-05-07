@@ -36,6 +36,9 @@ function corporate_theme_setup() {
 	add_image_size( 'SLIDE-THUMBPC', 1274, 431, true );
 	add_image_size( 'SLIDE-THUMBSP', 376, 376, true );
 	add_image_size( 'REVIEW-THUMB', 590, 315, true );
+	add_image_size( 'SERVICE-THUMB', 365, 520, true );
+	add_image_size( 'DOCTOR-THUMB', 263, 375, true );
+	add_image_size( 'DOCTOR-MIN-THUMB', 198, 246, true );
 }
 
 /**
@@ -305,4 +308,15 @@ function register_my_menus() {
 			'footer-menu' => __( 'Footer Menu' )
 		)
 	);
+}
+
+if( function_exists('acf_add_options_page') ) {
+    
+    acf_add_options_page(array(
+        'page_title'    => 'ĐỘI NGŨ BÁC SĨ',
+        'menu_title'    => 'ĐỘI NGŨ BÁC SĨ',
+        'menu_slug'     => 'theme-general-settings',
+        'capability'    => 'edit_posts',
+        'redirect'      => false
+    ));  
 }
