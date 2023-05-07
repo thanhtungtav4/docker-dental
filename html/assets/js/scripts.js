@@ -17,6 +17,7 @@ app.init = function () {
   app.slideCer();
   app.accordion();
   app.slideCustomer();
+  app.promoDoc();
 
 };
 
@@ -128,6 +129,36 @@ app.docSlide = function () {
     slidesToShow: 5,
     slidesToScroll: 1,
     asNavFor: '.js-doc-slide',
+    dots: false,
+    centerMode: true,
+    focusOnSelect: true,
+    arrows: true,
+    responsive: [
+      {
+        breakpoint: 767,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          infinite: true,
+        }
+      },
+    ]
+  });
+}
+
+app.promoDoc = function () {
+  $('.js-doctors').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: false,
+    fade: true,
+    swipe: false,
+    asNavFor: '.js-doc-thumb'
+  });
+  $('.js-doc-thumb').slick({
+    slidesToShow: 5,
+    slidesToScroll: 1,
+    asNavFor: '.js-doctors',
     dots: false,
     centerMode: true,
     focusOnSelect: true,
