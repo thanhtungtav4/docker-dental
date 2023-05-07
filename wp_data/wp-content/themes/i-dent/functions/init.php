@@ -33,8 +33,9 @@ add_action( 'wp_enqueue_scripts', 'corporate_enqueue_style' );
  */
 add_action( 'after_setup_theme', 'corporate_theme_setup' );
 function corporate_theme_setup() {
-	add_image_size( 'SLIDE-THUMBPC', 700, 400, true );
-	add_image_size( 'SLIDE-THUMBSP', 357, 204, true );
+	add_image_size( 'SLIDE-THUMBPC', 1274, 431, true );
+	add_image_size( 'SLIDE-THUMBSP', 376, 376, true );
+	add_image_size( 'REVIEW-THUMB', 590, 315, true );
 }
 
 /**

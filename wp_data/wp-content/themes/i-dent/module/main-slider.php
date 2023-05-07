@@ -1,29 +1,24 @@
 <?php if(class_exists('ACF')) : ?>
-  <section id="idx_main">
-    <div class="m-mainv">
-      <div class="inner">
-        <div class="m-mainv__cont">
-          <h2><?php get_field('name-slider') ? the_field('name-slider') : ''?></h2>
-          <p><?php get_field('description-slider') ? the_field('description-slider') : ''?></p>
-        </div>
-        <div class="m-mainv__slider">
-          <?php if( have_rows('images-slider') ): ?>
-            <ul class="mainv-slider">
-              <?php while( have_rows('images-slider') ): the_row();
-                $image = get_sub_field('image');
-              ?>
-                <li class="items">
-                  <picture>
-                    <source media="(max-width:768px)" srcset="<?php echo wp_get_attachment_image_url($image, 'SLIDE-THUMBSP' ) ?>">
-                    <source media="(min-width:768px)" srcset="<?php echo wp_get_attachment_image_url($image, 'SLIDE-THUMBPC' ) ?>">
-                    <img loading="lazy" src="<?php echo wp_get_attachment_image_url($image, 'SLIDE-THUMBPC' ) ?>" alt="<?php the_field('name-slider') ?>">
-                  </picture>
-                </li>
-              <?php endwhile; ?>
-            </ul>
-          <?php endif; ?>
-        </div>
-      </div>
+  <?php if( have_rows('home_slider_items') ): ?>
+  <div class="mv-top js-mv">
+    <?php while( have_rows('home_slider_items') ): the_row();
+      $image = get_sub_field('image_slider_home');
+      $imagesp = get_sub_field('image_slider_home_sp');
+      $alt = get_sub_field('alt_image');
+      $link_to = get_sub_field('link_to');
+    ?>
+    <div class="mv-top_slide">
+      <a href="<?php echo $link_to ?>">
+        <picture>
+          <source media="(min-width: 768px)" srcset="<?php echo wp_get_attachment_image_url($image, 'SLIDE-THUMBPC' ) ?>">
+          <?php if($imagesp) : ?>
+          <source media="(max-width: 768px)" srcset="<?php echo wp_get_attachment_image_url($imagesp, 'SLIDE-THUMBSP' ) ?>">
+          <?php endif ?>
+          <img loading="lazy" src="<?php echo wp_get_attachment_image_url($image, 'SLIDE-THUMBPC' ) ?>" alt="<?php echo $alt ?>">
+        </picture>
+      </a>
     </div>
-  </section>
+    <?php endwhile; ?>
+  </div>
+  <?php endif; ?>
 <?php endif; ?>

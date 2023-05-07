@@ -21,10 +21,9 @@
           <li id="menu-bando"><a href="/lien-he" rel="nofollow" target="_blank" title="Địa chỉ"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/icon-location.png" alt="Địa chỉ"></a><a href="/lien-he" rel="nofollow" target="_blank" title="Địa chỉ">Địa chỉ</a></li>
         </ul>
       </div>
-      <div class="mv-top js-mv">
-        <div class="mv-top_slide"><a href=""><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/top/top_slide_01.jpg" alt=""></a></div>
-        <div class="mv-top_slide"><a href=""><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/top/top_slide_02.jpg" alt=""></a></div>
-      </div>
+      <?php 
+        require_once( get_stylesheet_directory() . '/module/main-slider.php' );
+      ?>
       <section class="intro">
         <div class="wrapper">
           <h2 class="ttl-primary">NHA KHOA I-DENT   PHÒNG KHÁM NHA KHOA SỐ 1 TP HỒ CHÍ MINH</h2>
@@ -33,14 +32,9 @@
             <input class="m-input" type="text" placeholder="Số điện thoại">
             <button class="btn-sub trans" type="submit">GỬI</button>
           </form>
-          <ul class="tv-clip">
-            <li><a class="vidplay" href="https://www.youtube.com/watch?v=WXX4qCbyts0"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/top/img_tv_01.jpg"></a>
-              <h3 class="fig-title">Đánh giá của Đài truyền hình VTV3 về Nha khoa I-Dent</h3>
-            </li>
-            <li><a class="vidplay" href="https://www.youtube.com/watch?v=PQu1lk1zBiU"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/top/img_tv_02.jpg"></a>
-              <h3 class="fig-title">Đánh giá của Đài truyền hình HTV7 về Nha khoa I-Dent</h3>
-            </li>
-          </ul>
+          <?php 
+            require_once( get_stylesheet_directory() . '/module/main-review.php' );
+          ?>
         </div>
       </section>
       <section class="key-service">
@@ -48,13 +42,13 @@
           <div class="wrapper">
             <h2 class="ttl-primary">CÁC DỊCH VỤ NỔI BẬT</h2>
             <div class="service-slide js-service-slide">
-              <div class="service-slide_item"><a href="#"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/top/img_service.jpg" alt="">
+              <div class="service-slide_item"><a href="#"><img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/top/img_service.jpg" alt="">
                   <div class="service-name is-implant"><span>TRỒNG RĂNG</span><strong>IMPLANT</strong></div></a></div>
-              <div class="service-slide_item"><a href="#"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/top/img_service.jpg" alt="">
+              <div class="service-slide_item"><a href="#"><img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/top/img_service.jpg" alt="">
                   <div class="service-name is-nieng"><span>NIỀNG RĂNG</span><strong>THẨM MỸ</strong></div></a></div>
-              <div class="service-slide_item"><a href="#"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/top/img_service.jpg" alt="">
+              <div class="service-slide_item"><a href="#"><img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/top/img_service.jpg" alt="">
                   <div class="service-name is-dieutri"><span>NHA KHOA</span><strong>ĐIỀU TRỊ</strong></div></a></div>
-              <div class="service-slide_item"><a href="#"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/top/img_service.jpg" alt="">
+              <div class="service-slide_item"><a href="#"><img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/top/img_service.jpg" alt="">
                   <div class="service-name is-su"><span>BỌC</span><strong>RĂNG SỨ</strong></div></a></div>
             </div>
           </div>
