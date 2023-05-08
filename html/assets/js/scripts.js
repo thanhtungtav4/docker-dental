@@ -31,9 +31,13 @@ app.spMenu = function () {
   if ($(window).width() <= 767) {
     $('.js-menu').click(function () {
       $(this).toggleClass('open');
-      $('.c-header_nav').slideToggle();
+      if($(this).hasClass('open')) {
+        $('.c-header_nav').addClass('show');
+      } else {
+        $('.c-header_nav').removeClass('show');
+      }
     })
-    $('header .nav-menu > li.has-menu').click(function () {
+    $('header .nav-menu > li.has-menu, header .nav-menu > li.menu-item-has-children').click(function () {
       var _this = $(this);
       _this.toggleClass('is-active');
       if (_this.hasClass('is-active')) {
@@ -45,6 +49,10 @@ app.spMenu = function () {
   }
   $('.btn-search').click(function () {
     $(this).stop().toggleClass('is-active');
+  })
+  $('.js-close, .overlay').click(function () {
+    $('.js-menu').removeClass('open')
+    $('.c-header_nav').removeClass('show');
   })
 }
 
@@ -135,6 +143,23 @@ app.videoClip = function () {
       duration: 300, // don't foget to change the duration also in CSS
       opener: function(element) {
         return element.find('img');
+      }
+    }
+  });
+  $('.popup-with-form').magnificPopup({
+    type: 'inline',
+    preloader: false,
+    focus: '#name',
+
+    // When elemened is focused, some mobile browsers in some cases zoom in
+    // It looks not nice, so we disable it:
+    callbacks: {
+      beforeOpen: function() {
+        if($(window).width() < 700) {
+          this.st.focus = false;
+        } else {
+          this.st.focus = '#name';
+        }
       }
     }
   });
@@ -285,7 +310,7 @@ app.smoothScroll = function () {
       if (target.length) {
         $('html,body').animate({
           scrollTop: target.offset().top - headerHeight
-        }, 0);
+        }, 500);
         return false;
       }
     }
