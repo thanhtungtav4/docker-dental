@@ -28,22 +28,22 @@ app.isMobile = function () {
 };
 
 app.spMenu = function () {
-  if($(window).width() <= 767) {
-    $('.js-menu').click(function() {
+  if ($(window).width() <= 767) {
+    $('.js-menu').click(function () {
       $(this).toggleClass('open');
       $('.c-header_nav').slideToggle();
     })
-    $('header .nav-menu > li.has-menu').click(function(){
+    $('header .nav-menu > li.has-menu').click(function () {
       var _this = $(this);
       _this.toggleClass('is-active');
-      if(_this.hasClass('is-active')) {
+      if (_this.hasClass('is-active')) {
         _this.children('.sub-menu').slideDown();
       } else {
         _this.children('.sub-menu').slideUp();
       }
     })
   }
-  $('.btn-search').click(function() {
+  $('.btn-search').click(function () {
     $(this).stop().toggleClass('is-active');
   })
 }
@@ -64,7 +64,7 @@ app.mvTop = function () {
 }
 
 app.headerFix = function () {
-  $(window).on('load resize', function() {
+  $(window).on('load resize', function () {
     var headHeight = $('header').outerHeight();
     $('main').css('padding-top', headHeight);
   })
@@ -112,6 +112,30 @@ app.videoClip = function () {
         }
       },
       srcAction: 'iframe_src',
+    }
+  });
+  $(".zoom-gallery").magnificPopup({
+    delegate: "a",
+    type: "image",
+    tLoading: "Loading image #%curr%...",
+    mainClass: "mfp-img-mobile",
+    gallery: {
+      enabled: !0,
+      navigateByImgClick: !0,
+      preload: [0, 1]
+    },
+    image: {
+      tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
+      titleSrc: function(e) {
+        return e.el.attr("title")
+      }
+    },
+    zoom: {
+      enabled: true,
+      duration: 300, // don't foget to change the duration also in CSS
+      opener: function(element) {
+        return element.find('img');
+      }
     }
   });
 }
@@ -177,7 +201,7 @@ app.promoDoc = function () {
 }
 
 app.cusSlide = function () {
-  if($('.js-cus-slide').length) {
+  if ($('.js-cus-slide').length) {
     $('.js-cus-slide').slick({
       slidesToShow: 3,
       slidesToScroll: 1,
@@ -205,7 +229,7 @@ app.cusSlide = function () {
 }
 
 app.paperSlide = function () {
-  if($('.js-paper-slide').length) {
+  if ($('.js-paper-slide').length) {
     $('.js-paper-slide').slick({
       slidesToShow: 3,
       slidesToScroll: 1,
@@ -226,7 +250,7 @@ app.paperSlide = function () {
 }
 
 app.slideCustomer = function () {
-  if($('.js-demo').length) {
+  if ($('.js-demo').length) {
     $('.js-demo').slick({
       slidesToShow: 2,
       slidesToScroll: 1,
@@ -247,17 +271,17 @@ app.slideCustomer = function () {
 }
 
 app.mHeight = function () {
-  if($('.js-height').length) {
+  if ($('.js-height').length) {
     $('.js-height').matchHeight();
   }
 }
 
 app.smoothScroll = function () {
-  $('a[href*=\\#]:not([href=\\#])').click(function() {
+  $('a[href*=\\#]:not([href=\\#])').click(function () {
     var headerHeight = $('header').outerHeight();
-    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+    if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
       var target = $(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
       if (target.length) {
         $('html,body').animate({
           scrollTop: target.offset().top - headerHeight
@@ -269,10 +293,10 @@ app.smoothScroll = function () {
 }
 
 app.showBox = function () {
-  if($('.js-box').length) {
-    $('.js-box .btn-hide').click(function(){
+  if ($('.js-box').length) {
+    $('.js-box .btn-hide').click(function () {
       $(this).stop().toggleClass('is-active');
-      if($(this).hasClass('is-active')) {
+      if ($(this).hasClass('is-active')) {
         $(this).parent().next('.l-anchors').slideDown();
         $(this).children('span').text('Ẩn');
       } else {
@@ -284,7 +308,7 @@ app.showBox = function () {
 }
 
 app.slideCer = function () {
-  if($('.js-slide-cer').length) {
+  if ($('.js-slide-cer').length) {
     var swiper = new Swiper(".js-slide-cer", {
       slidesPerView: "auto",
       spaceBetween: 14,
@@ -297,10 +321,10 @@ app.slideCer = function () {
 }
 
 app.accordion = function () {
-  if($('.l-faq').length) {
-    $('.l-faq .m-btn').click(function(){
+  if ($('.l-faq').length) {
+    $('.l-faq .m-btn').click(function () {
       $(this).toggleClass('active');
-      if($(this).hasClass('active')) {
+      if ($(this).hasClass('active')) {
         $(this).children('a').text('Thu gọn');
         $(this).parent().next('.answer').stop().slideDown();
       } else {

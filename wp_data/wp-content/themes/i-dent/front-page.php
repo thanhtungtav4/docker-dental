@@ -22,12 +22,12 @@
         <input class="m-input" type="text" placeholder="Số điện thoại">
         <button class="btn-sub trans" type="submit">GỬI</button>
       </form>
-      <?php 
+      <?php
         require_once( get_stylesheet_directory() . '/module/main-review.php' );
       ?>
     </div>
   </section>
-  <?php 
+  <?php
     require_once( get_stylesheet_directory() . '/module/main-service.php' );
     require_once( get_stylesheet_directory() . '/module/main-doctors.php' );
   ?>
@@ -74,47 +74,9 @@
       </div>
     </div>
   </section>
-  <section class="m-video">
-    <div class="wrapper">
-      <h2 class="ttl-primary">VIDEOS CẢM NHẬN CỦA KHÁCH HÀNG VỀ NHA KHOA I-DENT</h2>
-      <div class="m-video_inner">
-        <div class="m-video_main"><a class="vidplay" href="https://www.youtube.com/watch?v=jZF0MMdPang">
-          <img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/top/thumbnail-video1.webp"></a></div>
-        <ul class="l-video">
-          <li><a class="vidplay" href="https://www.youtube.com/watch?v=jZF0MMdPang">
-            <img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/top/thumbnail-video1.webp"></a>
-            <div class="video-info">
-              <h3 class="title">Cảm nhận bệnh nhân sau khi trồng Implant</h3><span class="view">Lượt xem : 5230</span>
-            </div>
-          </li>
-          <li><a class="vidplay" href="https://www.youtube.com/watch?v=jZF0MMdPang">
-            <img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/top/thumbnail-video1.webp"></a>
-            <div class="video-info">
-              <h3 class="title">Cảm nhận bệnh nhân sau khi trồng Implant</h3><span class="view">Lượt xem : 5230</span>
-            </div>
-          </li>
-          <li><a class="vidplay" href="https://www.youtube.com/watch?v=jZF0MMdPang">
-            <img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/top/thumbnail-video1.webp"></a>
-            <div class="video-info">
-              <h3 class="title">Cảm nhận bệnh nhân sau khi trồng Implant</h3><span class="view">Lượt xem : 5230</span>
-            </div>
-          </li>
-          <li><a class="vidplay" href="https://www.youtube.com/watch?v=jZF0MMdPang">
-            <img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/top/thumbnail-video1.webp"></a>
-            <div class="video-info">
-              <h3 class="title">Cảm nhận bệnh nhân sau khi trồng Implant</h3><span class="view">Lượt xem : 5230</span>
-            </div>
-          </li>
-          <li><a class="vidplay" href="https://www.youtube.com/watch?v=jZF0MMdPang">
-            <img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/top/thumbnail-video1.webp"></a>
-            <div class="video-info">
-              <h3 class="title">Cảm nhận bệnh nhân sau khi trồng Implant</h3><span class="view">Lượt xem : 5230</span>
-            </div>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </section>
+  <?php
+    require_once( get_stylesheet_directory() . '/module/main-videos.php' );
+  ?>
   <section class="m-customer">
     <div class="wrapper">
       <h2 class="ttl-primary">I-DENT CÂU CHUYỆN KHÁCH HÀNG</h2>
@@ -170,70 +132,10 @@
       </div>
     </div>
   </section>
-  <section class="m-paper">
-    <div class="wrapper">
-      <h2 class="ttl-primary">BÁO CHÍ ĐƯA TIN VỀ NHA KHOA I-DENT</h2>
-      <div class="m-paper js-paper-slide">
-        <div class="m-paper_item">
-          <div class="m-paper_inner">
-            <div class="m-paper_wrap">
-              <img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/top/img_wallpaper_01.jpg" alt="">
-              <div class="m-paper_btn">
-                <div class="m-btn"><a href="#">Xem chi tiết</a></div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="m-paper_item">
-          <div class="m-paper_inner">
-            <div class="m-paper_wrap"
-            ><img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/top/img_wallpaper_01.jpg" alt="">
-              <div class="m-paper_btn">
-                <div class="m-btn"><a href="#">Xem chi tiết</a></div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="m-paper_item">
-          <div class="m-paper_inner">
-            <div class="m-paper_wrap">
-              <img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/top/img_wallpaper_01.jpg" alt="">
-              <div class="m-paper_btn">
-                <div class="m-btn"><a href="#">Xem chi tiết</a></div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="m-paper_item">
-          <div class="m-paper_inner">
-            <div class="m-paper_wrap">
-              <img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/top/img_wallpaper_01.jpg" alt="">
-              <div class="m-paper_btn">
-                <div class="m-btn"><a href="#">Xem chi tiết</a></div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="m-contact">
-    <div class="wrapper"><strong>NHẬN TƯ VẤN MIỄN PHÍ TỪ CHUYÊN GIA</strong>
-      <h2 class="ttl-primary is-red">ĐẶT LỊCH HẸN THĂM KHÁM NGAY</h2>
-      <p>Vui lòng để lại thông tin của quý khách.<br>Nha Khoa I-Dent sẽ liên hệ đến Quý Khách trong thời gian sớm nhất</p>
-      <form action="">
-        <div class="row-input">
-          <input class="m-input" type="text" placeholder="Họ và tên">
-        </div>
-        <div class="row-input">
-          <input class="m-input" type="text" placeholder="Số điện thoại">
-        </div>
-        <div class="m-btn">
-          <button type="submit">ĐĂNG KÝ</button>
-        </div>
-      </form>
-    </div>
-  </section>
+  <?php
+    require_once( get_stylesheet_directory() . '/module/main-paper.php' );
+    require_once( get_stylesheet_directory() . '/module/contact-footer.php' );
+  ?>
   <section class="m-news">
     <div class="wrapper">
       <h2 class="ttl-primary">KIẾN THỨC NHA KHOA</h2>

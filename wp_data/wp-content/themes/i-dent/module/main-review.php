@@ -8,7 +8,7 @@
     ?>
     <li>
         <a class="vidplay" href="<?php echo $urltv ?>">
-            <img loading="lazy" alt="<?php echo $nametv ?>" src="<?php echo wp_get_attachment_image_url($imagetv, 'REVIEW-THUMB' ) ?>">
+            <img loading="lazy" alt="<?php echo $nametv ?>" src="<?php echo wp_get_attachment_image_url($imagetv, 'NEWS-PC-THUMB' ) ?>">
         </a>
         <h3 class="fig-title"><?php echo $nametv ?></h3>
     </li>

@@ -36,7 +36,7 @@
     <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri() ?>/assets/css/style.css">
     <?php wp_head(); ?>
   </head>
-  <body>
+  <body <?php echo bodyClass(); ?>>
     <header class="c-header">
       <div class="wrapper">
         <div class="c-header_inner">

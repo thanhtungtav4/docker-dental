@@ -39,6 +39,10 @@ function corporate_theme_setup() {
 	add_image_size( 'SERVICE-THUMB', 365, 520, true );
 	add_image_size( 'DOCTOR-THUMB', 263, 375, true );
 	add_image_size( 'DOCTOR-MIN-THUMB', 198, 246, true );
+	add_image_size( 'VIDEO-THUMB', 650, 366, true );
+	add_image_size( 'VIDEO-MIN-THUMB', 188, 106, true );
+	add_image_size( 'NEWS-THUMB', 275, 458, true );
+	add_image_size( 'NEWS-PC-THUMB', 370, 616, true );
 }
 
 /**
@@ -311,12 +315,12 @@ function register_my_menus() {
 }
 
 if( function_exists('acf_add_options_page') ) {
-    
+
     acf_add_options_page(array(
         'page_title'    => 'ĐỘI NGŨ BÁC SĨ',
         'menu_title'    => 'ĐỘI NGŨ BÁC SĨ',
         'menu_slug'     => 'theme-general-settings',
         'capability'    => 'edit_posts',
         'redirect'      => false
-    ));  
+    ));
 }
