@@ -33,7 +33,7 @@ app.spMenu = function () {
       $(this).toggleClass('open');
       $('.c-header_nav').slideToggle();
     })
-    $('header .nav-menu > li.has-menu').click(function () {
+    $('header .nav-menu > li.has-menu, header .nav-menu > li.menu-item-has-children').click(function () {
       var _this = $(this);
       _this.toggleClass('is-active');
       if (_this.hasClass('is-active')) {
