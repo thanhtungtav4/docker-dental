@@ -30,52 +30,81 @@
       <div class="wrapper">
         <div class="c-header_inner">
           <h1 class="c-header_logo"><a href="#"><img src="/assets/images/logo.svg" alt="Nha khoa Implant I-DENT"></a></h1>
-          <div class="c-header_contact">
+          <div class="c-header_contact is-pc">
             <div class="hotline"><span>HOTLINE</span><a class="hotline_phone" href=""><img src="/assets/images/ico_phone.svg" alt="">(+84) 94 1818 616</a></div>
             <ul class="language">
               <li><img src="/assets/images/ico_en_flag.svg" alt=""><span>EN</span></li>
             </ul>
           </div>
-          <div class="nav-icon js-menu"><span></span><span></span><span></span></div>
+          <div class="c-header_book is-sp"><a class="popup-with-form" href="#modal-contact"><img src="/assets/images/btn_book.svg" alt=""></a></div>
+          <div class="nav-icon js-menu"><img src="/assets/images/btn_menu.svg" alt=""></div>
         </div>
       </div>
       <nav class="c-header_nav">
+        <div class="btn-close is-sp js-close"><img src="/assets/images/btn_close.svg" alt=""></div>
+        <div class="overlay is-sp"></div>
         <div class="wrapper">
-          <ul class="nav-menu">
-            <li class="has-menu menu-item-has-children"><a href="">GIỚI THIỆU</a>
-              <ul class="sub-menu">
-                <li><a href="">Giới thiệu về Nha khoa I-DENT</a></li>
-                <li><a href="">Tiến sĩ - Bác sĩ Nguyễn Hiếu Tùng</a></li>
-                <li><a href="">Đội ngũ Tiến sĩ - Bác sĩ</a></li>
-              </ul>
-            </li>
-            <li class="has-menu menu-item-has-children"><a href="">TRỒNG RĂNG IMPLANT</a>
-              <ul class="sub-menu">
-                <li><a href="">Giới thiệu về Nha khoa I-DENT</a></li>
-                <li><a href="">Tiến sĩ - Bác sĩ Nguyễn Hiếu Tùng</a></li>
-                <li><a href="">Đội ngũ Tiến sĩ - Bác sĩ</a></li>
-              </ul>
-            </li>
-            <li class="has-menu menu-item-has-children"><a href="">BỌC RĂNG SỨ</a></li>
-            <li class="has-menu menu-item-has-children"><a href="">DỊCH VỤ KHÁC</a></li>
-            <li class="has-menu menu-item-has-children"><a href="">BẢNG GIÁ ƯU ĐÃI</a></li>
-            <li class="has-menu menu-item-has-children"><a href="">KHÁCH HÀNG</a></li>
-            <li><a href="">KIẾN THỨC</a></li>
-            <li><a href="">LIÊN HỆ</a></li>
-          </ul>
-          <div class="btn-search"><a class="is-icon" href="javascript:;"><img src="/assets/images/ico_search.svg" alt=""></a>
-            <input class="m-input" type="text">
+          <div class="nav-wrap">
+            <ul class="nav-menu">
+              <li class="has-menu menu-item-has-children"><a href="">GIỚI THIỆU</a>
+                <ul class="sub-menu">
+                  <li><a href="">Giới thiệu về Nha khoa I-DENT</a></li>
+                  <li><a href="">Tiến sĩ - Bác sĩ Nguyễn Hiếu Tùng</a></li>
+                  <li><a href="">Đội ngũ Tiến sĩ - Bác sĩ</a></li>
+                </ul>
+              </li>
+              <li class="has-menu menu-item-has-children"><a href="">TRỒNG RĂNG IMPLANT</a>
+                <ul class="sub-menu">
+                  <li><a href="">Giới thiệu về Nha khoa I-DENT</a></li>
+                  <li><a href="">Tiến sĩ - Bác sĩ Nguyễn Hiếu Tùng</a></li>
+                  <li><a href="">Đội ngũ Tiến sĩ - Bác sĩ</a></li>
+                </ul>
+              </li>
+              <li class="has-menu menu-item-has-children"><a href="">BỌC RĂNG SỨ</a></li>
+              <li class="has-menu menu-item-has-children"><a href="">DỊCH VỤ KHÁC</a></li>
+              <li class="has-menu menu-item-has-children"><a href="">BẢNG GIÁ ƯU ĐÃI</a></li>
+              <li class="has-menu menu-item-has-children"><a href="">KHÁCH HÀNG</a></li>
+              <li><a href="">KIẾN THỨC</a></li>
+              <li><a href="">LIÊN HỆ</a></li>
+            </ul>
+            <div class="m-btn is-sp"><a class="popup-with-form" href="#">ĐẶT LỊCH HẸN</a></div>
+            <div class="btn-search"><a class="is-icon" href="javascript:;"><img class="is-pc" src="/assets/images/ico_search.svg" alt=""><img class="is-sp" src="/assets/images/ico_search_white.svg" alt=""></a>
+              <input class="m-input" type="text" placeholder="Tìm kiếm">
+            </div>
           </div>
         </div>
       </nav>
     </header>
+    <div class="modal-contact mfp-hide" id="modal-contact">
+      <div class="inner"><strong>BẠN CẦN TƯ VẤN</strong>
+        <h2 class="title">ĐẶT LỊCH HẸN CÙNG BÁC SĨ NGAY</h2>
+        <p class="text">Vui lòng để lại thông tin của quý khách.<br>Nha Khoa I-Dent sẽ liên hệ đến<br>Quý Khách trong thời gian sớm nhất</p>
+        <div class="row">
+          <input class="m-input" type="text" placeholder="Họ và tên">
+        </div>
+        <div class="row">
+          <input class="m-input" type="text" placeholder="Số điện thoại">
+        </div>
+        <div class="row">
+          <select class="m-input m-select" name="">
+            <option value="Dịch vụ quan tâm">Dịch vụ quan tâm</option>
+            <option value="Dịch vụ quan tâm">Dịch vụ quan tâm</option>
+            <option value="Dịch vụ quan tâm">Dịch vụ quan tâm</option>
+            <option value="Dịch vụ quan tâm">Dịch vụ quan tâm</option>
+          </select>
+        </div>
+        <div class="m-btn"><a href="#">ĐĂNG KÝ</a></div>
+        <p class="text">Tư vấn trực tiếp 24/7 : 094 1818 616</p>
+      </div>
+    </div>
     <main class="SiteMain">
       <div id="contact-menu">
         <ul>
-          <li id="menu-datlich"><a class="form-popup" id="ssldatlich" href="#" rel="nofollow" title="Đặt lịch hẹn"><img src="/assets/images/icon-dlh.png" alt=""></a><a class="form-popup" id="ssldatlich" href="#" rel="nofollow" title="Đặt lịch hẹn">Đặt lịch hẹn</a></li>
-          <li id="menu-mesenger"><a href="https://www.facebook.com/NhaKhoaIDent" rel="nofollow" target="_blank" title="Messenger"><img src="/assets/images/icon-mess.png" alt=""></a><a href="https://www.facebook.com/messages/t/NhaKhoaIDent" rel="nofollow" target="_blank" title="Messenger">Messege</a></li>
-          <li id="menu-bando"><a href="https://zalo.me/4299371072036201150" title="zalo" rel="nofollow" target="_blank"><img src="/assets/images/icon-zalo.png" alt="zalo"></a><a href="https://zalo.me/4299371072036201150" title="zalo" target="_blank">Zalo</a></li>
-          <li id="menu-bando"><a href="/lien-he" rel="nofollow" target="_blank" title="Địa chỉ"><img src="/assets/images/icon-location.png" alt="Địa chỉ"></a><a href="/lien-he" rel="nofollow" target="_blank" title="Địa chỉ">Địa chỉ</a></li>
+          <li class="is-sp" id="menu-call"><a class="form-popup" id="ssldatlich" href="#" rel="nofollow" title="Gọi tư vấn"><img src="/assets/images/ico_call.svg" alt=""></a><a class="form-popup" id="ssldatlich" href="#" rel="nofollow" title="Gọi tư vấn">Gọi tư vấn</a></li>
+          <li id="menu-datlich"><a class="form-popup" id="ssldatlich" href="#" rel="nofollow" title="Đặt lịch hẹn"><img class="is-pc" src="/assets/images/icon-dlh.png" alt=""><img class="is-sp" src="/assets/images/ico_message.svg" alt=""></a><a class="form-popup" id="ssldatlich" href="#" rel="nofollow" title="Đặt lịch hẹn">Đặt lịch hẹn</a></li>
+          <li id="menu-mesenger"><a href="https://www.facebook.com/NhaKhoaIDent" rel="nofollow" target="_blank" title="Messenger"><img class="is-pc" src="/assets/images/icon-mess.png" alt=""><img class="is-sp" src="/assets/images/ico_book.svg" alt=""></a><a href="https://www.facebook.com/messages/t/NhaKhoaIDent" rel="nofollow" target="_blank" title="Messenger">Messege</a></li>
+          <li id="menu-bando"><a href="https://zalo.me/4299371072036201150" title="zalo" rel="nofollow" target="_blank"><img class="is-pc" src="/assets/images/icon-zalo.png" alt="zalo"><img class="is-sp" src="/assets/images/ico_zalo_white.svg" alt="zalo"></a><a href="https://zalo.me/4299371072036201150" title="zalo" target="_blank">Zalo</a></li>
+          <li class="is-pc" id="menu-bando"><a href="/lien-he" rel="nofollow" target="_blank" title="Địa chỉ"><img class="is-pc" src="/assets/images/icon-location.png" alt="Địa chỉ"></a><a href="/lien-he" rel="nofollow" target="_blank" title="Địa chỉ">Địa chỉ</a></li>
         </ul>
       </div>
       <div class="mv"><img src="/assets/images/reason/bnr.jpg" alt=""></div>
@@ -268,7 +297,7 @@
       </section>
       <section class="m-contact">
         <div class="wrapper"><strong>NHẬN TƯ VẤN MIỄN PHÍ TỪ CHUYÊN GIA</strong>
-          <h2 class="ttl-primary is-red">ĐẶT LỊCH HẸN THĂM KHÁM NGAY</h2>
+          <h2 class="ttl-primary is-red">ĐẶT LỊCH HẸN <br class="is-sp">THĂM KHÁM NGAY</h2>
           <p>Vui lòng để lại thông tin của quý khách.<br>Nha Khoa I-Dent sẽ liên hệ đến Quý Khách trong thời gian sớm nhất</p>
           <form action="">
             <div class="row-input">
@@ -294,8 +323,8 @@
                 <li><a class="trans" href=""><img src="/assets/images/ico_youtube.svg" alt=""></a></li>
                 <li><a class="trans" href=""><img src="/assets/images/ico_inst.svg" alt=""></a></li>
                 <li><a class="trans" href=""><img src="/assets/images/ico_twitter.svg" alt=""></a></li>
-              </ul><strong class="title">ĐỐI TÁC THANH TOÁN</strong>
-              <ul class="l-payment">
+              </ul><strong class="title is-pc">ĐỐI TÁC THANH TOÁN</strong>
+              <ul class="l-payment is-pc">
                 <li><a href=""><img src="/assets/images/ico_mc.svg" alt=""></a></li>
                 <li><a href=""><img src="/assets/images/ico_visa.svg" alt=""></a></li>
                 <li><a href=""><img src="/assets/images/ico_jcb.svg" alt=""></a></li>
@@ -335,11 +364,11 @@
                 <li><a href="">Giới thiệu về Nha khoa I-DENT</a></li>
                 <li><a href="">Tiến sĩ - Bác sĩ Nguyễn Hiếu Tùng</a></li>
                 <li><a href="">Đội ngũ Tiến sĩ - Bác sĩ</a></li>
-                <li><a href="">Tại sao chọn chúng tôi ?</a></li>
-                <li><a href="">Cơ sở vật chất tại I-DENT</a></li>
+                <li class="is-pc"><a href="">Tại sao chọn chúng tôi ?</a></li>
+                <li class="is-pc"><a href="">Cơ sở vật chất tại I-DENT</a></li>
                 <li><a href="">Cam kết chất lượng</a></li>
-                <li><a href="">Liên hệ</a></li>
-                <li><a href="">Chuyên gia răng miệng</a></li>
+                <li class="is-pc"><a href="">Liên hệ</a></li>
+                <li class="is-pc"><a href="">Chuyên gia răng miệng</a></li>
               </ul>
             </div>
           </div>
