@@ -16,7 +16,7 @@
 ?>
   <section class="intro">
     <div class="wrapper">
-      <h2 class="ttl-primary">NHA KHOA I-DENT   PHÒNG KHÁM NHA KHOA SỐ 1 TP HỒ CHÍ MINH</h2>
+      <h2 class="ttl-primary">NHA KHOA I-DENT<br class="is-sp"> PHÒNG KHÁM NHA KHOA <br class="is-sp">SỐ 1 TP HỒ CHÍ MINH</h2>
       <form class="form-support" action=""><span class="title">HỖ TRỢ TƯ VẤN 24/7</span>
         <input class="m-input" type="text" placeholder="Họ và tên">
         <input class="m-input" type="text" placeholder="Số điện thoại">
@@ -36,27 +36,35 @@
       <h2 class="ttl-primary is-white">NHA KHOA I-DENT ĐIỂM ĐẾN TIN CẬY CỦA KHÁCH HÀNG TRONG VÀ NGOÀI NƯỚC</h2>
       <ul class="l-prize">
         <li>
-          <div class="vec"><img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/top/vec_01.svg" alt=""></div>
-          <p>Tiến sĩ – Bác sĩ 10 năm<br>tu nghiệp chuyên sâu<br>tại Pháp</p>
+          <div class="vec">
+            <img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/top/vec_01.svg" alt="vec_01">
+          </div>
+          <p>Tiến sĩ – Bác sĩ 10 năm <br class="is-pc">tu nghiệp chuyên sâu <br class="is-pc">tại Pháp </p>
         </li>
         <li>
-          <div class="vec"><img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/top/vec_02.svg" alt=""></div>
-          <p>100% công nghệ, thiết bị và vật liệu<br> chuyển giao trực tiếp từ<br> châu Âu và Mỹ</p>
+          <div class="vec">
+            <img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/top/vec_02.svg" alt="vec_02">
+          </div>
+          <p>100% công nghệ, thiết bị và vật liệu <br class="is-pc"> chuyển giao trực tiếp từ <br> châu Âu và Mỹ </p>
         </li>
         <li>
-          <div class="vec"><img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/top/vec_01.svg" alt=""></div>
-          <p>Hơn 10.000 khách hàng<br> cấy ghép Implant<br>thành công</p>
+          <div class="vec">
+            <img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/top/vec_04.svg" alt="vec_04">
+          </div>
+          <p>Hơn 10.000 khách hàng <br class="is-pc"> cấy ghép Implant <br class="is-pc">thành công </p>
         </li>
         <li>
-          <div class="vec"><img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/top/vec_03.svg" alt=""></div>
-          <p>Hơn 6,000 ca<br>Thẩm mỹ răng sứ và<br>Niềng răng thẩm mỹ thành công</p>
+          <div class="vec">
+            <img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/top/vec_03.svg" alt="vec_03">
+          </div>
+          <p>Hơn 6,000 ca <br class="is-pc">Thẩm mỹ răng sứ và <br class="is-pc">Niềng răng thẩm mỹ thành công </p>
         </li>
       </ul>
     </div>
   </section>
   <section class="m-reward">
     <div class="wrapper">
-      <h2 class="ttl-primary">VINH DANH TOP 10 NHA KHOA UY TÍN 2023</h2>
+      <h2 class="ttl-primary">VINH DANH TOP <br class="is-sp">10 NHA KHOA UY TÍN 2023</h2>
       <div class="m-reward_inner">
         <div class="info">
           <p class="text">Tại lễ trao giải thường niên "Thương hiệu Mạnh Quốc Gia 2023" do Hội Chống hàng giả và Bảo vệ thương hiệu Quốc gia, Trung tâm Chống hàng giả phối hợp tổ chức.<br>Nha khoa I-Dent vinh dự đón nhận giải thưởng "Top 10 Nha khoa uy tín 2023" bên cạnh những thương hiệu dẫn đầu trên cả nước. <br>Để đạt được giải thưởng này, nha khoa cần phải đáp ứng được các tiêu chí khắt khe:</p>
@@ -68,8 +76,8 @@
           </ul>
         </div>
         <div class="img">
-          <div class="img_item"><img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/top/img_cup.png" alt=""></div>
-          <div class="img_item"><img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/top/img-certificate.png" alt=""></div>
+          <div class="img_item"><img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/top/img_cup.png" alt="cup"></div>
+          <div class="img_item"><img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/top/img-certificate.png" alt="certificate"></div>
         </div>
       </div>
     </div>
@@ -139,7 +147,7 @@
   <section class="m-news">
     <div class="wrapper">
       <h2 class="ttl-primary">KIẾN THỨC NHA KHOA</h2>
-      <ul class="l-news">
+      <ul class="l-news js-news">
         <li class="l-news_item">
           <figure class="images"><img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/top/dummy.jpg" alt=""></figure>
           <div class="info"><span class="tag">KIẾN THỨC IMPLANT</span>

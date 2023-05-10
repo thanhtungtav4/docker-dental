@@ -40,38 +40,65 @@
     <header class="c-header">
       <div class="wrapper">
         <div class="c-header_inner">
-         <?php if(is_front_page()) : ?>
-          <h1 class="c-header_logo">
-            <a href="<?php echo home_url(); ?>">
-            <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/logo.svg" alt="Nha khoa Implant I-DENT"></a>
-          </h1>
+          <?php if(is_front_page()) : ?>
+            <h1 class="c-header_logo">
+              <a href="<?php echo home_url(); ?>">
+              <img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/logo.svg" alt="Nha khoa Implant I-DENT"></a>
+            </h1>
           <?php else : ?>
             <div class="c-header_logo">
               <a href="<?php echo home_url(); ?>">
-              <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/logo.svg" alt="Nha khoa Implant I-DENT"></a>
+              <img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/logo.svg" alt="Nha khoa Implant I-DENT"></a>
             </div>
           <?php endif; ?>
-          <div class="c-header_contact">
-            <div class="hotline"><span>HOTLINE</span><a class="hotline_phone" href=""><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/ico_phone.svg" alt="(+84) 94 1818 616">(+84) 94 1818 616</a></div>
+          <div class="c-header_contact is-pc">
+            <div class="hotline">
+              <span>HOTLINE</span>
+              <a class="hotline_phone" href="">
+                <img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/ico_phone.svg" alt="">(+84) 94 1818 616 </a>
+            </div>
             <ul class="language">
-              <li><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/ico_en_flag.svg" alt="flag"><span>EN</span></li>
+              <li>
+                <img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/ico_en_flag.svg" alt="">
+                <span>EN</span>
+              </li>
             </ul>
           </div>
-          <div class="nav-icon js-menu"><span></span><span></span><span></span></div>
+          <div class="c-header_book is-sp">
+            <a class="popup-with-form" href="#modal-contact">
+              <img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/btn_book.svg" alt="">
+            </a>
+          </div>
+          <div class="nav-icon js-menu">
+            <img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/btn_menu.svg" alt="">
+          </div>
         </div>
       </div>
       <nav class="c-header_nav">
+        <div class="btn-close is-sp js-close">
+          <img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/btn_close.svg" alt="">
+        </div>
+        <div class="overlay is-sp"></div>
         <div class="wrapper">
-          <?php if (has_nav_menu( 'primary-menu' )) {
-              wp_nav_menu( array(
-              'container'         => 'false',
-              'menu_class'        => 'nav-menu',
-              'items_wrap'        => '<ul class="%2$s" role="menubar">%3$s</ul>',
-              'walker' => new Aria_Walker_Nav_Menu(),
-              'theme_location'    => 'primary-menu' ) );
-          } ?>
-          <div class="btn-search"><a class="is-icon" href="javascript:;"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/ico_search.svg" alt=""></a>
-            <input class="m-input" type="text">
+          <div class="nav-wrap">
+            <?php if (has_nav_menu( 'primary-menu' )) {
+                wp_nav_menu( array(
+                'container'         => 'false',
+                'menu_class'        => 'nav-menu',
+                'items_wrap'        => '<ul class="%2$s" role="menubar">%3$s</ul>',
+                'walker' => new Aria_Walker_Nav_Menu(),
+                'theme_location'    => 'primary-menu' ) );
+            } ?>
+            <div class="m-btn is-sp">
+              <a class="popup-with-form" href="#">ĐẶT LỊCH HẸN</a>
+            </div>
+            <div class="btn-search">
+              <a class="is-icon" href="javascript:;">
+                <img loading="lazy" class="is-pc" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/ico_search.svg" alt="">
+                <img loading="lazy" class="is-sp" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/ico_search_white.svg" alt="">
+              </a>
+              <input class="m-input" type="text" placeholder="Tìm kiếm">
+            </div>
           </div>
         </div>
       </nav>

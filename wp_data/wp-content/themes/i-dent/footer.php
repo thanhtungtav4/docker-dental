@@ -17,19 +17,19 @@
           <div class="c-footer_inner">
             <div class="c-footer_block"><strong class="title">KẾT NỐI VỚI I-DENT</strong>
               <ul class="l-social">
-                <li><a class="trans"  target="_blank" href="https://www.facebook.com/NhaKhoaIDent"><img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/ico_facebook.svg" alt="facebook"></a></li>
-                <li><a class="trans"  target="_blank" href="https://www.youtube.com/channel/UCqFZe36HfQU_h0y-lhVmgEQ?sub_confirmation=1"><img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/ico_youtube.svg" alt="youtube"></a></li>
-                <li><a class="trans"  target="_blank" href="https://www.instagram.com/identdentalclinic"><img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/ico_inst.svg" alt=insta"></a></li>
-                <li><a class="trans"  target="_blank" href="https://twitter.com/TrungTamImplant"><img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/ico_twitter.svg" alt="twitter"></a></li>
-              </ul><strong class="title">ĐỐI TÁC THANH TOÁN</strong>
-              <ul class="l-payment">
-                <li><img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/ico_mc.svg" alt="mc"></li>
-                <li><img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/ico_visa.svg" alt="visa"></li>
-                <li><img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/ico_jcb.svg" alt="jcb"></li>
+                <li><a class="trans" href=""><img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/ico_facebook.svg" alt=""></a></li>
+                <li><a class="trans" href=""><img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/ico_youtube.svg" alt=""></a></li>
+                <li><a class="trans" href=""><img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/ico_inst.svg" alt=""></a></li>
+                <li><a class="trans" href=""><img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/ico_twitter.svg" alt=""></a></li>
+              </ul><strong class="title is-pc">ĐỐI TÁC THANH TOÁN</strong>
+              <ul class="l-payment is-pc">
+                <li><a href=""><img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/ico_mc.svg" alt=""></a></li>
+                <li><a href=""><img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/ico_visa.svg" alt=""></a></li>
+                <li><a href=""><img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/ico_jcb.svg" alt=""></a></li>
               </ul>
               <ul class="l-certi">
-                <li><a target="_blank"  href="http://online.gov.vn/CustomWebsiteDisplay.aspx?DocId=33862"><img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/ico_bct.svg" alt="Đã thông báo với bộ công thương"></a></li>
-                <li><a  target="_blank" title="DMCA.com Protection Status" href="http://www.dmca.com/Protection/Status.aspx?ID=ba5e7d05-c2fe-4fa7-949d-113ec65a9b6e&refurl=https://nhakhoaident.com/"><img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/ico_dmca.svg" alt="DMCA.com Protection Status"></a></li>
+                <li><a href=""><img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/ico_bct.svg" alt=""></a></li>
+                <li><a href=""><img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/ico_dmca.svg" alt=""></a></li>
               </ul>
             </div>
             <div class="c-footer_block"><strong class="title">NHA KHOA IMPLANT I-DENT</strong>
@@ -82,6 +82,7 @@
     <script src="//cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script src="<?php echo get_stylesheet_directory_uri() ?>/assets/js/libs/jquery.magnific-popup.min.js"></script>
     <script src="<?php echo get_stylesheet_directory_uri() ?>/assets/js/libs/jquery.matchHeight-min.js"></script>
+    <script src="<?php echo get_stylesheet_directory_uri() ?>/assets/js/libs/jquery.syotimer.min.js"></script>
     <script src="<?php echo get_stylesheet_directory_uri() ?>/assets/js/scripts.js"></script>
     <?php wp_footer(); ?>
   </body>
