@@ -168,7 +168,12 @@ app.videoClip = function () {
         } else {
           this.st.focus = '#name';
         }
-      }
+        $('body').addClass('iframe-modal');
+      },
+      beforeClose: function() {
+        // Callback available since v0.9.0
+        $('body').removeClass('iframe-modal');
+      },
     }
   });
 }

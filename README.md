@@ -6,6 +6,7 @@
 
 # https://nhakhoaident.com/
 
+# https://docs.google.com/spreadsheets/d/1lcsdNf1ZM4JLCTiw4yx5lu9gBehDJEc82va5Luwv2fA/edit#gid=0
 
 lien-he => done
 /gioi-thieu/doi-ngu-tien-si-bac-si => done
