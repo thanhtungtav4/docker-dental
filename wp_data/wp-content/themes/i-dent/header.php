@@ -40,7 +40,7 @@
     <header class="c-header">
       <div class="wrapper">
         <div class="c-header_inner">
-          <?php if(is_front_page()) : ?>
+        <?php if(is_front_page()) : ?>
             <h1 class="c-header_logo">
               <a href="<?php echo home_url(); ?>">
               <img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/logo.svg" alt="Nha khoa Implant I-DENT"></a>
@@ -52,31 +52,26 @@
             </div>
           <?php endif; ?>
           <div class="c-header_contact is-pc">
-            <div class="hotline">
-              <span>HOTLINE</span>
-              <a class="hotline_phone" href="">
-                <img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/ico_phone.svg" alt="">(+84) 94 1818 616 </a>
-            </div>
+            <div class="hotline"><span>HOTLINE</span><a class="hotline_phone" href=""><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/ico_phone.svg" alt="">(+84) 94 1818 616</a></div>
             <ul class="language">
               <li>
-                <img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/ico_en_flag.svg" alt="">
-                <span>EN</span>
+                <img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/ico_en_flag.svg" alt="ico en flag"><span>EN</span>
               </li>
             </ul>
           </div>
           <div class="c-header_book is-sp">
             <a class="popup-with-form" href="#modal-contact">
-              <img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/btn_book.svg" alt="">
+              <img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/btn_book.svg" alt="btn book">
             </a>
           </div>
           <div class="nav-icon js-menu">
-            <img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/btn_menu.svg" alt="">
+            <img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/btn_menu.svg" alt="btn menu">
           </div>
         </div>
       </div>
       <nav class="c-header_nav">
         <div class="btn-close is-sp js-close">
-          <img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/btn_close.svg" alt="">
+          <img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/btn_close.svg" alt="btn close">
         </div>
         <div class="overlay is-sp"></div>
         <div class="wrapper">
@@ -94,8 +89,7 @@
             </div>
             <div class="btn-search">
               <a class="is-icon" href="javascript:;">
-                <img loading="lazy" class="is-pc" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/ico_search.svg" alt="">
-                <img loading="lazy" class="is-sp" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/ico_search_white.svg" alt="">
+                <img class="is-pc" loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/ico_search.svg" alt=""><img class="is-sp" src="/assets/images/ico_search_white.svg" alt="ico search white">
               </a>
               <input class="m-input" type="text" placeholder="Tìm kiếm">
             </div>
@@ -103,5 +97,27 @@
         </div>
       </nav>
     </header>
+    <div class="modal-contact mfp-hide" id="modal-contact">
+      <div class="inner"><strong>BẠN CẦN TƯ VẤN</strong>
+        <h2 class="title">ĐẶT LỊCH HẸN CÙNG BÁC SĨ NGAY</h2>
+        <p class="text">Vui lòng để lại thông tin của quý khách.<br>Nha Khoa I-Dent sẽ liên hệ đến<br>Quý Khách trong thời gian sớm nhất</p>
+        <div class="row">
+          <input class="m-input" type="text" placeholder="Họ và tên">
+        </div>
+        <div class="row">
+          <input class="m-input" type="text" placeholder="Số điện thoại">
+        </div>
+        <div class="row">
+          <select class="m-input m-select" name="">
+            <option value="Dịch vụ quan tâm">Dịch vụ quan tâm</option>
+            <option value="Dịch vụ quan tâm">Dịch vụ quan tâm</option>
+            <option value="Dịch vụ quan tâm">Dịch vụ quan tâm</option>
+            <option value="Dịch vụ quan tâm">Dịch vụ quan tâm</option>
+          </select>
+        </div>
+        <div class="m-btn"><a href="#">ĐĂNG KÝ</a></div>
+        <p class="text">Tư vấn trực tiếp 24/7 : 094 1818 616</p>
+      </div>
+    </div>
     <main class="SiteMain">
-    <?php   require_once( get_stylesheet_directory() . '/module/contact-menu.php' ); ?>
+    <?php  require_once( get_stylesheet_directory() . '/module/contact-menu.php' ); ?>
