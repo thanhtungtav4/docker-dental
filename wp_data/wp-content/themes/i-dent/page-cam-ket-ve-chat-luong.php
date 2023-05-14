@@ -28,11 +28,11 @@
           <div class="m-detail_head">
             <div class="m-detail_head-right"><span class="time">08.08.2022</span>
               <ul class="rating">
-                <li><img src=""<?php echo get_stylesheet_directory_uri() ?>/assets/images/ico_star.svg" alt=""></li>
-                <li><img src=""<?php echo get_stylesheet_directory_uri() ?>/assets/images/ico_star.svg" alt=""></li>
-                <li><img src=""<?php echo get_stylesheet_directory_uri() ?>/assets/images/ico_star.svg" alt=""></li>
-                <li><img src=""<?php echo get_stylesheet_directory_uri() ?>/assets/images/ico_star.svg" alt=""></li>
-                <li><img src=""<?php echo get_stylesheet_directory_uri() ?>/assets/images/ico_unstar.svg" alt=""></li>
+                <li><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/ico_star.svg" alt=""></li>
+                <li><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/ico_star.svg" alt=""></li>
+                <li><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/ico_star.svg" alt=""></li>
+                <li><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/ico_star.svg" alt=""></li>
+                <li><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/ico_unstar.svg" alt=""></li>
               </ul><span class="view-rate">Đánh giá: 4.0/5 ( 20 bình chọn )</span>
             </div>
           </div>
@@ -199,8 +199,8 @@
                     <path d="M18.3136 36.4302C27.8681 36.4302 35.6136 28.5138 35.6136 18.7483C35.6136 8.98286 27.8681 1.06641 18.3136 1.06641C8.75907 1.06641 1.01367 8.98286 1.01367 18.7483C1.01367 28.5138 8.75907 36.4302 18.3136 36.4302Z" fill="#025899" stroke="#025899" stroke-width="0.5" stroke-miterlimit="10"></path>
                     <path d="M28.9139 13.7407C28.2139 14.0473 27.4139 14.3539 26.5139 14.3539C27.4139 13.8429 28.0138 13.0252 28.3138 12.0032C27.5138 12.5142 26.6139 12.8208 25.7139 13.0252C24.9139 12.2076 23.9139 11.6965 22.7139 11.6965C20.4139 11.6965 18.6139 13.5363 18.6139 15.887C18.6139 16.1937 18.6139 16.5003 18.7139 16.8069C15.3139 16.6025 12.2139 14.9672 10.2139 12.412C9.81387 13.0252 9.61389 13.7407 9.61389 14.5583C9.61389 15.9893 10.3139 17.3179 11.4139 18.0334C10.7139 18.0334 10.1139 17.829 9.51392 17.5224C9.51392 17.5224 9.51392 17.5224 9.51392 17.6246C9.51392 19.6687 10.9138 21.4062 12.8138 21.7129C12.5138 21.8151 12.1139 21.8151 11.7139 21.8151C11.4139 21.8151 11.2139 21.8151 10.9139 21.7129C11.4139 23.3482 12.9138 24.5747 14.8138 24.6769C13.4138 25.8012 11.6139 26.5166 9.71387 26.5166C9.41387 26.5166 9.01387 26.5166 8.71387 26.4144C10.5139 27.6409 12.7139 28.3564 15.0139 28.3564C22.6139 28.3564 26.7139 21.9173 26.7139 16.3981C26.7139 16.1937 26.7139 15.9893 26.7139 15.887C27.7139 15.376 28.4139 14.5583 28.9139 13.7407Z" fill="#F1F2F2"></path>
                   </svg></a></li>
-              <li><a class="trans" href=""><img src=""<?php echo get_stylesheet_directory_uri() ?>/assets/images/ico_zalo.svg" alt=""></a></li>
-              <li><a class="trans" href=""><img src=""<?php echo get_stylesheet_directory_uri() ?>/assets/images/ico_tiktok.svg" alt=""></a></li>
+              <li><a class="trans" href=""><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/ico_zalo.svg" alt=""></a></li>
+              <li><a class="trans" href=""><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/ico_tiktok.svg" alt=""></a></li>
             </ul>
             <ul class="l-address">
               <li><span>Cơ sở 1:</span>19V Nguyễn Hữu Cảnh, P.19, Q.Bình Thạnh, TP.Hồ Chí Minh</li>

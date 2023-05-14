@@ -32,7 +32,7 @@
             </ul>
             <div class="m-btn is-reverse is-small"><a href="#">Xem thêm</a></div>
             <div class="l-cer-img swiper-container js-slide-cer">
-              <div class="l-cer-img_inner  zoom-gallery swiper-wrapper">
+              <div class="l-cer-img_inner zoom-gallery swiper-wrapper">
                 <div class="l-cer-img_item swiper-slide">
                   <div>
                     <a href="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_01_cer_01.png">
@@ -41,16 +41,32 @@
                   </div>
                 </div>
                 <div class="l-cer-img_item swiper-slide">
-                  <div><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_01_cer_02.png" alt=""></div>
+                  <div>
+                    <a href="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_01_cer_02.png">
+                      <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_01_cer_02.png" alt="">
+                    </a>
+                  </div>
                 </div>
                 <div class="l-cer-img_item swiper-slide">
-                  <div><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_01_cer_03.png" alt=""></div>
+                  <div>
+                    <a href="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_01_cer_03.png">
+                      <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_01_cer_03.png" alt="">
+                    </a>
+                  </div>
                 </div>
                 <div class="l-cer-img_item swiper-slide">
-                  <div><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_01_cer_03.png" alt=""></div>
+                  <div>
+                    <a href="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_01_cer_03.png">
+                      <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_01_cer_03.png" alt="">
+                    </a>  
+                  </div>
                 </div>
                 <div class="l-cer-img_item swiper-slide">
-                  <div><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_01_cer_03.png" alt=""></div>
+                  <div>
+                    <a href="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_01_cer_03.png">
+                      <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_01_cer_03.png" alt="">
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
@@ -71,13 +87,25 @@
             <div class="l-cer-img  zoom-gallery swiper-container js-slide-cer">
               <div class="l-cer-img_inner swiper-wrapper">
                 <div class="l-cer-img_item swiper-slide">
-                  <div><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_02_cer_01.png" alt=""></div>
+                  <div>
+                    <a href="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_02_cer_01.png">
+                    <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_02_cer_01.png" alt="">
+                    </a>
+                  </div>
                 </div>
                 <div class="l-cer-img_item swiper-slide">
-                  <div><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_02_cer_02.png" alt=""></div>
+                  <div>
+                    <a href="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_02_cer_02.png">
+                    <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_02_cer_02.png" alt="">
+                    </a>
+                  </div>
                 </div>
                 <div class="l-cer-img_item swiper-slide">
-                  <div><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_02_cer_03.png" alt=""></div>
+                  <div>
+                    <a href="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_02_cer_03.png">
+                      <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_02_cer_03.png" alt="">
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
@@ -96,15 +124,27 @@
             </ul>
             <div class="m-btn is-reverse is-small"><a href="#">Xem thêm</a></div>
             <div class="l-cer-img swiper-container js-slide-cer">
-              <div class="l-cer-img_inner swiper-wrapper">
+              <div class="l-cer-img_inner zoom-gallery swiper-wrapper">
                 <div class="l-cer-img_item swiper-slide">
-                  <div><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_03_cer_01.png" alt=""></div>
+                  <div>
+                    <a href="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_03_cer_01.png">
+                      <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_03_cer_01.png" alt="">
+                    </a>
+                  </div>
                 </div>
                 <div class="l-cer-img_item swiper-slide">
-                  <div><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_03_cer_02.png" alt=""></div>
+                  <div>
+                    <a href="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_03_cer_02.png">
+                    <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_03_cer_02.png" alt="">
+                    </a>
+                  </div>
                 </div>
                 <div class="l-cer-img_item swiper-slide">
-                  <div><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_03_cer_03.png" alt=""></div>
+                  <div>
+                    <a href="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_03_cer_03.png" >
+                      <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_03_cer_03.png" alt="">
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
@@ -123,15 +163,27 @@
             </ul>
             <div class="m-btn is-reverse is-small"><a href="#">Xem thêm</a></div>
             <div class="l-cer-img swiper-container js-slide-cer">
-              <div class="l-cer-img_inner swiper-wrapper">
+              <div class="l-cer-img_inner  zoom-gallery  swiper-wrapper">
                 <div class="l-cer-img_item swiper-slide">
-                  <div><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_04_cer_01.png" alt=""></div>
+                  <div>
+                    <a href="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_04_cer_01.png">
+                      <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_04_cer_01.png" alt="">
+                    </a>
+                  </div>
                 </div>
                 <div class="l-cer-img_item swiper-slide">
-                  <div><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_04_cer_02.png" alt=""></div>
+                  <div>
+                    <a href="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_04_cer_02.png" >
+                    <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_04_cer_02.png" alt="">
+                    </a>
+                  </div>
                 </div>
                 <div class="l-cer-img_item swiper-slide">
-                  <div><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_04_cer_03.png" alt=""></div>
+                  <div>
+                    <a  href="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_04_cer_03.png" >
+                    <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_04_cer_03.png" alt="">
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
@@ -150,12 +202,20 @@
             </ul>
             <div class="m-btn is-reverse is-small"><a href="#">Xem thêm</a></div>
             <div class="l-cer-img swiper-container js-slide-cer">
-              <div class="l-cer-img_inner swiper-wrapper">
+              <div class="l-cer-img_inner  zoom-gallery  swiper-wrapper">
                 <div class="l-cer-img_item swiper-slide">
-                  <div><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_05_cer_01.png" alt=""></div>
+                  <div>
+                    <a  href="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_05_cer_01.png" >
+                      <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_05_cer_01.png" alt="">
+                    </a>
+                  </div>
                 </div>
                 <div class="l-cer-img_item swiper-slide">
-                  <div><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_05_cer_02.png" alt=""></div>
+                  <div>
+                    <a href="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_05_cer_02.png">
+                      <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_05_cer_02.png" alt="">
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
@@ -174,15 +234,27 @@
             </ul>
             <div class="m-btn is-reverse is-small"><a href="#">Xem thêm</a></div>
             <div class="l-cer-img swiper-container js-slide-cer">
-              <div class="l-cer-img_inner swiper-wrapper">
+              <div class="l-cer-img_inner  zoom-gallery  swiper-wrapper">
                 <div class="l-cer-img_item swiper-slide">
-                  <div><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_06_cer_01.png" alt=""></div>
+                  <div>
+                    <a href="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_06_cer_01.png" >
+                      <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_06_cer_01.png" alt="">
+                    </a>
+                  </div>
                 </div>
                 <div class="l-cer-img_item swiper-slide">
-                  <div><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_06_cer_02.png" alt=""></div>
+                  <div>
+                    <a herf="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_06_cer_02.png">
+                      <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_06_cer_02.png" alt="">
+                    </a>
+                  </div>
                 </div>
                 <div class="l-cer-img_item swiper-slide">
-                  <div><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_06_cer_02.png" alt=""></div>
+                  <div>
+                    <a herf="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_06_cer_02.png" >
+                      <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_06_cer_02.png" alt="">
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
@@ -201,15 +273,27 @@
             </ul>
             <div class="m-btn is-reverse is-small"><a href="#">Xem thêm</a></div>
             <div class="l-cer-img swiper-container js-slide-cer">
-              <div class="l-cer-img_inner swiper-wrapper">
+              <div class="l-cer-img_inner  zoom-gallery  swiper-wrapper">
                 <div class="l-cer-img_item swiper-slide">
-                  <div><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_07_cer_01.png" alt=""></div>
+                  <div>
+                    <a herf="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_07_cer_01.png">
+                      <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_07_cer_01.png" alt="">
+                    </a>
+                  </div>
                 </div>
                 <div class="l-cer-img_item swiper-slide">
-                  <div><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_07_cer_02.png" alt=""></div>
+                  <div>
+                    <a herf="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_07_cer_02.png" >
+                    <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_07_cer_02.png" alt="">
+                    </a>
+                  </div>
                 </div>
                 <div class="l-cer-img_item swiper-slide">
-                  <div><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_07_cer_03.png" alt=""></div>
+                  <div>
+                    <a herf="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_07_cer_03.png" >
+                    <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_07_cer_03.png" alt="">
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
@@ -228,12 +312,20 @@
             </ul>
             <div class="m-btn is-reverse is-small"><a href="#">Xem thêm</a></div>
             <div class="l-cer-img swiper-container js-slide-cer">
-              <div class="l-cer-img_inner swiper-wrapper">
+              <div class="l-cer-img_inner zoom-gallery swiper-wrapper">
                 <div class="l-cer-img_item swiper-slide">
-                  <div><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_08_cer_01.png" alt=""></div>
+                  <div>
+                    <a href="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_08_cer_01.png">
+                      <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_08_cer_01.png" alt="">
+                    </a>
+                  </div>
                 </div>
                 <div class="l-cer-img_item swiper-slide">
-                  <div><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_08_cer_02.png" alt=""></div>
+                  <div>
+                    <a href="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_08_cer_02.png" >
+                      <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_08_cer_02.png" alt="">
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
@@ -252,9 +344,13 @@
             </ul>
             <div class="m-btn is-reverse is-small"><a href="#">Xem thêm</a></div>
             <div class="l-cer-img swiper-container js-slide-cer">
-              <div class="l-cer-img_inner swiper-wrapper">
+              <div class="l-cer-img_inner zoom-gallery swiper-wrapper">
                 <div class="l-cer-img_item swiper-slide">
-                  <div><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_09_cer_01.png" alt=""></div>
+                  <div>
+                    <a href="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_09_cer_01.png">
+                    <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_09_cer_01.png" alt="">
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
@@ -273,12 +369,20 @@
             </ul>
             <div class="m-btn is-reverse is-small"><a href="#">Xem thêm</a></div>
             <div class="l-cer-img swiper-container js-slide-cer">
-              <div class="l-cer-img_inner swiper-wrapper">
+              <div class="l-cer-img_inner  zoom-gallery swiper-wrapper">
                 <div class="l-cer-img_item swiper-slide">
-                  <div><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_10_cer_01.png" alt=""></div>
+                  <div>
+                    <a href="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_10_cer_01.png">
+                    <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_10_cer_01.png" alt="">
+                    </a>
+                  </div>
                 </div>
                 <div class="l-cer-img_item swiper-slide">
-                  <div><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_10_cer_02.png" alt=""></div>
+                  <div>
+                    <a  href="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_10_cer_02.png" >
+                    <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_10_cer_02.png" alt="">
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>

@@ -17,5 +17,8 @@
     if($type === 'page' && is_page('uu-dai-vang')){
       $class = 'p-promotion';
     }
+    if($type !== 'page' && is_category()){
+      $class = 'kien-thuc';
+    }
     return body_class($class);
   }

@@ -43,6 +43,7 @@ function corporate_theme_setup() {
 	add_image_size( 'VIDEO-MIN-THUMB', 188, 106, true );
 	add_image_size( 'NEWS-THUMB', 275, 458, true );
 	add_image_size( 'NEWS-PC-THUMB', 370, 616, true );
+	add_image_size( 'NEWS-ITEM-THUMB', 359, 259, true );
 }
 
 /**
