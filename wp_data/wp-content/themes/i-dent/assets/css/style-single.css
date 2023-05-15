@@ -1,0 +1,21 @@
+.m-article h2{
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 22px;
+  line-height: 33px;
+  color: #025899;
+  position: relative;
+}
+.m-article h2::before {
+  position: absolute;
+  content: "";
+  width: 240px;
+  height: 2px;
+  bottom: 0;
+  /* left: 50%;
+  transform: translateX(-50%); */
+  background: #d9d9d9;
+}
+.single-post .heading{
+  text-align: center;
+}

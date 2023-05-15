@@ -4,11 +4,19 @@ if ( ! defined( '_S_VERSION' ) ) {
 	define( '_S_VERSION', '1.0.0' );
 }
 define('PAGESIZE', 10);
-define( 'PLACEHOLDER-THUMB', get_stylesheet_directory_uri() . '/assets/images/placeholder/img_noimage_270x270.jpg' );
-define( 'PLACEHOLDER-TAX-STONE-THUMB', get_stylesheet_directory_uri() . '/assets/images/placeholder/img_noimage_270x270.jpg' );
-define( 'PLACEHOLDER-SHOWROOM-THUMBPC', get_stylesheet_directory_uri() . '/assets/images/placeholder/img_noimage_580x418.jpg' );
-define( 'PLACEHOLDER-INTRO-THUMBPC', get_stylesheet_directory_uri() . '/assets/images/placeholder/img_noimage_600x645.jpg' );
-define( 'PLACEHOLDER-STONE-THUMB', get_stylesheet_directory_uri() . '/assets/images/placeholder/img_noimage_285x275.jpg' );
+define( 'PLACEHOLDER-THUMB', 'https://picsum.photos/600/400?blur');
+define( 'PLACEHOLDER-SLIDE-THUMBPC', 'https://picsum.photos/1274/431?blur');
+define( 'PLACEHOLDER-SLIDE-THUMBSP', 'https://picsum.photos/376/376?blur');
+define( 'PLACEHOLDER-REVIEW-THUMB', 'https://picsum.photos/590/315?blur');
+define( 'PLACEHOLDER-SERVICE-THUMB', 'https://picsum.photos/365/520?blur');
+define( 'PLACEHOLDER-DOCTOR-THUMB', 'https://picsum.photos/263/375?blur');
+define( 'PLACEHOLDER-DOCTOR-MIN-THUMB', 'https://picsum.photos/198/246?blur');
+define( 'PLACEHOLDER-VIDEO-THUMB', 'https://picsum.photos/650/366?blur');
+define( 'PLACEHOLDER-VIDEO-MIN-THUMB', 'https://picsum.photos/188/106?blur');
+define( 'PLACEHOLDER-NEWS-THUMB', 'https://picsum.photos/275/458?blur');
+define( 'PLACEHOLDER-NEWS-PC-THUMB', 'https://picsum.photos/370/616?blur');
+define( 'PLACEHOLDER-NEWS-ITEM-THUMB', 'https://picsum.photos/359/259?blur');
+
 ///placeholder-content-thumb placeholder-news-thumb placeholder-thumb
 // using in meta data if null
 define('POST_TYPES', ['page', 'post', 'content']);
@@ -253,9 +261,9 @@ remove_action( 'admin_print_styles', 'print_emoji_styles' );
 // Disable global-styles-inline-css
 add_action( 'wp_enqueue_scripts', 'remove_global_styles' );
 function remove_global_styles(){
-    wp_dequeue_style( 'global-styles' );
-		wp_dequeue_style( 'classic-theme-styles' );
-		wp_dequeue_style( 'wp-block-library' );
+    // wp_dequeue_style( 'global-styles' );
+		// wp_dequeue_style( 'classic-theme-styles' );
+		// wp_dequeue_style( 'wp-block-library' );
 }
 
 function get_id_by_slug($page_slug) {

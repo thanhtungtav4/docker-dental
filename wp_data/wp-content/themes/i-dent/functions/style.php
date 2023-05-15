@@ -9,6 +9,8 @@ function conditionally_enqueue_styles_scripts() {
         //wp_enqueue_script('top-slider');
     }
     if(is_singular('post') || is_singular('content')){
+      wp_register_style( 'block-theme', get_stylesheet_directory_uri().'/assets/css/style-single.css' );
+      wp_enqueue_style('block-theme');
       ?>
       <script>
         document.addEventListener('DOMContentLoaded', function() {
