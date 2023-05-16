@@ -89,7 +89,9 @@
             <div class="btn-search"><a class="is-icon" href="javascript:;">
               <img class="is-pc" loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/ico_search.svg" alt="ico search">
               <img class="is-sp" loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/ico_search_white.svg" alt="ico search white"></a>
-              <input class="m-input" type="text" placeholder="Tìm kiếm">
+              <form action="/" method="get">
+                <input class="m-input" name="s" id="search" value="<?php the_search_query(); ?>" type="text" placeholder="Tìm kiếm">
+              </form>
             </div>
           </div>
         </div>

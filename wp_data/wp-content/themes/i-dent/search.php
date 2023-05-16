@@ -6,9 +6,26 @@
  *
  * @package recruit
  */
-
+global $query_string;
+$s=get_search_query();
+$args = array(
+    's' =>$s
+);
+$the_query = new WP_Query( $args );
 get_header();
 ?>
-
-<?php>
+  <section class="m-news">
+    <div class="wrapper">
+      <h2 class="ttl-primary">Kết Quả Tìm Kiếm "<?php echo get_search_query(); ?>"</h2>
+      <ul class="l-news js-news">
+      <?php
+        while ( $the_query->have_posts() ) : $the_query->the_post();
+          require( get_stylesheet_directory() . '/module/news-item.php' );
+        endwhile;
+        wp_reset_query();
+      ?>
+      </ul>
+    </div>
+  </section>
+<?php
 get_footer();

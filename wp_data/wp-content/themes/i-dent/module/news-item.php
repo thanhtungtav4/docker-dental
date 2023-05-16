@@ -3,7 +3,7 @@
         <?php handle_thumbnail('NEWS-ITEM-THUMB'); ?>
     </figure>
     <div class="info">
-        <span class="tag"><?php echo single_cat_title('' , true ); ?></span>
+        <span class="tag"><?php single_cat_title('' , true ) ? print single_cat_title('' , true ) : print wp_get_post_terms(get_the_ID(), 'category')[0]->name  ; ?></span>
         <h3 class="title js-height"><?php the_title(); ?></h3>
         <p class="text"><?php echo wp_trim_words(get_the_excerpt(), 20, '...'); ?></p>
         <div class="m-btn is-reverse">
