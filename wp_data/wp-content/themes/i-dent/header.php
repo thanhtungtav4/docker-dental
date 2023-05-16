@@ -55,7 +55,9 @@
             <div class="hotline"><span>HOTLINE</span><a class="hotline_phone" href=""><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/ico_phone.svg" alt="">(+84) 94 1818 616</a></div>
             <ul class="language">
               <li>
-                <img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/ico_en_flag.svg" alt="ico en flag"><span>EN</span>
+                <a href="https://identdentalimplantcenter.com/" target="_blank" rel="noopener">
+                  <img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/ico_en_flag.svg" alt="ico en flag"><span>EN</span>
+                </a>
               </li>
             </ul>
           </div>
@@ -71,26 +73,22 @@
       </div>
       <nav class="c-header_nav">
         <div class="btn-close is-sp js-close">
-          <img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/btn_close.svg" alt="btn close">
-        </div>
+          <img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/btn_close.svg" alt="btn close"></div>
         <div class="overlay is-sp"></div>
         <div class="wrapper">
           <div class="nav-wrap">
             <?php if (has_nav_menu( 'primary-menu' )) {
-                wp_nav_menu( array(
-                'container'         => 'false',
-                'menu_class'        => 'nav-menu',
-                'items_wrap'        => '<ul class="%2$s" role="menubar">%3$s</ul>',
-                'walker' => new Aria_Walker_Nav_Menu(),
-                'theme_location'    => 'primary-menu' ) );
-            } ?>
-            <div class="m-btn is-sp">
-              <a class="popup-with-form" href="#">ĐẶT LỊCH HẸN</a>
-            </div>
-            <div class="btn-search">
-              <a class="is-icon" href="javascript:;">
-                <img class="is-pc" loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/ico_search.svg" alt=""><img class="is-sp" src="/assets/images/ico_search_white.svg" alt="ico search white">
-              </a>
+                  wp_nav_menu( array(
+                  'container'         => 'false',
+                  'menu_class'        => 'nav-menu',
+                  'items_wrap'        => '<ul class="%2$s" role="menubar">%3$s</ul>',
+                  'walker' => new Aria_Walker_Nav_Menu(),
+                  'theme_location'    => 'primary-menu' ) );
+              } ?>
+            <div class="m-btn is-sp"><a class="popup-with-form" href="#">ĐẶT LỊCH HẸN</a></div>
+            <div class="btn-search"><a class="is-icon" href="javascript:;">
+              <img class="is-pc" loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/ico_search.svg" alt="ico search">
+              <img class="is-sp" loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/ico_search_white.svg" alt="ico search white"></a>
               <input class="m-input" type="text" placeholder="Tìm kiếm">
             </div>
           </div>

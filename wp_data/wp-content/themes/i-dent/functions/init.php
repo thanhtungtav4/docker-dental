@@ -16,6 +16,7 @@ define( 'PLACEHOLDER-VIDEO-MIN-THUMB', 'https://picsum.photos/188/106?blur');
 define( 'PLACEHOLDER-NEWS-THUMB', 'https://picsum.photos/275/458?blur');
 define( 'PLACEHOLDER-NEWS-PC-THUMB', 'https://picsum.photos/370/616?blur');
 define( 'PLACEHOLDER-NEWS-ITEM-THUMB', 'https://picsum.photos/359/259?blur');
+define( 'PLACEHOLDER-NEWS-BIG-THUMB', 'https://picsum.photos/556/370?blur');
 
 ///placeholder-content-thumb placeholder-news-thumb placeholder-thumb
 // using in meta data if null
@@ -52,6 +53,7 @@ function corporate_theme_setup() {
 	add_image_size( 'NEWS-THUMB', 275, 458, true );
 	add_image_size( 'NEWS-PC-THUMB', 370, 616, true );
 	add_image_size( 'NEWS-ITEM-THUMB', 359, 259, true );
+	add_image_size( 'NEWS-BIG-THUMB', 556, 370, true );
 }
 
 /**
