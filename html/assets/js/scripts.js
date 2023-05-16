@@ -48,8 +48,8 @@ app.spMenu = function () {
       }
     })
   }
-  $('.btn-search').click(function () {
-    $(this).stop().toggleClass('is-active');
+  $('.btn-search a').click(function () {
+    $(this).parent().stop().toggleClass('is-active');
   })
   $('.js-close, .overlay').click(function () {
     $('.js-menu').removeClass('open')
