@@ -16,7 +16,7 @@
 	</ul>
 </div>
 </div>
-<div class="m-detail">
+<div class="m-detail m-phacdo m-loairang">
 	<div class="wrapper">
 		<div class="m-phacdo_inner">
 			<div class="heading">
