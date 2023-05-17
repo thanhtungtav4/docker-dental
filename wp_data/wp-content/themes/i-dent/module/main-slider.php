@@ -10,11 +10,11 @@
     <div class="mv-top_slide">
       <a href="<?php echo $link_to ?>">
         <picture>
-          <source media="(min-width: 768px)" srcset="<?php echo wp_get_attachment_image_url($image, 'SLIDE-THUMBPC' ) ?>">
+          <source media="(min-width: 768px)" srcset="<?php echo wp_get_attachment_image_url($image, 'full') ?>">
           <?php if($imagesp) : ?>
           <source media="(max-width: 768px)" srcset="<?php echo wp_get_attachment_image_url($imagesp, 'SLIDE-THUMBSP' ) ?>">
           <?php endif ?>
-          <img loading="lazy" src="<?php echo wp_get_attachment_image_url($image, 'SLIDE-THUMBPC' ) ?>" alt="<?php echo $alt ?>">
+          <img loading="lazy" src="<?php echo wp_get_attachment_image_url($image, 'full' ) ?>" alt="<?php echo $alt ?>">
         </picture>
       </a>
     </div>
