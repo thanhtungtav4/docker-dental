@@ -335,3 +335,6 @@ if( function_exists('acf_add_options_page') ) {
         'redirect'      => false
     ));
 }
+
+// Disable Gutenberg on the back end.
+add_filter( 'use_block_editor_for_post', '__return_false' );

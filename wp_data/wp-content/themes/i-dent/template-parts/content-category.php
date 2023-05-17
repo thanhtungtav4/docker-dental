@@ -7,11 +7,12 @@
  * @package recruit
  */
 $category = get_queried_object()->slug;
+// var_dump($category);
 $paged = get_query_var( 'paged' ) ? get_query_var( 'paged' ) : 1;
 $queryPost = new WP_Query(
 	array(
 		'paged'         => $paged,
-		'category' => $category,
+		'category_name' => $category,
 		'order'         => 'asc',
 		'post_type'     => 'post',
 		'post_status'   => 'publish',
@@ -20,7 +21,7 @@ $queryPost = new WP_Query(
 $querySticky = new WP_Query(
 	array(
     'posts_per_page'      => 1,
-		'category' => $category,
+		'category_name' => $category,
 		'post__in'            => get_option( 'sticky_posts' ),
 	  'ignore_sticky_posts' => 1,
     'post_status'   => 'publish',
