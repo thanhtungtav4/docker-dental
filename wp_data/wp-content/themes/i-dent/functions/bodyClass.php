@@ -20,5 +20,8 @@
     if($type !== 'page' && is_category()){
       $class = 'kien-thuc';
     }
+    if($type === 'post' && is_single()){
+      $class = 'kien-thuc';
+    }
     return body_class($class);
   }

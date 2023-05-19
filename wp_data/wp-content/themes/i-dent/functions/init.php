@@ -4,27 +4,22 @@ if ( ! defined( '_S_VERSION' ) ) {
 	define( '_S_VERSION', '1.0.0' );
 }
 define('PAGESIZE', 10);
-define( 'PLACEHOLDER-THUMB', 'https://picsum.photos/600/400?blur');
-define( 'PLACEHOLDER-SLIDE-THUMBPC', 'https://picsum.photos/1274/431?blur');
-define( 'PLACEHOLDER-SLIDE-THUMBSP', 'https://picsum.photos/376/376?blur');
-define( 'PLACEHOLDER-REVIEW-THUMB', 'https://picsum.photos/590/315?blur');
-define( 'PLACEHOLDER-SERVICE-THUMB', 'https://picsum.photos/365/520?blur');
-define( 'PLACEHOLDER-DOCTOR-THUMB', 'https://picsum.photos/263/375?blur');
-define( 'PLACEHOLDER-DOCTOR-MIN-THUMB', 'https://picsum.photos/198/246?blur');
-define( 'PLACEHOLDER-VIDEO-THUMB', 'https://picsum.photos/650/366?blur');
-define( 'PLACEHOLDER-VIDEO-MIN-THUMB', 'https://picsum.photos/188/106?blur');
-define( 'PLACEHOLDER-NEWS-THUMB', 'https://picsum.photos/275/458?blur');
-define( 'PLACEHOLDER-NEWS-PC-THUMB', 'https://picsum.photos/370/616?blur');
-define( 'PLACEHOLDER-NEWS-ITEM-THUMB', 'https://picsum.photos/359/259?blur');
-define( 'PLACEHOLDER-NEWS-BIG-THUMB', 'https://picsum.photos/556/370?blur');
+define( 'PLACEHOLDER-THUMB', 'http://via.placeholder.com/600x400');
+define( 'PLACEHOLDER-SLIDE-THUMBPC', 'http://via.placeholder.com/1274x431');
+define( 'PLACEHOLDER-SLIDE-THUMBSP', 'http://via.placeholder.com/376x376');
+define( 'PLACEHOLDER-REVIEW-THUMB', 'http://via.placeholder.com/590x315');
+define( 'PLACEHOLDER-SERVICE-THUMB', 'http://via.placeholder.com/365x520');
+define( 'PLACEHOLDER-DOCTOR-THUMB', 'http://via.placeholder.com/263x375');
+define( 'PLACEHOLDER-DOCTOR-MIN-THUMB', 'http://via.placeholder.com/198x246');
+define( 'PLACEHOLDER-VIDEO-THUMB', 'http://via.placeholder.com/650x366');
+define( 'PLACEHOLDER-VIDEO-MIN-THUMB', 'http://via.placeholder.com/188x106');
+define( 'PLACEHOLDER-NEWS-THUMB', 'http://via.placeholder.com/275x458');
+define( 'PLACEHOLDER-NEWS-PC-THUMB', 'http://via.placeholder.com/370x616');
+define( 'PLACEHOLDER-NEWS-ITEM-THUMB', 'http://via.placeholder.com/359x259');
+define( 'PLACEHOLDER-NEWS-BIG-THUMB', 'http://via.placeholder.com/556x370');
+define( 'PLACEHOLDER-SIDEBAR-THUMB', 'http://via.placeholder.com/360x630');
+define( 'PLACEHOLDER-NEWS-DETAIL-THUMB', 'http://via.placeholder.com/780x470');
 
-///placeholder-content-thumb placeholder-news-thumb placeholder-thumb
-// using in meta data if null
-define('POST_TYPES', ['page', 'post', 'content']);
-define('PLACEHOLDER_IMAGE_META', get_stylesheet_directory_uri() . '/assets/images/placeholder/img_noimage_800x448.png');
-define('PLACEHOLDER_DESCRIPTION_META', 'オリジナル商品を開発中！ホームセンター「カインズ」の企業サイトです。');
-define('PLACEHOLDER_KEYWORDS_META', 'カインズ,カインズホーム,cainz,採用,採用情報,新卒採用,パート,アルバイト,専任社員,中途採用,薬剤師,登録販売者');
-define('PLACEHOLDER_IMAGE_OGP', get_stylesheet_directory_uri() . '/assets/images/placeholder/og-image_400x248.png');
 // setup
 function corporate_setup() {
 	add_theme_support( 'post-thumbnails' );
@@ -54,6 +49,8 @@ function corporate_theme_setup() {
 	add_image_size( 'NEWS-PC-THUMB', 370, 616, true );
 	add_image_size( 'NEWS-ITEM-THUMB', 359, 259, true );
 	add_image_size( 'NEWS-BIG-THUMB', 556, 370, true );
+	add_image_size( 'SIDEBAR-THUMB', 360, 630, true );
+	add_image_size( 'NEWS-DETAIL-THUMB', 780, 470, true );
 }
 
 /**
@@ -327,14 +324,33 @@ function register_my_menus() {
 
 if( function_exists('acf_add_options_page') ) {
 
-    acf_add_options_page(array(
-        'page_title'    => 'ĐỘI NGŨ BÁC SĨ',
-        'menu_title'    => 'ĐỘI NGŨ BÁC SĨ',
-        'menu_slug'     => 'theme-general-settings',
-        'capability'    => 'edit_posts',
-        'redirect'      => false
-    ));
+	acf_add_options_page(array(
+			'page_title'    => 'Theme General Settings',
+			'menu_title'    => 'Theme Settings',
+			'menu_slug'     => 'theme-general-settings',
+			'capability'    => 'edit_posts',
+			'redirect'      => false
+	));
+
+	acf_add_options_sub_page(array(
+			'page_title'    => 'ĐỘI NGŨ BÁC SĨ',
+			'menu_title'    => 'ĐỘI NGŨ BÁC SĨ',
+			'parent_slug'   => 'theme-general-settings',
+	));
+
+	acf_add_options_sub_page(array(
+			'page_title'    => 'Banner Detail Post',
+			'menu_title'    => 'Banner Detail Post',
+			'parent_slug'   => 'theme-general-settings',
+	));
+
+	acf_add_options_sub_page(array(
+		'page_title'    => 'Related Detail Post',
+		'menu_title'    => 'Related Detail Post',
+		'parent_slug'   => 'theme-general-settings',
+));
 }
+
 
 // Disable Gutenberg on the back end.
 add_filter( 'use_block_editor_for_post', '__return_false' );
