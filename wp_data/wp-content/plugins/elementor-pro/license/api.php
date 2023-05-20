@@ -72,7 +72,6 @@ class API {
 		 * @param boolean $use_home_url Whether to use `home_url()` or `get_site_url()`.
 		 */
 		$use_home_url = apply_filters( 'elementor_pro/license/api/use_home_url', $use_home_url );
-
 		$body_args = wp_parse_args(
 			$body_args,
 			[
