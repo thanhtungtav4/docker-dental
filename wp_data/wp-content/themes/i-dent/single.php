@@ -19,6 +19,7 @@ get_header();
 		else{
 			get_template_part( 'template-parts/content', get_post_type() );
 		}
+	
 	endwhile;
 	?>
 <?php

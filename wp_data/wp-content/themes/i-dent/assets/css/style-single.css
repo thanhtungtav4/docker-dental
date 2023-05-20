@@ -46,13 +46,34 @@
 
 /* contact form 7 */
 .gr-check .wpcf7-form-control-wrap .wpcf7-form-control{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 7px 0;
-    width: 100%;
-    margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 7px 0;
+  width: 100%;
+  margin-bottom: 30px;
+}
+.gr-check .wpcf7-form-control-wrap .wpcf7-form-control  span.wpcf7-list-item > label{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
 }
 .gr-check .wpcf7-form-control-wrap .wpcf7-form-control > span.wpcf7-list-item{
-      width: 50%;
+  width: 50%;
+}
+@media screen and (max-width: 767px) {
+  .gr-check .wpcf7-form-control-wrap .wpcf7-form-control > span.wpcf7-list-item{
+    width: 100%;
+  }
+}
+.gr-check .wpcf7-form-control-wrap .wpcf7-form-control  span.wpcf7-list-item-label{
+  font-size: 16px;
+  line-height: 24px;
+  color: #025899;
+  position: relative;
+  padding-left: 5px;
+}
+.gr-check .wpcf7-form-control-wrap .wpcf7-form-control .wpcf7-list-item input{
+  width: 20px;
+  height: 20px;
 }

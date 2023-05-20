@@ -24,3 +24,23 @@ function conditionally_enqueue_styles_scripts() {
       <?php
     }
 }
+
+
+// functions.php or your custom plugin file
+
+// Add a new template for single posts
+// function custom_single_post_template($single_template) {
+//   if (is_single()) {
+//       // Replace 'custom-single-template.php' with the name of your template file
+//       $single_template = locate_template(array('custom-single-template.php'));
+//   }
+//   return $single_template;
+// }
+// add_filter('single_template', 'custom_single_post_template');
+
+// Register the new template for single posts
+function register_custom_single_template($templates) {
+  $templates['custom-single-template.php'] = 'Template single i-dent';
+  return $templates;
+}
+add_filter('theme_page_templates', 'register_custom_single_template');
