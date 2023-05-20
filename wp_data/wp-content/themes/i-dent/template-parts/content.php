@@ -13,11 +13,7 @@
       <div class="breadcrumbs">
         <div class="wrapper">
           <ul class="l-breadcrumbs">
-<<<<<<< HEAD
             <li><a class="trans" href="<?php echo get_home_url()?>/">Trang chủ</a></li>
-=======
-            <li><a class="trans" href="<?php echo get_home_url()?>">Trang chủ</a></li>
->>>>>>> 26517ed99211067275b790b9385c378990897837
             <li><a class="trans" href="<?php echo $categorie_slug ?>"><?php echo $categorie_name ?></a></li>
             <li><span><?php the_title()?></span></li>
           </ul>
@@ -48,25 +44,6 @@
               <div class="m-article">
                 <p><?php the_excerpt(); ?></p>
                 <?php do_shortcode('[toc]')?>
-<<<<<<< HEAD
-=======
-                <!-- <div class="box-anchors js-box">
-                  <h3 class="title">Nội dung bài viết<a class="btn-hide is-active" href="javascript:;">[&nbsp;<span>Ẩn</span> ]</a></h3>
-                  <ol class="l-anchors">
-                    <li><a href="#sec01">1. Kỹ thuật Implant toàn hàm cường lực All-on-6</a></li>
-                    <li><a href="#sec02">2. 4 yếu tố quyết định cấy ghép Implant All-on-6 thành công</a>
-                      <ol>
-                        <li><a href="#">2.1 Thực hiện bởi TS.BS tu nghiệp 10 năm tại Pháp</a></li>
-                        <li><a href="#">2.2 Sử dụng trụ Implant Straumann Thụy Sĩ cao cấp</a></li>
-                        <li><a href="#">2.3 Máy chụp phim Cone beam CT 3D nhập khẩu từ Hoa Kỳ</a></li>
-                        <li><a href="#">2.4 Răng toàn Sứ cao cấp Nacera Pearl</a></li>
-                      </ol>
-                    </li>
-                    <li><a href="#">3. Trồng răng implant All on 6 Thụy Sĩ giá bao nhiêu?</a></li>
-                    <li><a href="#">4. Đánh giá của khách hàng và báo chí về Nha khoa I-DENT</a></li>
-                  </ol>
-                </div> -->
->>>>>>> 26517ed99211067275b790b9385c378990897837
                 <?php the_content(); ?>
               </div>
               <?php
