@@ -369,11 +369,16 @@ app.slideCer = function () {
   if ($('.js-slide-cer').length) {
     var swiper = new Swiper(".js-slide-cer", {
       slidesPerView: "auto",
-      spaceBetween: 14,
+      spaceBetween: 8,
       navigation: {
         nextEl: '.swiper-next',
         prevEl: '.swiper-prev'
-      }
+      },
+      breakpoints: {
+        768: {
+          spaceBetween: 14,
+        },
+      },
     });
   }
 }
