@@ -15,3 +15,8 @@
   include_once( get_stylesheet_directory() . '/functions/custome_post_type.php' );
   include_once( get_stylesheet_directory() . '/functions/style.php' );
   include_once( get_stylesheet_directory() . '/functions/pagenavi.php' );
+<<<<<<< HEAD
+  include_once( get_stylesheet_directory() . '/functions/smtp.php' );
+  include_once( get_stylesheet_directory() . '/functions/cf7.php' );
+=======
+>>>>>>> 26517ed99211067275b790b9385c378990897837

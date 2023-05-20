@@ -71,6 +71,10 @@ $relatedpost = get_field('related_detail_post') ? get_field('related_detail_post
       <a class="trans" href="#">Tìm hiểu về Đội ngũ Bác sĩ của I-DENT</a>
     </li>
   </ul>
+<<<<<<< HEAD
+  <?php echo do_shortcode('[contact-form-7 id="6499" title="Contact form 1"]') ?>
+=======
+>>>>>>> 26517ed99211067275b790b9385c378990897837
   <form class="form-reserve" action="">
     <h3 class="f-title">NHẬN TƯ VẤN MIỄN PHÍ TỪ CHUYÊN GIA <strong>ĐẶT LỊCH HẸN THĂM KHÁM NGAY</strong>
     </h3>
