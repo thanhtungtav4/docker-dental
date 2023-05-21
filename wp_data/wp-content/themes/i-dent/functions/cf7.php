@@ -4,6 +4,7 @@
         //'checkbox-name' is the name that you gave the field in the CF7 admin.
     $array['remote_ip'] = get_client_ip();
     $array['location_ip'] = get_location();
+    $array['url_lead'] = full_url( $_SERVER );
     return $array;
     }; 
     add_filter( 'wpcf7_posted_data', 'action_wpcf7_posted_data', 10, 1 );
@@ -34,4 +35,21 @@
         $geo = unserialize(file_get_contents("http://www.geoplugin.net/php.gp?ip=$clien_ip"));
         $location = $geo["geoplugin_city"] - $geo["geoplugin_countryName"];
         return $location;
+    }
+
+    function url_origin( $s, $use_forwarded_host = false )
+    {
+        $ssl      = ( ! empty( $s['HTTPS'] ) && $s['HTTPS'] == 'on' );
+        $sp       = strtolower( $s['SERVER_PROTOCOL'] );
+        $protocol = substr( $sp, 0, strpos( $sp, '/' ) ) . ( ( $ssl ) ? 's' : '' );
+        $port     = $s['SERVER_PORT'];
+        $port     = ( ( ! $ssl && $port=='80' ) || ( $ssl && $port=='443' ) ) ? '' : ':'.$port;
+        $host     = ( $use_forwarded_host && isset( $s['HTTP_X_FORWARDED_HOST'] ) ) ? $s['HTTP_X_FORWARDED_HOST'] : ( isset( $s['HTTP_HOST'] ) ? $s['HTTP_HOST'] : null );
+        $host     = isset( $host ) ? $host : $s['SERVER_NAME'] . $port;
+        return $protocol . '://' . $host;
+    }
+
+    function full_url( $s, $use_forwarded_host = false )
+    {
+        return url_origin( $s, $use_forwarded_host ) . $s['REQUEST_URI'];
     }
