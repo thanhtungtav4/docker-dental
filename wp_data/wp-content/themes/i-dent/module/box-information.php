@@ -1,7 +1,12 @@
 <?php
 if(class_exists('ACF')) :
 $relatedpost = get_field('related_detail_post') ? get_field('related_detail_post') : get_field('related_detail_post', 'option');
-//var_dump($relatedpost);
+$args = array(
+  'post_type' => array( 'post', 'page'),
+  'post__in' => $relatedpost,
+  'post_status' => 'publish',
+);
+  $queryRelated = new WP_Query( $args );
 ?>
 <div class="box-information">
   <h2 class="ttl-primary">I-DENT- PHÒNG KHÁM NHA KHOA SỐ 1 TP. HỒ CHÍ MINH</h2>
@@ -60,17 +65,18 @@ $relatedpost = get_field('related_detail_post') ? get_field('related_detail_post
       <span>Cơ sở 1:</span>83 Đường số 3 Khu dân cư Cityland, P.10, Q.Gò Vấp, TP.Hồ Chí Minh
     </li>
   </ul>
-  <ul class="l-outstand">
-    <li>
-      <a class="trans" href="#">VTV3 nói gì về Nha Khoa I-DENT ?</a>
-    </li>
-    <li>
-      <a class="trans" href="#">Tiến sĩ - Bác sĩ Nguyễn Hiếu Tùng là ai ?</a>
-    </li>
-    <li>
-      <a class="trans" href="#">Tìm hiểu về Đội ngũ Bác sĩ của I-DENT</a>
-    </li>
-  </ul>
+  <?php if ( $queryRelated->have_posts() ) : ?>
+    <ul class="l-outstand">
+      <?php while ( $queryRelated->have_posts() ) : $queryRelated->the_post(); ?>
+      <li>
+        <a class="trans" href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
+      </li>
+      <?php endwhile; ?>
+    </ul>
+  <?php 
+    endif; 
+    wp_reset_postdata();
+  ?>
   <?php echo do_shortcode('[contact-form-7 id="6499" title="Contact form 1"]') ?>
 </div>
 <?php endif; ?>
