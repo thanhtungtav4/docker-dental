@@ -1,0 +1,59 @@
+[21-May-2023 02:28:53 UTC] PHP Warning:  Undefined variable $the_query in D:\Xampp\htdocs\Docker\docker-dental\wp_data\wp-content\themes\i-dent\module\box-information.php on line 71
+[21-May-2023 02:28:53 UTC] PHP Fatal error:  Uncaught Error: Call to a member function have_posts() on null in D:\Xampp\htdocs\Docker\docker-dental\wp_data\wp-content\themes\i-dent\module\box-information.php:71
+Stack trace:
+#0 D:\Xampp\htdocs\Docker\docker-dental\wp_data\wp-content\themes\i-dent\template-parts\content-single-sub.php(33): require_once()
+#1 D:\Xampp\htdocs\Docker\docker-dental\wp_data\wp-includes\template.php(785): require('D:\\Xampp\\htdocs...')
+#2 D:\Xampp\htdocs\Docker\docker-dental\wp_data\wp-includes\template.php(718): load_template('D:\\Xampp\\htdocs...', false, Array)
+#3 D:\Xampp\htdocs\Docker\docker-dental\wp_data\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#4 D:\Xampp\htdocs\Docker\docker-dental\wp_data\wp-content\themes\i-dent\custom-single-template.php(18): get_template_part('template-parts/...')
+#5 D:\Xampp\htdocs\Docker\docker-dental\wp_data\wp-includes\template-loader.php(106): include('D:\\Xampp\\htdocs...')
+#6 D:\Xampp\htdocs\Docker\docker-dental\wp_data\wp-blog-header.php(19): require_once('D:\\Xampp\\htdocs...')
+#7 D:\Xampp\htdocs\Docker\docker-dental\wp_data\index.php(17): require('D:\\Xampp\\htdocs...')
+#8 {main}
+  thrown in D:\Xampp\htdocs\Docker\docker-dental\wp_data\wp-content\themes\i-dent\module\box-information.php on line 71
+[21-May-2023 02:29:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_tittle() in D:\Xampp\htdocs\Docker\docker-dental\wp_data\wp-content\themes\i-dent\module\box-information.php:73
+Stack trace:
+#0 D:\Xampp\htdocs\Docker\docker-dental\wp_data\wp-content\themes\i-dent\template-parts\content-single-sub.php(33): require_once()
+#1 D:\Xampp\htdocs\Docker\docker-dental\wp_data\wp-includes\template.php(785): require('D:\\Xampp\\htdocs...')
+#2 D:\Xampp\htdocs\Docker\docker-dental\wp_data\wp-includes\template.php(718): load_template('D:\\Xampp\\htdocs...', false, Array)
+#3 D:\Xampp\htdocs\Docker\docker-dental\wp_data\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#4 D:\Xampp\htdocs\Docker\docker-dental\wp_data\wp-content\themes\i-dent\custom-single-template.php(18): get_template_part('template-parts/...')
+#5 D:\Xampp\htdocs\Docker\docker-dental\wp_data\wp-includes\template-loader.php(106): include('D:\\Xampp\\htdocs...')
+#6 D:\Xampp\htdocs\Docker\docker-dental\wp_data\wp-blog-header.php(19): require_once('D:\\Xampp\\htdocs...')
+#7 D:\Xampp\htdocs\Docker\docker-dental\wp_data\index.php(17): require('D:\\Xampp\\htdocs...')
+#8 {main}
+  thrown in D:\Xampp\htdocs\Docker\docker-dental\wp_data\wp-content\themes\i-dent\module\box-information.php on line 73
+[21-May-2023 04:39:35 UTC] PHP Fatal error:  Uncaught TypeError: array_diff(): Argument #2 must be of type array, string given in D:\Xampp\htdocs\Docker\docker-dental\wp_data\wp-includes\class-wp-query.php:3464
+Stack trace:
+#0 D:\Xampp\htdocs\Docker\docker-dental\wp_data\wp-includes\class-wp-query.php(3464): array_diff(Array, '243')
+#1 D:\Xampp\htdocs\Docker\docker-dental\wp_data\wp-includes\class-wp-query.php(3787): WP_Query->get_posts()
+#2 D:\Xampp\htdocs\Docker\docker-dental\wp_data\wp-includes\class-wp-query.php(3919): WP_Query->query(Array)
+#3 D:\Xampp\htdocs\Docker\docker-dental\wp_data\wp-content\themes\i-dent\module\box-information.php(11): WP_Query->__construct(Array)
+#4 D:\Xampp\htdocs\Docker\docker-dental\wp_data\wp-content\themes\i-dent\template-parts\content.php(50): require_once('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\Docker\docker-dental\wp_data\wp-includes\template.php(785): require('D:\\Xampp\\htdocs...')
+#6 D:\Xampp\htdocs\Docker\docker-dental\wp_data\wp-includes\template.php(718): load_template('D:\\Xampp\\htdocs...', false, Array)
+#7 D:\Xampp\htdocs\Docker\docker-dental\wp_data\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#8 D:\Xampp\htdocs\Docker\docker-dental\wp_data\wp-content\themes\i-dent\single.php(20): get_template_part('template-parts/...', 'post')
+#9 D:\Xampp\htdocs\Docker\docker-dental\wp_data\wp-includes\template-loader.php(106): include('D:\\Xampp\\htdocs...')
+#10 D:\Xampp\htdocs\Docker\docker-dental\wp_data\wp-blog-header.php(19): require_once('D:\\Xampp\\htdocs...')
+#11 D:\Xampp\htdocs\Docker\docker-dental\wp_data\index.php(17): require('D:\\Xampp\\htdocs...')
+#12 {main}
+  thrown in D:\Xampp\htdocs\Docker\docker-dental\wp_data\wp-includes\class-wp-query.php on line 3464
+[21-May-2023 04:39:44 UTC] PHP Fatal error:  Uncaught TypeError: array_diff(): Argument #2 must be of type array, int given in D:\Xampp\htdocs\Docker\docker-dental\wp_data\wp-includes\class-wp-query.php:3464
+Stack trace:
+#0 D:\Xampp\htdocs\Docker\docker-dental\wp_data\wp-includes\class-wp-query.php(3464): array_diff(Array, 243)
+#1 D:\Xampp\htdocs\Docker\docker-dental\wp_data\wp-includes\class-wp-query.php(3787): WP_Query->get_posts()
+#2 D:\Xampp\htdocs\Docker\docker-dental\wp_data\wp-includes\class-wp-query.php(3919): WP_Query->query(Array)
+#3 D:\Xampp\htdocs\Docker\docker-dental\wp_data\wp-content\themes\i-dent\module\box-information.php(11): WP_Query->__construct(Array)
+#4 D:\Xampp\htdocs\Docker\docker-dental\wp_data\wp-content\themes\i-dent\template-parts\content.php(50): require_once('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\Docker\docker-dental\wp_data\wp-includes\template.php(785): require('D:\\Xampp\\htdocs...')
+#6 D:\Xampp\htdocs\Docker\docker-dental\wp_data\wp-includes\template.php(718): load_template('D:\\Xampp\\htdocs...', false, Array)
+#7 D:\Xampp\htdocs\Docker\docker-dental\wp_data\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#8 D:\Xampp\htdocs\Docker\docker-dental\wp_data\wp-content\themes\i-dent\single.php(20): get_template_part('template-parts/...', 'post')
+#9 D:\Xampp\htdocs\Docker\docker-dental\wp_data\wp-includes\template-loader.php(106): include('D:\\Xampp\\htdocs...')
+#10 D:\Xampp\htdocs\Docker\docker-dental\wp_data\wp-blog-header.php(19): require_once('D:\\Xampp\\htdocs...')
+#11 D:\Xampp\htdocs\Docker\docker-dental\wp_data\index.php(17): require('D:\\Xampp\\htdocs...')
+#12 {main}
+  thrown in D:\Xampp\htdocs\Docker\docker-dental\wp_data\wp-includes\class-wp-query.php on line 3464
+[21-May-2023 10:18:51 UTC] PHP Warning:  Undefined array key 0 in D:\Xampp\htdocs\Docker\docker-dental\wp_data\wp-content\themes\i-dent\module\news-item.php on line 6
+[21-May-2023 10:18:51 UTC] PHP Warning:  Attempt to read property "name" on null in D:\Xampp\htdocs\Docker\docker-dental\wp_data\wp-content\themes\i-dent\module\news-item.php on line 6

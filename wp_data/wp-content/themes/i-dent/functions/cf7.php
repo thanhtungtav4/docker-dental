@@ -1,4 +1,6 @@
 <?php 
+    // Remove <p> and <br/> from Contact Form 7
+    add_filter('wpcf7_autop_or_not', '__return_false');
     // define the wpcf7_posted_data callback 
     function action_wpcf7_posted_data( $array ) { 
         //'checkbox-name' is the name that you gave the field in the CF7 admin.

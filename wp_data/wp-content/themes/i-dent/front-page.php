@@ -17,12 +17,8 @@
   <section class="intro">
     <div class="wrapper">
       <h2 class="ttl-primary">NHA KHOA I-DENT<br class="is-sp"> PHÒNG KHÁM NHA KHOA <br class="is-sp">SỐ 1 TP HỒ CHÍ MINH</h2>
-      <form class="form-support" action=""><span class="title">HỖ TRỢ TƯ VẤN 24/7</span>
-        <input class="m-input" type="text" placeholder="Họ và tên">
-        <input class="m-input" type="text" placeholder="Số điện thoại">
-        <button class="btn-sub trans" type="submit">GỬI</button>
-      </form>
       <?php
+        echo do_shortcode('[contact-form-7 id="6507" title="HỖ TRỢ TƯ VẤN 24/7"]');
         require_once( get_stylesheet_directory() . '/module/main-review.php' );
       ?>
     </div>
