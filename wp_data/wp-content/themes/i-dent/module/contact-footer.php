@@ -1,4 +1,4 @@
-<section class="m-contact">
+<section class="m-contact is-reverse">
   <div class="wrapper">
     <strong>NHẬN TƯ VẤN MIỄN PHÍ TỪ CHUYÊN GIA</strong>
     <h2 class="ttl-primary is-red">ĐẶT LỊCH HẸN <br class="is-sp">THĂM KHÁM NGAY </h2>

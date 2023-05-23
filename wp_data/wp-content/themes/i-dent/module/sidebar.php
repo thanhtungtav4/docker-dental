@@ -8,7 +8,7 @@ $Sidebar_url2 = get_field('url_banner_detail2') ? get_field('url_banner_detail2'
 $Sidebar_alt2 = get_field('alt_banner_detail2') ? get_field('alt_banner_detail2') : get_field('alt_banner_detail2', 'option');
 ?>
 
-<sidebar class="m-detail_side">
+<sidebar class="m-detail_side <?php is_page('cam-ket-ve-chat-luong') ?: print 'is-pc' ?>?>">
   <div class="m-detail_side-bnr">
     <?php if($Sidebar_img) : ?>
     <a href="<?php echo $Sidebar_url?>" target="_blank">

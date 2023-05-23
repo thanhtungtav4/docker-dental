@@ -57,3 +57,7 @@ Stack trace:
   thrown in D:\Xampp\htdocs\Docker\docker-dental\wp_data\wp-includes\class-wp-query.php on line 3464
 [21-May-2023 10:18:51 UTC] PHP Warning:  Undefined array key 0 in D:\Xampp\htdocs\Docker\docker-dental\wp_data\wp-content\themes\i-dent\module\news-item.php on line 6
 [21-May-2023 10:18:51 UTC] PHP Warning:  Attempt to read property "name" on null in D:\Xampp\htdocs\Docker\docker-dental\wp_data\wp-content\themes\i-dent\module\news-item.php on line 6
+[23-May-2023 01:45:51 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No connection could be made because the target machine actively refused it.
+ in D:\xampp\htdocs\docker-dental\wp_data\wp-includes\class-wpdb.php on line 2019
+[23-May-2023 01:45:56 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No connection could be made because the target machine actively refused it.
+ in D:\xampp\htdocs\docker-dental\wp_data\wp-includes\class-wpdb.php on line 2019

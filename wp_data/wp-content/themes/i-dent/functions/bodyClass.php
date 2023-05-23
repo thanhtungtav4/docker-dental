@@ -2,6 +2,15 @@
   function bodyClass(){
     $type = get_post_type();
     $class = '';
+    if($type === 'page' && is_page('lien-he')){
+      $class = 'p-contact';
+    }
+    if($type === 'page' && is_page('doi-ngu-tien-si-bac-si')){
+      $class = 'p-doctors';
+    }
+    if($type === 'page' && is_page('tai-sao-chon-chung-toi')){
+      $class = 'p-reason';
+    }
     if($type === 'page' && is_front_page()){
       $class = 'homepage';
     }
@@ -14,6 +23,9 @@
     if($type === 'kien-thuc-nha-khoa' && is_single('chon-tru-implant')){
       $class = 'p-dieutri';
     }
+    if($type === 'page' && is_page('cay-ghep-implant-ident')){
+      $class = 'p-service';
+    }
     if($type === 'page' && is_page('uu-dai-vang')){
       $class = 'p-promotion';
     }
@@ -23,5 +35,26 @@
     if($type === 'post' && is_single()){
       $class = 'kien-thuc';
     }
+    if($type === 'page' && is_page('gioi-thieu-ve-nha-khoa-i-dent')){
+      $class = 'p-about';
+    }
+    if($type === 'page' && is_page('phac-do-dieu-tri-mau')){
+      $class = 'p-dieutri';
+    }
+    if($type === 'page' && is_page('co-so-vat-chat')){
+      $class = 'p-basis';
+    }
+    if($type === 'page' && is_page('tien-si-bac-si-nguyen-hieu-tung')){
+      $class = 'p-doctung';
+    }
+    if($type === 'page' && is_page('bang-gia-rang-su')){
+      $class = 'p-tragop';
+    }
+    if($type === 'page' && is_page('dan-su-veneer')){
+      $class = 'p-veneer';
+    }
     return body_class($class);
   }
+
+
+
