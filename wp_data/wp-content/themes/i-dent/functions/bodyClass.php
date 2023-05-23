@@ -26,6 +26,9 @@
     if($type === 'page' && is_page('cay-ghep-implant-ident')){
       $class = 'p-service';
     }
+    if($type === 'page' && is_page('tin-tuc')){
+      $class = 'kien-thuc';
+    }
     if($type === 'page' && is_page('uu-dai-vang')){
       $class = 'p-promotion';
     }

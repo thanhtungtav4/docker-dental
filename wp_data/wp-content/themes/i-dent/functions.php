@@ -17,3 +17,4 @@
   include_once( get_stylesheet_directory() . '/functions/pagenavi.php' );
   include_once( get_stylesheet_directory() . '/functions/smtp.php' );
   include_once( get_stylesheet_directory() . '/functions/cf7.php' );
+  include_once( get_stylesheet_directory() . '/functions/url.php' );
