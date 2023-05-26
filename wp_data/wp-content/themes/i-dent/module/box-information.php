@@ -73,10 +73,10 @@ $args = array(
       </li>
       <?php endwhile; ?>
     </ul>
-  <?php 
-    endif; 
+  <?php
+    endif;
     wp_reset_postdata();
   ?>
-  <?php echo do_shortcode('[contact-form-7 id="6499" title="Contact form detail post"]') ?>
+  <?php echo do_shortcode('[contact-form-7 id="7131" title="Contact form detail post"]') ?>
 </div>
 <?php endif; ?>

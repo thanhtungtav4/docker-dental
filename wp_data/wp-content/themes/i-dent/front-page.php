@@ -18,7 +18,7 @@
     <div class="wrapper">
       <h2 class="ttl-primary">NHA KHOA I-DENT<br class="is-sp"> PHÒNG KHÁM NHA KHOA <br class="is-sp">SỐ 1 TP HỒ CHÍ MINH</h2>
       <?php
-        echo do_shortcode('[contact-form-7 id="6507" title="HỖ TRỢ TƯ VẤN 24/7"]');
+        echo do_shortcode('[contact-form-7 id="7215" title="HỖ TRỢ TƯ VẤN 24/7"]');
         require_once( get_stylesheet_directory() . '/module/main-review.php' );
       ?>
     </div>
