@@ -683,66 +683,10 @@
           </div>
         </div>
       </section>
-      <section class="m-paper">
-        <div class="wrapper">
-          <h2 class="ttl-primary">BÁO CHÍ ĐƯA TIN VỀ NHA KHOA I-DENT</h2>
-          <div class="l-paper js-paper-slide">
-            <div class="m-paper_item">
-              <div class="m-paper_inner">
-                <div class="m-paper_wrap"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/top/img_wallpaper_01.jpg" alt="">
-                  <div class="m-paper_btn">
-                    <div class="m-btn"><a href="#">Xem chi tiết</a></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="m-paper_item">
-              <div class="m-paper_inner">
-                <div class="m-paper_wrap"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/top/img_wallpaper_01.jpg" alt="">
-                  <div class="m-paper_btn">
-                    <div class="m-btn"><a href="#">Xem chi tiết</a></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="m-paper_item">
-              <div class="m-paper_inner">
-                <div class="m-paper_wrap"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/top/img_wallpaper_01.jpg" alt="">
-                  <div class="m-paper_btn">
-                    <div class="m-btn"><a href="#">Xem chi tiết</a></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="m-paper_item">
-              <div class="m-paper_inner">
-                <div class="m-paper_wrap"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/top/img_wallpaper_01.jpg" alt="">
-                  <div class="m-paper_btn">
-                    <div class="m-btn"><a href="#">Xem chi tiết</a></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="m-contact">
-        <div class="wrapper"><strong>NHẬN TƯ VẤN MIỄN PHÍ TỪ CHUYÊN GIA</strong>
-          <h2 class="ttl-primary is-red">ĐẶT LỊCH HẸN <br class="is-sp">THĂM KHÁM NGAY</h2>
-          <p>Vui lòng để lại thông tin của quý khách.<br>Nha Khoa I-Dent sẽ liên hệ đến Quý Khách trong thời gian sớm nhất</p>
-          <form action="">
-            <div class="row-input">
-              <input class="m-input" type="text" placeholder="Họ và tên">
-            </div>
-            <div class="row-input">
-              <input class="m-input" type="text" placeholder="Số điện thoại">
-            </div>
-            <div class="m-btn">
-              <button type="submit">ĐĂNG KÝ</button>
-            </div>
-          </form>
-        </div>
-      </section>
+      <?php
+       require_once( get_stylesheet_directory() . '/module/m-paper.php' );
+       require_once( get_stylesheet_directory() . '/module/contact-footer.php' );
+      ?>
       <section class="m-faq">
         <div class="wrapper">
           <h2 class="ttl-primary ttl-primary--is-medium">NHỮNG CÂU HỎI THƯỜNG GẶP KHI BỌC RĂNG SỨ TẠI NHA KHOA I-DENT</h2>
@@ -778,5 +722,4 @@
         </div>
       </section>
  <?php
-  require_once( get_stylesheet_directory() . '/module/contact-footer.php' );
   get_footer(); ?>

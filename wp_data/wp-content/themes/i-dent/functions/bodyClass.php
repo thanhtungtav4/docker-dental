@@ -59,6 +59,12 @@
     if($type === 'page' && is_page('boc-rang-su-tham-my')){
       $class = 'p-tooth-ceramic';
     }
+    if($type === 'page' && is_page('dich-vu-trong-rang-tham-my-tra-gop')){
+      $class = 'p-tragop';
+    }
+    if($type === 'page' && is_page('danh-cho-khach-viet-kieu')){
+      $class = 'p-dieutri';
+    }
     return body_class($class);
   }
 
