@@ -56,6 +56,9 @@
     if($type === 'page' && is_page('dan-su-veneer')){
       $class = 'p-veneer';
     }
+    if($type === 'page' && is_page('boc-rang-su-tham-my')){
+      $class = 'p-tooth-ceramic';
+    }
     return body_class($class);
   }
 
