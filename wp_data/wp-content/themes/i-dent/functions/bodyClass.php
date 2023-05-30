@@ -65,6 +65,9 @@
     if($type === 'page' && is_page('danh-cho-khach-viet-kieu')){
       $class = 'p-dieutri';
     }
+    if($type === 'page' && is_page('nieng-rang-tham-my')){
+      $class = 'p-bracer';
+    }
     return body_class($class);
   }
 
