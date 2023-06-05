@@ -1,14 +1,16 @@
-<?php 
+<?php
     // Remove <p> and <br/> from Contact Form 7
     add_filter('wpcf7_autop_or_not', '__return_false');
-    // define the wpcf7_posted_data callback 
-    function action_wpcf7_posted_data( $array ) { 
+    // define the wpcf7_posted_data callback
+    function action_wpcf7_posted_data( $array ) {
         //'checkbox-name' is the name that you gave the field in the CF7 admin.
     $array['remote_ip'] = get_client_ip();
     $array['location_ip'] = get_location();
     $array['url_lead'] = full_url( $_SERVER );
+    $array['is_mobile'] = wp_is_mobile();
+    $array['agent'] = get_user_agent();
     return $array;
-    }; 
+    };
     add_filter( 'wpcf7_posted_data', 'action_wpcf7_posted_data', 10, 1 );
 
 
@@ -55,3 +57,24 @@
     {
         return url_origin( $s, $use_forwarded_host ) . $s['REQUEST_URI'];
     }
+
+
+    function get_user_agent(){
+        $agent = $_SERVER["HTTP_USER_AGENT"];
+        if( preg_match('/MSIE (\d+\.\d+);/', $agent) ) {
+            return "Internet Explorer";
+        } else if (preg_match('/Chrome[\/\s](\d+\.\d+)/', $agent) ) {
+            return "Chrome";
+        } else if (preg_match('/Edge\/\d+/', $agent) ) {
+            return "Edge";
+        } else if ( preg_match('/Firefox[\/\s](\d+\.\d+)/', $agent) ) {
+            return "Firefox";
+        } else if ( preg_match('/OPR[\/\s](\d+\.\d+)/', $agent) ) {
+            return "Opera";
+        } else if (preg_match('/Safari[\/\s](\d+\.\d+)/', $agent) ) {
+            return "Safari";
+        } else{
+            return "Không xác định";
+        }
+    }
+

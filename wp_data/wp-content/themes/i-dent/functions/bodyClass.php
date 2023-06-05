@@ -68,6 +68,9 @@
     if($type === 'page' && is_page('nieng-rang-tham-my')){
       $class = 'p-bracer';
     }
+    if($type === 'story-khach-hang'){
+      $class = 'p-story';
+    }
     return body_class($class);
   }
 
