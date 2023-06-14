@@ -1,4 +1,5 @@
 <?php
+
 $check_page_exist = getPageByTitle('Tin Tức', 'OBJECT', 'page');
 // Check if the page already exists
 if(empty($check_page_exist)) {
@@ -54,3 +55,24 @@ function getPageByTitle( $page_title, $output = OBJECT, $post_type = 'page' ){
 
     return null;
 }
+
+// Rewrite custom post & taxonomy to share same URL path
+function wpse_358157_parse_request( $wp ) {
+	$path      = 'cau-chuyen-khach-hang'; // rewrite slug; no trailing slashes
+	$taxonomy  = 'type-customer';        // taxonomy slug
+	$post_type = 'story-khach-hang';                 // post type slug
+
+	if ( preg_match( '#^' . preg_quote( $path, '#' ) . '/#', $wp->request ) &&
+			isset( $wp->query_vars[ $taxonomy ] ) ) {
+			$slug = $wp->query_vars[ $taxonomy ];
+			$slug = ltrim( substr( $slug, strrpos( $slug, '/' ) ), '/' );
+
+			if ( ! term_exists( $slug, $taxonomy ) ) {
+					$wp->query_vars['name']       = $wp->query_vars[ $taxonomy ];
+					$wp->query_vars['post_type']  = $post_type;
+					$wp->query_vars[ $post_type ] = $wp->query_vars[ $taxonomy ];
+					unset( $wp->query_vars[ $taxonomy ] );
+			}
+	}
+}
+add_action( 'parse_request', 'wpse_358157_parse_request' );

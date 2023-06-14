@@ -52,6 +52,7 @@ function corporate_theme_setup() {
 	add_image_size( 'NEWS-BIG-THUMB', 556, 370, true );
 	add_image_size( 'SIDEBAR-THUMB', 360, 630, true );
 	add_image_size( 'NEWS-DETAIL-THUMB', 780, 470, true );
+	add_image_size( 'EKIP-THUMB', 330, 378, true );
 }
 
 /**

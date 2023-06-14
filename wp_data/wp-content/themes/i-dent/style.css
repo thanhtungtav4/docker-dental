@@ -94,3 +94,12 @@ Text Domain: i-dent
 .uppercase {
   text-transform: uppercase;
 }
+.screen-reader-response{
+  display: none;
+}
+.wpcf7-not-valid-tip, .wpcf7-response-output{
+  color: red;
+  font-size: 1.4rem;
+  padding: 1rem 0 0 1rem;
+  display: inline-block;
+}
