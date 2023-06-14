@@ -42,6 +42,7 @@ function cptui_register_my_cpts() {
 
 add_action( 'init', 'cptui_register_my_cpts' );
 
+
 function cptui_register_my_taxes() {
 
 	/**
@@ -64,7 +65,7 @@ function cptui_register_my_taxes() {
 		"show_in_menu" => true,
 		"show_in_nav_menus" => true,
 		"query_var" => true,
-		"rewrite" => [ 'slug' => 'khach-hang', 'with_front' => false,  'hierarchical' => true, ],
+		"rewrite" => [ 'slug' => 'cau-chuyen-khach-hang', 'with_front' => false,  'hierarchical' => true, ],
 		"show_admin_column" => true,
 		"show_in_rest" => true,
 		"show_tagcloud" => false,
@@ -76,5 +77,38 @@ function cptui_register_my_taxes() {
 		"show_in_graphql" => false,
 	];
 	register_taxonomy( "khach-hang", [ "story-khach-hang" ], $args );
+
+	/**
+	 * Taxonomy: Tin Tức.
+	 */
+
+	$labels = [
+		"name" => esc_html__( "Tin Tức", "i-dent" ),
+		"singular_name" => esc_html__( "Tin Tức", "i-dent" ),
+	];
+
+
+	$args = [
+		"label" => esc_html__( "Tin Tức", "i-dent" ),
+		"labels" => $labels,
+		"public" => true,
+		"publicly_queryable" => true,
+		"hierarchical" => false,
+		"show_ui" => true,
+		"show_in_menu" => true,
+		"show_in_nav_menus" => true,
+		"query_var" => true,
+		"rewrite" => [ 'slug' => 'tin-tuc', 'with_front' => true, ],
+		"show_admin_column" => false,
+		"show_in_rest" => true,
+		"show_tagcloud" => false,
+		"rest_base" => "tin-tuc",
+		"rest_controller_class" => "WP_REST_Terms_Controller",
+		"rest_namespace" => "wp/v2",
+		"show_in_quick_edit" => false,
+		"sort" => false,
+		"show_in_graphql" => false,
+	];
+	register_taxonomy( "tin-tuc", [ "post" ], $args );
 }
 add_action( 'init', 'cptui_register_my_taxes' );

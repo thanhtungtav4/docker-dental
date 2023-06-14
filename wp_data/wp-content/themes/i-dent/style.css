@@ -91,3 +91,6 @@ Text Domain: i-dent
   width: 20px;
   height: 20px;
 }
+.uppercase {
+  text-transform: uppercase;
+}
