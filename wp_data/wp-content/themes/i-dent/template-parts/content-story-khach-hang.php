@@ -11,6 +11,7 @@ if (function_exists('get_field') ) {
   $youtube_url = get_field('video_url');
   $treatment_plan = get_field('treatment_plan');
   $ekip = get_field('ekip');
+  $list_service = get_field('list_service');
 }
 $argsEkip = array(
   'post_type' => 'ekip',
@@ -78,16 +79,20 @@ $queryEkip = new WP_Query($argsEkip);
               <?php echo get_handle_thumbnail('EKIP-THUMB'); ?>
             </div>
             <div class="info">
-              <span class="pos"><?php get_field('role');?></span>
-              <span class="ttl">Tiến sĩ - Bác sĩ</span>
+              <span class="pos"><?php the_field('ekip_role', get_the_ID()); ?></span>
+              <span class="ttl"><?php the_field('ekip_degree', get_the_ID()); ?></span>
               <span class="name"><?php the_title();?></span>
               <div class="gr-btn">
-                <div class="m-btn is-small">
-                  <a href="#">Đặt lịch hẹn</a>
-                </div>
-                <div class="m-btn is-small is-reverse">
-                  <a href="#">Xem hồ sơ</a>
-                </div>
+                <?php if(get_field('btn_appointment', get_the_ID())) :  ?>
+                  <div class="m-btn is-small">
+                    <a href="<?php the_field('btn_appointment', get_the_ID()); ?>">Đặt lịch hẹn</a>
+                  </div>
+                <?php endif; ?>
+                <?php if(get_field('view_profile', get_the_ID())) :  ?>
+                  <div class="m-btn is-small is-reverse">
+                    <a href="<?php the_field('view_profile', get_the_ID()); ?>">Xem hồ sơ</a>
+                  </div>
+                <?php endif; ?>
               </div>
             </div>
           </li>
@@ -101,28 +106,32 @@ $queryEkip = new WP_Query($argsEkip);
     <div class="cus-images">
       <div class="left">
         <div class="big-img">
-          <img src="https://placehold.co/600x400?text=dummy" alt="">
+          <?php handle_thumbnail_id(get_field('customer_image_main'), 'CUSTOMER-MAIN-THUMB') ?>
         </div>
         <div class="small-img">
           <div class="ig after">
-            <img src="https://placehold.co/600x400?text=dummy" alt="">
+          <?php handle_thumbnail_id(get_field('customer_image_main'), 'CUSTOMER-SMAIL-THUMB') ?>
           </div>
           <div class="ig before">
-            <img src="https://placehold.co/600x400?text=dummy" alt="">
+          <?php handle_thumbnail_id(get_field('customer_image_main'), 'CUSTOMER-SMAIL-THUMB') ?>
           </div>
         </div>
       </div>
       <div class="right">
         <div class="cus-info">
-          <div class="name">Cô: <strong>MỸ NHI TẤT</strong>
+          <div class="name"><?php the_field('sex'); ?>: <strong><?php get_field('customer_name') ? the_field('customer_name') : the_title() ; ?></strong>
           </div>
-          <span class="loc">Việt Kiều Úc</span>
+          <?php if(get_field('customer_service_from')): ?>
+            <span class="loc"><?php the_field('customer_service_from'); ?></span>
+          <?php endif; ?>
         </div>
-        <ul class="cus-service">
-          <li>Cấy Implant All on 5 hàm trên</li>
-          <li>Implant Mis C1 Đức</li>
-          <li>Phục hình sứ</li>
-        </ul>
+        <?php if($list_service): ?>
+          <ul class="cus-service">
+            <?php foreach($list_service as $item) : ?>
+              <li><?php echo $item['service']?></li>
+            <?php endforeach; ?>
+          </ul>
+        <?php endif; ?>
       </div>
     </div>
     <div class="m-article">
