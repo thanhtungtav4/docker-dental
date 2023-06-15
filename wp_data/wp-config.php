@@ -109,7 +109,7 @@ $table_prefix = getenv_docker('WORDPRESS_TABLE_PREFIX', 'wp_');
  */
 define( 'WP_DEBUG', !!getenv_docker('WORDPRESS_DEBUG', 'true') );
 define( 'WP_DEBUG_LOG', true );
-define( 'WP_DEBUG_DISPLAY', true );
+define( 'WP_DEBUG_DISPLAY', false );
 /* Add any custom values between this line and the "stop editing" line. */
 
 // If we're behind a proxy server and using HTTPS, we need to alert WordPress of that fact

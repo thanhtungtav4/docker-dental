@@ -16,16 +16,18 @@
   $queryPost = new WP_Query(
     array(
       'paged'         => $paged,
-      'post_type'     => 'tuc-tuc',
+      'post_type'     => 'post',
       'post_status'   => 'publish',
-      'offset'        => -1
+      'offset'        => -1,
+      'category_name' => 'tin-tuc'
     )
   );
   $querySticky = new WP_Query(
     array(
       'posts_per_page'      => 1,
       'post_status'   => 'publish',
-      'post_type'     => 'tuc-tuc'
+      'post_type'     => 'post',
+      'category_name' => 'tin-tuc'
     )
   );
 ?>

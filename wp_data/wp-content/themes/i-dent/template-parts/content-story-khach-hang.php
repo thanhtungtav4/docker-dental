@@ -82,9 +82,9 @@ $queryEkip = new WP_Query($argsEkip);
             <div class="info">
               <span class="pos"><?php the_field('ekip_role', get_the_ID()); ?></span>
               <span class="ttl"><?php the_field('ekip_degree', get_the_ID()); ?></span>
-              <span class="name"><?php the_title();?></span>
+              <span class="name"><?php get_field('ekip_name') ? the_field('ekip_name') : the_title();?></span>
               <div class="gr-btn">
-                <?php if(get_field('btn_appointment', get_the_ID())) :  ?>
+                <?php if(get_field('btn_appointment', get_the_ID()) == true) :  ?>
                   <div class="m-btn is-small">
                     <a href="<?php the_field('btn_appointment', get_the_ID()); ?>">Đặt lịch hẹn</a>
                   </div>
