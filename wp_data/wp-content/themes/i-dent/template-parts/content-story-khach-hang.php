@@ -17,6 +17,7 @@ $argsEkip = array(
   'post_type' => 'ekip',
   'post__in' => $ekip,
   'post_status' => 'publish',
+  'orderby' => 'post__in'
 );
 $queryEkip = new WP_Query($argsEkip);
 ?>
