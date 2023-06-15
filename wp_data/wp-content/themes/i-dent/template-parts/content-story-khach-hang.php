@@ -110,10 +110,10 @@ $queryEkip = new WP_Query($argsEkip);
         </div>
         <div class="small-img">
           <div class="ig after">
-          <?php handle_thumbnail_id(get_field('customer_image_main'), 'CUSTOMER-SMAIL-THUMB') ?>
+          <?php handle_thumbnail_id(get_field('customer_image_main_before'), 'CUSTOMER-SMAIL-THUMB') ?>
           </div>
           <div class="ig before">
-          <?php handle_thumbnail_id(get_field('customer_image_main'), 'CUSTOMER-SMAIL-THUMB') ?>
+          <?php handle_thumbnail_id(get_field('customer_image_main_after'), 'CUSTOMER-SMAIL-THUMB') ?>
           </div>
         </div>
       </div>
