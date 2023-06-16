@@ -1,45 +1,63 @@
-<?php 
-if(class_exists('ACF')) : 
-$postID = get_field('main_customer');
-$queryCustomer = new WP_Query(
-    array(
-      'post_type'     => 'story-khach-hang',
-      'post_status'   => 'publish',
-      'posts_per_page' => '8',
-      'post__in' => $postID,
-      'orderby' => 'post__in'
-    )
-  );
-?>
 <section class="m-customer">
-  <div class="wrapper">
-    <h2 class="ttl-primary">I-DENT CÂU CHUYỆN KHÁCH HÀNG</h2>
-    <div class="m-customer_slide js-cus-slide">
-      <?php if ( $queryCustomer->have_posts() ) : 
-            while ( $queryCustomer->have_posts() ) : $queryCustomer->the_post();
-            $sex = get_field('sex', get_the_ID());
-            $title = get_the_title();
-      ?>
+    <div class="wrapper">
+      <h2 class="ttl-primary">I-DENT CÂU CHUYỆN KHÁCH HÀNG</h2>
+      <div class="m-customer_slide js-cus-slide">
         <div class="m-customer_item">
           <div class="m-customer_inner">
             <figure class="image">
-              <?php echo get_handle_thumbnail('CUSTOMER-PIC-THUMB'); ?>
+              <img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/top/img_cus_01.jpg" alt="">
             </figure>
             <div class="info">
-              <h3 class="cus-name"><?php echo $sex . '&nbsp;' . $title; ?></h3>
-              <p class="text"><?php echo wp_trim_words(get_the_excerpt(), 20, '...'); ?></p>
+              <h3 class="cus-name">Chú Nguyễn Hải</h3>
+              <p class="text">Nhờ người bạn đồng nghiệp giới thiệu, chị biết đến I-Dent và thực hiện bọc răng sứ tại đây. Giờ chị có thể tự tin cười nói vui vẻ mà không e ngại hàm răng ố vàng. Cảm ơn Bác sĩ Tùng, Bác sĩ Khanh và I-Dent rất nhiều.</p>
               <div class="m-btn">
-                <a href="<?php the_permalink() ?>">Xem chi tiết</a>
+                <a href="#">Xem chi tiết</a>
               </div>
             </div>
           </div>
         </div>
-      <?php
-        endwhile;
-        wp_reset_query();
-        endif;
-      ?>
+        <div class="m-customer_item">
+          <div class="m-customer_inner">
+            <figure class="image">
+              <img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/top/img_cus_01.jpg" alt="">
+            </figure>
+            <div class="info">
+              <h3 class="cus-name">Chú Nguyễn Hải</h3>
+              <p class="text">Nhờ người bạn đồng nghiệp giới thiệu, chị biết đến I-Dent và thực hiện bọc răng sứ tại đây. Giờ chị có thể tự tin cười nói vui vẻ mà không e ngại hàm răng ố vàng. Cảm ơn Bác sĩ Tùng, Bác sĩ Khanh và I-Dent rất nhiều.</p>
+              <div class="m-btn">
+                <a href="#">Xem chi tiết</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="m-customer_item">
+          <div class="m-customer_inner">
+            <figure class="image">
+              <img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/top/img_cus_01.jpg" alt="">
+            </figure>
+            <div class="info">
+              <h3 class="cus-name">Chú Nguyễn Hải</h3>
+              <p class="text">Nhờ người bạn đồng nghiệp giới thiệu, chị biết đến I-Dent và thực hiện bọc răng sứ tại đây. Giờ chị có thể tự tin cười nói vui vẻ mà không e ngại hàm răng ố vàng. Cảm ơn Bác sĩ Tùng, Bác sĩ Khanh và I-Dent rất nhiều.</p>
+              <div class="m-btn">
+                <a href="#">Xem chi tiết</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="m-customer_item">
+          <div class="m-customer_inner">
+            <figure class="image">
+              <img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/top/img_cus_01.jpg" alt="">
+            </figure>
+            <div class="info">
+              <h3 class="cus-name">Chú Nguyễn Hải</h3>
+              <p class="text">Nhờ người bạn đồng nghiệp giới thiệu, chị biết đến I-Dent và thực hiện bọc răng sứ tại đây. Giờ chị có thể tự tin cười nói vui vẻ mà không e ngại hàm răng ố vàng. Cảm ơn Bác sĩ Tùng, Bác sĩ Khanh và I-Dent rất nhiều.</p>
+              <div class="m-btn">
+                <a href="#">Xem chi tiết</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-  </div>
- </section>
-<?php endif; ?>   
+  </section>

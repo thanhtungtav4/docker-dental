@@ -21,7 +21,6 @@ define( 'PLACEHOLDER-SIDEBAR-THUMB', 'http://via.placeholder.com/360x630');
 define( 'PLACEHOLDER-NEWS-DETAIL-THUMB', 'http://via.placeholder.com/780x470');
 define( 'PLACEHOLDER-NEWS-TV-THUMB', 'http://via.placeholder.com/590x315');
 define( 'PLACEHOLDER-EKIP-THUMB', 'http://via.placeholder.com/330x378');
-define( 'PLACEHOLDER-CUSTOMER-PIC-THUMB', 'http://via.placeholder.com/612x634');
 // setup
 function corporate_setup() {
 	add_theme_support( 'post-thumbnails' );
@@ -57,7 +56,6 @@ function corporate_theme_setup() {
 	add_image_size( 'EKIP-THUMB', 330, 378, true );
 	add_image_size( 'CUSTOMER-MAIN-THUMB', 548, 714, true );
 	add_image_size( 'CUSTOMER-SMAIL-THUMB', 468, 346, true );
-	add_image_size( 'CUSTOMER-PIC-THUMB', 612, 634, true );
 }
 
 /**

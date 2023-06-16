@@ -103,7 +103,3 @@ Text Domain: i-dent
   padding: 1rem 0 0 1rem;
   display: inline-block;
 }
-.language li > a{
-  display: flex;
-  align-items: center;
-}
