@@ -140,7 +140,7 @@
           <div class="image">
             <img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/basis/img_11.jpg" alt="">
           </div>
-          <div class="image">
+          <div class="image" style="text-align: center;">
             <img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/basis/img_12.png" alt="">
           </div>
         </div>

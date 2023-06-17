@@ -83,36 +83,6 @@
     require_once( get_stylesheet_directory() . '/module/customer-story.php' );
     require_once( get_stylesheet_directory() . '/module/main-paper.php' );
     require_once( get_stylesheet_directory() . '/module/contact-footer.php' );
+    require_once( get_stylesheet_directory() . '/module/main-news.php' );
   ?>
-  <section class="m-news">
-    <div class="wrapper">
-      <h2 class="ttl-primary">KIẾN THỨC NHA KHOA</h2>
-      <ul class="l-news js-news">
-        <li class="l-news_item">
-          <figure class="images"><img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/top/dummy.jpg" alt=""></figure>
-          <div class="info"><span class="tag">KIẾN THỨC IMPLANT</span>
-            <h3 class="title js-height">KỸ THUẬT IMPLANT TOÀN HÀM ALL-ON-6 CƯỜNG LỰC CAO CẤP BẬC NHẤT</h3>
-            <p class="text">Nha khoa I-DENT giới thiệu đến cô chú giải pháp trồng răng toàn hàm cao cấp bậc nhất. Sử dụng 6 trụ Implant Straumann Thụy Sĩ và phục hình hàm toàn sứ</p>
-            <div class="m-btn"><a href="#">Xem thêm</a></div>
-          </div>
-        </li>
-        <li class="l-news_item">
-          <figure class="images"><img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/top/dummy.jpg" alt=""></figure>
-          <div class="info"><span class="tag">KIẾN THỨC IMPLANT</span>
-            <h3 class="title js-height">KỸ THUẬT IMPLANT TOÀN HÀM ALL-ON-6 CƯỜNG LỰC CAO CẤP BẬC NHẤT</h3>
-            <p class="text">Nha khoa I-DENT giới thiệu đến cô chú giải pháp trồng răng toàn hàm cao cấp bậc nhất. Sử dụng 6 trụ Implant Straumann Thụy Sĩ và phục hình hàm toàn sứ</p>
-            <div class="m-btn"><a href="#">Xem thêm</a></div>
-          </div>
-        </li>
-        <li class="l-news_item">
-          <figure class="images"><img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/top/dummy.jpg" alt=""></figure>
-          <div class="info"><span class="tag">KIẾN THỨC IMPLANT</span>
-            <h3 class="title js-height">TOP 3 LOẠI TRỤ IMPLANT ĐỨC PHỔ BIẾN NHẤT HIỆN NAY</h3>
-            <p class="text">Nha khoa I-DENT giới thiệu đến cô chú giải pháp trồng răng toàn hàm cao cấp bậc nhất. Sử dụng 6 trụ Implant Straumann Thụy Sĩ và phục hình hàm toàn sứ</p>
-            <div class="m-btn"><a href="#">Xem thêm</a></div>
-          </div>
-        </li>
-      </ul>
-    </div>
-  </section>
 <?php get_footer(); ?>

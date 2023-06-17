@@ -36,7 +36,7 @@
               <li>Bằng Chuyên Khoa Sau Đại học Phẫu Thuật Tạo Hình Nha Chu, ĐH Méditerranée, Marseille, Pháp.</li>
             </ul>
             <div class="m-btn is-reverse is-small">
-              <a href="#">Xem chi tiết</a>
+              <a href="/gioi-thieu/tien-si-bac-si-nguyen-hieu-tung/">Xem chi tiết</a>
             </div>
             <div class="l-cer-img swiper-container js-slide-cer">
               <div class="l-cer-img_inner swiper-wrapper">

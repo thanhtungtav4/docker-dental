@@ -14,11 +14,11 @@
       <a class="form-popup" id="ssldatlich" href="#" rel="nofollow" title="Đặt lịch hẹn">Đặt lịch hẹn</a>
     </li>
     <li id="menu-mesenger">
-      <a href="https://www.facebook.com/NhaKhoaIDent" rel="nofollow" target="_blank" title="Messenger">
+      <a href="https://m.me/NhaKhoaIDent" rel="nofollow" target="_blank" title="Messenger">
         <img class="is-pc" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/icon-mess.png" alt="Messenger Nha Khoa IDent" loading="lazy">
         <img class="is-sp" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/ico_book.svg" alt="Book Nha Khoa IDent" loading="lazy">
       </a>
-      <a href="https://www.facebook.com/messages/t/NhaKhoaIDent" rel="nofollow" target="_blank" title="Messenger NhaKhoaIDent">Messege</a>
+      <a href="https://m.me/NhaKhoaIDent" rel="nofollow" target="_blank" title="Messenger NhaKhoaIDent">Messege</a>
     </li>
     <li id="menu-bando">
       <a href="https://zalo.me/4299371072036201150" title="zalo" rel="nofollow" target="_blank">

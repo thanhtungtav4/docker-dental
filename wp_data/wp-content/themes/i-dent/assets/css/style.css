@@ -494,8 +494,8 @@ main {
 }
 .c-header_nav .nav-menu .sub-menu a {
   display: block;
-  font-size: 15px;
-  line-height: 22px;
+  font-size: 17px;
+  line-height: 25px;
   color: #025899;
   padding: 3px 13px;
 }
@@ -2003,6 +2003,8 @@ main {
   color: #025899;
   font-weight: normal;
   margin-top: 21px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 @media screen and (max-width: 767px) {
   .tv-clip {
@@ -2027,7 +2029,7 @@ main {
   height: 100%;
   top: 0;
   left: 0;
-  background: #979797;
+  background: #e3e3e3;
   opacity: 0.3;
   border-radius: 20px;
 }
@@ -2253,6 +2255,7 @@ main {
 }
 .m-doctors .l-doctors .doc-info {
   flex: 1;
+  padding-top: 35px;
 }
 .m-doctors .l-doctors .doc-info .title {
   font-weight: 700;
@@ -2793,6 +2796,10 @@ main {
   overflow: hidden;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
+.p-doctung .m-paper_wrap{
+  max-height: 668px;
+  width: 100%;
+}
 .m-paper_btn {
   position: absolute;
   bottom: 0;
@@ -3271,7 +3278,7 @@ div#contact-menu ul li a img {
 .m-article p {
   color: #000;
   font-size: 18px;
-  line-height: 27px;
+  line-height: 33px;
   margin-bottom: 20px;
   text-align: justify;
 }
@@ -3312,7 +3319,8 @@ div#contact-menu ul li a img {
   overflow-x: auto;
 }
 .m-article table {
-  width: 780px;
+/*  width: 780px;*/
+  width: 100%;
   border-collapse: collapse;
   margin-bottom: 20px;
 }
@@ -4041,7 +4049,7 @@ div#contact-menu ul li a img {
 .page-bnr .left .text {
   color: #000;
   font-size: 18px;
-  line-height: 27px;
+  line-height: 33px;
   margin-bottom: 30px;
 }
 .page-bnr .right {
@@ -4945,6 +4953,7 @@ div#contact-menu ul li a img {
 }
 .m-review_img img {
   width: 100%;
+  height: 385px;
 }
 .m-review_info {
   width: 50.75%;
@@ -4964,6 +4973,13 @@ div#contact-menu ul li a img {
   padding: 31px 13px 25px;
   border-radius: 0 0 20px 20px;
 }
+
+@media screen and (min-width: 767px){
+  .m-review_info .body {
+    height: 300px;
+  }
+}
+
 .m-review_info .body .text {
   position: relative;
   margin-bottom: 0;

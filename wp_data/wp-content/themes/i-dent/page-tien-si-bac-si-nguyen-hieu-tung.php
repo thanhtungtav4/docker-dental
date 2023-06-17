@@ -170,17 +170,17 @@
         <div class="wrapper">
           <h2 class="ttl-primary ttl-primary--is-medium">TIẾN SĨ – BÁC SĨ NGUYỄN HIẾU TÙNG LUÔN TẬN TÂM ĐIỀU TRỊ CHO MỖI BỆNH NHÂN</h2>
           <div class="m-review">
-            <div class="m-review_img is-pc"><img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/bs-tung/img_cus.jpg" alt=""></div>
+            <div class="m-review_img is-pc"><img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/bs-tung/sp/benh-nhan-azais-stephane.png" alt=""></div>
             <div class="m-review_info">
               <div class="head">
-                <div class="img is-sp"><img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/bs-tung/sp/img_cus.jpg" alt=""></div>
+                <div class="img is-sp"><img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/bs-tung/sp/benh-nhan-azais-stephane.png" alt=""></div>
                 <div class="name"><span>Khách hàng</span>
-                  <div class="nm">Mr Long M Lee<small>55 Tuổi</small></div>
-                  <div class="lca">Việt Kiều Mỹ</div>
+                  <div class="nm">Azais Stephane<small>40 Tuổi</small></div>
+                  <div class="lca">Pháp</div>
                 </div>
               </div>
               <div class="body">
-                <p class="text">Tình trạng: Hàm trên của chú mất hết răng, tiêu xương nặng và hàm dưới bị nha chu lung lay có nguy cơ mất răng hết cả hàm<br>Tình trạng: Thực hiện ghép xương và cấy Implant All on 6 hàm trên, điều trị nha chu hàm dưới đồng thời cấy 4 trụ Implant vào những vị trí răng mất, giúp chú có răng ăn nhai tốt, thẩm mỹ cao và cải thiện sức khỏe cho chú<br>Bác sĩ Tùng thăm khám và tư vấn rất kỹ. Cho chú biết rõ quy trình điều trị thế nào, trấn an tinh thần chú nhiều. Nên lúc phẫu thuật, chú thoải mái lắm, không lo lắng hay đau nhức gì</p>
+                <p class="text">Mr.Azais Stephane (40 tuổi, Pháp), một trong những khách hàng đã được Bác sĩ Tùng cấy ghép Implant thành công. <br>Dù phải trải qua ca phẫu thuật cấy đến 10 trụ Implant, nhưng Mr.Azais vui vẻ chia sẻ “Suốt ca phẫu thuật tôi rất thoải mái, do Bác sĩ Tùng làm nhẹ nhàng lắm, không có cảm giác đau như tôi vẫn lo lắng”</p>
               </div>
             </div>
           </div>
@@ -202,10 +202,17 @@
           </div>
           <p class="text">Và hàng ngàn bệnh nhân đều có cùng cảm nhận như chú Long M Lee, sau khi được Bác sĩ Tùng thực hiện thành công kỹ thuật cấy ghép Implant toàn hàm, để khôi phục lại một hàm răng bền đẹp, chắc khỏe.</p>
           <ul class="l-clip">
-            <li><a class="vidplay" href="https://www.youtube.com/watch?v=WXX4qCbyts0"><img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/bs-tung/bg_video.jpg"></a></li>
-            <li><a class="vidplay" href="https://www.youtube.com/watch?v=WXX4qCbyts0"><img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/bs-tung/bg_video.jpg"></a></li>
+            <li>
+              <iframe width="100%" height="315" src="https://www.youtube.com/embed/Me84dHwKie0" title="Cảm nhận bệnh nhân sau khi TRỒNG IMPLANT | Nha khoa I-DENT"></iframe>
+            </li>
+            <li>
+              <iframe width="100%" height="315" src="https://www.youtube.com/embed/PnQv22uYq_w"title="Cảm nhận bệnh nhân sau khi TRỒNG IMPLANT | Nha khoa I-DENT"></iframe>
+            </li>
+            <!-- <li><a class="vidplay" href="https://www.youtube.com/watch?v=WXX4qCbyts0"><img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/bs-tung/bg_video.jpg"></a></li> -->
+            <!-- <li><a class="vidplay" href="https://www.youtube.com/watch?v=WXX4qCbyts0"><img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/bs-tung/bg_video.jpg"></a></li> -->
           </ul>
-          <p class="text">Đặc biệt, yếu tố sức khỏe của bệnh nhân luôn được TS.BS Nguyễn Hiếu Tùng đặt lên hàng đầu, đề cao chữ TÂM của người thầy thuốc chứ không phải chạy theo lợi nhuận kinh doanh. Những bệnh nhân đến trồng răng Implant tại nha khoa I-DENT trước khi thực hiện cấy ghép đều được chụp CT Scanner 3D vùng xương hàm, xét nghiệm, kiểm tra tình trạng sức khỏe và lịch sử các bệnh lý nền. Nếu bệnh nhân đảm bảo đủ điều kiện sức khỏe, Bác sĩ Tùng mới đồng ý cấy ghép Implant. Các trường hợp không đảm bảo vấn đề sức khỏe, tùy vào tình trạng thực tế của mỗi bệnh nhân mà bác sĩ Tùng đưa ra phương án điều trị phù hợp chứ không phải bệnh nhân nào cũng sẽ tiến hành cấy ghép Implant được. Điều này giúp đảm bảo sức khỏe lâu dài cho bệnh nhân, tránh được các biến chứng có thể xảy ra nếu sức khỏe bệnh nhân không đảm bảo.<br><br>Để thực hiện thành công những ca mất răng khó như trên, TS.BS Nguyễn Hiếu Tùng trực tiếp ứng dụng Công nghệ trồng răng theo tiêu chuẩn Pháp, cùng hệ thống máy móc, trang thiết bị hiện đại nhập khẩu trực tiếp từ Mỹ và châu Âu như: hệ thống chẩn đoán hình ảnh đa chiều CT Cone Beam (USA), máy phẫu thuật Implant; trụ Implant cao cấp chính hãng nhập khẩu từ Mỹ, Đức, Thụy Sỹ, Pháp, công nghệ CAD/CAM 3D… cùng hệ thống phòng điều trị vô trùng tuyệt đối bằng đèn cực tím theo tiêu chuẩn của Bộ Y Tế. Cho phép quá trình trồng răng Implant diễn ra đạt tỉ lệ thành công lên đến 100%, quá trình cấy ghép An toàn – Chính xác – Không đau – Thẩm mỹ và không để lại biến chứng. Kết hợp cùng công nghệ gây tê tiên tiến, giúp khách hàng cảm thấy thoải mái, không đau trong suốt quá trình cấy ghép trụ Implant.<br><br>Bên cạnh đó, TS.BS Nguyễn Hiếu Tùng là một trong số ít những Bác sĩ tại Việt Nam thực hiện thành thạo 2 kỹ thuật cấy ghép Implant toàn hàm phức tạp là Implant All on 4 và All on 6. Đồng thời là một trong những người đầu tiên thực hiện kỹ thuật cấy ghép Implant toàn hàm cường lực bắt vít, gắn răng hoàn tất chỉ trong 3 ngày. Đây là phương án sử dụng hàm nhựa cường lực bắt vít trên Implant, giúp khách hàng khôi phục răng mất toàn hàm chỉ sau 3 ngày, tiết kiệm tối đa thời gian và chi phí. Phương án này thích hợp cho những người bận rộn, hoặc Kiều bào về nước không có quá nhiều thời gian.<br><br>Hiện nay, ngoài vai trò là Giám đốc Nha khoa I-DENT, Tiến sĩ - Bác sĩ Nguyễn Hiếu Tùng đang là thành viên của Hiệp hội quốc tế (ICOI) và là Viện trưởng Viện phát triển Nha khoa Thành Công (DDS Institute). Bác sĩ Tùng cũng thường xuyên tham gia các hội thảo về Implant tại Châu Âu và tiên phong ứng dụng những kỹ thuật trồng răng mới nhất về trong nước.</p>
+          <p class="text">Đặc biệt, <b>yếu tố sức khỏe</b> của bệnh nhân luôn được TS.BS Nguyễn Hiếu Tùng đặt lên hàng đầu, đề cao chữ TÂM của người thầy thuốc chứ không phải chạy theo lợi nhuận kinh doanh. </p>
+          <p class="text">Những bệnh nhân đến trồng răng Implant tại nha khoa I-DENT trước khi thực hiện cấy ghép đều được chụp CT Scanner 3D vùng xương hàm, xét nghiệm, kiểm tra tình trạng sức khỏe và lịch sử các bệnh lý nền. Nếu bệnh nhân đảm bảo đủ điều kiện sức khỏe, Bác sĩ Tùng mới đồng ý cấy ghép Implant. Các trường hợp không đảm bảo vấn đề sức khỏe, tùy vào tình trạng thực tế của mỗi bệnh nhân mà bác sĩ Tùng đưa ra phương án điều trị phù hợp chứ không phải bệnh nhân nào cũng sẽ tiến hành cấy ghép Implant được. Điều này giúp đảm bảo sức khỏe lâu dài cho bệnh nhân, tránh được các biến chứng có thể xảy ra nếu sức khỏe bệnh nhân không đảm bảo.<br><br>Để thực hiện thành công những ca mất răng khó như trên, TS.BS Nguyễn Hiếu Tùng trực tiếp ứng dụng Công nghệ trồng răng theo tiêu chuẩn Pháp, cùng hệ thống máy móc, trang thiết bị hiện đại nhập khẩu trực tiếp từ Mỹ và châu Âu như: hệ thống chẩn đoán hình ảnh đa chiều CT Cone Beam (USA), máy phẫu thuật Implant; trụ Implant cao cấp chính hãng nhập khẩu từ Mỹ, Đức, Thụy Sỹ, Pháp, công nghệ CAD/CAM 3D… cùng hệ thống phòng điều trị vô trùng tuyệt đối bằng đèn cực tím theo tiêu chuẩn của Bộ Y Tế. Cho phép quá trình trồng răng Implant diễn ra đạt tỉ lệ thành công lên đến 100%, quá trình cấy ghép An toàn – Chính xác – Không đau – Thẩm mỹ và không để lại biến chứng. Kết hợp cùng công nghệ gây tê tiên tiến, giúp khách hàng cảm thấy thoải mái, không đau trong suốt quá trình cấy ghép trụ Implant.<br><br>Bên cạnh đó, TS.BS Nguyễn Hiếu Tùng là một trong số ít những Bác sĩ tại Việt Nam thực hiện thành thạo 2 kỹ thuật cấy ghép Implant toàn hàm phức tạp là Implant All on 4 và All on 6. Đồng thời là một trong những người đầu tiên thực hiện kỹ thuật cấy ghép Implant toàn hàm cường lực bắt vít, gắn răng hoàn tất chỉ trong 3 ngày. Đây là phương án sử dụng hàm nhựa cường lực bắt vít trên Implant, giúp khách hàng khôi phục răng mất toàn hàm chỉ sau 3 ngày, tiết kiệm tối đa thời gian và chi phí. Phương án này thích hợp cho những người bận rộn, hoặc Kiều bào về nước không có quá nhiều thời gian.<br><br>Hiện nay, ngoài vai trò là Giám đốc Nha khoa I-DENT, Tiến sĩ - Bác sĩ Nguyễn Hiếu Tùng đang là thành viên của Hiệp hội quốc tế (ICOI) và là Viện trưởng Viện phát triển Nha khoa Thành Công (DDS Institute). Bác sĩ Tùng cũng thường xuyên tham gia các hội thảo về Implant tại Châu Âu và tiên phong ứng dụng những kỹ thuật trồng răng mới nhất về trong nước.</p>
           <div class="hinhdanh">
             <div class="wrap">
               <div class="img"><img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/bs-tung/img_04.png" alt=""></div>
@@ -221,27 +228,27 @@
           <div class="l-paper js-paper-slide">
             <div class="m-paper_item">
               <div class="m-paper_inner">
-                <div class="m-paper_wrap"><img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/top/img_wallpaper_01.jpg" alt="">
+                <div class="m-paper_wrap"><img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/bs-tung/bs-ts-nguyen-hieu-tung-cafef.png" alt="">
                   <div class="m-paper_btn">
-                    <div class="m-btn"><a href="#">Xem chi tiết</a></div>
+                    <div class="m-btn"><a target="_blank" href="https://cafef.vn/tsbs-nguyen-hieu-tung-chuyen-gia-cay-ghep-implant-hang-dau-viet-nam-20201030152808412.chn">Xem chi tiết</a></div>
                   </div>
                 </div>
               </div>
             </div>
             <div class="m-paper_item">
               <div class="m-paper_inner">
-                <div class="m-paper_wrap"><img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/top/img_wallpaper_01.jpg" alt="">
+                <div class="m-paper_wrap"><img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/bs-tung/bs-ts-nguyen-hieu-tung-thanh-nien.png" alt="">
                   <div class="m-paper_btn">
-                    <div class="m-btn"><a href="#">Xem chi tiết</a></div>
+                    <div class="m-btn"><a target="_blank" href="https://thanhnien.vn/trong-rang-implant-an-toan-cung-tien-si-bac-si-nguyen-hieu-tung-1851038344.htm">Xem chi tiết</a></div>
                   </div>
                 </div>
               </div>
             </div>
             <div class="m-paper_item">
               <div class="m-paper_inner">
-                <div class="m-paper_wrap"><img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/top/img_wallpaper_01.jpg" alt="">
+                <div class="m-paper_wrap"><img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/bs-tung/danh-gia-dich-implant-nha-khoa-i-dent.png" alt="">
                   <div class="m-paper_btn">
-                    <div class="m-btn"><a href="#">Xem chi tiết</a></div>
+                    <div class="m-btn"><a target="_blank" href="https://vtv.vn/goc-khan-gia/cay-ghep-implant-cong-nghe-phap-cung-tien-si-bac-si-nguyen-hieu-tung-20201030130353231.htm">Xem chi tiết</a></div>
                   </div>
                 </div>
               </div>

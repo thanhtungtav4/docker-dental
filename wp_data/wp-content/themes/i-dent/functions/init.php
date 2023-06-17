@@ -19,8 +19,8 @@ define( 'PLACEHOLDER-NEWS-ITEM-THUMB', 'http://via.placeholder.com/359x259');
 define( 'PLACEHOLDER-NEWS-BIG-THUMB', 'http://via.placeholder.com/556x370');
 define( 'PLACEHOLDER-SIDEBAR-THUMB', 'http://via.placeholder.com/360x630');
 define( 'PLACEHOLDER-NEWS-DETAIL-THUMB', 'http://via.placeholder.com/780x470');
-define( 'PLACEHOLDER-NEWS-TV-THUMB', 'http://via.placeholder.com/590x315');
-define( 'PLACEHOLDER-EKIP-THUMB', 'http://via.placeholder.com/330x378');
+define( 'PLACEHOLDER-CUSTOMER-PIC-THUMB', 'http://via.placeholder.com/612x634');
+
 // setup
 function corporate_setup() {
 	add_theme_support( 'post-thumbnails' );
@@ -39,23 +39,20 @@ add_action( 'wp_enqueue_scripts', 'corporate_enqueue_style' );
 add_action( 'after_setup_theme', 'corporate_theme_setup' );
 function corporate_theme_setup() {
 	add_image_size( 'SLIDE-THUMBPC', 1274, 431, true );
-	add_image_size( 'SLIDE-THUMBSP', 376, 376, true );
+	add_image_size( 'SLIDE-THUMBSP', 414, 414, true );
 	add_image_size( 'REVIEW-THUMB', 590, 315, true );
 	add_image_size( 'SERVICE-THUMB', 365, 520, true );
 	add_image_size( 'DOCTOR-THUMB', 263, 375, true );
 	add_image_size( 'DOCTOR-MIN-THUMB', 198, 246, true );
 	add_image_size( 'VIDEO-THUMB', 650, 366, true );
 	add_image_size( 'VIDEO-MIN-THUMB', 188, 106, true );
-	add_image_size( 'NEWS-THUMB', 275, 458, true );
+	add_image_size( 'NEWS-THUMB', 370, 616, true );
 	add_image_size( 'NEWS-PC-THUMB', 370, 616, true );
-	add_image_size( 'NEWS-TV-THUMB', 590, 315, true );
 	add_image_size( 'NEWS-ITEM-THUMB', 359, 259, true );
 	add_image_size( 'NEWS-BIG-THUMB', 556, 370, true );
 	add_image_size( 'SIDEBAR-THUMB', 360, 630, true );
 	add_image_size( 'NEWS-DETAIL-THUMB', 780, 470, true );
-	add_image_size( 'EKIP-THUMB', 330, 378, true );
-	add_image_size( 'CUSTOMER-MAIN-THUMB', 548, 714, true );
-	add_image_size( 'CUSTOMER-SMAIL-THUMB', 468, 346, true );
+	add_image_size( 'CUSTOMER-PIC-THUMB', 612, 634, true );
 }
 
 /**
