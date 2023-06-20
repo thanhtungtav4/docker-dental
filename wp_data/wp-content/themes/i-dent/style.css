@@ -107,3 +107,37 @@ Text Domain: i-dent
   display: flex;
   align-items: center;
 }
+/* // change css */
+.vidplay::before {
+   background: unset;
+}
+.text {
+  padding-bottom: 10px;
+}
+.p-all-in .mv .ttl {
+  top: unset;
+  padding-top: 24px;
+}
+.p-doctung .slick-slide img {
+  width: 100%;
+}
+@media screen and (max-width: 767px) {
+  .p-all-in .mv .ttl {
+    top: unset;
+    padding-top: 10px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .ttl-secondary {
+    font-size: 20px;
+  }
+}
+.l-demo_item .demo-info_name .lca {
+  color: #ff4040;
+}
+@media screen and (min-width: 768px) {
+  .landing-page-gom-intro{
+    padding-left: 170px;
+    padding-right: 170px;
+  }
+}
