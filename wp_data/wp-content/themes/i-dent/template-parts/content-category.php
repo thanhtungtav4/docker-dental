@@ -7,6 +7,7 @@
  * @package recruit
  */
 $category = get_queried_object()->slug;
+// var_dump($category);
 $paged = get_query_var( 'paged' ) ? get_query_var( 'paged' ) : 1;
 $queryPost = new WP_Query(
 	array(
@@ -37,7 +38,9 @@ $querySticky = new WP_Query(
           </figure>
           <div class="info">
             <span class="tag"><?php echo single_cat_title('' , true ); ?></span>
-            <h3 class="title js-height"><?php the_title(); ?></h3>
+            <a href="<?php the_permalink() ?>">
+              <h3 class="title js-height"><?php the_title(); ?></h3>
+            </a>
             <p class="text"><?php echo wp_trim_words(get_the_excerpt(), 40, '...'); ?></p>
             <div class="m-btn is-reverse">
               <a href="<?php the_permalink() ?>">Xem thêm</a>

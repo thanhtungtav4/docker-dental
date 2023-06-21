@@ -1,5 +1,5 @@
-<?php 
-if(class_exists('ACF')) : 
+<?php
+if(class_exists('ACF')) :
 $postID = get_field('main_customer');
 $queryCustomer = new WP_Query(
     array(
@@ -15,7 +15,7 @@ $queryCustomer = new WP_Query(
   <div class="wrapper">
     <h2 class="ttl-primary">I-DENT CÂU CHUYỆN KHÁCH HÀNG</h2>
     <div class="m-customer_slide js-cus-slide">
-      <?php if ( $queryCustomer->have_posts() ) : 
+      <?php if ( $queryCustomer->have_posts() ) :
             while ( $queryCustomer->have_posts() ) : $queryCustomer->the_post();
             $sex = get_field('sex', get_the_ID());
             $title = get_the_title();
@@ -23,7 +23,7 @@ $queryCustomer = new WP_Query(
         <div class="m-customer_item">
           <div class="m-customer_inner">
             <figure class="image">
-              <?php echo get_handle_thumbnail('CUSTOMER-PIC-THUMB'); ?>
+              <?php handle_thumbnail_id(get_field('customer_image_main'), 'full') ?>
             </figure>
             <div class="info">
               <h3 class="cus-name"><?php echo $sex . '&nbsp;' . $title; ?></h3>
@@ -42,4 +42,4 @@ $queryCustomer = new WP_Query(
     </div>
   </div>
  </section>
-<?php endif; ?>   
+<?php endif; ?>

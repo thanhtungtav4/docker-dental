@@ -17,7 +17,7 @@
         <img class="is-sp" loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/service/sp/bnr.png" alt="">
         <h1 class="ttl">TRỒNG RĂNG IMPLANT <span>CÙNG TIẾN SĨ</span>
         </h1>
-        <div class="txt">Cô chú, anh chị mất răng lâu năm, mất răng toàn hàm <br>và tiêu xương không còn nỗi lo mất răng, ăn nhai yếu và <br>sức khỏe kém. </div>
+        <div class="txt">Mất răng lâu năm, mất răng toàn hàm không còn nỗi lo thẩm mỹ, <br>ăn nhai yếu và sức khỏe kém. </div>
         <a class="btn trans" href="#">
           <img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/service/bnr_btn.svg" alt="ĐẶT LỊCH HẸN">
         </a>
@@ -26,13 +26,14 @@
         <div class="wrapper">
           <div class="m-problem_inner">
             <div class="left">
-              <h2 class="ttl-primary ttl-primary--is-medium">NHỮNG VẤN ĐỀ THƯỜNG GẶP KHI KHÁCH HÀNG <br>TÌM ĐẾN NHA KHOA I-DENT </h2>
+              <h2 class="ttl-primary ttl-primary--is-medium">TRẢI LÒNG CỦA BỆNH NHÂN KHI <br>TÌM ĐẾN NHA KHOA I-DENT </h2>
               <ul class="l-check">
-                <li>Khách hàng mất nhiều răng hoặc mất răng toàn hàm.</li>
-                <li>Khách hàng mất răng lâu năm bị tiêu xương hàm.</li>
-                <li>Khách hàng lớn tuổi mất răng và sợ đau.</li>
-                <li>Khách hàng trồng răng không thành công ở những nha khoa thiếu uy tín.</li>
-                <li>Khách hàng Kiều bào ở xa muốn về nước trồng răng nhưng không có nhiều thời gian.</li>
+                <li>Bệnh nhân <strong>ngại giao tiếp</strong> do mất răng toàn hàm hoặc răng cửa.</li>
+                <li>Rất thèm những món ăn Việt Nam, nhưng <strong>không nhai được</strong> và mất vị giác.</li>
+                <li>Bị <strong>tiêu xương hàm</strong>, gương mặt chảy xệ, lão hóa nhanh.</li>
+                <li>Bệnh nhân lớn tuổi mất răng và <strong>rất sợ đau.</strong></li>
+                <li>Bệnh nhân <b>trồng răng không thành công</b> ở những nha khoa thiếu uy tín.</li>
+                <li><b>Kiều bào ở xa</b> muốn về nước trồng răng nhưng thời gian eo hẹp.</li>
               </ul>
             </div>
             <div class="right">
@@ -49,25 +50,25 @@
               <div class="img">
                 <img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/service/img_cir_01.png" alt="">
               </div>
-              <p class="text">Trồng răng Implant toàn hàm All On 4 | All On 5 | All On 6 tối ưu cho trường hợp mất nhiều răng, mất răng toàn hàm và tiêu xương.</p>
+              <p class="text">Trồng răng Implant<br>công nghệ Pháp</p>
             </li>
             <li>
               <div class="img">
                 <img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/service/img_cir_02.png" alt="">
               </div>
-              <p class="text">Kỹ thuật đặt trụ <br> Implant không đau chỉ <br> 7 phút/trụ. </p>
+              <p class="text">Kỹ thuật đặt trụ implant<br>7 phút không đau</p>
             </li>
             <li>
               <div class="img">
                 <img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/service/img_cir_03.png" alt="">
               </div>
-              <p class="text">Tiến sĩ - Bác sĩ Nguyễn Hiếu Tùng thực hiện, kinh nghiệm hơn 10,000 ca Implant khó và phức tạp.</p>
+              <p class="text">BS-TS Nguyễn Hiếu Tùng<br>trực tiếp thực hiện</p>
             </li>
             <li>
               <div class="img">
                 <img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/service/img_cir_04.png" alt="">
               </div>
-              <p class="text">Thiết kế phác đồ và lộ trình trồng răng riêng, phù hợp thời gian và thuận tiện cho Kiều bào.</p>
+              <p class="text">Thiết kế lộ trình riêng<br>cho kiều bào nước ngoài</p>
             </li>
           </ul>
           <div class="box-phacdo">
@@ -94,11 +95,9 @@
       <section class="m-chuyensau">
         <div class="wrapper">
           <h2 class="ttl-primary ttl-primary--is-medium">NHA KHOA I-DENT CHUYÊN SÂU CẤY GHÉP IMPLANT</h2>
-          <p class="text">Trồng răng Implant là kỹ thuật khôi phục răng mất tiên tiến nhất hiện nay và được ứng dụng từ lâu tại nhiều nước trên thế giới. Tuy nhiên, ở Việt Nam phương án này vẫn chưa tiếp cận được với nhiều đối tượng khách hàng.  <br>
-            <br>Do những nguyên nhân sau: chưa có nhiều nha khoa đáp ứng về cơ sở vật chất, công nghệ và thiết bị để cấy Implant; rất ít bác sĩ có đủ chuyên môn và kinh nghiệm để thực hiện kỹ thuật Implant phức tạp; chi phí trồng răng chưa thật sự minh bạch, rõ ràng. <br>
-            <br>Vì vậy, để đưa công nghệ Implant tiếp cận gần hơn và điều trị tốt nhất cho người mất răng ở trong nước, Tiến sĩ - Bác sĩ Nguyễn Hiếu Tùng đã nỗ lực nghiên cứu và thực hành chuyên sâu hơn 10 năm tại Pháp. Để đến năm 2014, trở về Việt Nam và thành lập nên nha khoa I-Dent - Chuyên sâu cấy ghép Implant. Với sứ mệnh không chỉ mang đến cho khách hàng một hàm răng mới, đảm bảo chức năng ăn nhai tốt và tính thẩm mỹ cao, mà còn mang đến sức khỏe lâu dài cùng sự hài lòng tuyệt đối cho từng khách hàng. <br>
-            <br>Luôn đề cao 3 giá trị cốt lõi Tận tâm, Chất lượng và Uy tín đã giúp I-Dent ngày càng phát triển. Với đội ngũ Tiến sĩ, Bác sĩ CKI chuyên sâu về Implant; Hệ thống công nghệ, thiết bị cấy ghép chuyển giao từ Châu Âu và Hệ thống trụ Implant cao cấp, chính hãng. <br>
-            <br>Nhờ đó, nha khoa I-Dent đã trở thành địa chỉ uy tín hàng đầu về trồng răng Implant cho khách hàng trong nước và Kiều bào. Với hơn 10,000 ca Implant thành công.
+          <p class="text landing-page-gom-intro">Để đưa công nghệ Implant tiếp cận gần hơn cho những bệnh nhân mất răng, <strong>Tiến sĩ - Bác sĩ Nguyễn Hiếu Tùng</strong> đã nỗ lực nghiên cứu và thực hành hơn 10 năm tại Pháp. Đến năm 2014, trở về Việt Nam và thành lập nên nha khoa I-Dent - Chuyên sâu cấy ghép Implant. </p>
+          <p class="text landing-page-gom-intro">Sứ mệnh của I-Dent là khôi phục lại nụ cười tự tin và sức khỏe cho từng bệnh nhân. Luôn đề cao 3 giá trị cốt lõi <b>Tận tâm, Chất lượng và uy tín</b> đã giúp I-Dent ngày càng phát triển.</p>
+          <p class="text landing-page-gom-intro"> Với đội ngũ Tiến sĩ, Bác sĩ CKI, hệ thống công nghệ, thiết bị chuyển giao từ Châu Âu cùng với việc lựa chọn trụ Implant cao cấp, chính hãng. Nha khoa I-Dent đã trở thành địa chỉ uy tín hàng đầu về trồng răng Implant cho kiều bào trong và ngoài nước. Với hơn <b>10,000 ca Implant thành công</p>
           </p>
         </div>
       </section>
@@ -789,11 +788,6 @@
               </div>
             </li>
           </ul>
-          <ul class="l-outstand">
-            <li>
-              <a class="trans" href="#">Tặng một máy tăm nước cao cấp trị giá 2.000.000 đ khi cấy từ 2 trụ Implant trở lên.</a>
-            </li>
-          </ul>
         </div>
       </div>
       <section class="m-faq">
@@ -824,7 +818,7 @@
             </li>
             <li class="l-faq_item">
               <div class="heading">
-                <h3 class="question ttl-secondary">3. Chi phí trồng răng Implant có cao không?</h3>
+                <h3 class="question ttl-secondary">3. Có nên trồng răng Implant giá rẻ vài triệu không?</h3>
                 <div class="m-btn is-reverse">
                   <a href="javascript:;">Trả lời</a>
                 </div>
@@ -835,7 +829,7 @@
             </li>
             <li class="l-faq_item">
               <div class="heading">
-                <h3 class="question ttl-secondary">4. Có nên trồng răng Implant giá rẻ vài triệu không?</h3>
+                <h3 class="question ttl-secondary">4. Mất răng lâu năm, trồng răng Implant được không?</h3>
                 <div class="m-btn is-reverse">
                   <a href="javascript:;">Trả lời</a>
                 </div>
@@ -846,51 +840,7 @@
             </li>
             <li class="l-faq_item">
               <div class="heading">
-                <h3 class="question ttl-secondary">5. Các loại trụ Implant có gì khác nhau?</h3>
-                <div class="m-btn is-reverse">
-                  <a href="javascript:;">Trả lời</a>
-                </div>
-              </div>
-              <div class="answer">
-                <p class="text">Loremipsum</p>
-              </div>
-            </li>
-            <li class="l-faq_item">
-              <div class="heading">
-                <h3 class="question ttl-secondary">6. Mất răng lâu năm, trồng răng Implant được không?</h3>
-                <div class="m-btn is-reverse">
-                  <a href="javascript:;">Trả lời</a>
-                </div>
-              </div>
-              <div class="answer">
-                <p class="text">Loremipsum</p>
-              </div>
-            </li>
-            <li class="l-faq_item">
-              <div class="heading">
-                <h3 class="question ttl-secondary">7. Mất hết răng hàm trên, trồng răng Implant được không?</h3>
-                <div class="m-btn is-reverse">
-                  <a href="javascript:;">Trả lời</a>
-                </div>
-              </div>
-              <div class="answer">
-                <p class="text">Loremipsum</p>
-              </div>
-            </li>
-            <li class="l-faq_item">
-              <div class="heading">
-                <h3 class="question ttl-secondary">8. Mất 3 răng liền kề, trồng mấy trụ Implant?</h3>
-                <div class="m-btn is-reverse">
-                  <a href="javascript:;">Trả lời</a>
-                </div>
-              </div>
-              <div class="answer">
-                <p class="text">Loremipsum</p>
-              </div>
-            </li>
-            <li class="l-faq_item">
-              <div class="heading">
-                <h3 class="question ttl-secondary">9. Người lớn tuổi có cấy ghép Implant được không?</h3>
+                <h3 class="question ttl-secondary">5. Người lớn tuổi có cấy ghép Implant được không?</h3>
                 <div class="m-btn is-reverse">
                   <a href="javascript:;">Trả lời</a>
                 </div>
@@ -959,29 +909,110 @@
       </section>
       <section class="m-cus">
         <div class="wrapper">
-          <h2 class="ttl-primary ttl-primary--is-medium">KHÁCH HÀNG ĐÃ LÀM TẠI NHA KHOA I-DENT</h2>
+          <h2 class="ttl-primary ttl-primary--is-medium">KHÁCH HÀNG ĐÃ CẤY IMPLANT TẠI NHA KHOA I-DENT</h2>
           <ul class="l-demo js-demo">
             <li class="l-demo_item">
               <div class="wrap">
                 <div class="demo-img">
                   <div class="img-big">
-                    <img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/bs-tung/img_big_01.jpg" alt="">
+                    <img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/bs-tung/img_big_01.jpg" alt="">
                   </div>
                   <div class="img-small">
-                    <div class="img before">undefined<img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/bs-tung/img_small_01.jpg" alt="">undefined</div>undefined<div class="img after">undefined<img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/bs-tung/img_small_02.jpg" alt="">undefined</div>undefined
+                    <div class="img before">
+                      <img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/bs-tung/img_small_01.jpg" alt="">
+                    </div>
+                    <div class="img after">
+                      <img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/bs-tung/img_small_02.jpg" alt="">
+                    </div>
                   </div>
                 </div>
-                <div class="demo-info">undefined<div class="demo-info_name">undefined<h3 class="name">CHÚ NGUYỄN HẢI</h3>undefined<span class="lca">VIỆT KIỀU MỸ</span>undefined</div>undefined<div class="type">Phương án: Trồng răng toàn hàm ALL ON 4</div>undefined<div class="implant">Loại trụ: Implant Mis C1 Đức</div>
+                <div class="demo-info">
+                  <div class="demo-info_name">
+                    <h3 class="name">CHÚ NGUYỄN HẢI</h3>
+                    <span class="lca">VIỆT KIỀU MỸ</span>
+                  </div>
+                  <div class="type">Phương án: Trồng răng toàn hàm ALL ON 4</div>
+                  <div class="implant">Loại trụ: Implant Mis C1 Đức</div>
                 </div>
               </div>
             </li>
             <li class="l-demo_item">
               <div class="wrap">
-                <div class="demo-img">undefined<div class="img-big">undefined<img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/bs-tung/img_big_02.jpg" alt="">undefined</div>undefined<div class="img-small">undefined<div class="img before">undefined<img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/bs-tung/img_small_03.jpg" alt="">undefined</div>undefined<div class="img after">undefined<img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/bs-tung/img_small_04.jpg" alt="">undefined</div>undefined</div>undefined</div>undefined<div class="demo-info">undefined<div class="demo-info_name">undefined<h3 class="name">CHÚ NGUYỄN TẤN DŨNG</h3>undefined<span class="lca">VIỆT KIỀU MỸ</span>undefined</div>undefined<div class="type">Phương án: Trồng răng 2 hàm ALL ON 4</div>undefined<div class="implant">Loại trụ: Implant Mis C1 Đức</div>undefined</div>undefined
-              </div>undefined
-            </li>undefined<li class="l-demo_item">undefined<div class="wrap">undefined<div class="demo-img">undefined<div class="img-big">undefined<img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/bs-tung/img_big_03.jpg" alt="">undefined</div>undefined<div class="img-small">undefined<div class="img before">undefined<img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/bs-tung/img_small_05.jpg" alt="">undefined</div>undefined<div class="img after">undefined<img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/bs-tung/img_small_06.jpg" alt="">undefined</div>undefined</div>undefined</div>undefined<div class="demo-info">undefined<div class="demo-info_name">undefined<h3 class="name">CÔ KHỔNG NỮ ĐẠT</h3>undefined<span class="lca">VIỆT KIỀU MỸ</span>undefined</div>undefined<div class="type">Phương án: Trồng răng toàn hàm ALL ON 6</div>undefined<div class="implant">Loại trụ: Implant Mis C1 Đức</div>undefined</div>undefined</div>undefined</li>undefined<li class="l-demo_item">undefined<div class="wrap">undefined<div class="demo-img">undefined<div class="img-big">undefined<img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/bs-tung/img_big_04.jpg" alt="">undefined</div>undefined<div class="img-small">undefined<div class="img before">undefined<img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/bs-tung/img_small_07.jpg" alt="">undefined</div>undefined<div class="img after">undefined<img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/bs-tung/img_small_08.jpg" alt="">undefined</div>undefined</div>undefined</div>undefined<div class="demo-info">undefined<div class="demo-info_name">undefined<h3 class="name">CHÚ LÊ CHÍ BÌNH</h3>undefined<span class="lca">TP. HỒ CHÍ MINH</span>undefined</div>undefined<div class="type">Phương án: Trồng răng toàn hàm ALL ON 6</div>undefined<div class="implant">Loại trụ: Implant Mis C1 Đức</div>undefined</div>undefined</div>undefined</li>undefined
-          </ul>undefined
-        </div>undefined
+                <div class="demo-img">
+                  <div class="img-big">
+                    <img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/bs-tung/img_big_02.jpg" alt="">
+                  </div>
+                  <div class="img-small">
+                    <div class="img before">
+                      <img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/bs-tung/img_small_03.jpg" alt="">
+                    </div>
+                    <div class="img after">
+                      <img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/bs-tung/img_small_04.jpg" alt="">
+                    </div>
+                  </div>
+                </div>
+                <div class="demo-info">
+                  <div class="demo-info_name">
+                    <h3 class="name">CHÚ NGUYỄN TẤN DŨNG</h3>
+                    <span class="lca">VIỆT KIỀU MỸ</span>
+                  </div>
+                  <div class="type">Phương án: Trồng răng 2 hàm ALL ON 4</div>
+                  <div class="implant">Loại trụ: Implant Mis C1 Đức</div>
+                </div>
+              </div>
+            </li>
+            <li class="l-demo_item">
+              <div class="wrap">
+                <div class="demo-img">
+                  <div class="img-big">
+                    <img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/bs-tung/img_big_03.jpg" alt="">
+                  </div>
+                  <div class="img-small">
+                    <div class="img before">
+                      <img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/bs-tung/img_small_05.jpg" alt="">
+                    </div>
+                    <div class="img after">
+                      <img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/bs-tung/img_small_06.jpg" alt="">
+                    </div>
+                  </div>
+                </div>
+                <div class="demo-info">
+                  <div class="demo-info_name">
+                    <h3 class="name">CÔ KHỔNG NỮ ĐẠT</h3>
+                    <span class="lca">VIỆT KIỀU MỸ</span>
+                  </div>
+                  <div class="type">Phương án: Trồng răng toàn hàm ALL ON 6</div>
+                  <div class="implant">Loại trụ: Implant Mis C1 Đức</div>
+                </div>
+              </div>
+            </li>
+            <li class="l-demo_item">
+              <div class="wrap">
+                <div class="demo-img">
+                  <div class="img-big">
+                    <img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/bs-tung/img_big_04.jpg" alt="">
+                  </div>
+                  <div class="img-small">
+                    <div class="img before">
+                      <img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/bs-tung/img_small_07.jpg" alt="">
+                    </div>
+                    <div class="img after">
+                      <img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/bs-tung/img_small_08.jpg" alt="">
+                    </div>
+                  </div>
+                </div>
+                <div class="demo-info">
+                  <div class="demo-info_name">
+                    <h3 class="name">CHÚ LÊ CHÍ BÌNH</h3>
+                    <span class="lca">TP. HỒ CHÍ MINH</span>
+                  </div>
+                  <div class="type">Phương án: Trồng răng toàn hàm ALL ON 6</div>
+                  <div class="implant">Loại trụ: Implant Mis C1 Đức</div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
       </section>
 <?php
   require_once( get_stylesheet_directory() . '/module/contact-footer.php' );

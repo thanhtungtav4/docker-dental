@@ -91,53 +91,86 @@ Text Domain: i-dent
   width: 20px;
   height: 20px;
 }
-.uppercase {
-  text-transform: uppercase;
-}
-.screen-reader-response{
-  display: none;
-}
-.wpcf7-not-valid-tip, .wpcf7-response-output{
-  color: red;
-  font-size: 1.4rem;
-  padding: 1rem 0 0 1rem;
-  display: inline-block;
-}
-.language li > a{
-  display: flex;
-  align-items: center;
-}
-/* // change css */
+
+
+
+/*Tùng I-Dent update*/
 .vidplay::before {
-   background: unset;
+  background: none;
 }
+
+.m-price {
+  margin-top: 30px;
+}
+
+.p-all-in .mv .ttl {
+  top: 0;
+  padding-top: 1.3em;
+}
+
 .text {
   padding-bottom: 10px;
+  font-weight: 500;
 }
-.p-all-in .mv .ttl {
-  top: unset;
-  padding-top: 24px;
+.l-check li{
+  line-height:33px;
 }
-.p-doctung .slick-slide img {
-  width: 100%;
+
+ul.l-giaiphap .text{
+  text-align: center;
 }
-@media screen and (max-width: 767px) {
-  .p-all-in .mv .ttl {
-    top: unset;
-    padding-top: 10px;
-  }
+
+.certificate li{
+  font-weight: 500;
 }
-@media screen and (max-width: 767px) {
-  .ttl-secondary {
-    font-size: 20px;
-  }
-}
+
 .l-demo_item .demo-info_name .lca {
   color: #ff4040;
 }
+.m-article{
+  margin-top: 35px;
+}
+.m-detail_detail {
+  max-width: 800px;
+  margin: auto;
+}
+
+.l-3points_item .info .title{
+  max-width: 490px;
+}
+
+@media screen and (max-width: 767px) {
+  .p-all-in .mv .ttl {
+    padding-top: 1em;
+  }
+
+  .ttl-secondary {
+    font-size: 20px;
+    line-height: 33px;
+  }
+
+  .l-goods .ttl-secondary::before {
+    left: 0;
+    top: 10px;
+  }
+  ul.l-giaiphap .text{
+    font-size: 15px;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .landing-page-gom-intro{
     padding-left: 170px;
     padding-right: 170px;
+  }
+
+  .m-btn a:hover,
+  .m-btn button:hover {
+    background: linear-gradient(90deg, #ffe4a0 0%, #FBF08D 47.92%, #ffe4a0 100%);
+    color: #025899;
+  }
+
+  .l-breadcrumbs{
+    padding-left: 200px;
   }
 }

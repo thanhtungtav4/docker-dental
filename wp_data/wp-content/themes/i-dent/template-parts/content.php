@@ -42,7 +42,6 @@
                 require_once( get_stylesheet_directory() . '/module/box-doctor.php' );
               ?>
               <div class="m-article">
-                <p><?php the_excerpt(); ?></p>
                 <?php do_shortcode('[toc]')?>
                 <?php the_content(); ?>
               </div>
@@ -50,9 +49,6 @@
                 require_once( get_stylesheet_directory() . '/module/box-information.php' );
               ?>
             </article>
-            <?php
-              require_once( get_stylesheet_directory() . '/module/sidebar.php' );
-            ?>
           </div>
         </div>
       </div>

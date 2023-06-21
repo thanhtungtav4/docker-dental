@@ -25,7 +25,6 @@
             <div class="heading">
               <h2 class="ttl-primary ttl-primary--is-medium"><?php the_title()?></h2><span class="time"><?php echo get_the_date('d.m.Y')?></span>
             </div>
-            <p class="text intro-text"><?php echo wp_trim_words(get_the_excerpt()); ?></p>
             <div class="m-article">
              <?php the_content(); ?>
             </div>
