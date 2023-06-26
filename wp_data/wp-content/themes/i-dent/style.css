@@ -177,7 +177,10 @@ ul.l-giaiphap .text{
   background: #e4f4ff;
   padding: 10px;
 }
-
+.language li > a{
+  display: flex;
+  align-items: center;
+}
 /* Mobile setting */
 @media screen and (max-width: 767px) {
   .p-all-in .mv .ttl {

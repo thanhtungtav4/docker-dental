@@ -7,7 +7,7 @@
         $array['remote_ip'] = get_client_ip();
         $array['location_ip'] = get_location();
         $array['url_lead'] = full_url( $_SERVER );
-        $array['is_mobile'] = wp_is_mobile();
+        $array['is_mobile'] = wp_is_mobile() ? 'Mobile' : 'PC';
         $array['agent'] = get_user_agent();
         return $array;
     }
