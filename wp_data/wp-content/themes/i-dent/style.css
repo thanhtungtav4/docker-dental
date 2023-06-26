@@ -181,6 +181,14 @@ ul.l-giaiphap .text{
   display: flex;
   align-items: center;
 }
+.screen-reader-response{
+  display: none;
+}
+.wpcf7-response-output{
+  text-align: center;
+  color: #025899;
+  font-size: 1.5rem;
+}
 /* Mobile setting */
 @media screen and (max-width: 767px) {
   .p-all-in .mv .ttl {
