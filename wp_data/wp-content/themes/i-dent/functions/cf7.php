@@ -5,7 +5,8 @@
     function action_wpcf7_posted_data( $array ) {
         //'checkbox-name' is the name that you gave the field in the CF7 admin.
     $array['remote_ip'] = get_client_ip();
-    $array['location_ip'] = get_location();
+    $array['location_ip'] = null;
+    // $array['location_ip'] = get_location() ?: null;
     $array['url_lead'] = full_url( $_SERVER );
     $array['is_mobile'] = wp_is_mobile();
     $array['agent'] = get_user_agent();
@@ -34,12 +35,12 @@
         return $ipaddress;
     }
 
-    function get_location(){
-        $clien_ip = get_client_ip();
-        $geo = unserialize(file_get_contents("http://www.geoplugin.net/php.gp?ip=$clien_ip"));
-        $location = $geo["geoplugin_city"] - $geo["geoplugin_countryName"];
-        return $location;
-    }
+    // function get_location(){
+    //     $clien_ip = get_client_ip();
+    //     $geo = unserialize(file_get_contents("http://www.geoplugin.net/php.gp?ip=$clien_ip"));
+    //     $location = $geo["geoplugin_city"] - $geo["geoplugin_countryName"];
+    //     return !empty($location) ? $location : null;
+    // }
 
     function url_origin( $s, $use_forwarded_host = false )
     {
