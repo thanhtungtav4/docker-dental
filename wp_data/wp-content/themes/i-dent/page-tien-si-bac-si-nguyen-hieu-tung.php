@@ -12,7 +12,10 @@
  */
   get_header();
 ?>
-      <div class="mv"><img class="is-pc" loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/bs-tung/bnr.jpg" alt=""><img class="is-sp" loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/bs-tung/sp/bnr.jpg" alt=""><span class="title">TIẾN SĨ - BÁC SĨ</span>
+      <div class="mv">
+        <img class="is-pc" loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/bs-tung/bnr.jpg" alt="">
+        <img class="is-sp" loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/bs-tung/sp/bnr.jpg" alt="">
+        <span class="title">TIẾN SĨ - BÁC SĨ</span>
         <h1 class="name">NGUYỄN HIẾU TÙNG</h1>
         <p class="text">“ Sự Tân tâm không chỉ dừng lại ở Trách nhiệm<br>mà còn là Niềm tin và Hy vọng “</p><a class="btn is-sp" href="#"><img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/allinone/bnr_btn.svg" alt="ĐẶT LỊCH HẸN"></a>
       </div>
@@ -58,19 +61,37 @@
                     <div class="l-cer-img_wrap swiper-container js-slide-cer">
                       <div class="l-cer-img_inner zoom-gallery swiper-wrapper">
                         <div class="l-cer-img_item swiper-slide">
-                          <div><a href="<?php echo get_stylesheet_directory_uri() ?>/assets/images/bs-tung/nguyen-hieu-tung-10.jpg"><img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_01_cer_01.png" alt=""></a></div>
+                          <div><a href="<?php echo get_stylesheet_directory_uri() ?>/assets/images/bs-tung/bang-cap-nguyen-hieu-tung-11.jpg"><img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/bs-tung/bang-cap-nguyen-hieu-tung-11.jpg" alt=""></a></div>
                         </div>
                         <div class="l-cer-img_item swiper-slide">
-                          <div><a href="<?php echo get_stylesheet_directory_uri() ?>/assets/images/bs-tung/nguyen-hieu-tung-9.jpg"><img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_01_cer_02.png" alt=""></a></div>
+                          <div><a href="<?php echo get_stylesheet_directory_uri() ?>/assets/images/bs-tung/bang-cap-nguyen-hieu-tung-10.jpg"><img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/bs-tung/bang-cap-nguyen-hieu-tung-10.jpg" alt=""></a></div>
                         </div>
                         <div class="l-cer-img_item swiper-slide">
-                          <div><a href="<?php echo get_stylesheet_directory_uri() ?>/assets/images/bs-tung/nguyen-hieu-tung-11.jpg"><img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_01_cer_03.png" alt=""></a></div>
+                          <div><a href="<?php echo get_stylesheet_directory_uri() ?>/assets/images/bs-tung/bang-cap-nguyen-hieu-tung-9.jpg"><img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/bs-tung/bang-cap-nguyen-hieu-tung-9.jpg" alt=""></a></div>
                         </div>
                         <div class="l-cer-img_item swiper-slide">
-                          <div><a href="<?php echo get_stylesheet_directory_uri() ?>/assets/images/bs-tung/nguyen-hieu-tung-10.jpg"><img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_01_cer_03.png" alt=""></a></div>
+                          <div><a href="<?php echo get_stylesheet_directory_uri() ?>/assets/images/bs-tung/bang-cap-nguyen-hieu-tung-1.jpg"><img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/bs-tung/bang-cap-nguyen-hieu-tung-1.jpg" alt=""></a></div>
                         </div>
                         <div class="l-cer-img_item swiper-slide">
-                          <div><a href="<?php echo get_stylesheet_directory_uri() ?>/assets/images/bs-tung/nguyen-hieu-tung-10.jpg"><img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_01_cer_03.png" alt=""></a></div>
+                          <div><a href="<?php echo get_stylesheet_directory_uri() ?>/assets/images/bs-tung/bang-cap-nguyen-hieu-tung-2.jpg"><img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/bs-tung/bang-cap-nguyen-hieu-tung-2.jpg" alt=""></a></div>
+                        </div>
+                        <div class="l-cer-img_item swiper-slide">
+                          <div><a href="<?php echo get_stylesheet_directory_uri() ?>/assets/images/bs-tung/bang-cap-nguyen-hieu-tung-3.jpg"><img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/bs-tung/bang-cap-nguyen-hieu-tung-3.jpg" alt=""></a></div>
+                        </div>
+                        <div class="l-cer-img_item swiper-slide">
+                          <div><a href="<?php echo get_stylesheet_directory_uri() ?>/assets/images/bs-tung/bang-cap-nguyen-hieu-tung-4.jpg"><img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/bs-tung/bang-cap-nguyen-hieu-tung-4.jpg" alt=""></a></div>
+                        </div>
+                        <div class="l-cer-img_item swiper-slide">
+                          <div><a href="<?php echo get_stylesheet_directory_uri() ?>/assets/images/bs-tung/bang-cap-nguyen-hieu-tung-5.jpg"><img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/bs-tung/bang-cap-nguyen-hieu-tung-5.jpg" alt=""></a></div>
+                        </div>
+                        <div class="l-cer-img_item swiper-slide">
+                          <div><a href="<?php echo get_stylesheet_directory_uri() ?>/assets/images/bs-tung/bang-cap-nguyen-hieu-tung-6.jpg"><img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/bs-tung/bang-cap-nguyen-hieu-tung-6.jpg" alt=""></a></div>
+                        </div>
+                        <div class="l-cer-img_item swiper-slide">
+                          <div><a href="<?php echo get_stylesheet_directory_uri() ?>/assets/images/bs-tung/bang-cap-nguyen-hieu-tung-7.jpg"><img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/bs-tung/bang-cap-nguyen-hieu-tung-7.jpg" alt=""></a></div>
+                        </div>
+                        <div class="l-cer-img_item swiper-slide">
+                          <div><a href="<?php echo get_stylesheet_directory_uri() ?>/assets/images/bs-tung/bang-cap-nguyen-hieu-tung-8.jpg"><img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/bs-tung/bang-cap-nguyen-hieu-tung-8.jpg" alt=""></a></div>
                         </div>
                       </div>
                     </div>
@@ -81,7 +102,10 @@
               </div>
             </div>
           </div>
-          <div class="video"><a class="vidplay" href="https://www.youtube.com/watch?v=WXX4qCbyts0"><img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/bs-tung/bg_video.jpg"></a>
+          <div class="video"><a class="vidplay" href="https://www.youtube.com/watch?v=WXX4qCbyts0">
+            <img class="is-pc" loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/bs-tung/bg_video.jpg">
+            <img class="is-sp" loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/bs-tung/bg_video_mobile.jpg">
+          </a>
             <h3 class="fig-title">Đánh giá của Đài truyền hình VTV3 về Nha khoa I-Dent</h3>
           </div>
         </div>

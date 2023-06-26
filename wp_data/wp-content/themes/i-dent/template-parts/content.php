@@ -37,12 +37,11 @@
                   </ul><span class="view-rate">Đánh giá: 4.0/5 ( 20 bình chọn )</span>
                 </div>
               </div>
-              <h2 class="article-title ttl-primary"><?php the_title(); ?></h2>
+              <h1 class="article-title ttl-primary"><?php the_title(); ?></h1>
               <?php
                 require_once( get_stylesheet_directory() . '/module/box-doctor.php' );
               ?>
               <div class="m-article">
-                <p><?php the_excerpt(); ?></p>
                 <?php do_shortcode('[toc]')?>
                 <?php the_content(); ?>
               </div>
@@ -50,9 +49,6 @@
                 require_once( get_stylesheet_directory() . '/module/box-information.php' );
               ?>
             </article>
-            <?php
-              require_once( get_stylesheet_directory() . '/module/sidebar.php' );
-            ?>
           </div>
         </div>
       </div>

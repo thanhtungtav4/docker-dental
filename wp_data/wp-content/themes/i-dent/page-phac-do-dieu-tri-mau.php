@@ -32,7 +32,7 @@
           <span class="time">24.04.2023</span>
         </div>
         <div class="doc-intro">
-          <p class="text">Trồng răng implant là công việc quan trọng, ảnh hướng đến ăn nhai, thẩm mỹ và chất lượng cuộc sống của cả 1 đời người. <br>Đối với kiều bào nước ngoài lại càng nên cân nhắc thận trọng vì tốn rất nhiều thời gian và chi phí đi lại. <br>Vì vậy trước khi quyết định về nước hoặc chọn cơ sở y tế nào đó để làm răng. Thay vì chỉ xem những thông tin chung trên mạng bệnh nhân nên biết rõ 5 thông tin cụ thể sau : </p>
+          <p class="text"><b>Trồng răng implant</b> là công việc quan trọng, ảnh hướng đến ăn nhai, thẩm mỹ và chất lượng cuộc sống của cả 1 đời người. <br>Đối với <b>kiều bào nước ngoài</b> lại càng nên cân nhắc thận trọng vì tốn rất nhiều thời gian và chi phí đi lại. <br>Vì vậy trước khi quyết định về nước hoặc chọn cơ sở y tế nào đó để làm răng. Thay vì chỉ xem những thông tin chung trên mạng bệnh nhân nên biết rõ 5 <b>thông tin cụ thể sau</b> : </p>
           <ul class="l-dots">
             <li>Tình trạng răng miệng hiện tại của bản thân</li>
             <li>Phương án điều trị dành riêng cho mình</li>
@@ -40,7 +40,7 @@
             <li>Tổng chi phí điều trị</li>
             <li>Ai là người sẽ thực hiện cấy implant cho mình</li>
           </ul>
-          <p class="text">Để giúp bệnh nhân có đầy đủ thông tin trước khi về nước, Nha Khoa I-Dent đã mở ra dịch vụ lên kế hoạch điều trị online miễn phí, thiết kế riêng cho từng bệnh nhân. Cô chú anh chị có thể dùng tham khảo hoặc đối chiếu giữa nhiều nha khoa khác nhau để có sự lựa chọn và quyết định tốt nhất.</p>
+          <p class="text">Để giúp bệnh nhân có đầy đủ thông tin trước khi về nước, Nha Khoa I-Dent đã mở ra <b>dịch vụ lên kế hoạch điều trị online miễn phí</b>, thiết kế riêng cho từng bệnh nhân. Cô chú anh chị có thể dùng tham khảo hoặc đối chiếu giữa nhiều nha khoa khác nhau để có sự lựa chọn và quyết định tốt nhất.</p>
         </div>
         <div class="note">
           <ul class="l-check">
@@ -86,7 +86,7 @@
           </li>
           <li class="l-steps_block">
             <h3 class="title">Bước 2: Nhận thông tin khách hàng và lên sơ đồ răng</h3>
-            <p class="text">Sau khi nhận được đăng ký từ bệnh nhân. Nha Khoa I-Dent sẽ gọi lại tư vấn và thu thập những thông tin cần thiết, bao gồm tình trạng răng miệng, tiền sử bệnh án và film chụp X-Quang nếu có. <br>Sau đó lập sơ đồ răng riêng biệt cho bệnh nhân, từ đó xác định vấn đề và lên phương án điều trị. </p>
+            <p class="text">Sau khi nhận được đăng ký từ bệnh nhân. Nha Khoa I-Dent sẽ gọi lại tư vấn và <b>thu thập những thông tin cần thiết</b>, bao gồm tình trạng răng miệng, tiền sử bệnh án và film chụp X-Quang nếu có. <br>Sau đó lập sơ đồ răng riêng biệt cho bệnh nhân, từ đó xác định vấn đề và lên phương án điều trị. </p>
             <figure class="img">
               <img class="is-pc" loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/dieutri/img_01.png" alt="">
               <img class="is-sp" loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/dieutri/sp/img_01.png" alt="">
@@ -128,7 +128,7 @@
                 </div>
               </div>
             </div>
-            <p class="text">Dựa vào tình trạng răng miệng cũng như mong muốn và khả năng tài chính của bệnh nhân, I-Dent sẽ lập sơ đồ điều trị tương ứng bao gồm vị trí trồng trụ Implant và phương pháp cụ thể (cấy trụ lẻ, hoặc toàn hàm <br>All on 4, All on 5, All on 6....) Loại răng sứ và loại trụ Implant. </p>
+            <p class="text">Dựa vào tình trạng răng miệng cũng như mong muốn và khả năng tài chính của bệnh nhân, I-Dent sẽ <b>lập sơ đồ điều trị</b> tương ứng bao gồm vị trí trồng trụ Implant và phương pháp cụ thể (cấy trụ lẻ, hoặc toàn hàm <br>All on 4, All on 5, All on 6....) Loại răng sứ và loại trụ Implant. </p>
             <figure class="img">
               <img class="is-pc" loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/dieutri/img_02.png" alt="">
               <img class="is-sp" loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/dieutri/sp/img_02.png" alt="">
@@ -164,7 +164,7 @@
           </li>
           <li class="l-steps_block">
             <h3 class="title">Bước 3: Tính toán chi phí trọn gói</h3>
-            <p class="text">Dựa vào sơ đồ điều trị, Nha Khoa I-Dent sẽ liệt kê tất cả dịch vụ cần thiết cho từng vị trí răng và đơn giá tương ứng. <br>Toàn bộ dịch vụ được liệt kê như bảng bên dưới </p>
+            <p class="text">Dựa vào sơ đồ điều trị, Nha Khoa I-Dent sẽ <b>liệt kê tất cả dịch vụ cần thiết</b> cho từng vị trí răng và đơn giá tương ứng. <br>Toàn bộ dịch vụ được liệt kê như bảng bên dưới </p>
             <figure class="img">
               <img class="is-pc" loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/dieutri/img_03.png" alt="">
               <img class="is-sp" loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/dieutri/sp/img_03.png" alt="">
@@ -172,7 +172,7 @@
           </li>
           <li class="l-steps_block">
             <h3 class="title">Bước 4: Xác định thời gian điều trị và phương án thanh toán</h3>
-            <p class="text">Thời gian có thể phục hình sứ được đưa ra rõ ràng và chi tiết. Kèm theo là phương án thanh toán.</p>
+            <p class="text">Thời gian có thể phục hình sứ được đưa ra rõ ràng và chi tiết. Kèm theo là <b>phương án thanh toán</b>.</p>
             <figure class="img">
               <img class="is-pc" loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/dieutri/img_05.png" alt="">
               <img class="is-sp" loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/dieutri/sp/img_04.png" alt="">
@@ -196,9 +196,9 @@
         </form>
         <div class="warning">
           <span class="ttl">Lưu ý</span>
-          <p class="text">Cô chú anh chị sẽ nhận được phiếu kế hoạch điều trị đầy đủ như hình bên dưới và không bắt buộc điều trị tại Nha Khoa I-Dent <br>Hãy sữ dụng như tài liệu tham khảo để loại bỏ những nha khoa kém chất lượng và so sánh giữa nhiều nha khoa khác nhau để có sự lựa chọn phù hợp. <br>
+          <p class="text">Cô chú anh chị sẽ nhận được phiếu kế hoạch điều trị đầy đủ như hình bên dưới và <b>không bắt buộc điều trị tại Nha Khoa I-Dent</b> <br>Hãy sữ dụng như tài liệu tham khảo để loại bỏ những nha khoa kém chất lượng và so sánh giữa nhiều nha khoa khác nhau để có sự lựa chọn phù hợp. <br>
             <br>
-            <span>Phác đồ điều trị online chỉ dùng tham khảo với độ chính xác > 80%. Để tiến hành điều trị cần được thăm khám trực tiếp, chụp film 3D, xét nghiệm. Nhằm đảm bảo độ chính xác tuyệt đối.</span>
+            <span>Phác đồ điều trị online chỉ dùng tham khảo với <b>độ chính xác > 80%</b>. Để tiến hành điều trị cần được thăm khám trực tiếp, chụp film 3D, xét nghiệm. Nhằm đảm bảo độ chính xác tuyệt đối.</span>
           </p>
           <div class="img is-pc">
             <img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/dieutri/img_04.png" alt="">

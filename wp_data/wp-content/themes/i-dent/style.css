@@ -91,19 +91,153 @@ Text Domain: i-dent
   width: 20px;
   height: 20px;
 }
-.uppercase {
-  text-transform: uppercase;
+
+
+
+/*Tùng I-Dent update*/
+.vidplay::before {
+  background: none;
 }
-.screen-reader-response{
-  display: none;
+
+.slick-slide img{
+  width: 100%;
 }
-.wpcf7-not-valid-tip, .wpcf7-response-output{
+
+.m-price {
+  margin-top: 30px;
+}
+
+.p-all-in .mv .ttl {
+  top: 0;
+  padding-top: 1.3em;
+}
+
+.text {
+  padding-bottom: 10px;
+  font-weight: 500;
+}
+.l-check li{
+  line-height:33px;
+  padding-bottom: 10px;
+}
+
+ul.l-giaiphap .text{
+  text-align: center;
+  color: black;
+}
+
+.certificate li{
+  font-weight: 500;
+}
+
+.l-demo_item .demo-info_name .lca {
+  color: #ff4040;
+}
+.m-article{
+  margin-top: 35px;
+}
+.m-detail_detail {
+  max-width: 800px;
+  margin: auto;
+}
+
+.l-3points_item .info .title{
+  max-width: 490px;
+}
+
+.p-service .box-phacdo {
+  background: url(/wp-content/themes/i-dent/assets/images/allinone/bg.png) no-repeat right center/100% auto;
+}
+
+.doc-intro-highlight .text {
+  color: #faed88;
+  text-align: center;
+}
+.doc-intro-highlight{
+  background: #025899;
+  padding: 15px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.luu-y-text{
   color: red;
-  font-size: 1.4rem;
-  padding: 1rem 0 0 1rem;
-  display: inline-block;
+  font-weight: bold;
 }
-.language li > a{
-  display: flex;
-  align-items: center;
+
+.m-worry_content ul.l-check{
+  margin:auto;
+}
+
+.m-worry_content{
+  margin-bottom: 50px;
+}
+
+.intro-text{
+  background: #e4f4ff;
+  padding: 10px;
+}
+
+/* Mobile setting */
+@media screen and (max-width: 767px) {
+  .p-all-in .mv .ttl {
+    padding-top: 1em;
+  }
+
+  .ttl-secondary {
+    font-size: 20px;
+    line-height: 33px;
+  }
+
+  .l-goods .ttl-secondary::before {
+    left: 0;
+    top: 10px;
+  }
+  ul.l-giaiphap .text{
+    font-size: 17px;
+    font-weight: bold;
+  }
+
+  .m-article{
+    padding: 10px;
+  }
+  .box-information{
+    padding: 10px;
+  }
+  .box-quote{
+    margin-bottom: 15px;
+  }
+  .doc-intro-highlight{
+    background: #025899 !important;
+    padding: 15px !important;
+  }
+  .ttl-bl{
+    font-size: 17px;
+  }
+}
+
+
+/*Desktop setting */
+@media screen and (min-width: 768px) {
+  .landing-page-gom-intro{
+    padding-left: 170px;
+    padding-right: 170px;
+  }
+
+  .m-btn a:hover,
+  .m-btn button:hover {
+    background: linear-gradient(90deg, #ffe4a0 0%, #FBF08D 47.92%, #ffe4a0 100%);
+    color: #025899;
+  }
+
+  .l-breadcrumbs{
+    padding-left: 200px;
+  }
+  .doc-intro-highlight{
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+  .m-worry_content .img{
+    width: 240px;
+  }
 }
