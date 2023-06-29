@@ -1,6 +1,6 @@
 
-<?php 
-if(class_exists('ACF')) : 
+<?php
+if(class_exists('ACF')) :
 $postID = get_field('main_news');
 $queryPost = new WP_Query(
     array(
@@ -16,12 +16,12 @@ $queryPost = new WP_Query(
     <div class="wrapper">
       <h2 class="ttl-primary">KIẾN THỨC NHA KHOA</h2>
       <ul class="l-news js-news">
-        <?php if ( $queryPost->have_posts() ) : 
+        <?php if ( $queryPost->have_posts() ) :
           while ( $queryPost->have_posts() ) : $queryPost->the_post();
           ?>
           <li class="l-news_item">
             <figure class="images">
-              <?php echo get_handle_thumbnail('NEWS-DETAIL-THUMB'); ?>
+              <?php echo get_handle_thumbnail('full'); ?>
             </figure>
             <div class="info"><span class="tag"><?php wp_get_post_terms(get_the_ID(), 'category') ? print wp_get_post_terms(get_the_ID(), 'category')[0]->name : print 'Tin Tức'; ?></span>
               <h3 class="title js-height"><?php the_title(); ?></h3>
@@ -37,4 +37,4 @@ $queryPost = new WP_Query(
       </ul>
     </div>
   </section>
-<?php endif; ?>  
+<?php endif; ?>

@@ -13,13 +13,12 @@ define( 'PLACEHOLDER-DOCTOR-THUMB', 'http://via.placeholder.com/263x375');
 define( 'PLACEHOLDER-DOCTOR-MIN-THUMB', 'http://via.placeholder.com/198x246');
 define( 'PLACEHOLDER-VIDEO-THUMB', 'http://via.placeholder.com/650x366');
 define( 'PLACEHOLDER-VIDEO-MIN-THUMB', 'http://via.placeholder.com/188x106');
+define( 'PLACEHOLDER-SIDEBAR-THUMB', 'http://via.placeholder.com/360x630');
+
 define( 'PLACEHOLDER-NEWS-THUMB', 'http://via.placeholder.com/275x458');
 define( 'PLACEHOLDER-NEWS-PC-THUMB', 'http://via.placeholder.com/370x616');
-define( 'PLACEHOLDER-NEWS-ITEM-THUMB', 'http://via.placeholder.com/359x259');
-define( 'PLACEHOLDER-NEWS-BIG-THUMB', 'http://via.placeholder.com/556x370');
-define( 'PLACEHOLDER-SIDEBAR-THUMB', 'http://via.placeholder.com/360x630');
-define( 'PLACEHOLDER-NEWS-DETAIL-THUMB', 'http://via.placeholder.com/780x470');
-define( 'PLACEHOLDER-CUSTOMER-PIC-THUMB', 'http://via.placeholder.com/612x634');
+
+define( 'PLACEHOLDER-NEWS-DETAIL-THUMB', 'http://via.placeholder.com/780x520');
 
 // setup
 function corporate_setup() {
@@ -48,11 +47,9 @@ function corporate_theme_setup() {
 	add_image_size( 'VIDEO-MIN-THUMB', 188, 106, true );
 	add_image_size( 'NEWS-THUMB', 370, 616, true );
 	add_image_size( 'NEWS-PC-THUMB', 370, 616, true );
-	add_image_size( 'NEWS-ITEM-THUMB', 359, 259, true );
-	add_image_size( 'NEWS-BIG-THUMB', 556, 370, true );
 	add_image_size( 'SIDEBAR-THUMB', 360, 630, true );
-	add_image_size( 'NEWS-DETAIL-THUMB', 780, 470, true );
-	add_image_size( 'CUSTOMER-PIC-THUMB', 612, 634, true );
+
+	add_image_size( 'NEWS-DETAIL-THUMB', 780, 520, true );
 }
 
 /**

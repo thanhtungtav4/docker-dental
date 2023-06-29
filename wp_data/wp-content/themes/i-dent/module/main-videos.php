@@ -4,7 +4,7 @@
   ?>
   <section class="m-video">
     <div class="wrapper">
-      <h2 class="ttl-primary">VIDEOS CẢM NHẬN CỦA KHÁCH HÀNG VỀ NHA KHOA I-DENT</h2>
+      <h2 class="ttl-primary">CẢM NHẬN CỦA KHÁCH HÀNG VỀ NHA KHOA I-DENT</h2>
       <div class="m-video_inner">
         <?php foreach($videosRow as $key => $item) :
           if($key == 0) :

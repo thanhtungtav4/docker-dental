@@ -42,7 +42,7 @@ $queryEkip = new WP_Query($argsEkip);
     <?php if($youtube_img && $youtube_url) : ?>
     <div class="m-detail_video is-sp">
       <a class="vidplay" href="<?php echo $youtube_url;?>">
-        <?php handle_thumbnail_id($youtube_img, 'REVIEW-THUMB'); ?>
+        <?php handle_thumbnail_id($youtube_img, 'full'); ?>
       </a>
     </div>
     <?php endif; ?>
@@ -50,7 +50,7 @@ $queryEkip = new WP_Query($argsEkip);
       <span class="tag">CÂU CHUYỆN KHÁCH HÀNG</span>
       <h2 class="post-title ttl-primary"> <?php the_title(); ?> </h2>
       <span class="time"> <?php echo get_the_date('d.m.Y')?> </span>
-    </div>
+    </div>s
     <?php if($youtube_img && $youtube_url) : ?>
       <div class="m-detail_video is-pc">
         <a class="vidplay" href="<?php echo $youtube_url;?>">

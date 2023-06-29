@@ -651,31 +651,21 @@
       <section class="m-video is-special">
         <div class="wrapper">
           <div class="m-video_inner">
-            <div class="m-video_main"><a class="vidplay" href="https://www.youtube.com/watch?v=jZF0MMdPang"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/top/thumbnail-video1.webp"></a></div>
+            <div class="m-video_main"><a class="vidplay" href="https://www.youtube.com/watch?v=BQreSbumH5A"><img src="/wp-content/uploads/2023/06/BAO-CHI.jpg.webp"></a></div>
             <ul class="l-video js-loadmore">
-              <li><a class="vidplay" href="https://www.youtube.com/watch?v=jZF0MMdPang"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/top/thumbnail-video1.webp"></a>
+              <li><a class="vidplay" href="https://www.youtube.com/watch?v=ZMfTyydjFMY"><img src="/wp-content/uploads/2023/06/HOAI-THU-590x315.jpg.webp"></a>
                 <div class="video-info">
-                  <h3 class="title">Cảm nhận bệnh nhân sau khi trồng Implant</h3><span class="view">Lượt xem : 5230</span>
+                  <h3 class="title">CÔ HOÀI THU</h3><span class="view">LÂM ĐỒNG</span>
                 </div>
               </li>
-              <li><a class="vidplay" href="https://www.youtube.com/watch?v=jZF0MMdPang"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/top/thumbnail-video1.webp"></a>
+              <li><a class="vidplay" href="https://www.youtube.com/watch?v=VAI56Vu0i-w"><img src="/wp-content/uploads/2023/06/QUYNH-NHU-590x315.jpg.webp"></a>
                 <div class="video-info">
-                  <h3 class="title">Cảm nhận bệnh nhân sau khi trồng Implant</h3><span class="view">Lượt xem : 5230</span>
+                  <h3 class="title">CHỊ QUỲNH NHƯ</h3><span class="view">TP.HCM</span>
                 </div>
               </li>
-              <li><a class="vidplay" href="https://www.youtube.com/watch?v=jZF0MMdPang"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/top/thumbnail-video1.webp"></a>
+              <li><a class="vidplay" href="https://www.youtube.com/watch?v=673SZmZ1g4Y"><img src="/wp-content/uploads/2023/06/KIEU-OANH-THUMB-VIDEO-590x315.jpg.webp"></a>
                 <div class="video-info">
-                  <h3 class="title">Cảm nhận bệnh nhân sau khi trồng Implant</h3><span class="view">Lượt xem : 5230</span>
-                </div>
-              </li>
-              <li><a class="vidplay" href="https://www.youtube.com/watch?v=jZF0MMdPang"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/top/thumbnail-video1.webp"></a>
-                <div class="video-info">
-                  <h3 class="title">Cảm nhận bệnh nhân sau khi trồng Implant</h3><span class="view">Lượt xem : 5230</span>
-                </div>
-              </li>
-              <li><a class="vidplay" href="https://www.youtube.com/watch?v=jZF0MMdPang"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/top/thumbnail-video1.webp"></a>
-                <div class="video-info">
-                  <h3 class="title">Cảm nhận bệnh nhân sau khi trồng Implant</h3><span class="view">Lượt xem : 5230</span>
+                  <h3 class="title">CHỊ KIỀU OANH</h3><span class="view">KIÊN GIANG</span>
                 </div>
               </li>
             </ul>
