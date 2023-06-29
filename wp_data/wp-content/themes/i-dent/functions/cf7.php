@@ -88,3 +88,23 @@
         <?php
     }
     add_action('wp_footer', 'add_RedirectCF');
+
+    function set_first_url_cookie() {
+        if (!isset($_COOKIE['first_url'])) {
+            $first_url = $_SERVER['REQUEST_URI'];
+            setcookie('first_url', $first_url, time() + 3600, '/');
+            $_SESSION['first_url'] = $first_url;
+        }
+    }
+    add_action('init', 'set_first_url_cookie');
+
+    function get_first_url_from_session() {
+        session_start();
+        if (isset($_SESSION['first_url'])) {
+            $first_url = $_SESSION['first_url'];
+            return $first_url;
+        }
+        return false;
+    }
+    
+    
