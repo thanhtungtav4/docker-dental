@@ -9,6 +9,7 @@
         $array['url_lead'] = full_url( $_SERVER );
         $array['is_mobile'] = wp_is_mobile() ? 'Mobile' : 'PC';
         $array['agent'] = get_user_agent();
+        $array['first_url'] = get_cookie_value('first_url');
         return $array;
     }
     add_filter( 'wpcf7_posted_data', 'action_wpcf7_posted_data', 10, 1 );
@@ -97,14 +98,21 @@
         }
     }
     add_action('init', 'set_first_url_cookie');
-
     function get_first_url_from_session() {
-        session_start();
-        if (isset($_SESSION['first_url'])) {
-            $first_url = $_SESSION['first_url'];
-            return $first_url;
+        if (class_exists('WP_Session')) {
+            WP_Session::get_instance();
+            // Check if the 'first_url' session variable is set
+            if (isset($_SESSION['first_url'])) {
+                $first_url = $_SESSION['first_url'];
+                return $first_url;
+            }
         }
-        return false;
+        return false; // Return false if 'first_url' is not set or WP Session Manager is not installed
     }
-    
+    function get_cookie_value($cookie_name) {
+        if (isset($_COOKIE[$cookie_name])) {
+            return $_COOKIE[$cookie_name];
+        }
+        return false; // Return false if the cookie is not set
+    }
     
