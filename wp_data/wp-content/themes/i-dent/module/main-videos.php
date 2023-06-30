@@ -1,5 +1,6 @@
 <?php if(class_exists('ACF')) :
-      $videosRow = get_field('main-videos');
+      $front_id = get_option('page_on_front');
+      $videosRow = get_field('main-videos', $front_id);
       if($videosRow):
   ?>
   <section class="m-video">
