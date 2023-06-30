@@ -43,13 +43,18 @@ get_header();
           <ul class="l-news l-story">
 					<?php
 						while ( $queryPost->have_posts() ) : $queryPost->the_post();
+							$video_url = get_field('video_url');
 					?>
 						<li class="l-news_item">
-              <figure class="images">
-								<?php handle_thumbnail('NEWS-ITEM-THUMB'); ?>
-							</figure>
+							<a class="vidplay trans" href="<?php echo $video_url; ?>"><
+	              <figure class="images">
+									<?php handle_thumbnail('NEWS-ITEM-THUMB'); ?>
+								</figure>
+							</a>
               <div class="info"><span class="tag">CÂU CHUYỆN KHÁCH HÀNG</span>
-                <h3 class="title js-height"><?php the_title(); ?></h3>
+                <a href="<?php the_permalink(); ?>">
+                	<h3 class="title js-height"><?php the_title(); ?></h3>
+                </a>
                 <p class="text"><?php echo wp_trim_words(get_the_excerpt(), 20, '...'); ?></p>
                 <div class="m-btn is-reverse is-small"><a href="<?php the_permalink(); ?>">Xem thêm</a></div>
               </div>

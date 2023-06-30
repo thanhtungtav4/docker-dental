@@ -13,7 +13,11 @@
   get_header();
 ?>
       <div class="mv"><img class="is-pc" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/rangsu/mv.jpg" alt=""><img class="is-sp" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/rangsu/sp/mv.jpg" alt="">
-        <h1 class="title">RĂNG SỨ THẨM MỸ</h1><span class="name">NỤ CƯỜI HOÀN MỸ</span><a class="btn" href="#"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/allinone/bnr_btn.svg" alt="ĐẶT LỊCH HẸN"></a>
+        <h1 class="title">RĂNG SỨ THẨM MỸ</h1>
+        <span class="name">NỤ CƯỜI HOÀN MỸ</span>
+        <a class="btn" href="#">
+          <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/allinone/bnr_btn.svg" alt="ĐẶT LỊCH HẸN">
+        </a>
       </div>
       <section class="m-intro">
         <div class="wrapper">
@@ -135,7 +139,10 @@
                 <p class="text">Tiến hành bọc mão<br>răng sứ phục hình</p>
               </div>
             </li>
-          </ul><a class="vidplay trans" href="https://www.youtube.com/watch?v=WXX4qCbyts0"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/rangsu/bg_video.png"></a>
+          </ul><a class="vidplay trans" href="https://www.youtube.com/watch?v=4Es_64nz8E0">
+            <img class="is-pc" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/rangsu/bg_video.png">
+            <img class="is-sp" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/rangsu/bg-mobile__quy-trinh-boc-rang-su-tham-my.png">
+          </a>
         </div>
       </section>
       <section class="m-promo m-promo-normal">
@@ -152,6 +159,9 @@
                     <div class="img_inner"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/rangsu/item_01.png" alt=""></div>
                   </div>
                   <div class="box-price"><strong class="price current-price">1.000.000 VNĐ</strong></div>
+                  <div class="m-btn">
+                    <a href="#">Tư vấn ngay</a>
+                  </div>
                 </div>
               </div>
             </li>
@@ -164,6 +174,9 @@
                     <div class="img_inner"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/rangsu/item_02.png" alt=""></div>
                   </div>
                   <div class="box-price"><strong class="price current-price">2.500.000 VNĐ</strong></div>
+                  <div class="m-btn">
+                    <a href="#">Tư vấn ngay</a>
+                  </div>
                 </div>
               </div>
             </li>
@@ -176,6 +189,9 @@
                     <div class="img_inner"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/rangsu/item_03.png" alt=""></div>
                   </div>
                   <div class="box-price"><strong class="price current-price">3.500.000 VNĐ</strong></div>
+                  <div class="m-btn">
+                    <a href="#">Tư vấn ngay</a>
+                  </div>
                 </div>
               </div>
             </li>
@@ -188,6 +204,9 @@
                     <div class="img_inner"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/rangsu/item_04.png" alt=""></div>
                   </div>
                   <div class="box-price"><strong class="price old-price">4.500.000 VNĐ</strong><strong class="price new-price">3.600.000 VNĐ</strong></div>
+                  <div class="m-btn">
+                    <a href="#">Tư vấn ngay</a>
+                  </div>
                 </div>
               </div>
             </li>
@@ -200,6 +219,9 @@
                     <div class="img_inner"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/rangsu/item_05.png" alt=""></div>
                   </div>
                   <div class="box-price"><strong class="price current-price">1.000.000 VNĐ</strong></div>
+                  <div class="m-btn">
+                    <a href="#">Tư vấn ngay</a>
+                  </div>
                 </div>
               </div>
             </li>
@@ -212,6 +234,9 @@
                     <div class="img_inner"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/rangsu/item_06.png" alt=""></div>
                   </div>
                   <div class="box-price"><strong class="price old-price">6.000.000 VNĐ</strong><strong class="price new-price">4.800.000 VNĐ</strong></div>
+                  <div class="m-btn">
+                    <a href="#">Tư vấn ngay</a>
+                  </div>
                 </div>
               </div>
             </li>
@@ -224,6 +249,9 @@
                     <div class="img_inner"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/rangsu/item_07.png" alt=""></div>
                   </div>
                   <div class="box-price"><strong class="price current-price">8.000.000 VNĐ</strong></div>
+                  <div class="m-btn">
+                    <a href="#">Tư vấn ngay</a>
+                  </div>
                 </div>
               </div>
             </li>
@@ -236,6 +264,9 @@
                     <div class="img_inner"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/rangsu/item_08.png" alt=""></div>
                   </div>
                   <div class="box-price"><strong class="price old-price">9.000.000 VNĐ</strong><strong class="price new-price">7.200.000 VNĐ</strong></div>
+                  <div class="m-btn">
+                    <a href="#">Tư vấn ngay</a>
+                  </div>
                 </div>
               </div>
             </li>
@@ -290,19 +321,18 @@
               <div class="l-doctors_item">
                 <div class="l-doctors_images">
                   <div class="bg is-sp"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/top/bg_circle.png" alt=""></div>
-                  <div class="img"><img class="is-sp" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/top/img_bs_01.png" alt=""><img class="is-pc" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/bs-tung/img_doc_04.png" alt="TIẾN SĨ - BÁC SĨ NGUYỄN HIẾU TÙNG"></div>
+                  <div class="img">
+                    <img class="is-sp" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/top/img_bs_01.png" alt="TIẾN SĨ - BÁC SĨ NGUYỄN HIẾU TÙNG">
+                    <img class="is-pc" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/bs-tung/img_doc_04.png" alt="TIẾN SĨ - BÁC SĨ NGUYỄN HIẾU TÙNG">
+                  </div>
                 </div>
                 <div class="l-doctors_info">
                   <div class="l-doctors_info_inner">
                     <h2 class="name">TIẾN SĨ - BÁC SĨ NGUYỄN HIẾU TÙNG </h2>
                     <ul class="certificate">
-                      <li>Chứng chỉ hành nghề số: 0002468/TG – CCHN.</li>
+                      <li>Tiến sĩ Y khoa Bện h Lý Học Ở Người, Khoa Y, ĐH Aix-Marseille, Marseille, Pháp.</li>
                       <li>Bằng Chuyên Khoa Sau Đại Học IMPLANT Nha khoa, ĐH Méditerranée,     Marseille, Pháp.</li>
                       <li>Chứng Chỉ Chuyên Khoa Sau Đại Học Phục Hình Cố Định, ĐH Aix-Marseille, Marseille, Pháp.</li>
-                      <li>Tiến sĩ Y khoa Bện h Lý Học Ở Người, Khoa Y, ĐH Aix-Marseille, Marseille, Pháp.</li>
-                      <li>Bằng Chuyên Khoa Sau Đại học Phẫu Thuật Tạo Hình Nha Chu, ĐH Méditerranée, Marseille, Pháp.</li>
-                      <li>Chứng Chỉ Cao Học Phẫu Thuật Răng Miệng Vật Liệu Nha Khoa, ĐH Méditerranée, Marseille, Pháp.</li>
-                      <li>Bằng Chuyên Khoa Sau Đại Học Nha Chu Lâm Sàng, ĐH Méditerranée, Marseille, Pháp.</li>
                     </ul>
                     <div class="l-cer-img">
                       <div class="l-cer-img_wrap swiper-container js-slide-cer">
@@ -332,34 +362,30 @@
               <div class="l-doctors_item">
                 <div class="l-doctors_images">
                   <div class="bg is-sp"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/top/bg_circle.png" alt=""></div>
-                  <div class="img"><img class="is-sp" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/top/img_bs_01.png" alt=""><img class="is-pc" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/bs-tung/img_doc_04.png" alt="TIẾN SĨ - BÁC SĨ NGUYỄN HIẾU TÙNG"></div>
+                  <div class="img">
+                    <img class="is-sp" src="/wp-content/uploads/2023/06/thumb-bs_0003_my-263x375.png.webp" alt="BÁC SĨ - NGUYỄN HUỲNH NGỌC MỸ">
+                    <img class="is-pc" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_04.png.webp" alt="BÁC SĨ - NGUYỄN HUỲNH NGỌC MỸ">
+                  </div>
                 </div>
                 <div class="l-doctors_info">
                   <div class="l-doctors_info_inner">
-                    <h2 class="name">TIẾN SĨ - BÁC SĨ NGUYỄN HIẾU TÙNG </h2>
+                    <h2 class="name">BÁC SĨ - NGUYỄN HUỲNH NGỌC MỸ</h2>
                     <ul class="certificate">
-                      <li>Chứng chỉ hành nghề số: 0002468/TG – CCHN.</li>
-                      <li>Bằng Chuyên Khoa Sau Đại Học IMPLANT Nha khoa, ĐH Méditerranée,     Marseille, Pháp.</li>
-                      <li>Chứng Chỉ Chuyên Khoa Sau Đại Học Phục Hình Cố Định, ĐH Aix-Marseille, Marseille, Pháp.</li>
-                      <li>Tiến sĩ Y khoa Bện h Lý Học Ở Người, Khoa Y, ĐH Aix-Marseille, Marseille, Pháp.</li>
-                      <li>Bằng Chuyên Khoa Sau Đại học Phẫu Thuật Tạo Hình Nha Chu, ĐH Méditerranée, Marseille, Pháp.</li>
-                      <li>Chứng Chỉ Cao Học Phẫu Thuật Răng Miệng Vật Liệu Nha Khoa, ĐH Méditerranée, Marseille, Pháp.</li>
-                      <li>Bằng Chuyên Khoa Sau Đại Học Nha Chu Lâm Sàng, ĐH Méditerranée, Marseille, Pháp.</li>
+                      <li>BÁC SĨ CHUYÊN KHOA I – ĐẠI HỌC Y DƯỢC TP. HỒ CHÍ MINH</li>
+                      <li>Chứng chỉ hành nghề số: 005327/ĐT - CCHN</li>
+                      <li>Chuyên Phục hình sứ trên Implant, Phục hình thẩm mỹ Răng sứ - Veneer</li>
                     </ul>
                     <div class="l-cer-img">
                       <div class="l-cer-img_wrap swiper-container js-slide-cer">
                         <div class="l-cer-img_inner swiper-wrapper">
                           <div class="l-cer-img_item swiper-slide">
-                            <div><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_01_cer_01.png" alt=""></div>
+                            <div><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_04_cer_01.png.webp" alt=""></div>
                           </div>
                           <div class="l-cer-img_item swiper-slide">
-                            <div><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_01_cer_02.png" alt=""></div>
+                            <div><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_04_cer_02.png.webp" alt=""></div>
                           </div>
                           <div class="l-cer-img_item swiper-slide">
-                            <div><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_01_cer_03.png" alt=""></div>
-                          </div>
-                          <div class="l-cer-img_item swiper-slide">
-                            <div><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_01_cer_01.png" alt=""></div>
+                            <div><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_04_cer_03.png.webp" alt=""></div>
                           </div>
                         </div>
                       </div>
@@ -374,34 +400,64 @@
               <div class="l-doctors_item">
                 <div class="l-doctors_images">
                   <div class="bg is-sp"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/top/bg_circle.png" alt=""></div>
-                  <div class="img"><img class="is-sp" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/top/img_bs_01.png" alt=""><img class="is-pc" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/bs-tung/img_doc_04.png" alt="TIẾN SĨ - BÁC SĨ NGUYỄN HIẾU TÙNG"></div>
+                  <div class="img">
+                    <img class="is-sp" src="/wp-content/uploads/2023/06/thumb-bs_0002_thai-263x375.png.webp" alt="BÁC SĨ - MAI HỒNG THÁI">
+                    <img class="is-pc" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_02.png.webp" alt="BÁC SĨ - MAI HỒNG THÁI"></div>
                 </div>
                 <div class="l-doctors_info">
                   <div class="l-doctors_info_inner">
-                    <h2 class="name">TIẾN SĨ - BÁC SĨ NGUYỄN HIẾU TÙNG </h2>
+                    <h2 class="name">BÁC SĨ - MAI HỒNG THÁI</h2>
                     <ul class="certificate">
-                      <li>Chứng chỉ hành nghề số: 0002468/TG – CCHN.</li>
-                      <li>Bằng Chuyên Khoa Sau Đại Học IMPLANT Nha khoa, ĐH Méditerranée,     Marseille, Pháp.</li>
-                      <li>Chứng Chỉ Chuyên Khoa Sau Đại Học Phục Hình Cố Định, ĐH Aix-Marseille, Marseille, Pháp.</li>
-                      <li>Tiến sĩ Y khoa Bện h Lý Học Ở Người, Khoa Y, ĐH Aix-Marseille, Marseille, Pháp.</li>
-                      <li>Bằng Chuyên Khoa Sau Đại học Phẫu Thuật Tạo Hình Nha Chu, ĐH Méditerranée, Marseille, Pháp.</li>
-                      <li>Chứng Chỉ Cao Học Phẫu Thuật Răng Miệng Vật Liệu Nha Khoa, ĐH Méditerranée, Marseille, Pháp.</li>
-                      <li>Bằng Chuyên Khoa Sau Đại Học Nha Chu Lâm Sàng, ĐH Méditerranée, Marseille, Pháp.</li>
+                      <li>BÁC SĨ CHUYÊN KHOA I – ĐẠI HỌC Y DƯỢC TP. HỒ CHÍ MINH</li>
+                      <li>Chứng chỉ hành nghề số: 0006076/AG - CCHN</li>
+                      <li>Chuyên Cấy ghép Implant, Phục hình sứ trên Implant, Phục hình thẩm mỹ Răng sứ - Veneer</li>
                     </ul>
                     <div class="l-cer-img">
                       <div class="l-cer-img_wrap swiper-container js-slide-cer">
                         <div class="l-cer-img_inner swiper-wrapper">
                           <div class="l-cer-img_item swiper-slide">
-                            <div><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_01_cer_01.png" alt=""></div>
+                            <div><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_02_cer_01.png" alt=""></div>
                           </div>
                           <div class="l-cer-img_item swiper-slide">
-                            <div><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_01_cer_02.png" alt=""></div>
+                            <div><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_02_cer_02.png" alt=""></div>
                           </div>
                           <div class="l-cer-img_item swiper-slide">
-                            <div><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_01_cer_03.png" alt=""></div>
+                            <div><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_02_cer_03.png" alt=""></div>
+                          </div>
+            
+                        </div>
+                      </div>
+                      <div class="swiper-btn swiper-prev"></div>
+                      <div class="swiper-btn swiper-next"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="l-doctors is-special">
+              <div class="l-doctors_item">
+                <div class="l-doctors_images">
+                  <div class="bg is-sp"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/top/bg_circle.png" alt=""></div>
+                  <div class="img">
+                    <img class="is-sp" src="/wp-content/uploads/2023/06/thumb-bs_0008_tung-mini-263x375.png.webp" alt="BÁC SĨ - ĐẶNG DUY TÙNG">
+                    <img class="is-pc" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_05.png.webp" alt="BÁC SĨ - ĐẶNG DUY TÙNG"></div>
+                </div>
+                <div class="l-doctors_info">
+                  <div class="l-doctors_info_inner">
+                    <h2 class="name">BÁC SĨ - ĐẶNG DUY TÙNG</h2>
+                    <ul class="certificate">
+                      <li>BÁC SĨ CHUYÊN KHOA I – ĐẠI HỌC Y DƯỢC TP. HỒ CHÍ MINH</li>
+                      <li>Chứng chỉ hành nghề số: 0004979/BTR – CCHN</li>
+                      <li>Chuyên Cấy ghép Implant, Phục hình sứ trên Implant, Phục hình thẩm mỹ răng sứ - Veneer, Phục hình và Phẫu thuật nha chu.</li>
+                    </ul>
+                    <div class="l-cer-img">
+                      <div class="l-cer-img_wrap swiper-container js-slide-cer">
+                        <div class="l-cer-img_inner swiper-wrapper">
+                          <div class="l-cer-img_item swiper-slide">
+                            <div><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_05_cer_01.png" alt=""></div>
                           </div>
                           <div class="l-cer-img_item swiper-slide">
-                            <div><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_01_cer_01.png" alt=""></div>
+                            <div><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_05_cer_02.png" alt=""></div>
                           </div>
                         </div>
                       </div>
@@ -416,34 +472,26 @@
               <div class="l-doctors_item">
                 <div class="l-doctors_images">
                   <div class="bg is-sp"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/top/bg_circle.png" alt=""></div>
-                  <div class="img"><img class="is-sp" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/top/img_bs_01.png" alt=""><img class="is-pc" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/bs-tung/img_doc_04.png" alt="TIẾN SĨ - BÁC SĨ NGUYỄN HIẾU TÙNG"></div>
+                  <div class="img">
+                    <img class="is-sp" src="/wp-content/uploads/2023/06/thumb-bs_0004_thao-263x375.png.webp" alt="">
+                    <img class="is-pc" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_06.png.webp" alt="BÁC SĨ - NGÔ THỊ PHƯƠNG THẢO"></div>
                 </div>
                 <div class="l-doctors_info">
                   <div class="l-doctors_info_inner">
-                    <h2 class="name">TIẾN SĨ - BÁC SĨ NGUYỄN HIẾU TÙNG </h2>
+                    <h2 class="name">BÁC SĨ - NGÔ THỊ PHƯƠNG THẢO</h2>
                     <ul class="certificate">
-                      <li>Chứng chỉ hành nghề số: 0002468/TG – CCHN.</li>
-                      <li>Bằng Chuyên Khoa Sau Đại Học IMPLANT Nha khoa, ĐH Méditerranée,     Marseille, Pháp.</li>
-                      <li>Chứng Chỉ Chuyên Khoa Sau Đại Học Phục Hình Cố Định, ĐH Aix-Marseille, Marseille, Pháp.</li>
-                      <li>Tiến sĩ Y khoa Bện h Lý Học Ở Người, Khoa Y, ĐH Aix-Marseille, Marseille, Pháp.</li>
-                      <li>Bằng Chuyên Khoa Sau Đại học Phẫu Thuật Tạo Hình Nha Chu, ĐH Méditerranée, Marseille, Pháp.</li>
-                      <li>Chứng Chỉ Cao Học Phẫu Thuật Răng Miệng Vật Liệu Nha Khoa, ĐH Méditerranée, Marseille, Pháp.</li>
-                      <li>Bằng Chuyên Khoa Sau Đại Học Nha Chu Lâm Sàng, ĐH Méditerranée, Marseille, Pháp.</li>
+                      <li>BÁC SĨ CHUYÊN KHOA I – ĐẠI HỌC Y DƯỢC TP. HỒ CHÍ MINH</li>
+                      <li>Chứng chỉ hành nghề số: 005787/CT - CHCN</li>
+                      <li>Chuyên thẩm mỹ răng sứ - Veneer, Điều trị bệnh lý nha khoa, Phục hình và Phẫu thuật nha chu.</li>
                     </ul>
                     <div class="l-cer-img">
                       <div class="l-cer-img_wrap swiper-container js-slide-cer">
                         <div class="l-cer-img_inner swiper-wrapper">
                           <div class="l-cer-img_item swiper-slide">
-                            <div><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_01_cer_01.png" alt=""></div>
+                            <div><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_06_cer_01.png" alt=""></div>
                           </div>
                           <div class="l-cer-img_item swiper-slide">
-                            <div><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_01_cer_02.png" alt=""></div>
-                          </div>
-                          <div class="l-cer-img_item swiper-slide">
-                            <div><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_01_cer_03.png" alt=""></div>
-                          </div>
-                          <div class="l-cer-img_item swiper-slide">
-                            <div><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_01_cer_01.png" alt=""></div>
+                            <div><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_06_cer_02.png" alt=""></div>
                           </div>
                         </div>
                       </div>
@@ -458,76 +506,29 @@
               <div class="l-doctors_item">
                 <div class="l-doctors_images">
                   <div class="bg is-sp"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/top/bg_circle.png" alt=""></div>
-                  <div class="img"><img class="is-sp" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/top/img_bs_01.png" alt=""><img class="is-pc" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/bs-tung/img_doc_04.png" alt="TIẾN SĨ - BÁC SĨ NGUYỄN HIẾU TÙNG"></div>
+                  <div class="img">
+                    <img class="is-sp" src="/wp-content/uploads/2023/06/thumb-bs_0001_khanh-263x375.png.webp" alt="BÁC SĨ - VŨ THIỆN KHANH">
+                    <img class="is-pc" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_03.png.webp" alt="BÁC SĨ - VŨ THIỆN KHANH"></div>
                 </div>
                 <div class="l-doctors_info">
                   <div class="l-doctors_info_inner">
-                    <h2 class="name">TIẾN SĨ - BÁC SĨ NGUYỄN HIẾU TÙNG </h2>
+                    <h2 class="name">BÁC SĨ - VŨ THIỆN KHANH</h2>
                     <ul class="certificate">
-                      <li>Chứng chỉ hành nghề số: 0002468/TG – CCHN.</li>
-                      <li>Bằng Chuyên Khoa Sau Đại Học IMPLANT Nha khoa, ĐH Méditerranée,     Marseille, Pháp.</li>
-                      <li>Chứng Chỉ Chuyên Khoa Sau Đại Học Phục Hình Cố Định, ĐH Aix-Marseille, Marseille, Pháp.</li>
-                      <li>Tiến sĩ Y khoa Bện h Lý Học Ở Người, Khoa Y, ĐH Aix-Marseille, Marseille, Pháp.</li>
-                      <li>Bằng Chuyên Khoa Sau Đại học Phẫu Thuật Tạo Hình Nha Chu, ĐH Méditerranée, Marseille, Pháp.</li>
-                      <li>Chứng Chỉ Cao Học Phẫu Thuật Răng Miệng Vật Liệu Nha Khoa, ĐH Méditerranée, Marseille, Pháp.</li>
-                      <li>Bằng Chuyên Khoa Sau Đại Học Nha Chu Lâm Sàng, ĐH Méditerranée, Marseille, Pháp.</li>
+                      <li>BÁC SĨ CHUYÊN KHOA I – ĐẠI HỌC Y DƯỢC TP. HỒ CHÍ MINH</li>
+                      <li>Chứng chỉ hành nghề số: 0002812/BL – CCHN</li>
+                      <li>Chuyên Cấy ghép Implant, Phục hình sứ trên Implant, Phục hình thẩm mỹ Răng sứ - Veneer</li>
                     </ul>
                     <div class="l-cer-img">
                       <div class="l-cer-img_wrap swiper-container js-slide-cer">
                         <div class="l-cer-img_inner swiper-wrapper">
                           <div class="l-cer-img_item swiper-slide">
-                            <div><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_01_cer_01.png" alt=""></div>
+                            <div><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_03_cer_01.png" alt=""></div>
                           </div>
                           <div class="l-cer-img_item swiper-slide">
-                            <div><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_01_cer_02.png" alt=""></div>
+                            <div><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_03_cer_02.png" alt=""></div>
                           </div>
                           <div class="l-cer-img_item swiper-slide">
-                            <div><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_01_cer_03.png" alt=""></div>
-                          </div>
-                          <div class="l-cer-img_item swiper-slide">
-                            <div><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_01_cer_01.png" alt=""></div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="swiper-btn swiper-prev"></div>
-                      <div class="swiper-btn swiper-next"></div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="l-doctors is-special">
-              <div class="l-doctors_item">
-                <div class="l-doctors_images">
-                  <div class="bg is-sp"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/top/bg_circle.png" alt=""></div>
-                  <div class="img"><img class="is-sp" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/top/img_bs_01.png" alt=""><img class="is-pc" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/bs-tung/img_doc_04.png" alt="TIẾN SĨ - BÁC SĨ NGUYỄN HIẾU TÙNG"></div>
-                </div>
-                <div class="l-doctors_info">
-                  <div class="l-doctors_info_inner">
-                    <h2 class="name">TIẾN SĨ - BÁC SĨ NGUYỄN HIẾU TÙNG </h2>
-                    <ul class="certificate">
-                      <li>Chứng chỉ hành nghề số: 0002468/TG – CCHN.</li>
-                      <li>Bằng Chuyên Khoa Sau Đại Học IMPLANT Nha khoa, ĐH Méditerranée,     Marseille, Pháp.</li>
-                      <li>Chứng Chỉ Chuyên Khoa Sau Đại Học Phục Hình Cố Định, ĐH Aix-Marseille, Marseille, Pháp.</li>
-                      <li>Tiến sĩ Y khoa Bện h Lý Học Ở Người, Khoa Y, ĐH Aix-Marseille, Marseille, Pháp.</li>
-                      <li>Bằng Chuyên Khoa Sau Đại học Phẫu Thuật Tạo Hình Nha Chu, ĐH Méditerranée, Marseille, Pháp.</li>
-                      <li>Chứng Chỉ Cao Học Phẫu Thuật Răng Miệng Vật Liệu Nha Khoa, ĐH Méditerranée, Marseille, Pháp.</li>
-                      <li>Bằng Chuyên Khoa Sau Đại Học Nha Chu Lâm Sàng, ĐH Méditerranée, Marseille, Pháp.</li>
-                    </ul>
-                    <div class="l-cer-img">
-                      <div class="l-cer-img_wrap swiper-container js-slide-cer">
-                        <div class="l-cer-img_inner swiper-wrapper">
-                          <div class="l-cer-img_item swiper-slide">
-                            <div><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_01_cer_01.png" alt=""></div>
-                          </div>
-                          <div class="l-cer-img_item swiper-slide">
-                            <div><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_01_cer_02.png" alt=""></div>
-                          </div>
-                          <div class="l-cer-img_item swiper-slide">
-                            <div><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_01_cer_03.png" alt=""></div>
-                          </div>
-                          <div class="l-cer-img_item swiper-slide">
-                            <div><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_01_cer_01.png" alt=""></div>
+                            <div><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_03_cer_03.png" alt=""></div>
                           </div>
                         </div>
                       </div>
@@ -543,11 +544,11 @@
             <div class="js-doc-thumb">
               <div class="thumb-item">
                 <div class="thumb-item_inner"><a href="javascript:;"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/top/img_thumb_01.png" alt="">
-                    <div class="name"><span>Bác sĩ Chuyên Khoa I</span><strong>Mai Hồng Thái</strong></div></a></div>
+                    <div class="name"><span>Bác sĩ -TIẾN SỸ</span><strong>Nguyễn Hiếu Tùng</strong></div></a></div>
               </div>
               <div class="thumb-item">
                 <div class="thumb-item_inner"><a href="javascript:;"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/top/img_thumb_02.png" alt="">
-                    <div class="name"><span>Bác sĩ Chuyên Khoa I</span><strong>Mai Hồng Thái</strong></div></a></div>
+                    <div class="name"><span>Bác sĩ Chuyên Khoa I</span><strong>Nguyễn Huỳnh Ngọc Mỹ</strong></div></a></div>
               </div>
               <div class="thumb-item">
                 <div class="thumb-item_inner"><a href="javascript:;"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/promotion/img_doc_01.png" alt="">
@@ -555,15 +556,15 @@
               </div>
               <div class="thumb-item">
                 <div class="thumb-item_inner"><a href="javascript:;"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/promotion/img_doc_02.png" alt="">
-                    <div class="name"><span>Bác sĩ Chuyên Khoa I</span><strong>Mai Hồng Thái</strong></div></a></div>
+                    <div class="name"><span>Bác sĩ Chuyên Khoa I</span><strong>Đặng Duy Tùng</strong></div></a></div>
               </div>
               <div class="thumb-item">
                 <div class="thumb-item_inner"><a href="javascript:;"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/promotion/img_doc_03.png" alt="">
-                    <div class="name"><span>Bác sĩ Chuyên Khoa I</span><strong>Mai Hồng Thái</strong></div></a></div>
+                    <div class="name"><span>Bác sĩ Chuyên Khoa I</span><strong>Ngô Thị Phương Thảo</strong></div></a></div>
               </div>
               <div class="thumb-item">
                 <div class="thumb-item_inner"><a href="javascript:;"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/promotion/img_doc_04.png" alt="">
-                    <div class="name"><span>Bác sĩ Chuyên Khoa I</span><strong>Mai Hồng Thái</strong></div></a></div>
+                    <div class="name"><span>Bác sĩ Chuyên Khoa I</span><strong>Vũ Thiện Khanh</strong></div></a></div>
               </div>
             </div>
           </div>
@@ -572,7 +573,7 @@
       <section class="m-cus-danhgia">
         <div class="wrapper">
           <h2 class="ttl-primary ttl-primary--is-medium">ĐÁNH GIÁ CỦA KHÁCH HÀNG KHI BỌC RĂNG SỨ TẠI NHA KHOA I-DENT</h2>
-          <ul class="l-demo is-one">
+<!--           <ul class="l-demo is-one">
             <li class="l-demo_item">
               <div class="wrap">
                 <div class="demo-img"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/rangsu/img_cus.png" alt=""></div>
@@ -585,67 +586,7 @@
                 </div>
               </div>
             </li>
-            <li class="l-demo_item">
-              <div class="wrap">
-                <div class="demo-img"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/rangsu/img_cus.png" alt=""></div>
-                <div class="demo-info">
-                  <div class="demo-info_name">
-                    <h3 class="name">Chị Kiều Oanh - Kiên Giang</h3><span class="lca">34 Tuổi</span>
-                  </div>
-                  <div class="type js-height">Nhờ đến nha khoa I-Dent và được bác sĩ Thái tư vấn bọc 20 răng sứ Cercon HT, nên giờ răng của chị đẹp hơn rất nhiều. Răng trắng sáng và đều màu. Chị cũng rất thích dịch vụ ở đây, báo giá rõ ràng và trọn gói</div>
-                  <div class="implant">Bọc sứ 20 răng - Cercon HT</div>
-                </div>
-              </div>
-            </li>
-            <li class="l-demo_item">
-              <div class="wrap">
-                <div class="demo-img"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/rangsu/img_cus.png" alt=""></div>
-                <div class="demo-info">
-                  <div class="demo-info_name">
-                    <h3 class="name">Chị Thu Liên - Bình Dương</h3><span class="lca">36 Tuổi</span>
-                  </div>
-                  <div class="type js-height">Răng chị nhiễm kháng sinh Tetra khá nặng, tẩy trắng nhiều lần cũng không hiệu quả. Chỉ sau khi bọc sứ tại nha khoa I-Dent, mới cải thiện được thẩm mỹ cho cả hàm răng. Giờ chị có thể tự tin cười nói, công việc cũng thuận lợi hơn.</div>
-                  <div class="implant">Bọc sứ 16 răng - DDBio HT</div>
-                </div>
-              </div>
-            </li>
-            <li class="l-demo_item">
-              <div class="wrap">
-                <div class="demo-img"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/rangsu/img_cus.png" alt=""></div>
-                <div class="demo-info">
-                  <div class="demo-info_name">
-                    <h3 class="name">Chị Thu Yến - Long An</h3><span class="lca">36 Tuổi</span>
-                  </div>
-                  <div class="type js-height">Nhờ người bạn đồng nghiệp giới thiệu, chị biết đến I-Dent và thực hiện bọc răng sứ tại đây. Giờ chị có thể tự tin cười nói vui vẻ mà không e ngại hàm răng ố vàng. Cảm ơn Bác sĩ Tùng, Bác sĩ Khanh và I-Dent rất nhiều.</div>
-                  <div class="implant">Bọc sứ 20 răng - Zirconia</div>
-                </div>
-              </div>
-            </li>
-            <li class="l-demo_item">
-              <div class="wrap">
-                <div class="demo-img"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/rangsu/img_cus.png" alt=""></div>
-                <div class="demo-info">
-                  <div class="demo-info_name">
-                    <h3 class="name">Chị Kiều Oanh - Kiên Giang</h3><span class="lca">34 Tuổi</span>
-                  </div>
-                  <div class="type js-height">Nhờ đến nha khoa I-Dent và được bác sĩ Thái tư vấn bọc 20 răng sứ Cercon HT, nên giờ răng của chị đẹp hơn rất nhiều. Răng trắng sáng và đều màu. Chị cũng rất thích dịch vụ ở đây, báo giá rõ ràng và trọn gói</div>
-                  <div class="implant">Bọc sứ 20 răng - Cercon HT</div>
-                </div>
-              </div>
-            </li>
-            <li class="l-demo_item">
-              <div class="wrap">
-                <div class="demo-img"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/rangsu/img_cus.png" alt=""></div>
-                <div class="demo-info">
-                  <div class="demo-info_name">
-                    <h3 class="name">Chị Thu Liên - Bình Dương</h3><span class="lca">36 Tuổi</span>
-                  </div>
-                  <div class="type js-height">Răng chị nhiễm kháng sinh Tetra khá nặng, tẩy trắng nhiều lần cũng không hiệu quả. Chỉ sau khi bọc sứ tại nha khoa I-Dent, mới cải thiện được thẩm mỹ cho cả hàm răng. Giờ chị có thể tự tin cười nói, công việc cũng thuận lợi hơn.</div>
-                  <div class="implant">Bọc sứ 16 răng - DDBio HT</div>
-                </div>
-              </div>
-            </li>
-          </ul>
+          </ul> -->
         </div>
       </section>
       <section class="m-video is-special">
@@ -705,7 +646,15 @@
                 <div class="m-btn is-reverse"><a href="javascript:;">Trả lời</a></div>
               </div>
               <div class="answer">
-                <p class="text">Loremipsum</p>
+                <p class="text"><strong>TRẢ LỜI :</strong>Tuổi thọ sử dụng của răng sứ có bền lâu hay không sẽ phụ thuộc vào những yếu tố dưới đây:</p>
+                <p class="text">- Lựa chọn nha khoa bọc răng sứ</p>
+                <p class="text">Một nha khoa uy tín, chất lượng sẽ đảm bảo quá trình bọc răng sứ diễn ra an toàn và thành công, nhờ:</p>
+                <p class="text">Đội ngũ bác sĩ tay nghề giỏi, nhiều năm kinh nghiệm. </p>
+                <p class="text">Trang thiết bị hiện đại, đảm bảo răng sứ được chế tác chuẩn xác, thẩm mỹ và độ bền cao.</p>
+                <p class="text">- Loại răng sứ được lựa chọn<br>
+                   bọc răng sứ có bền không cũng phụ thuộc vào loại răng sứ mà bạn lựa chọn. Với những loại răng toàn sứ, không chỉ có tính thẩm mỹ cao mà tuổi thọ có thể kéo dài đến 20 năm. Răng sứ kim loại tuy có chi phí rẻ hơn, nhưng sử dụng lâu dễ gây đen viền nướu và tuổi thọ chỉ khoảng 10 năm.</p>
+                <p class="text">- Cách chăm sóc răng sau khi bọc sứ<br>
+                    Nếu bạn có cách chăm sóc răng miệng tốt như: Chải răng 2 lần/ngày; sử dụng thêm chỉ nha khoa và nước súc miệng để làm sạch thức ăn; thăm khám răng định kỳ 6 tháng/lần cũng như hạn chế sử dụng những loại thực phẩm có hại cho răng... thì sẽ giúp tăng tuổi thọ của thọ răng sứ.</p>
               </div>
             </li>
           </ul>

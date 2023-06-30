@@ -24,7 +24,6 @@
               <h2 class="ttl-primary ttl-primary--is-medium u-left">DÁN SỨ VENEER LÀ GÌ? CÓ TỐT KHÔNG?</h2>
               <div class="img is-sp"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/veneer/img_01.png" alt=""></div>
               <p class="text">Công nghệ dán sứ Veneer (hay còn gọi là mặt dán sứ Veneer) là một phương pháp sử dụng mặt dán làm bằng lớp sứ mỏng khoảng từ 0.2 mm - 0.5 mm. Mặt dán sứ này sẽ được dán cố định vào bên ngoài bề mặt răng cần được phục hình bằng keo dán răng sứ chuyên dụng sao cho ôm vừa khít toàn thân răng một cách tự nhiên nhất.<br>Đây được xem là bước đột phá mới trong các phương pháp thẩm mỹ răng dành cho những ai không muốn mài nhiều răng nhưng vẫn khắc phục tình trạng răng ố màu, xỉn vàng, mọc không đều, hở kẻ... của mình thành răng đều đẹp, trắng sáng.</p>
-              <div class="m-btn"><a href="#">ĐẶT LỊCH TƯ VẤN</a></div>
             </div>
           </div>
         </div>
@@ -125,7 +124,7 @@
       </div>
       <section class="m-tooth-flow">
         <div class="wrapper">
-          <h2 class="ttl-primary ttl-primary--is-medium">QUY TRÌNH BỌC RĂNG SỨ THẨM MỸ</h2>
+          <h2 class="ttl-primary ttl-primary--is-medium">QUY TRÌNH DÁN RĂNG SỨ VENEER</h2>
           <p class="text">Dán sứ Veneer chỉ mất khoảng 3 – 5 ngày với 2 lần hẹn là bạn đã hoàn thành quy trình dán sứ Veneer. Sau khi hoàn thành quá trình dán sứ Veneer, Bác sĩ I-Dent sẽ đánh giá kiểm tra mức độ chịu lực của răng nhằm đảm bảo chức năng ăn nhai tốt và tính thẩm mỹ cao. Đồng thời, Bác sĩ sẽ hướng dẫn bạn cách vệ sinh răng miệng và chế độ ăn uống hợp lý để răng Veneer được duy trì màu sắc và sử dụng lâu dài.</p>
           <ul class="l-tooth-flow">
             <li class="l-tooth-flow_item">
@@ -158,7 +157,11 @@
                 <p class="text">Gắn răng sứ Vener<br>cố định</p>
               </div>
             </li>
-          </ul><a class="vidplay trans" href="https://www.youtube.com/watch?v=WXX4qCbyts0"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/veneer/bg_video.png"></a>
+          </ul>
+          <a class="vidplay trans" href="https://www.youtube.com/watch?v=WXX4qCbyts0">
+            <img class="is-pc" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/veneer/bg_video.png">
+            <img class="is-sp" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/veneer/mobile_banner_video_dan_su.jpg">
+          </a>
         </div>
       </section>
       <section class="m-promo m-promo-normal">
@@ -267,7 +270,31 @@
           <ul class="l-demo is-one">
             <li class="l-demo_item">
               <div class="wrap">
-                <div class="demo-img"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/rangsu/img_cus.png" alt=""></div>
+                <div class="demo-img"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/rangsu/quynh-nhu.png" alt=""></div>
+                <div class="demo-info">
+                  <div class="demo-info_name">
+                    <h3 class="name">Chị Quỳnh Như - TP HCM</h3><span class="lca">28 Tuổi</span>
+                  </div>
+                  <div class="type js-height">Nhờ bác sĩ Khanh thăm khám, tư vấn rồi thực hiện dán sứ kỹ lưỡng, chị mới có được hàm răng đều đặn, hết thưa lại còn trắng sáng. Xin gởi lời cảm ơn đến I-Dent.</div>
+                  <div class="implant">Dán sứ 16 răng - Veneer</div>
+                </div>
+              </div>
+            </li>
+            <li class="l-demo_item">
+              <div class="wrap">
+                <div class="demo-img"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/rangsu/uyen-phuong.png" alt=""></div>
+                <div class="demo-info">
+                  <div class="demo-info_name">
+                    <h3 class="name">Chị Uyên Phương - TP HCM</h3><span class="lca">26 Tuổi</span>
+                  </div>
+                  <div class="type js-height">Khi biết đến I-Dent là địa chỉ làm răng sứ uy tín, chị đã chọn I-Dent để dán sứ cho cả 2 hàm. Quá trình làm răng nhẹ nhàng, không ê buốt gì cả. Sau 3 ngày là hoàn tất. Chị rất hài lòng với hàm răng mới của mình.</div>
+                  <div class="implant">Dán sứ 20 răng - Veneer</div>
+                </div>
+              </div>
+            </li>
+            <li class="l-demo_item">
+              <div class="wrap">
+                <div class="demo-img"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/rangsu/thu-yen.png" alt=""></div>
                 <div class="demo-info">
                   <div class="demo-info_name">
                     <h3 class="name">Chị Thu Yến - Long An</h3><span class="lca">36 Tuổi</span>
@@ -279,7 +306,7 @@
             </li>
             <li class="l-demo_item">
               <div class="wrap">
-                <div class="demo-img"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/rangsu/img_cus.png" alt=""></div>
+                <div class="demo-img"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/rangsu/kieu_oanh.png" alt=""></div>
                 <div class="demo-info">
                   <div class="demo-info_name">
                     <h3 class="name">Chị Kiều Oanh - Kiên Giang</h3><span class="lca">34 Tuổi</span>
@@ -291,7 +318,7 @@
             </li>
             <li class="l-demo_item">
               <div class="wrap">
-                <div class="demo-img"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/rangsu/img_cus.png" alt=""></div>
+                <div class="demo-img"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/rangsu/thu-lien.png" alt=""></div>
                 <div class="demo-info">
                   <div class="demo-info_name">
                     <h3 class="name">Chị Thu Liên - Bình Dương</h3><span class="lca">36 Tuổi</span>
@@ -303,120 +330,21 @@
             </li>
             <li class="l-demo_item">
               <div class="wrap">
-                <div class="demo-img"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/rangsu/img_cus.png" alt=""></div>
+                <div class="demo-img"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/rangsu/quynh-hoa.png" alt=""></div>
                 <div class="demo-info">
                   <div class="demo-info_name">
-                    <h3 class="name">Chị Thu Yến - Long An</h3><span class="lca">36 Tuổi</span>
+                    <h3 class="name">Chị Quỳnh Hoa - TP HCM</h3><span class="lca">40 Tuổi</span>
                   </div>
-                  <div class="type js-height">Nhờ người bạn đồng nghiệp giới thiệu, chị biết đến I-Dent và thực hiện bọc răng sứ tại đây. Giờ chị có thể tự tin cười nói vui vẻ mà không e ngại hàm răng ố vàng. Cảm ơn Bác sĩ Tùng, Bác sĩ Khanh và I-Dent rất nhiều.</div>
-                  <div class="implant">Bọc sứ 20 răng - Zirconia</div>
-                </div>
-              </div>
-            </li>
-            <li class="l-demo_item">
-              <div class="wrap">
-                <div class="demo-img"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/rangsu/img_cus.png" alt=""></div>
-                <div class="demo-info">
-                  <div class="demo-info_name">
-                    <h3 class="name">Chị Kiều Oanh - Kiên Giang</h3><span class="lca">34 Tuổi</span>
-                  </div>
-                  <div class="type js-height">Nhờ đến nha khoa I-Dent và được bác sĩ Thái tư vấn bọc 20 răng sứ Cercon HT, nên giờ răng của chị đẹp hơn rất nhiều. Răng trắng sáng và đều màu. Chị cũng rất thích dịch vụ ở đây, báo giá rõ ràng và trọn gói</div>
-                  <div class="implant">Bọc sứ 20 răng - Cercon HT</div>
-                </div>
-              </div>
-            </li>
-            <li class="l-demo_item">
-              <div class="wrap">
-                <div class="demo-img"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/rangsu/img_cus.png" alt=""></div>
-                <div class="demo-info">
-                  <div class="demo-info_name">
-                    <h3 class="name">Chị Thu Liên - Bình Dương</h3><span class="lca">36 Tuổi</span>
-                  </div>
-                  <div class="type js-height">Răng chị nhiễm kháng sinh Tetra khá nặng, tẩy trắng nhiều lần cũng không hiệu quả. Chỉ sau khi bọc sứ tại nha khoa I-Dent, mới cải thiện được thẩm mỹ cho cả hàm răng. Giờ chị có thể tự tin cười nói, công việc cũng thuận lợi hơn.</div>
-                  <div class="implant">Bọc sứ 16 răng - DDBio HT</div>
+                  <div class="type js-height">Lúc đầu chị cũng lo lắng rất nhiều, sợ sau khi làm sứ, răng đau buốt như nhiều người nói, nhưng dùng được 1 năm rồi răng vẫn rất trắng sáng và hoàn toàn không bị ê buốt hay hôi miệng gì cả. Chị rất hài lòng với dịch vụ răng sứ thẩm mỹ tại I-Dent.</div>
+                  <div class="implant">Bọc sứ 20 răng - Nacera 9Max</div>
                 </div>
               </div>
             </li>
           </ul>
         </div>
       </section>
-      <section class="m-video is-special">
-        <div class="wrapper">
-          <div class="m-video_inner">
-            <div class="m-video_main"><a class="vidplay" href="https://www.youtube.com/watch?v=jZF0MMdPang"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/top/thumbnail-video1.webp"></a></div>
-            <ul class="l-video js-loadmore">
-              <li><a class="vidplay" href="https://www.youtube.com/watch?v=jZF0MMdPang"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/top/thumbnail-video1.webp"></a>
-                <div class="video-info">
-                  <h3 class="title">Cảm nhận bệnh nhân sau khi trồng Implant</h3><span class="view">Lượt xem : 5230</span>
-                </div>
-              </li>
-              <li><a class="vidplay" href="https://www.youtube.com/watch?v=jZF0MMdPang"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/top/thumbnail-video1.webp"></a>
-                <div class="video-info">
-                  <h3 class="title">Cảm nhận bệnh nhân sau khi trồng Implant</h3><span class="view">Lượt xem : 5230</span>
-                </div>
-              </li>
-              <li><a class="vidplay" href="https://www.youtube.com/watch?v=jZF0MMdPang"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/top/thumbnail-video1.webp"></a>
-                <div class="video-info">
-                  <h3 class="title">Cảm nhận bệnh nhân sau khi trồng Implant</h3><span class="view">Lượt xem : 5230</span>
-                </div>
-              </li>
-              <li><a class="vidplay" href="https://www.youtube.com/watch?v=jZF0MMdPang"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/top/thumbnail-video1.webp"></a>
-                <div class="video-info">
-                  <h3 class="title">Cảm nhận bệnh nhân sau khi trồng Implant</h3><span class="view">Lượt xem : 5230</span>
-                </div>
-              </li>
-              <li><a class="vidplay" href="https://www.youtube.com/watch?v=jZF0MMdPang"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/top/thumbnail-video1.webp"></a>
-                <div class="video-info">
-                  <h3 class="title">Cảm nhận bệnh nhân sau khi trồng Implant</h3><span class="view">Lượt xem : 5230</span>
-                </div>
-              </li>
-            </ul>
-            <div class="m-btn btn-more is-sp"><a href="javascript:;">Xem thêm</a></div>
-          </div>
-        </div>
-      </section>
-      <section class="m-paper">
-        <div class="wrapper">
-          <h2 class="ttl-primary">BÁO CHÍ ĐƯA TIN VỀ NHA KHOA I-DENT</h2>
-          <div class="l-paper js-paper-slide">
-            <div class="m-paper_item">
-              <div class="m-paper_inner">
-                <div class="m-paper_wrap"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/top/img_wallpaper_01.jpg" alt="">
-                  <div class="m-paper_btn">
-                    <div class="m-btn"><a href="#">Xem chi tiết</a></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="m-paper_item">
-              <div class="m-paper_inner">
-                <div class="m-paper_wrap"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/top/img_wallpaper_01.jpg" alt="">
-                  <div class="m-paper_btn">
-                    <div class="m-btn"><a href="#">Xem chi tiết</a></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="m-paper_item">
-              <div class="m-paper_inner">
-                <div class="m-paper_wrap"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/top/img_wallpaper_01.jpg" alt="">
-                  <div class="m-paper_btn">
-                    <div class="m-btn"><a href="#">Xem chi tiết</a></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="m-paper_item">
-              <div class="m-paper_inner">
-                <div class="m-paper_wrap"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/top/img_wallpaper_01.jpg" alt="">
-                  <div class="m-paper_btn">
-                    <div class="m-btn"><a href="#">Xem chi tiết</a></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-<?php
-get_footer(); ?>
+      <?php
+       require_once( get_stylesheet_directory() . '/module/m-paper.php' );
+       require_once( get_stylesheet_directory() . '/module/contact-footer.php' );
+      ?>
+<?php get_footer(); ?>

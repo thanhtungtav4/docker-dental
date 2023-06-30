@@ -23,7 +23,6 @@
             <div class="info">
               <h2 class="ttl-primary ttl-primary--is-medium u-left">NIỀNG RĂNG THẨM MỸ LÀ GÌ?</h2>
               <p class="text">Niềng răng thẩm mỹ hay còn gọi là Chỉnh nha thẩm mỹ. Đây là kỹ thuật điều chỉnh răng hô, móm, răng mọc lệch lạc… về đúng vị trí khớp cắn chuẩn. Bằng cách sử dụng những khí cụ nha khoa như: mắc cài, dây cung, thun cao su, minivis, khay niềng răng...</p>
-              <div class="m-btn"><a href="#">ĐẶT LỊCH TƯ VẤN</a></div>
             </div>
           </div>
         </div>
@@ -306,48 +305,9 @@
           </div>
         </div>
       </section>
-      <section class="m-paper">
-        <div class="wrapper">
-          <h2 class="ttl-primary">BÁO CHÍ ĐƯA TIN VỀ NHA KHOA I-DENT</h2>
-          <div class="l-paper js-paper-slide">
-            <div class="m-paper_item">
-              <div class="m-paper_inner">
-                <div class="m-paper_wrap"><img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/top/img_wallpaper_01.jpg" alt="">
-                  <div class="m-paper_btn">
-                    <div class="m-btn"><a href="#">Xem chi tiết</a></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="m-paper_item">
-              <div class="m-paper_inner">
-                <div class="m-paper_wrap"><img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/top/img_wallpaper_01.jpg" alt="">
-                  <div class="m-paper_btn">
-                    <div class="m-btn"><a href="#">Xem chi tiết</a></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="m-paper_item">
-              <div class="m-paper_inner">
-                <div class="m-paper_wrap"><img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/top/img_wallpaper_01.jpg" alt="">
-                  <div class="m-paper_btn">
-                    <div class="m-btn"><a href="#">Xem chi tiết</a></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="m-paper_item">
-              <div class="m-paper_inner">
-                <div class="m-paper_wrap"><img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/top/img_wallpaper_01.jpg" alt="">
-                  <div class="m-paper_btn">
-                    <div class="m-btn"><a href="#">Xem chi tiết</a></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      <?php
+       require_once( get_stylesheet_directory() . '/module/m-paper.php' );
+       require_once( get_stylesheet_directory() . '/module/contact-footer.php' );
+      ?>
 <?php
 get_footer(); ?>
