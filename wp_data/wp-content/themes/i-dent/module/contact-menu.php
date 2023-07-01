@@ -7,7 +7,7 @@
       <a class="form-popup" id="ssldatlich" href="#" rel="nofollow" title="Gọi tư vấn">Gọi tư vấn</a>
     </li>
     <li id="menu-datlich">
-      <a class="form-popup" id="ssldatlich" href="#" rel="nofollow" title="Đặt lịch hẹn">
+      <a class="form-popup popup-with-form" id="ssldatlich" href="#modal-contact" rel="nofollow" title="Đặt lịch hẹn">
         <img class="is-pc" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/icon-dlh.png" alt="Đặt lịch hẹn" loading="lazy">
         <img class="is-sp" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/ico_message.svg" alt="message" loading="lazy">
       </a>
