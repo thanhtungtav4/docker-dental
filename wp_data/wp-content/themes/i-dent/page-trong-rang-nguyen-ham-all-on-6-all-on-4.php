@@ -13,10 +13,12 @@
   get_header();
 ?>
   <div class="mv">
-    <img class="is-pc" loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/allinone/bnr.jpg" alt=""><img class="is-sp" loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/allinone/sp/bnr.jpg" alt="">
+    <img class="is-pc" loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/allinone/bnr.jpg" alt="TRỒNG RĂNG IMPLANT">
+    <img class="is-sp" loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/allinone/sp/bnr.jpg" alt="TRỒNG RĂNG IMPLANT">
     <h1 class="text">TRỒNG RĂNG IMPLANT
     <div class="ttl">TOÀN HÀM</div></h1>
-    <div class="txt">Trồng răng toàn hàm, sử dụng vĩnh viễn <br>Có răng tạm ăn nhai được trong vòng 10 ngày</div><a class="btn trans" href="#"><img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/allinone/bnr_btn.svg" alt="ĐẶT LỊCH HẸN"></a>
+    <div class="txt">Trồng răng toàn hàm, sử dụng vĩnh viễn <br>Có răng tạm ăn nhai được trong vòng 10 ngày</div>
+    <a class="btn trans popup-with-form" href="#modal-contact"><img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/allinone/bnr_btn.svg" alt="ĐẶT LỊCH HẸN"></a>
   </div>
   <section class="m-worry">
     <div class="wrapper">
@@ -196,7 +198,7 @@
               <li><b>100% ca cấy ghép toàn hàm</b> được thực hiện trực tiếp bởi BS-TS Nguyễn Hiếu Tùng</li>
               <li><b>100% bác sĩ </b> có trình độ từ CKI trở lên. </li>
             </ul>
-            
+
           </div>
         </li>
         <li class="l-3points_item">
@@ -239,7 +241,7 @@
   </section>
 
   <div class="bg-uudai">
-    <img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/allinone/bg_allin.jpg" alt=""><a class="btn trans" href="">
+    <img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/allinone/bg_allin.jpg" alt=""><a class="btn trans popup-with-form" href="#modal-contact">
     <img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/allinone/bnr_btn.svg" alt="ĐẶT LỊCH HẸN"></a>
   </div>
 
@@ -268,7 +270,7 @@
               </td>
               <td><strong class="price is-old">130.000.000 VNĐ</strong><strong class="price">120.000.000 VNĐ</strong></td>
               <td><strong class="price is-old">150.000.000 VNĐ</strong><strong class="price">135.000.000 VNĐ</strong></td>
-              <td><a class="link trans" href="#">ĐĂNG KÝ<br>TƯ VẤN</a></td>
+              <td><a class="link trans popup-with-form" href="#modal-contact">ĐĂNG KÝ<br>TƯ VẤN</a></td>
             </tr>
             <tr>
               <td><strong>IMPLANT TEKKA<br>GLOBAL D (PHÁP)</strong></td>
@@ -281,7 +283,7 @@
               </td>
               <td><strong class="price">140.000.000 VNĐ</strong></td>
               <td><strong class="price">160.000.000 VNĐ</strong></td>
-              <td><a class="link trans" href="#">ĐĂNG KÝ<br>TƯ VẤN</a></td>
+              <td><a class="link tran popup-with-form" href="#modal-contact">ĐĂNG KÝ<br>TƯ VẤN</a></td>
             </tr>
             <tr>
               <td><strong>IMPLANT NOBEL<br>BIOCARE (THỤY ĐIỂN)</strong></td>
@@ -295,7 +297,7 @@
               </td>
               <td><strong class="price is-old">170.000.000 VNĐ</strong><strong class="price">160.000.000 VNĐ</strong></td>
               <td><strong class="price is-old">190.000.000 VNĐ</strong><strong class="price">175.000.000 VNĐ</strong></td>
-              <td><a class="link trans" href="#">ĐĂNG KÝ<br>TƯ VẤN</a></td>
+              <td><a class="link trans popup-with-form" href="#modal-contact">ĐĂNG KÝ<br>TƯ VẤN</a></td>
             </tr>
             <tr>
               <td><strong>IMPLANT STRAUMANN<br>SLACTIVE (THỤY SĨ)</strong></td>
@@ -309,7 +311,7 @@
               </td>
               <td><strong class="price is-old">170.000.000 VNĐ</strong><strong class="price">160.000.000 VNĐ</strong></td>
               <td><strong class="price is-old">190.000.000 VNĐ</strong><strong class="price">175.000.000 VNĐ</strong></td>
-              <td><a class="link trans" href="#">ĐĂNG KÝ<br>TƯ VẤN</a></td>
+              <td><a class="link trans popup-with-form" href="#modal-contact">ĐĂNG KÝ<br>TƯ VẤN</a></td>
             </tr>
           </tbody>
         </table>

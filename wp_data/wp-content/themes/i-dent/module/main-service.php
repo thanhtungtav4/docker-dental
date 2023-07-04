@@ -12,8 +12,8 @@
             $link_to_service = get_sub_field('link_to_service');
             ?>
             <div class="service-slide_item">
-              <a href="#">
-                <img loading="lazy" src="<?php echo wp_get_attachment_image_url($image_service_main, 'SERVICE-THUMB' ) ?>" alt="<?php echo $nameservice ?>">
+              <a href="<?php echo $link_to_service; ?>">
+                <img loading="lazy" src="<?php echo wp_get_attachment_image_url($image_service_main, 'FULL' ) ?>" alt="<?php echo $nameservice ?>">
                 <div class="service-name <?php echo $image_service_sub ?>">
                     <?php echo $nameservice; ?>
                 </div>

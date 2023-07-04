@@ -15,7 +15,7 @@
       <div class="mv"><img class="is-pc" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/rangsu/mv.jpg" alt=""><img class="is-sp" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/rangsu/sp/mv.jpg" alt="">
         <h1 class="title">RĂNG SỨ THẨM MỸ</h1>
         <span class="name">NỤ CƯỜI HOÀN MỸ</span>
-        <a class="btn" href="#">
+        <a class="btn popup-with-form" href="#modal-contact">
           <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/allinone/bnr_btn.svg" alt="ĐẶT LỊCH HẸN">
         </a>
       </div>
@@ -29,8 +29,9 @@
             <div class="img"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/rangsu/img_01.png" alt=""></div>
             <div class="info">
               <h3 class="ttl-primary ttl-primary--is-medium u-left">BỌC RĂNG SỨ LÀ GÌ ?</h3>
-              <p class="text"><a href="#">Bọc răng sứ thẩm mỹ</a> là phương pháp phục hình bằng vật liệu sứ giúp phục hồi chức năng và cải thiện thẩm mỹ, giúp mang lại dáng răng đều, đẹp, màu sắc tự nhiên như răng thật. Trong đó, Bác sĩ sẽ tiến hành mài nhẹ răng hư để làm cùi răng, sau đó lắp mão răng sứ lên trên. Phần mão sứ này sẽ có độ trong và màu sắc trắng sáng tự nhiên như răng thật. Bên cạnh việc cải thiện thẩm mỹ, phương án bọc răng sứ còn giúp bảo vệ răng thật trước những loại vi khuẩn gây hại cho răng.</p>
-              <div class="m-btn"><a href="#">ĐẶT LỊCH TƯ VẤN</a></div>
+              <p class="text">
+                <a href="#">Bọc răng sứ thẩm mỹ</a> là phương pháp phục hình bằng vật liệu sứ giúp phục hồi chức năng và cải thiện thẩm mỹ, giúp mang lại dáng răng đều, đẹp, màu sắc tự nhiên như răng thật. Trong đó, Bác sĩ sẽ tiến hành mài nhẹ răng hư để làm cùi răng, sau đó lắp mão răng sứ lên trên. Phần mão sứ này sẽ có độ trong và màu sắc trắng sáng tự nhiên như răng thật. Bên cạnh việc cải thiện thẩm mỹ, phương án bọc răng sứ còn giúp bảo vệ răng thật trước những loại vi khuẩn gây hại cho răng.</p>
+              <div class="m-btn"><a class="popup-with-form " href="#modal-contact">ĐẶT LỊCH TƯ VẤN</a></div>
             </div>
           </div>
         </div>
@@ -424,7 +425,7 @@
                           <div class="l-cer-img_item swiper-slide">
                             <div><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_02_cer_03.png" alt=""></div>
                           </div>
-            
+
                         </div>
                       </div>
                       <div class="swiper-btn swiper-prev"></div>

@@ -18,7 +18,7 @@
         <h1 class="ttl">TRỒNG RĂNG IMPLANT <span>CÙNG TIẾN SĨ</span>
         </h1>
         <div class="txt">Mất răng lâu năm, mất răng toàn hàm không còn nỗi lo thẩm mỹ, <br>ăn nhai yếu và sức khỏe kém. </div>
-        <a class="btn trans" href="#">
+        <a class="btn trans popup-with-form" href="#modal-contact">
           <img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/service/bnr_btn.svg" alt="ĐẶT LỊCH HẸN">
         </a>
       </div>

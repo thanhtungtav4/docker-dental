@@ -26,7 +26,7 @@
             <img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/basis/bnr_title.svg" alt="TRANG THIẾT BỊ NHẬP KHẨU TỪ CHÂU ÂU 100%">
           </h2>
           <div class="btn">
-            <a class="trans" href="">
+            <a class="trans popup-with-form" href="#modal-contact">
               <img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/basis/btn.svg" alt="ĐẶT LỊCH HẸN">
             </a>
           </div>

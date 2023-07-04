@@ -14,7 +14,7 @@
 ?>
       <div class="mv"><img class="is-pc" loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/bracer/bnr.jpg" alt=""><img class="is-sp" loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/bracer/sp/bnr.jpg" alt="">
         <h1 class="ttl"><strong>NIỀNG RĂNG</strong>THẨM MỸ</h1><span class="txt">CHO NỤ CƯỜI ĐẸP HOÀN HẢO</span>
-        <div class="btn"><a href="#"><img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/bracer/bnr_btn.svg" alt="ĐẶT LỊCH HẸN"></a></div>
+        <div class="btn"><a href="#modal-contact"><img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/bracer/bnr_btn.svg" alt="ĐẶT LỊCH HẸN"></a></div>
       </div>
       <section class="m-intro">
         <div class="wrapper">
