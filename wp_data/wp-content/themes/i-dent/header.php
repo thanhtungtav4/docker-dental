@@ -102,27 +102,7 @@
       </nav>
     </header>
     <div class="modal-contact mfp-hide" id="modal-contact">
-      <div class="inner"><strong>BẠN CẦN TƯ VẤN</strong>
-        <p class="title">ĐẶT LỊCH HẸN CÙNG BÁC SĨ NGAY</p>
-        <p class="text">Nha Khoa I-Dent sẽ liên hệ lại<br>quý Khách trong thời gian sớm nhất</p>
-        <div class="row">
-          <input class="m-input" type="text" placeholder="Họ và tên">
-        </div>
-        <div class="row">
-          <input class="m-input" type="text" placeholder="Số điện thoại">
-        </div>
-        <div class="row">
-          <select class="m-input m-select" name="">
-            <option value="Dịch vụ quan tâm">Trồng răng implant</option>
-            <option value="Dịch vụ quan tâm">Bọc răng sứ</option>
-            <option value="Dịch vụ quan tâm">Dán venneer</option>
-            <option value="Dịch vụ quan tâm">Chỉnh nha</option>
-            <option value="Dịch vụ quan tâm">Dịch vụ khác</option>
-          </select>
-        </div>
-        <div class="m-btn"><a href="#">ĐĂNG KÝ</a></div>
-        <p class="text">Tư vấn trực tiếp 24/7 : 094 1818 616</p>
-      </div>
+       <?php echo do_shortcode('[contact-form-7 id="8776" title="Popup"]') ?>
     </div>
     <main class="SiteMain">
     <?php  require_once( get_stylesheet_directory() . '/module/contact-menu.php' ); ?>

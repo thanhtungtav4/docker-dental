@@ -75,20 +75,6 @@
             return "Không xác định";
         }
     }
-    
-
-    function add_RedirectCF() {
-        ?>
-        <script>
-	    var wpcf7Elm = document.querySelector( '.wpcf7' );
-            wpcf7Elm.addEventListener('wpcf7mailsent', function(event) {
-		alert( "Fire!" );
-                location = '/dat-hen-thanh-cong/';
-            }, false);
-        </script>
-        <?php
-    }
-    add_action('wp_footer', 'add_RedirectCF');
 
     function set_first_url_cookie() {
         if (!isset($_COOKIE['first_url'])) {
@@ -115,4 +101,3 @@
         }
         return false; // Return false if the cookie is not set
     }
-    
