@@ -52,11 +52,7 @@
             </div>
           <?php endif; ?>
           <div class="c-header_contact is-pc">
-            <div class="hotline"><span>HOTLINE</span>
-            <a class="hotline_phone" href="tel:0941818616">
-              <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/ico_phone.svg" alt="0941818616">(+84) 94 1818 616
-            </a>
-            </div>
+            <div class="hotline"><span>HOTLINE</span><a class="hotline_phone" href="tel:0941818616"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/ico_phone.svg" alt="(+84) 94 1818 616">(+84) 94 1818 616</a></div>
             <ul class="language">
               <li>
                 <a href="https://identdentalimplantcenter.com/" target="_blank" rel="noopener">
@@ -102,7 +98,8 @@
       </nav>
     </header>
     <div class="modal-contact mfp-hide" id="modal-contact">
-       <?php echo do_shortcode('[contact-form-7 id="8776" title="Popup"]') ?>
+ 	<?php echo do_shortcode('[contact-form-7 id="8776" title="Popup"]') ?>
+    </div>
     </div>
     <main class="SiteMain">
     <?php  require_once( get_stylesheet_directory() . '/module/contact-menu.php' ); ?>

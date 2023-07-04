@@ -90,7 +90,6 @@ Text Domain: i-dent
 }
 .wpcf7-form label.error{
   display: block;
-  font-size: 15px;
 }
 @media screen and (max-width: 767px) {
   .gr-check .wpcf7-form-control-wrap .wpcf7-form-control > span.wpcf7-list-item{
@@ -317,4 +316,8 @@ ul.l-giaiphap .text{
 .inPage .button-dangkytuvan {
     margin: 19px 19px;
     padding: 0px 70px;
+}
+.wpcf7-form label.error{
+  display: block;
+  font-size: 15px;
 }

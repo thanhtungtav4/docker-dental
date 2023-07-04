@@ -75,6 +75,7 @@
             return "Không xác định";
         }
     }
+    
 
     function set_first_url_cookie() {
         if (!isset($_COOKIE['first_url'])) {
@@ -101,3 +102,4 @@
         }
         return false; // Return false if the cookie is not set
     }
+    

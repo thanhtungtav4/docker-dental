@@ -1,17 +1,17 @@
 <div id="contact-menu">
   <ul>
     <li class="is-sp" id="menu-call">
-      <a class="form-popup" id="ssldatlich" href="#" rel="nofollow" title="Gọi tư vấn">
+      <a class="form-popup" id="ssldatlich" href="tel:0941818616" rel="nofollow" title="Gọi tư vấn">
         <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/ico_call.svg" alt="ico call" loading="lazy">
       </a>
-      <a class="form-popup" id="ssldatlich" href="#" rel="nofollow" title="Gọi tư vấn">Gọi tư vấn</a>
+      <a class="form-popup" id="ssldatlich" href="tel:0941818616" rel="nofollow" title="Gọi tư vấn">Gọi tư vấn</a>
     </li>
     <li id="menu-datlich">
       <a class="form-popup popup-with-form" id="ssldatlich" href="#modal-contact" rel="nofollow" title="Đặt lịch hẹn">
         <img class="is-pc" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/icon-dlh.png" alt="Đặt lịch hẹn" loading="lazy">
         <img class="is-sp" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/ico_message.svg" alt="message" loading="lazy">
       </a>
-      <a class="form-popup" id="ssldatlich" href="#" rel="nofollow" title="Đặt lịch hẹn">Đặt lịch hẹn</a>
+      <a class="form-popup popup-with-form" id="ssldatlich" href="#modal-contact" rel="nofollow" title="Đặt lịch hẹn">Đặt lịch hẹn</a>
     </li>
     <li id="menu-mesenger">
       <a href="https://m.me/NhaKhoaIDent" rel="nofollow" target="_blank" title="Messenger">
