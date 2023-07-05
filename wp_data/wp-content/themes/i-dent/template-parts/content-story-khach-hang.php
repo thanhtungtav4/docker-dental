@@ -86,7 +86,7 @@ $queryEkip = new WP_Query($argsEkip);
               <div class="gr-btn">
                 <?php if(get_field('btn_appointment', get_the_ID())) :  ?>
                   <div class="m-btn is-small">
-                    <a href="<?php the_field('btn_appointment', get_the_ID()); ?>">Đặt lịch hẹn</a>
+                    <a class="popup-with-form" href="#modal-contact">Đặt lịch hẹn</a>
                   </div>
                 <?php endif; ?>
                 <?php if(get_field('view_profile', get_the_ID())) :  ?>
