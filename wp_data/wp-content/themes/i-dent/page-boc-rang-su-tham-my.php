@@ -31,7 +31,6 @@
               <h3 class="ttl-primary ttl-primary--is-medium u-left">BỌC RĂNG SỨ LÀ GÌ ?</h3>
               <p class="text">
                 <a href="#">Bọc răng sứ thẩm mỹ</a> là phương pháp phục hình bằng vật liệu sứ giúp phục hồi chức năng và cải thiện thẩm mỹ, giúp mang lại dáng răng đều, đẹp, màu sắc tự nhiên như răng thật. Trong đó, Bác sĩ sẽ tiến hành mài nhẹ răng hư để làm cùi răng, sau đó lắp mão răng sứ lên trên. Phần mão sứ này sẽ có độ trong và màu sắc trắng sáng tự nhiên như răng thật. Bên cạnh việc cải thiện thẩm mỹ, phương án bọc răng sứ còn giúp bảo vệ răng thật trước những loại vi khuẩn gây hại cho răng.</p>
-              <div class="m-btn"><a class="popup-with-form " href="#modal-contact">ĐẶT LỊCH TƯ VẤN</a></div>
             </div>
           </div>
         </div>

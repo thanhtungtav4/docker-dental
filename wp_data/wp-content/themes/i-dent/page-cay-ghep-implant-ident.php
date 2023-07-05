@@ -71,25 +71,8 @@
               <p class="text">Thiết kế<br> lộ trình riêng cho<br>kiều bào nước ngoài</p>
             </li>
           </ul>
-          <div class="box-phacdo">
-            <form class="box-phacdo_inner">
-              <h3 class="ttl-primary ttl-primary--is-medium">LẬP PHÁC ĐỒ ĐIỀU TRỊ ONLINE CÙNG BS CKI</h3>
-              <p class="text">Biết trước phương án điều trị, loại trụ cấy, thời gian thực hiện <br>và chi phí trọn gói </p>
-              <div class="row">
-                <input class="m-input" type="text" placeholder="Họ và tên">
-              </div>
-              <div class="row">
-                <input class="m-input" type="text" placeholder="Số điện thoại">
-              </div>
-              <div class="m-btn">
-                <button type="submit">ĐĂNG KÝ</button>
-              </div>
-              <p class="text">Nha khoa I-DENT sẽ gọi lại tư vấn trong vòng 30 phút</p>
-            </form>
-            <div class="img is-pc">
-              <img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/service/img_02.png" alt="">
-            </div>
-          </div>
+          <?php echo do_shortcode('[contact-form-7 id="8795"]'); ?>
+
         </div>
       </section>
       <section class="m-chuyensau">
@@ -317,21 +300,7 @@
         </div>
       </section>
       <div class="wrapper">
-        <div class="box-phacdo">
-          <form class="box-phacdo_inner">
-            <h2 class="ttl-primary ttl-primary--is-medium">TƯ VẤN IMPLANT CHO TÔI</h2>
-            <p class="text">Vui lòng để lại thông tin của quý khách.<br>Nha Khoa I-Dent sẽ liên hệ đến Quý Khách trong vòng 30 phút</p>
-            <div class="row">
-              <input class="m-input" type="text" placeholder="Họ và tên">
-            </div>
-            <div class="row">
-              <input class="m-input" type="text" placeholder="Số điện thoại">
-            </div>
-            <div class="m-btn">
-              <button type="submit">GỌI LẠI CHO TÔI</button>
-            </div>
-          </form>
-        </div>
+        <?php echo do_shortcode('[contact-form-7 id="8796"]'); ?>
       </div>
       <section class="m-flow">
         <div class="wrapper">

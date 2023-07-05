@@ -18,7 +18,6 @@
         <div class="left">
           <h2 class="ttl-primary is-red">NHA KHOA I-DENT</h2><strong><img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/about/ttl.svg" alt="Ươm mầm răng mới"></strong>
           <p class="text">“Nha khoa Implant I-DENT không chỉ mang đến cho bệnh nhân một hàm răng mới, đảm bảo chức năng ăn nhai tốt và tính thẩm mỹ cao. Chúng tôi hướng đến sức khỏe lâu dài và sự hài lòng tuyệt đối của từng bệnh nhân, qua đó để góp phần tạo kiến tạo nên những nụ cười hạnh phúc trọn vẹn cho cộng đồng.”</p>
-          <div class="m-btn"><a href="#">Xem thêm</a></div>
         </div>
         <div class="right"><img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/about/img_doc.png" alt=""></div>
       </div>

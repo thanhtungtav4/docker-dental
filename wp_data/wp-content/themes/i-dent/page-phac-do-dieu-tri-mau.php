@@ -53,36 +53,7 @@
         <ul class="l-steps">
           <li class="l-steps_block">
             <h3 class="title">Bước 1: Đăng ký thông tin theo Form mẫu</h3>
-            <form class="form-ct is-pc" action="">
-              <div class="head">LẬP KẾ HOẠCH ĐIỀU TRỊ</div>
-              <div class="body">
-                <p class="text">Nha Khoa I-Dent sẽ gọi lại tư vấn trong vòng 30 phút</p>
-                <div class="row">
-                  <input class="m-input" type="text" placeholder="Họ và tên">
-                </div>
-                <div class="row">
-                  <input class="m-input" type="text" placeholder="Số điện thoại">
-                </div>
-                <div class="m-btn">
-                  <button type="submit">NHẬN KẾ HOẠCH ĐIỀU TRỊ</button>
-                </div>
-              </div>
-            </form>
-            <form class="form-ct is-sp is-rev" action="">
-              <div class="head">LẬP KẾ HOẠCH ĐIỀU TRỊ</div>
-              <div class="body">
-                <p class="text">Nha Khoa I-Dent sẽ gọi lại tư vấn trong vòng 30 phút</p>
-                <div class="row">
-                  <input class="m-input" type="text" placeholder="Họ và tên">
-                </div>
-                <div class="row">
-                  <input class="m-input" type="text" placeholder="Số điện thoại">
-                </div>
-                <div class="m-btn">
-                  <button type="submit">NHẬN KẾ HOẠCH ĐIỀU TRỊ</button>
-                </div>
-              </div>
-            </form>
+            <?php echo do_shortcode('[contact-form-7 id="8797"]'); ?>
           </li>
           <li class="l-steps_block">
             <h3 class="title">Bước 2: Nhận thông tin khách hàng và lên sơ đồ răng</h3>
@@ -179,21 +150,6 @@
             </figure>
           </li>
         </ul>
-        <form class="form-ct is-rev w100" action="">
-          <div class="head">LẬP KẾ HOẠCH ĐIỀU TRỊ MIỄN PHÍ TẠI NHA KHOA I-DENT</div>
-          <div class="body">
-            <p class="text">Nha Khoa I-Dent sẽ gọi lại tư vấn trong vòng 30 phút</p>
-            <div class="row">
-              <input class="m-input" type="text" placeholder="Họ và tên">
-            </div>
-            <div class="row">
-              <input class="m-input" type="text" placeholder="Số điện thoại">
-            </div>
-            <div class="m-btn">
-              <button type="submit">ĐĂNG KÝ NGAY</button>
-            </div>
-          </div>
-        </form>
         <div class="warning">
           <span class="ttl">Lưu ý</span>
           <p class="text">Cô chú anh chị sẽ nhận được phiếu kế hoạch điều trị đầy đủ như hình bên dưới và <b>không bắt buộc điều trị tại Nha Khoa I-Dent</b> <br>Hãy sữ dụng như tài liệu tham khảo để loại bỏ những nha khoa kém chất lượng và so sánh giữa nhiều nha khoa khác nhau để có sự lựa chọn phù hợp. <br>
