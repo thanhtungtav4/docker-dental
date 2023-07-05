@@ -37,7 +37,7 @@
       <?php while ( $querySticky->have_posts() ) : $querySticky->the_post() ;  ?>
         <div class="l-news_item">
           <figure class="images">
-            <?php handle_thumbnail('NEWS-BIG-THUMB'); ?>
+            <?php handle_thumbnail('NEWS-DETAIL-THUMB'); ?>
           </figure>
           <div class="info">
             <span class="tag">Tin tức</span>

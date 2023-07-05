@@ -48,7 +48,7 @@ get_header();
 						<li class="l-news_item">
 							<a class="vidplay trans" href="<?php echo $video_url; ?>"><
 	              <figure class="images">
-									<?php handle_thumbnail('NEWS-ITEM-THUMB'); ?>
+									<?php handle_thumbnail('NEWS-DETAIL-THUMB'); ?>
 								</figure>
 							</a>
               <div class="info"><span class="tag">CÂU CHUYỆN KHÁCH HÀNG</span>

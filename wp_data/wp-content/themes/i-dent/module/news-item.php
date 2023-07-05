@@ -1,7 +1,7 @@
 <li class="l-news_item">
     <a href="<?php the_permalink() ?>">
         <figure class="images">
-            <?php handle_thumbnail('NEWS-BIG-THUMB'); ?>
+            <?php handle_thumbnail('NEWS-DETAIL-THUMB'); ?>
         </figure>
     </a>
     <div class="info">

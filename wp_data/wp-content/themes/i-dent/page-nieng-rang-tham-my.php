@@ -14,7 +14,7 @@
 ?>
       <div class="mv"><img class="is-pc" loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/bracer/bnr.jpg" alt=""><img class="is-sp" loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/bracer/sp/bnr.jpg" alt="">
         <h1 class="ttl"><strong>NIỀNG RĂNG</strong>THẨM MỸ</h1><span class="txt">CHO NỤ CƯỜI ĐẸP HOÀN HẢO</span>
-        <div class="btn"><a href="#modal-contact"><img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/bracer/bnr_btn.svg" alt="ĐẶT LỊCH HẸN"></a></div>
+        <div class="btn"><a class="popup-with-form" href="#modal-contact"><img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/bracer/bnr_btn.svg" alt="ĐẶT LỊCH HẸN"></a></div>
       </div>
       <section class="m-intro">
         <div class="wrapper">
@@ -230,20 +230,20 @@
               <div class="img"><img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/bracer/img_price_01.png" alt=""></div>
               <div class="name js-height">Chỉnh nha cố định mắc cài thường</div>
               <div class="price"><span>15.000.000 VNĐ/ Hàm</span></div>
-              <div class="m-btn"><a href="#">TƯ VẤN NGAY</a></div>
+              <div class="m-btn "><a class="popup-with-form" href="#modal-contact" >TƯ VẤN NGAY</a></div>
             </li>
             <li class="l-bra-price_item">
               <div class="img"><img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/bracer/img_price_02.png" alt=""></div>
               <div class="name js-height">Chỉnh nha cố định mắc cài sứ hoặc nhựa</div>
               <div class="price"><span>20.000.000 VNĐ/ Hàm</span></div>
-              <div class="m-btn"><a href="#">TƯ VẤN NGAY</a></div>
+              <div class="m-btn"><a class="popup-with-form" href="#modal-contact" >TƯ VẤN NGAY</a></div>
             </li>
             <li class="l-bra-price_item is-full">
               <div class="img"><img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/bracer/img_price_03.png" alt=""></div>
               <div class="outer">
                 <div class="name js-height">Chỉnh nha mắc cài mặt lưỡi hoặc Invisalign</div>
                 <div class="price"><span>40.000.000 VNĐ -<br>45.000.000 VNĐ/ Hàm</span></div>
-                <div class="m-btn"><a href="#">TƯ VẤN NGAY</a></div>
+                <div class="m-btn"><a class="popup-with-form" href="#modal-contact" >TƯ VẤN NGAY</a></div>
               </div>
             </li>
           </ul>

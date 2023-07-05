@@ -15,7 +15,7 @@
       <div class="mv">
         <img class="is-pc" loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/promotion/bnr.jpg" alt="">
         <img class="is-sp" loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/promotion/sp/bnr.png" alt="">
-        <a class="btn trans" href="#">
+        <a class="btn trans popup-with-form" href="#modal-contact">
           <img class="is-pc" loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/promotion/bnr_btn.svg" alt="ĐẶT LỊCH HẸN">
           <img class="is-sp" loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/promotion/sp/bnr_btn.svg" alt="ĐẶT LỊCH HẸN">
         </a>
@@ -74,7 +74,7 @@
                   <strong class="price new-price">20.400.000 <small>VNĐ</small>
                   </strong>
                   <div class="m-btn">
-                    <a href="#">TƯ VẤN NGAY</a>
+                    <a class="popup-with-form" href="#modal-contact" >TƯ VẤN NGAY</a>
                   </div>
                 </div>
               </div>
@@ -96,7 +96,7 @@
                   <strong class="price new-price">25.500.000 <small>VNĐ</small>
                   </strong>
                   <div class="m-btn">
-                    <a href="#">TƯ VẤN NGAY</a>
+                    <a class="popup-with-form" href="#modal-contact">TƯ VẤN NGAY</a>
                   </div>
                 </div>
               </div>
@@ -139,7 +139,7 @@
                   <strong class="price text">IMPLANT TOÀN HÀM</strong>
                   <strong class="price new-price">ALL ON 4/5/6</strong>
                   <div class="m-btn">
-                    <a href="#">TƯ VẤN NGAY</a>
+                    <a class="popup-with-form" href="#modal-contact" >TƯ VẤN NGAY</a>
                   </div>
                 </div>
               </div>
@@ -147,7 +147,7 @@
           </ul>
           <ul class="l-outstand">
             <li>
-              <a class="trans" href="#">Tặng một máy tăm nước cao cấp trị giá 2.000.000 đ khi cấy từ 2 trụ Implant trở lên.</a>
+              <a class="trans popup-with-form" href="#modal-contact" >Tặng một máy tăm nước cao cấp trị giá 2.000.000 đ khi cấy từ 2 trụ Implant trở lên.</a>
             </li>
           </ul>
         </div>
@@ -176,7 +176,7 @@
                   <strong class="price new-price">3.600.000 <small>VNĐ</small>
                   </strong>
                   <div class="m-btn">
-                    <a href="#">TƯ VẤN NGAY</a>
+                    <a class="popup-with-form" href="#modal-contact" >TƯ VẤN NGAY</a>
                   </div>
                 </div>
               </div>
@@ -198,7 +198,7 @@
                   <strong class="price new-price">4.800.000 <small>VNĐ</small>
                   </strong>
                   <div class="m-btn">
-                    <a href="#">TƯ VẤN NGAY</a>
+                    <a class="popup-with-form" href="#modal-contact" >TƯ VẤN NGAY</a>
                   </div>
                 </div>
               </div>
@@ -220,7 +220,7 @@
                   <strong class="price new-price">7.200.000 <small>VNĐ</small>
                   </strong>
                   <div class="m-btn">
-                    <a href="#">TƯ VẤN NGAY</a>
+                    <a class="popup-with-form" href="#modal-contact" >TƯ VẤN NGAY</a>
                   </div>
                 </div>
               </div>
@@ -242,7 +242,7 @@
                   <strong class="price new-price">6.400.000 <small>VNĐ</small>
                   </strong>
                   <div class="m-btn">
-                    <a href="#">TƯ VẤN NGAY</a>
+                    <a class="popup-with-form" href="#modal-contact" >TƯ VẤN NGAY</a>
                   </div>
                 </div>
               </div>
@@ -264,7 +264,7 @@
                   <strong class="price new-price">9.600.000 <small>VNĐ</small>
                   </strong>
                   <div class="m-btn">
-                    <a href="#">TƯ VẤN NGAY</a>
+                    <a class="popup-with-form" href="#modal-contact" >TƯ VẤN NGAY</a>
                   </div>
                 </div>
               </div>
@@ -285,7 +285,7 @@
                   <strong class="price text">BỌC RĂNG SỨ</strong>
                   <strong class="price new-price">TOÀN HÀM</strong>
                   <div class="m-btn">
-                    <a href="#">TƯ VẤN NGAY</a>
+                    <a class="popup-with-form" href="#modal-contact" >TƯ VẤN NGAY</a>
                   </div>
                 </div>
               </div>
@@ -447,7 +447,7 @@
                           <div class="l-cer-img_item swiper-slide">
                             <div><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_02_cer_03.png" alt=""></div>
                           </div>
-            
+
                         </div>
                       </div>
                       <div class="swiper-btn swiper-prev"></div>
@@ -602,7 +602,7 @@
         require_once( get_stylesheet_directory() . '/module/main-videos.php' );
         require_once( get_stylesheet_directory() . '/module/main-paper.php' );
       ?>
-      
+
 <?php
   require_once( get_stylesheet_directory() . '/module/contact-footer.php' );
   get_footer(); ?>

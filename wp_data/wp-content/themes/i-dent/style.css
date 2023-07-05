@@ -195,6 +195,13 @@ ul.l-giaiphap .text{
   padding: 10px;
 }
 
+.wpcf7-form label.error {
+    color: #ff5858 !important;
+    font-size: 17px !important;
+    padding-left: 0px !important;
+    text-align: center;
+}
+
 /* Mobile setting */
 @media screen and (max-width: 767px) {
   .p-all-in .mv .ttl {
@@ -231,11 +238,21 @@ ul.l-giaiphap .text{
   .ttl-bl{
     font-size: 17px;
   }
+
+  .iframe-modal button.mfp-close{
+    top: 15%;
+  }
 }
+
 
 
 /*Desktop setting */
 @media screen and (min-width: 768px) {
+  .iframe-modal button.mfp-close{
+    top: 20%;
+    right: 35%;
+  }
+
   .landing-page-gom-intro{
     padding-left: 170px;
     padding-right: 170px;

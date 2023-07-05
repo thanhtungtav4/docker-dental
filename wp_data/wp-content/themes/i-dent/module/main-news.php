@@ -21,7 +21,7 @@ $queryPost = new WP_Query(
           ?>
           <li class="l-news_item">
             <figure class="images">
-              <?php echo get_handle_thumbnail('full'); ?>
+              <?php echo get_handle_thumbnail('NEWS-DETAIL-THUMB'); ?>
             </figure>
             <div class="info"><span class="tag"><?php wp_get_post_terms(get_the_ID(), 'category') ? print wp_get_post_terms(get_the_ID(), 'category')[0]->name : print 'Tin Tức'; ?></span>
               <h3 class="title js-height"><?php the_title(); ?></h3>
