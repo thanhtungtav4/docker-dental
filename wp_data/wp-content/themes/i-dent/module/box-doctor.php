@@ -11,7 +11,7 @@
     </div>
   </div>
   <div class="right">
-    <div class="m-btn is-small"><a class="popup-with-form" href="#modal-contact" >Đặt lịch hẹn</a></div>
+    <div class="m-btn is-small "><a class="popup-with-form" href="#popup-dlh" data-message="Đặt lịch hẹn(bio bsT)">Đặt lịch hẹn</a></div>
     <div class="m-btn is-small"><a href="/gioi-thieu/tien-si-bac-si-nguyen-hieu-tung/">Xem hồ sơ</a></div>
   </div>
 </div>

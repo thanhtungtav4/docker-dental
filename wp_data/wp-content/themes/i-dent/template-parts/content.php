@@ -24,7 +24,7 @@
           <div class="m-detail_inner">
             <article class="m-detail_detail">
               <div class="m-detail_bnr">
-                <?php echo get_handle_thumbnail('NEWS-DETAIL-THUMB'); ?>
+                <?php echo get_handle_thumbnail('full'); ?>
               </div>
               <div class="m-detail_head"><span class="tag"><?php echo $categorie_name ?></span>
                 <div class="m-detail_head-right"><span class="time"><?php echo get_the_date('d.m.Y')?></span>
@@ -42,7 +42,7 @@
                 require_once( get_stylesheet_directory() . '/module/box-doctor.php' );
               ?>
               <div class="m-article">
-                <?php do_shortcode('[toc]')?>
+                <?php do_shortcode('[ez-toc]')?>
                 <?php the_content(); ?>
               </div>
               <?php

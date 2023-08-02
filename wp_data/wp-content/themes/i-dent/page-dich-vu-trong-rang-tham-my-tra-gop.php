@@ -12,7 +12,7 @@
  */
   get_header();
 ?>
-      <div class="mv"><img class="is-pc" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/tragop/bnr.jpg" alt=""><img class="is-sp" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/tragop/sp/bnr.jpg" alt=""></div>
+      <div class="mv"><img class="is-pc" src="/wp-content/uploads/2023/07/trong-rang-tra-gop.webp" alt=""><img class="is-sp" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/tragop/sp/bnr.webp" alt=""></div>
       <section class="m-tragop-intro">
         <div class="wrapper">
           <h2 class="ttl-primary ttl-primary--is-medium">TRỒNG RĂNG IMPLANT TRẢ GÓP LÃI SUẤT 0% TẠI NHA KHOA I-DENT</h2>
@@ -25,7 +25,7 @@
         <div class="wrapper">
           <h2 class="ttl-primary ttl-primary--is-medium">TRỒNG RĂNG IMPLANT TRẢ GÓP LÀ GÌ?</h2>
           <div class="inner">
-            <div class="img"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/tragop/img_01.png" alt=" TRỒNG RĂNG IMPLANT TRẢ GÓP LÀ GÌ?"></div>
+            <div class="img"><img src="/wp-content/uploads/2023/07/trong-rang-implant-tra-gop.webp" alt=" TRỒNG RĂNG IMPLANT TRẢ GÓP LÀ GÌ?"></div>
             <div class="info">
               <p class="text">Trồng răng Implant (cấy ghép Implant) là một kỹ thuật phức tạp. Đòi hỏi Đội ngũ bác sĩ phải được đào tạo chuyên sâu về Implant; Công nghệ và hệ thống trang thiết bị hiện đại từ Mỹ, Châu Âu; Sử dụng trụ Implant nhập khẩu chính hãng. Từ những yếu tố đó, khiến cho chi phí trồng răng Implant ban đầu khá cao và không phải ai cũng có điều kiện thực hiện.<br>Hiểu được tâm lý lo ngại về vấn đề tài chính của nhiều Cô Chú, Anh Chị, Nha khoa I-DENT hỗ trợ chương trình trồng Implant trả góp. Thay vì phải thanh toán 100% chi phí trồng răng trong một lần, Cô Chú, Anh Chị sẽ được chia nhỏ chi phí và thanh toán trong từng tháng. Kỳ hạn trả góp có thể kéo dài từ 3 – 6 – 12 – 24 tháng rất linh hoạt, để lựa chọn dễ dàng theo nhu cầu.</p>
             </div>
@@ -77,22 +77,8 @@
       </section>
       <section class="tragop-credit">
         <div class="wrapper">
-          <h2 class="ttl-primary ttl-primary--is-medium">TRẢ GÓP QUA THẺ TÍN DỤNG TẠI NHA KHOA I-DENT</h2><a class="vidplay trans" href="https://www.youtube.com/watch?v=WXX4qCbyts0"><img class="is-pc" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/tragop/bg_video.png"><img class="is-sp" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/tragop/sp/bg_video.png"></a>
-          <div class="box-phacdo">
-            <form class="box-phacdo_inner">
-              <h2 class="ttl-primary">ĐĂNG KÝ NHẬN TRẢ GÓP</h2>
-              <p class="text">Vui lòng để lại thông tin của quý khách.<br>Nha Khoa I-Dent sẽ liên hệ đến Quý Khách trong vòng 30 phút</p>
-              <div class="row">
-                <input class="m-input" type="text" placeholder="Họ và tên">
-              </div>
-              <div class="row">
-                <input class="m-input" type="text" placeholder="Số điện thoại">
-              </div>
-              <div class="m-btn">
-                <button type="submit">ĐĂNG KÝ NGAY</button>
-              </div>
-            </form>
-          </div>
+          <h2 class="ttl-primary ttl-primary--is-medium">TRẢ GÓP QUA THẺ TÍN DỤNG TẠI NHA KHOA I-DENT</h2><a class="vidplay trans" href="https://www.youtube.com/watch?v=uTi9SYSuKEM"><img class="is-pc" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/tragop/bg_video.webp"><img class="is-sp" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/tragop/sp/bg_video.webp"></a>
+          <?php echo do_shortcode('[contact-form-7 id="10632"]'); ?> 
           <h3 class="ttl-secondary u-center">TRẢ GÓP QUA THẺ TÍN DỤNG</h3>
           <ul class="l-dots">
             <li>Điều kiện: Trả góp với chủ tài khoản sở hữu thẻ tín dụng của các ngân hàng sau: Vietcombank, ACB, VP Bank, Sacombank, Techcombank, BIDV...</li>
@@ -129,7 +115,7 @@
         </div>
       </section>
       <div class="wrapper">
-        <figure class="customer-regis"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/tragop/img_02.png" alt="">
+        <figure class="customer-regis"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/tragop/img_02.webp" alt="">
           <figcaption class="text">Khách hàng làm thủ tục trồng răng trả <br class="is-sp">góp tại Nha Khoa I-DENT</figcaption>
         </figure>
       </div>
@@ -138,7 +124,7 @@
           <h2 class="ttl-primary ttl-primary--is-medium">CHÍNH SÁCH ƯU ĐÃI ĐẶC BIỆT TẠI NHA KHOA I-DENT</h2>
           <ul class="l-spec">
             <li class="l-spec_item">
-              <div class="inner"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/tragop/img_03.jpg" alt="">
+              <div class="inner"><img src="/wp-content/uploads/2023/07/Mien-phi-tham-cung-bac-si-chuyen-sau.webp" alt="">
                 <div class="ord">1</div>
                 <div class="info">
                   <p>Miễn phí thăm cùng bác sĩ chuyên sâu</p>
@@ -146,7 +132,7 @@
               </div>
             </li>
             <li class="l-spec_item">
-              <div class="inner"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/tragop/img_04.jpg" alt="">
+              <div class="inner"><img src="/wp-content/uploads/2023/07/Mien-phi-Chup-phim-CT-SCAN-3D-xuong-ham.webp" alt="">
                 <div class="ord">2</div>
                 <div class="info">
                   <p>Miễn phí Chụp phim <br>CT SCAN 3D xương hàm</p>
@@ -154,7 +140,7 @@
               </div>
             </li>
             <li class="l-spec_item">
-              <div class="inner"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/tragop/img_05.jpg" alt="">
+              <div class="inner"><img src="/wp-content/uploads/2023/07/Mien-phi-xet-nghiem-truoc-khi-phau-thuat.webp" alt="">
                 <div class="ord">3</div>
                 <div class="info">
                   <p>Miễn phí xét nghiệm<br>trước khi phẫu thuật</p>
@@ -162,7 +148,7 @@
               </div>
             </li>
             <li class="l-spec_item">
-              <div class="inner"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/tragop/img_06.jpg" alt="">
+              <div class="inner"><img src="/wp-content/uploads/2023/07/Mien-phi-hoan-toan-chi-phi-ghep-xuong.webp" alt="">
                 <div class="ord">4</div>
                 <div class="info">
                   <p>Miễn phí hoàn toàn chi phí ghép xương</p>
@@ -170,7 +156,7 @@
               </div>
             </li>
             <li class="l-spec_item">
-              <div class="inner"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/tragop/img_07.jpg" alt="">
+              <div class="inner"><img src="/wp-content/uploads/2023/07/Tang-mao-rang-su-tren-Implant.webp" alt="">
                 <div class="ord">5</div>
                 <div class="info">
                   <p>Tặng mão răng sứ trên Implant</p>
@@ -178,7 +164,7 @@
               </div>
             </li>
             <li class="l-spec_item">
-              <div class="inner"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/tragop/img_08.jpg" alt="">
+              <div class="inner"><img src="/wp-content/uploads/2023/07/Mien-phi-chi-phi-lam-rang-tam.webp" alt="">
                 <div class="ord">6</div>
                 <div class="info">
                   <p>Miễn phí chi phí<br>làm răng tạm</p>
@@ -186,7 +172,7 @@
               </div>
             </li>
             <li class="l-spec_item">
-              <div class="inner"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/tragop/img_09.jpg" alt="">
+              <div class="inner"><img src="/wp-content/uploads/2023/07/Ho-tro-xe-dua-don-cho-benh-nhan.webp" alt="">
                 <div class="ord">7</div>
                 <div class="info">
                   <p>Hỗ trợ xe đưa đón<br>cho bệnh nhân</p>
@@ -194,7 +180,7 @@
               </div>
             </li>
             <li class="l-spec_item">
-              <div class="inner"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/tragop/img_10.jpg" alt="">
+              <div class="inner"><img src="/wp-content/uploads/2023/07/Ho-tro-cho-nghi-trong-ngay-cho-benh-nhan-o-xa.webp" alt="">
                 <div class="ord">8</div>
                 <div class="info">
                   <p>Hỗ trợ chỗ nghỉ trong ngày cho bệnh nhân ở xa</p>
@@ -204,46 +190,6 @@
           </ul>
         </div>
       </section>
-      <section class="m-video">
-        <div class="wrapper">
-          <h2 class="ttl-primary">ĐÁNH GIÁ CỦA KHÁCH HÀNG VÀ BÁO CHÍ VỀ NHA KHOA I-DENT</h2>
-          <div class="m-video_inner">
-            <div class="m-video_main"><a class="vidplay" href="https://www.youtube.com/watch?v=jZF0MMdPang"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/top/thumbnail-video1.webp"></a></div>
-            <ul class="l-video js-loadmore">
-              <li><a class="vidplay" href="https://www.youtube.com/watch?v=jZF0MMdPang"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/top/thumbnail-video1.webp"></a>
-                <div class="video-info">
-                  <h3 class="title">Cảm nhận bệnh nhân sau khi trồng Implant</h3><span class="view">Lượt xem : 5230</span>
-                </div>
-              </li>
-              <li><a class="vidplay" href="https://www.youtube.com/watch?v=jZF0MMdPang"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/top/thumbnail-video1.webp"></a>
-                <div class="video-info">
-                  <h3 class="title">Cảm nhận bệnh nhân sau khi trồng Implant</h3><span class="view">Lượt xem : 5230</span>
-                </div>
-              </li>
-              <li><a class="vidplay" href="https://www.youtube.com/watch?v=jZF0MMdPang"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/top/thumbnail-video1.webp"></a>
-                <div class="video-info">
-                  <h3 class="title">Cảm nhận bệnh nhân sau khi trồng Implant</h3><span class="view">Lượt xem : 5230</span>
-                </div>
-              </li>
-              <li><a class="vidplay" href="https://www.youtube.com/watch?v=jZF0MMdPang"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/top/thumbnail-video1.webp"></a>
-                <div class="video-info">
-                  <h3 class="title">Cảm nhận bệnh nhân sau khi trồng Implant</h3><span class="view">Lượt xem : 5230</span>
-                </div>
-              </li>
-              <li><a class="vidplay" href="https://www.youtube.com/watch?v=jZF0MMdPang"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/top/thumbnail-video1.webp"></a>
-                <div class="video-info">
-                  <h3 class="title">Cảm nhận bệnh nhân sau khi trồng Implant</h3><span class="view">Lượt xem : 5230</span>
-                </div>
-              </li>
-            </ul>
-            <div class="m-btn btn-more is-sp"><a href="javascript:;">Xem thêm</a></div>
-          </div>
-        </div>
-      </section>
-      <?php
-       require_once( get_stylesheet_directory() . '/module/m-paper.php' );
-       require_once( get_stylesheet_directory() . '/module/contact-footer.php' );
-      ?>
       <section class="m-faq is-pc">
         <div class="wrapper">
           <h2 class="ttl-primary ttl-primary--is-medium">CÂU HỎI THƯỜNG GẶP</h2>
@@ -251,9 +197,9 @@
             <li class="l-faq_item">
               <div class="heading">
                 <h3 class="question ttl-secondary">1. Trồng răng Implant trả góp ở đâu uy tín?</h3>
-                <div class="m-btn is-reverse active"><a href="javascript:;">Thu gọn</a></div>
+                <div class="m-btn is-reverse"><a href="javascript:;">Trả lời</a></div>
               </div>
-              <div class="answer" style="display: block">
+              <div class="answer" style="display: none;">
                 <p class="text">Nhằm tạo điều kiện tốt nhất cho các khách hàng, Nha khoa I-DENT áp dụng chương trình trồng Implant trả góp 0%. Cam kết không phát sinh bất kỳ chi phí đăng ký hồ sơ hay chi phí lãi suất nào.<br>Có 2 trường hợp I-DENT hỗ trợ trả góp:</p>
                 <ul class="l-dots">
                   <li>Trường hợp 1: Trả góp qua thẻ tín dụng</li>
@@ -265,23 +211,29 @@
             <li class="l-faq_item">
               <div class="heading">
                 <h3 class="question ttl-secondary">2. Khách việt kiều cần lưu ý gì nếu muốn thực hiện dịch vụ cấy ghép Implant?</h3>
-                <div class="m-btn is-reverse active"><a href="javascript:;">Thu gọn</a></div>
+                <div class="m-btn is-reverse"><a href="javascript:;">Trả lời</a></div>
               </div>
-              <div class="answer" style="display: block">
+              <div class="answer" style="display: none;">
                 <p class="text">Nhiều kiều bào đang có xu hướng trở về Việt Nam để cấy ghép Implant. Tuy nhiên, để quá trình cấy Implant diễn ra thuận lợi, thì các khách hàng kiều bào cần lưu ý những điều sau:<br>– Nên tham khảo và cân nhắc thật kỹ để lựa chọn được một nha khoa uy tín, chất lượng. Đảm bảo nha khoa có đội ngũ bác sĩ chuyên môn cao, trang thiết bị hiện đại và sử dụng trụ Implant chính hãng, có thẻ bảo hành riêng.<br>– Tìm hiểu trước về đặc điểm và chi phí của một số loại Implant. Tránh xảy ra trường hợp không biết thông tin gì và bác sĩ thì lợi dụng tư vấn mập mờ, không rõ ràng.<br>– Thông thường, quá trình cấy ghép Implant thường kéo dài 3 – 6 tháng. Nên các khách kiều bào cần sắp xếp thời gian ở lại trong nước, hoặc chia thành các đợt để về, cho phù hợp với lịch trình điều trị.<br>– Trước khi quay trở lại nước ngoài, phải đến nha khoa để kiểm tra tình trạng của răng Implant thật kỹ. Nếu có vấn đề gì phát sinh thì có thể xử lý kịp thời.</p>
               </div>
             </li>
             <li class="l-faq_item">
               <div class="heading">
                 <h3 class="question ttl-secondary">3. Cấy Implant ngay sau khi nhổ răng có được không?</h3>
-                <div class="m-btn is-reverse active"><a href="javascript:;">Thu gọn</a></div>
+                <div class="m-btn is-reverse"><a href="javascript:;">Trả lời</a></div>
               </div>
-              <div class="answer" style="display: block">
+              <div class="answer" style="display: none;">
                 <p class="text">Ngay sau khi nhổ răng, bác sĩ có thể thực hiện kỹ thuật Implant tức thì để đặt trụ Implant vào vị trí chân răng vừa nhổ.<br>Kỹ thuật này giúp bệnh nhân chỉ cần trải qua 1 lần phẫu thuật, không chịu đau đớn quá nhiều. Đồng thời giúp tiết kiệm thời gian và chi phí điều trị.</p>
               </div>
             </li>
           </ul>
         </div>
       </section>
+      <?php
+        require_once( get_stylesheet_directory() . '/module/customer-story.php' );
+        require_once( get_stylesheet_directory() . '/module/m-paper.php' );
+        require_once( get_stylesheet_directory() . '/module/contact-footer.php' );
+      ?>
+      
 <?php
   get_footer(); ?>

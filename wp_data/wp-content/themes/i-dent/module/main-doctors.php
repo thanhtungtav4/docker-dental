@@ -23,7 +23,7 @@
             </div>
             <div class="doc-img">
                 <div class="bg">
-                    <img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/top/bg_circle.png" alt="<?php echo $item['doctor_name'] ?>">
+                    <img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/top/bg_circle.webp" alt="<?php echo $item['doctor_name'] ?>">
                 </div>
                 <div class="img">
                     <img loading="lazy" src="<?php echo wp_get_attachment_image_url($item['doctor_image'], 'DOCTOR-THUMB' ) ?>" alt="<?php echo $item['doctor_name'] ?>">

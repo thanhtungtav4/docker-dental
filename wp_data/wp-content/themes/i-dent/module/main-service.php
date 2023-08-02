@@ -13,7 +13,7 @@
             ?>
             <div class="service-slide_item">
               <a href="<?php echo $link_to_service; ?>">
-                <img loading="lazy" src="<?php echo wp_get_attachment_image_url($image_service_main, 'FULL' ) ?>" alt="<?php echo $nameservice ?>">
+                <img loading="" src="<?php echo $image_service_main ?>" alt="<?php echo $nameservice ?>">
                 <div class="service-name <?php echo $image_service_sub ?>">
                     <?php echo $nameservice; ?>
                 </div>
@@ -25,4 +25,4 @@
       </div>
     </section>
   <?php endif; ?>
-<?php endif; ?>  
+<?php endif; ?>

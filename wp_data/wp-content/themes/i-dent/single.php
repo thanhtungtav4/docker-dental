@@ -13,7 +13,7 @@ get_header();
 		if(is_single('chon-tru-implant')){
 			get_template_part( 'template-parts/single-chon-tru-implant');
 		}
-		if(is_single('cac-loai-rang-su')){
+		else if(is_single('cac-loai-rang-su')){
 			get_template_part( 'template-parts/single-cac-loai-rang-su');
 		}
 		else{
@@ -22,5 +22,5 @@ get_header();
 	endwhile;
 	?>
 <?php
-get_footer();
+get_footer(); 
 

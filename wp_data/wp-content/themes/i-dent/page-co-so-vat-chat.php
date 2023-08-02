@@ -13,8 +13,8 @@
   get_header();
 ?>
   <div class="mv">
-    <img class="is-pc" loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/basis/bnr.jpg" alt="">
-    <img class="is-sp" loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/basis/sp/bnr.jpg" alt="">
+    <img class="is-pc"   src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/basis/bnr.jpg.webp" alt="">
+    <img class="is-sp"   src="/wp-content/uploads/2023/07/banner-co-so-vat-chat-mobile.webp" alt="">
     <div class="mv_wrap">
       <div class="wrapper">
         <div class="mv_inner">
@@ -26,7 +26,7 @@
             <img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/basis/bnr_title.svg" alt="TRANG THIẾT BỊ NHẬP KHẨU TỪ CHÂU ÂU 100%">
           </h2>
           <div class="btn">
-            <a class="trans popup-with-form" href="#modal-contact">
+            <a class="trans popup-with-form" href="#popup-dlh" data-message="đặt lịch hẹn (banner)">
               <img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/basis/btn.svg" alt="ĐẶT LỊCH HẸN">
             </a>
           </div>
@@ -38,40 +38,7 @@
     <div class="doc-intro">
       <p class="text">Với hệ thống cơ sở vật chất, trang thiết bị hiện đại, được nhập khẩu trực tiếp 100% từ châu Âu đã giúp các bác sĩ I-DENT điều trị cho bệnh nhân chính xác và nhanh hơn. Đây là lý do hàng năm, có hàng nghìn bệnh nhân trong và ngoài nước lựa chọn Nha khoa I-DENT để trồng răng Implant, bọc sứ thẩm mỹ, điều trị bệnh lý răng miệng</p>
     </div>
-    <div class="box-anchors js-box">
-      <h3 class="title">Nội dung bài viết <a class="btn-hide is-active" href="javascript:;">[&nbsp; <span>Ẩn</span> ] </a>
-      </h3>
-      <ol class="l-anchors">
-        <li>
-          <a href="#sec01">1. Trang thiết bị máy móc hiện đại tại nha khoa</a>
-          <ol>
-            <li>
-              <a href="#">1.1 Máy CT Cone beam 3D - Chẩn đoán hình ảnh trên không gian 3 chiều</a>
-            </li>
-            <li>
-              <a href="#">1.2 Hệ thống thiết bị nha khoa hiện đại</a>
-            </li>
-          </ol>
-        </li>
-        <li>
-          <a href="#sec02">2. Phòng khám vô trùng theo tiêu chuẩn bộ y tế</a>
-          <ol>
-            <li>
-              <a href="#">2.1 Phòng điều trị riêng biệt cho từng bệnh nhân</a>
-            </li>
-            <li>
-              <a href="#">2.2 Phòng phẫu thuật</a>
-            </li>
-            <li>
-              <a href="#">2.3 Phòng vô trùng dụng cụ</a>
-            </li>
-          </ol>
-        </li>
-        <li>
-          <a href="#">3. Phòng labo hiện đại ngay tại nha khoa</a>
-        </li>
-      </ol>
-    </div>
+    <?php do_shortcode('[ez-toc]')?>
     <div class="m-basis">
       <div class="m-basis_block">
         <h2 class="ttl-secondary">1.TRANG THIẾT BỊ MÁY MÓC HIỆN ĐẠI TẠI NHA KHOA</h2>
@@ -82,7 +49,7 @@
             <br>Đặc biệt khi tiến hành cấy ghép Implant, với việc sử dụng máy CT Cone beam, bác sĩ tại I-DENT sẽ đánh giá chính xác về mức độ tiêu xương cũng như độ xốp của xương để đưa ra phương án điều trị thích hợp và lựa chọn kích thước Implant phù hợp.
           </p>
           <div class="gr-img gr01">
-            <img class="is-sp" loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/basis/sp/img_02.jpg" alt="">
+            <img class="is-sp" loading="lazy"  src="/wp-content/uploads/2023/07/co-so-vat-chat-tai-nha-khoa-ident.webp" alt="">
             <div class="big-img is-pc">
               <img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/basis/img_01.jpg" alt="">
             </div>
@@ -158,6 +125,10 @@
           </div>
         </div>
       </div>
+            <div class="modal-contact mfp-hide" id="popup-dlh">
+        <?php echo do_shortcode('[contact-form-7 id="8776"]') ?>
+      </div>
+
     </div>
   </div>
 <?php

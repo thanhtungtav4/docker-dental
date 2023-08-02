@@ -13,8 +13,8 @@
   get_header();
 ?>
   <div class="mv">
-    <img class="is-pc" loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/reason/bnr.jpg" alt="">
-    <img class="is-sp" loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/reason/sp/bnr.jpg" alt="">
+    <img class="is-pc" src="/wp-content/uploads/2023/07/banner-tai-sao-chon-chung-toi-pc.webp" alt="">
+    <img class="is-sp" src="/wp-content/uploads/2023/07/cau-chuye-n-khach-hang-1.webp" alt="">
   </div>
   <section class="m-noibat">
     <div class="wrapper">
@@ -71,8 +71,8 @@
       </h2>
       <div class="m-commit_block">
         <div class="img">
-          <img class="is-pc" loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/reason/img_01.jpg" alt="">
-          <img class="is-sp" loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/reason/sp/img_01.png" alt="">
+          <img class="is-pc" loading="lazy"  src="/wp-content/uploads/2023/07/bac-si-tam-tam-cay-ghep-implant.webp" alt="">
+          <img class="is-sp" loading="lazy"  src="/wp-content/uploads/2023/07/bac-si-tam-tam-cay-ghep-implant.webp" alt="">
         </div>
         <ul class="l-commit">
           <li class="l-commit_item">
@@ -104,7 +104,7 @@
       </div>
       <div class="m-commit_block m-commit_block--is-reverse">
         <div class="img is-pc">
-          <img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/reason/img_02.jpg" alt="">
+          <img loading="lazy"  src="/wp-content/uploads/2023/07/tu-van-minh-bach-ro-rang.webp" alt="">
         </div>
         <ul class="l-commit">
           <li class="l-commit_item">
@@ -119,7 +119,7 @@
           </li>
           <li class="l-commit_item">
             <p>
-              <span>8.</span>Minh bạch chi phí, lên phương án điều trị và báo tổng chi phi cho bệnh nhân trước khi thực hiện. Cam kết không phát sinh bất kỳ chi phí nà o sau khi điều trị.
+              <span>8.</span>Minh bạch chi phí, lên phương án điều trị và báo tổng chi phi cho bệnh nhân trước khi thực hiện. Cam kết không phát sinh bất kỳ chi phí nào sau khi điều trị.
             </p>
           </li>
           <li class="l-commit_item">
@@ -142,22 +142,22 @@
       <ul class="tv-clip">
         <li>
           <a class="vidplay" href="https://www.youtube.com/watch?v=WXX4qCbyts0">
-            <img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/top/img_tv_01.jpg">
+            <img loading="lazy"  src="/wp-content/uploads/2023/07/vtv3-1-1.jpg-1.webp">
           </a>
-          <h3 class="fig-title">Đánh giá của Đài truyền hình VTV3 về Nha khoa I-Dent</h3>
+          <h3 class="fig-title">Tiến sĩ - Bác sĩ Nguyễn Hiếu Tùng chia sẻ trên VTV3</h3>
         </li>
         <li>
-          <a class="vidplay" href="https://www.youtube.com/watch?v=PQu1lk1zBiU">
-            <img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/top/img_tv_02.jpg">
+          <a class="vidplay" href="https://www.youtube.com/watch?v=T5z6N99zaZc">
+            <img loading="lazy"  src="/wp-content/uploads/2023/07/VTV2.webp">
           </a>
-          <h3 class="fig-title">Đánh giá của Đài truyền hình HTV7 về Nha khoa I-Dent</h3>
+          <h3 class="fig-title">Tiến sĩ - Bác sĩ Nguyễn Hiếu Tùng chia sẻ trên VTV2</h3>
         </li>
       </ul>
     </div>
   </section>
   <?php
     require_once( get_stylesheet_directory() . '/module/customer-story.php' );
-    require_once( get_stylesheet_directory() . '/module/m-paper.php' );
+    require_once( get_stylesheet_directory() . '/module/main-paper.php' );
   ?>
 <?php
  require_once( get_stylesheet_directory() . '/module/contact-footer.php' );

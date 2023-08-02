@@ -309,7 +309,7 @@
             <li class="l-faq_item">
               <div class="heading">
                 <h3 class="question ttl-secondary">1. Trồng răng Implant trả góp ở đâu uy tín?</h3>
-                <div class="m-btn is-reverse active"><a href="javascript:;">Thu gọn</a></div>
+                <div class="m-btn is-reverse"><a href="javascript:;">Trả lời</a></div>
               </div>
               <div class="answer" style="display: block">
                 <p class="text">Nhằm tạo điều kiện tốt nhất cho các khách hàng, Nha khoa I-DENT áp dụng chương trình trồng Implant trả góp 0%. Cam kết không phát sinh bất kỳ chi phí đăng ký hồ sơ hay chi phí lãi suất nào.<br>Có 2 trường hợp I-DENT hỗ trợ trả góp:</p>
@@ -323,7 +323,7 @@
             <li class="l-faq_item">
               <div class="heading">
                 <h3 class="question ttl-secondary">2. Khách việt kiều cần lưu ý gì nếu muốn thực hiện dịch vụ cấy ghép Implant?</h3>
-                <div class="m-btn is-reverse active"><a href="javascript:;">Thu gọn</a></div>
+                <div class="m-btn is-reverse"><a href="javascript:;">Trả lời</a></div>
               </div>
               <div class="answer" style="display: block">
                 <p class="text">Nhiều kiều bào đang có xu hướng trở về Việt Nam để cấy ghép Implant. Tuy nhiên, để quá trình cấy Implant diễn ra thuận lợi, thì các khách hàng kiều bào cần lưu ý những điều sau:<br>– Nên tham khảo và cân nhắc thật kỹ để lựa chọn được một nha khoa uy tín, chất lượng. Đảm bảo nha khoa có đội ngũ bác sĩ chuyên môn cao, trang thiết bị hiện đại và sử dụng trụ Implant chính hãng, có thẻ bảo hành riêng.<br>– Tìm hiểu trước về đặc điểm và chi phí của một số loại Implant. Tránh xảy ra trường hợp không biết thông tin gì và bác sĩ thì lợi dụng tư vấn mập mờ, không rõ ràng.<br>– Thông thường, quá trình cấy ghép Implant thường kéo dài 3 – 6 tháng. Nên các khách kiều bào cần sắp xếp thời gian ở lại trong nước, hoặc chia thành các đợt để về, cho phù hợp với lịch trình điều trị.<br>– Trước khi quay trở lại nước ngoài, phải đến nha khoa để kiểm tra tình trạng của răng Implant thật kỹ. Nếu có vấn đề gì phát sinh thì có thể xử lý kịp thời.</p>
@@ -332,7 +332,7 @@
             <li class="l-faq_item">
               <div class="heading">
                 <h3 class="question ttl-secondary">3. Cấy Implant ngay sau khi nhổ răng có được không?</h3>
-                <div class="m-btn is-reverse active"><a href="javascript:;">Thu gọn</a></div>
+                <div class="m-btn is-reverse"><a href="javascript:;">Trả lời</a></div>
               </div>
               <div class="answer" style="display: block">
                 <p class="text">Ngay sau khi nhổ răng, bác sĩ có thể thực hiện kỹ thuật Implant tức thì để đặt trụ Implant vào vị trí chân răng vừa nhổ.<br>Kỹ thuật này giúp bệnh nhân chỉ cần trải qua 1 lần phẫu thuật, không chịu đau đớn quá nhiều. Đồng thời giúp tiết kiệm thời gian và chi phí điều trị.</p>

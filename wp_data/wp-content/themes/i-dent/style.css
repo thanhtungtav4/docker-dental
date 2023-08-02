@@ -18,46 +18,28 @@ Text Domain: i-dent
   line-height: 33px;
   color: #025899;
   position: relative;
+  text-transform: uppercase;
 }
 .single-post .heading{
   text-align: center;
 }
 /* TOC */
-#toc_container.no_bullets.contracted{
-  width: 100% !important;
-}
-#toc_container{
-  background: #F7F7F7 !important;
-  padding: 19px 30px;
-  margin-bottom: 20px;
-}
-#toc_container .toc_title {
-  text-align: center;
-  font-size: 18px;
-  line-height: 27px;
+#ez-toc-container .ez-toc-title{
+  font-size: 1.8rem !important;
+  line-height: 2;
   margin-bottom: 16px;
-  color: #2b2b2b;
-  font-weight: bold;
+  color: #2b2b2b !important;
+  font-weight: bold !important;
 }
-#toc_container  .toc_toggle, #toc_container  .toc_toggle a{
+#ez-toc-container a {
   color: #025899;
+  line-height: 2;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
 }
-#toc_container  .toc_toggle span{
-  padding: 3px;
+.ez-toc-counter nav ul li a::before{
+  content: unset !important;
 }
-#toc_container  ul{
-  list-style-type: none;
-}
-#toc_container a{
-  color: #025899;
-  transition: 0.3s ease-in-out;
-  text-decoration: none;
-  font-size: 18px;
-}
-#toc_container .toc_list{
-  padding-left: 0;
-}
-
 /* contact form 7 */
 .gr-check .wpcf7-form-control-wrap .wpcf7-form-control{
   display: flex;
@@ -114,19 +96,113 @@ Text Domain: i-dent
 /*********** START Tùng I-Dent update*******************************************/
 /***************************************/
 /**********/
-
-blockquote ::before{
-    position: absolute;
-    content: "";
-    width: 14px;
-    height: calc(100% - 16px);
-    left: 0;
-    top: 50%;
-    transform: translateY(-50%);
-    background: #025899;
-    border-radius: 30px 0px 0px 30px;
+/*.m-article h1,h2,h3,h4,h5,h6{
+  display: flex;
+}
+*/
+.m-article a{
+  color: #025899;
+}
+.m-article a:hover {
+  text-decoration: underline;
+}
+li .no-marker{
+  list-style-type: none;
+}
+.l-check li {
+  list-style-type: none;
 }
 
+blockquote{
+  background: linear-gradient(90deg, #E4F4FF 0%, rgba(255, 255, 255, 0.5) 104.5%);
+  border-radius: 15px;
+  padding: 13px 0px 13px 20px;
+  border-left: 10px solid #025899;
+  margin-bottom: 18px;
+  font-size: 18px;
+  line-height: 33px;
+}
+
+.blockquote{
+  background: linear-gradient(90deg, #E4F4FF 0%, rgba(255, 255, 255, 0.5) 104.5%);
+  border-radius: 15px;
+  padding: 13px 0px 13px 20px;
+  border-left: 10px solid #025899;
+  margin-bottom: 18px;
+}
+
+.a-outstand{
+  display: flex;
+  background: #e4f4ff;
+  font-size: 18px;
+  line-height: 27px;
+  color: #2b2b2b;
+  margin: 18px 0px;
+}
+
+.heading-highlight{
+  content: attr(h-text);
+  background: #025899;
+  padding: 3px 10px;
+  color: white;
+  margin-right: 10px;
+}
+
+.wp-caption-text {
+  text-align: center!important;
+  padding: 5px;
+  font-style: italic;
+}
+
+.a-outstand::before {
+    content: "Xem thêm:";
+    padding: 8px 15px;
+    background: #025899;
+    color: #faed88;
+    font-weight: bold;
+    margin-right: 15px;
+}
+.a-outstand * {
+  padding: 8px 0;
+}
+.a-outstand a{
+  color: #025899 !important;
+}
+
+.content-intro{
+  background: #025899;
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 27px;
+  font-size: 18px;
+}
+
+.content-intro p{
+  color: white;
+}
+
+.content-intro strong{
+  color: yellow;
+}
+
+.hightlight-border{
+  padding: 15px 8px;
+  border: 2px dashed #0077b5;
+  word-wrap: break-word;
+  font-size: 18px;
+  text-align: center;
+  font-weight: bold;
+  color: #025899;
+  margin-bottom: 27px;
+}
+
+.beauty-border{
+  padding: 8px;
+  border: 2px dashed #0077b5;
+  word-wrap: break-word;
+  margin: 27px 0px;
+}
 
 .vidplay::before {
   background: none;
@@ -147,11 +223,19 @@ blockquote ::before{
 
 .text {
   padding-bottom: 10px;
-  font-weight: 500;
+  font-weight: 400;
 }
 .l-check li{
   line-height:33px;
   padding-bottom: 10px;
+  text-align: justify;
+}
+
+.m-loairang .l-check li{
+  line-height:27px;
+  font-size: 17px;
+  padding-bottom: 0px;
+  text-align: justify;
 }
 
 ul.l-giaiphap .text{
@@ -160,7 +244,7 @@ ul.l-giaiphap .text{
 }
 
 .certificate li{
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .l-demo_item .demo-info_name .lca {
@@ -179,10 +263,10 @@ ul.l-giaiphap .text{
   max-width: 490px;
 }
 
-.p-service .box-phacdo {
+/*.p-service .box-phacdo {
   background: url(/wp-content/themes/i-dent/assets/images/allinone/bg.png) no-repeat right center/100% auto;
 }
-
+*/
 .doc-intro-highlight .text {
   color: #faed88;
   text-align: center;
@@ -215,12 +299,149 @@ ul.l-giaiphap .text{
 .warning .ttl{
   background: #ff2a2a;
 }
+
+caption {
+  font-size: 20px;
+  padding: 10px;
+  color: #025899;
+  font-weight: bold;
+  background: linear-gradient(90deg, #DFAA23 0%, #FBF08D 47.92%, #DFAA23 100%);
+}
+
+.caption{
+  font-size: 20px;
+  padding: 10px;
+  color: #025899;
+  font-weight: bold;
+  background: linear-gradient(90deg, #DFAA23 0%, #FBF08D 47.92%, #DFAA23 100%);
+}
+.price-table p{
+  margin-bottom: 0px;
+}
+
+.m-customer_item .info .from{
+  font-size: 17px;
+  color: #025899;
+  font-weight: bold;
+  padding-bottom: 15px;
+}
+.m-customer_item .info .cus-name{
+  text-transform: uppercase;
+}
+
+.home .l-doctors_item{
+  margin-bottom: 0px;
+}
+
+.m-paper_wrap{
+  max-height: 620px;
+}
+
+/*.home .m-paper_wrap{
+  max-height: 620px;
+}*/
+
+.m-promo-normal .l-uudai{
+  justify-content: center;
+}
+
+.about-doctors .slick-slide{
+  height: auto;
+}
+
+.home .m-customer_item .info .text{
+  margin-bottom: 10px;
+}
+
+.table-common td strong{
+	font-size:16px;
+}
+
+tr.table-caption th {
+    border-bottom: 1px solid #fcfeff;
+    padding: 20px 5px;
+}
+tr.table-caption h3 {
+    color: white;
+    font-size: 22px;
+    line-height: 33px;
+    padding-bottom: 5px;
+}
+tr.table-caption p {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+.m-price .is-sp .body .sub_title {
+    background: var(--primary-1, #025899);
+    color: var(--accent-2, #FFF);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 27px;
+    padding: 3px;
+    text-align: center;
+}
+.m-price .is-sp .body .text{
+  text-align: center;
+  margin-top: 10px;
+}
+.m-price .is-sp .body strong{
+  color: #f53d57;
+}
+.m-price .is-sp .l-items_block .price-box{
+  justify-content: center;
+}
 /***************************************/
 /***********START Mobile setting *******************************************/
 /***************************************/
 
 
 @media screen and (max-width: 767px) {
+  .SiteMain{
+    padding-top: 60px;
+  }
+  .home .slick-list.draggable{
+    max-height: 750px;
+  }
+
+  .mb-w-100{
+    width: 100px;
+  }
+  .price-table p{
+    font-size: 15px;
+  }
+  .price-table td strong{
+    display: block;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 27px;
+    color: #025899;
+  }
+
+  .price-table td{
+    text-align: left !important;
+    padding: 10px 5px!important;
+  }
+
+  .price-table .th-width-limit{
+    width: 120px !important;
+  }
+
+  .price-table td .price.is-old{
+    color: #717171;
+    text-decoration: line-through;
+    font-weight: 400;
+  }
+
+
+  .p-promotion .mv .btn {
+    top: 43%;
+  }
+
+
   .p-all-in .mv .ttl {
     padding-top: 1em;
   }
@@ -257,7 +478,22 @@ ul.l-giaiphap .text{
   }
 
   .iframe-modal button.mfp-close{
-    top: 5%;
+    top: 0;
+  }
+
+  .price-table th p {
+      color: #ffffff;
+      line-height: 17px;
+      text-align: center;
+      margin-top: 5px;
+      font-size: 14px;
+      font-weight: 400;
+  }
+
+  .bg-uudai .btn{
+    top: 80%;
+    width: 40%;
+    left: 32%;
   }
 }
 /***********END Mobile setting*******************************************/
@@ -269,19 +505,41 @@ ul.l-giaiphap .text{
 /***************************************/
 
 @media screen and (min-width: 768px) {
-  .form-support {
-    flex-direction: column;
-    gap: 10px;
-    border-radius: 20px;
-    background: #025899;
-    padding: 75px 30px 20px;
-    position: relative;
-    overflow: hidden;
+  .SiteMain{
+    padding-top: 109px;
+  }
+  .price-table td strong{
+    display: block;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    color: #025899;
+  }
+
+  .price-table td{
+    text-align: left !important;
+  }
+
+  .price-table .th-width-limit{
+    width: 280px !important;
+  }
+
+  .price-table td .price.is-old{
+    color: #717171;
+    text-decoration: line-through;
+    font-weight: 400;
+  }
+
+  .price-table th p {
+    font-size: 17px;
+    font-weight: 500;
+    color: white;
+    text-align: center;
   }
 
   .iframe-modal button.mfp-close{
     top: 15%;
-    right: 33%;
+    right: 25%;
   }
 
   .landing-page-gom-intro{
@@ -303,9 +561,24 @@ ul.l-giaiphap .text{
     padding-right: 200px;
   }
   .m-worry_content .img{
-    width: 240px;
+    width: 450px;
+  }
+
+  .bg-uudai .btn{
+    left: 21%;
+    top: 83%;
+  }
+
+  .box-uudai.is-ceramic .l-uudai{
+    justify-content: center;
+    gap: 50px
+  }
+
+  .m-worry_content {
+    padding: 45px 0 45px 60px;
   }
 }
+
 .language li > a{
   display: flex;
   align-items: center;
@@ -321,7 +594,9 @@ ul.l-giaiphap .text{
   height: 45px;
   margin: 0 auto 15px;
 }
-
+.m-contact{
+  background: url(../i-dent/assets/images/top/bg_contact.jpg.webp) no-repeat center/cover;
+}
 
 .inPage{
   position: relative;
@@ -383,68 +658,410 @@ ul.l-giaiphap .text{
   text-align: center;
 }
 
-.modal-contact .inner{
-  max-width: 400px;
-  padding: 37px 20px;
-}
-
 .modal-contact .inner .text{
   text-align: center;
+  margin-top: 20px;
 }
 
-
-.form-support {
-  flex-direction: column;
-  gap: 10px;
-  border-radius: 20px;
-  background: #025899;
-  padding: 75px 30px 20px;
-  position: relative;
-  overflow: hidden;
-  margin: 20px auto;
-  max-width: 700px;
-}
-.form-support .m-input {
-  width: 100%;
-}
-.form-support .title {
-  background: linear-gradient(90deg, #DFAA23 0%, #FBF08D 47.92%, #DFAA23 100%);
-  color: #025899;
-  font-size: 20px;
-  line-height: 30px;
-  width: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  text-align: center;
-  padding: 12px 0;
-}
-.form-support .btn-sub {
-  width: 100%;
-  font-size: 18px;
-  height: 40px;
-  background: linear-gradient(90deg, #DFAA23 0%, #FBF08D 47.92%, #DFAA23 100%);
-  border-radius: 20px;
-  color: #025899;
-  margin-top: 15px;
-  width: 250px;
-}
 
 .form-support .wpcf7-form-control-wrap{
-  height: 40px;
+  height: 35px;
 }
 
 .form-reserve .form-inner .row{
-  height: 40px;
+  height: 35px;
+}
+.p-all-in .box-phacdo{
+  background: none;
 }
 .box-phacdo .row{
-  height: 40px;
+  height: 35px;
+}
+.p-all-in .box-phacdo_inner .text:last-of-type {
+  margin-bottom: 0px;
+}
+.p-all-in .box-phacdo_inner .m-btn{
+  margin-top: 0px;
 }
 
 .modal-contact .inner .row{
-  height: 40px;
+  height: 35px;
 }
 
 .form-ct .row{
-  height: 40px;
+  height: 35px;
 }
+
+
+#popup-chung2{
+  width: 455px;
+  border-radius: 8px;
+  z-index: 10000;
+  /* display: none; */
+  padding: 5px;
+  position: fixed;
+  margin: 0 auto;
+  inset: 140px 0px 0px;
+  display: block;
+}
+
+#popup-content-chung2 {
+  width: 100%;
+  height: 515px;
+  float: left;
+  padding: 5px;
+  border-radius: 10px;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 10px;
+}
+#popup-close-chung2 {
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    z-index: 9999;
+    color: #fff;
+    background: url(/wp-content/themes/i-dent/assets/images/popup-close.png) no-repeat center;
+    padding: 3px 10px;
+    border-radius: 50%;
+    top: 0;
+    right: 40px;
+}
+
+.content-form-chung2 {
+  padding: 365px 0px 60px 35px;
+}
+.editor-field {
+  width: 365px !important;
+  margin: 5px auto;
+  font-size: 16px;
+  padding: 0 20px;
+  height: 55px;
+}
+.form-control {
+  border-radius: 9px;
+  height: 40px;
+  width: 100%;
+  background-color: #fff !important;
+  color: #333 !important;
+  text-align: center;
+  font-size: 16px;
+}
+
+.button-dangkytuvan {
+  margin-top: 15px;
+/*    margin: 19px 0;*/
+  font-size: 16px;
+  /* padding: 0 20px; */
+  text-align: center;
+  width: 365px !important;
+}
+
+.button-dangkytuvan button {
+  color: #0d6799;
+  padding: 5px 0 3px 0px;
+  width: 180px;
+  background: linear-gradient(90deg, #DFAA23 0%, #FBF08D 47.92%, #DFAA23 100%);
+  border-radius: 21px;
+  border: 1px solid #fff;
+  margin: auto;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 700;
+  display: block;
+  height: 45px;
+  font-size: 18px;
+}
+
+.button-dangkytuvan .button {
+  color: #0d6799;
+  padding: 10px 0 3px 0px;
+  width: 180px;
+  background: linear-gradient(90deg, #DFAA23 0%, #FBF08D 47.92%, #DFAA23 100%);
+  border-radius: 21px;
+  border: 1px solid #fff;
+  margin: auto;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 700;
+  display: block;
+  height: 45px;
+  font-size: 18px;
+}
+
+.form-inPost {
+  position: relative;
+  background-size: contain;
+  width: 100%;
+  max-width: 800px;
+/*  height: 500px;*/
+  padding: 5px;
+  margin: 25px auto;
+}
+.form-inPost .form-input{
+  position: absolute;
+  top: 285px;
+  left: 0px;
+  width: 400px;
+}
+.home .form-support .btn-sub{
+  display: inline-flex;
+  justify-content: center;
+  font-size: 18px;
+  min-width: 120px;
+  padding: 0px 5px;
+}
+
+@media screen and (min-width: 767px) {
+  .home .form-support{
+    padding: 10px 20px;;
+  }
+  
+  .p-tragop .box-phacdo .box-phacdo_inner{
+   width: 686px;
+  }
+  .box-phacdo .box-phacdo_inner{
+    width: 50%;
+    padding: 30px 40px;
+  }
+
+  .modal-contact .inner {
+    max-width: 720px;
+    padding: 37px 20px;
+    height: 570px;
+  }
+
+  .modal-contact .inner .title{
+    font-size: 22px;
+  }
+
+  .modal-contact .inner strong{
+    font-size: 30px;
+    line-height: 45px;
+  }
+  .modal-contact .inner .text{
+    font-weight: 400;
+  }
+  .modal-contact .m-input{
+    max-width: 540px;
+  }
+  .modal-contact .m-btn button{
+    width: 540px;
+  }
+
+  .modal-contact .inner .icon{
+    position: relative;
+    top: -18%;
+    margin-bottom: -10%;
+/*    left: 42%;*/
+    display: initial;
+
+    width:106px;
+    height:106px
+  }
+}
+
+
+@media screen and (max-width: 767px) {
+  .form-inPost .editor-field{
+    width: 325px !important;
+  }
+  .form-inPost .form-input{
+    width: 352px;
+    top: 240px;
+  }
+
+
+  .modal-contact .inner .icon{
+    position: relative;
+    top: -60px;
+    margin-bottom: -50px;
+    display: initial;
+    width: 80px;
+    height: 80px;
+  }
+
+  .modal-contact .inner{
+    max-width: 400px;
+    padding: 20px;
+  }
+  .modal-contact .inner .title{
+    font-size: 17px;
+  }
+
+}
+/*New form standard*/
+
+.inline-form-popup {
+    min-width: 455px;
+    z-index: 10000;
+    /* display: none; */
+    position: fixed;
+    margin: 0 auto;
+    inset: 140px 0px 0px;
+    display: block;
+}
+.inline-form-popup .prev_title {
+    color: white;
+    font-size: 22px;
+    line-height: 33px;
+    font-weight: 700;
+    font-family: 'Roboto';
+}
+.inline-form-popup .title{
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 45px;
+  background: var(--accent-1, linear-gradient(90deg, #DFAA23 0%, #FBF08D 47.92%, #DFAA23 100%));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 25px;
+}
+
+.inline-form-popup .button{
+  margin: 20px auto;
+  text-align: center;
+  width: 540px;
+  padding: 0 20px;
+}
+.inline-form-popup p{
+  text-align: center;
+}
+
+.inline-form-popup .more-info{
+  color: white;
+  font-size: 17px;
+}
+
+.inline-form-popup button{
+  background: var(--accent-1, linear-gradient(90deg, #DFAA23 0%, #FBF08D 47.92%, #DFAA23 100%));
+  width: 100%;
+  height: 51px;
+  border-radius: 50px;
+  border: 0px;
+  color: var(--primary-1, #025899);
+  font-family: Roboto;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 33px;
+}
+
+#popup-dk-km-implant {
+  width: 700px;
+}
+#popup-dk-km-implant .popup-image{
+  width: 100%;
+  height: 515px;
+}
+
+#popup-dk-km-implant .content-form{
+  background: #025899;
+  border-radius: 25px 25px 50px 50px;
+  height: 410px;
+  margin-top: -150px;
+  padding: 30px 20px;
+}
+#popup-dk-km-implant .editor-field {
+  width: 540px !important;
+}
+/*#popup-dk-km-implant .form-control {
+  font-size: 18px;
+}*/
+
+/***************************************/
+/***********Special Page*******************************************/
+/***************************************/
+
+.bang-gia.l-check li{
+  margin-bottom: 15px;
+}
+/*Bảng giá implant*/
+.tratruoc-img {
+    width: 100%;
+    margin: 20px 0px;
+    display: flex;
+}
+.tratruoc-img .col-img {
+    width: 40%;
+    padding: 15px;
+}
+
+.tratruoc-img .col-content {
+    width: 60%;
+    margin-top: 20px;
+}
+
+.tratruoc-img .tratruoc-title {
+    color: #0d6799;
+    padding: 12px 0 12px 0;
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+    background: linear-gradient(90deg, #DFAA23 0%, #FBF08D 47.92%, #DFAA23 100%);
+}
+
+.tratruoc-img .tratruoc-content {
+    font-size: 18px;
+    padding: 20px;
+    border: #0d6799 solid 1px;
+    border-top: none;
+    border-radius: 0 0 5px 5px;
+    line-height: 27px;
+}
+
+.m-tech_info{
+  margin: 45px 0px;
+}
+.m-tech_info img.is-sp{
+  margin: auto;
+}
+@media screen and (max-width: 767px) {
+  .m-goods img{
+    width: 100%;
+  }
+
+  .mb_price{
+    width: 165px;
+  }
+}
+.m-doctors .l-doctors .doc-img .img{
+	width:70%;
+/*  background: url(../i-dent/assets/images/top/bg_doctor.jpg.webp) no-repeat center/cover;*/
+}
+
+.m-why{
+  background: url(../i-dent/assets/images/allinone/bg_why.jpg.webp) no-repeat right center/cover;
+}
+
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.loading-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.loading-spinner {
+  border: 4px solid #025899;
+  border-top: 4px solid #007bff; /* Màu sắc của vòng quay, bạn có thể thay đổi màu sắc theo ý muốn */
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  animation: spin 1s linear infinite;
+}
+
+/*.mv{
+  margin-top: 109px;
+}*/
+

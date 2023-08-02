@@ -11,11 +11,10 @@ get_header();
 ?>
   <section class="m-notfound">
     <div class="wrapper">
-      <h2 class="brand-vision_title monster-font">404<span>Not Found</span></h2>
-      <div class="m-notfound_box">
-        <p>ページが見つかりません。</p>
-        <a class="btn-primary" href="<?php echo home_url() ?>/">新卒採用 TOPへ</a>
-      </div>
+      <p style="text-align:center;">
+        <img src="/wp-content/themes/i-dent/assets/images/404.jpg">
+      </p>
+      <h2 style="text-align: center; font-size: 32px; padding-bottom: 100px; color: #b0686b; line-height: 60px;" >Không tìm thấy trang theo yêu cầu <br> <a href="/" style="color: #055998;"> >>> Quay về trang chủ <<<</a></h2>
     </div>
   </section>
 <?php

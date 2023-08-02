@@ -44,7 +44,7 @@
         </div>
         <div class="note">
           <ul class="l-check">
-            <li>100% ca cấy ghép được thực hiện bởi BS-TS Nguyễn Hiếu Tùng</li>
+            <li>100% ca cấy ghép được thực hiện bởi TS - BS Nguyễn Hiếu Tùng</li>
           </ul>
         </div>
       </div>

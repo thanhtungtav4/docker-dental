@@ -1,9 +1,9 @@
 <?php
-define( 'SMTP_username', 'nguyenthanhtung74119@gmail.com' );  // username of host like Gmail
-define( 'SMTP_password', 'etqqtaaeckfgxqzq' );   // password for login into the App
+define( 'SMTP_username', 'tuvannhakhoaident@gmail.com' );  // username of host like Gmail
+define( 'SMTP_password', 'ntbavxgpmhaxwdno' );   // password for login into the App
 define( 'SMTP_server', 'smtp.gmail.com' );     // SMTP server address
-define( 'SMTP_FROM', 'nguyenthanhtung74119@gmail.com' );   // Your Business Email Address
-define( 'SMTP_NAME', 'I_DENT' );   //  Business From Name
+define( 'SMTP_FROM', 'tuvannhakhoaident@gmail.com' );   // Your Business Email Address
+define( 'SMTP_NAME', 'I-Dent Form' );   //  Business From Name
 define( 'SMTP_PORT', '587' );     // Server Port Number
 define( 'SMTP_SECURE', 'tls' );   // Encryption - ssl or tls
 define( 'SMTP_AUTH', true );  // Use SMTP authentication (true|false)

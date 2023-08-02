@@ -16,7 +16,7 @@
         <div class="wrapper">
           <ul class="l-breadcrumbs">
             <li>
-              <a class="trans" href="#">Trang chủ</a>
+              <a class="trans" href="/">Trang chủ</a>
             </li>
             <li>
               <span>Cam kết chất lượng</span>

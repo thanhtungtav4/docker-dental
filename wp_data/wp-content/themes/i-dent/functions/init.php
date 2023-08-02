@@ -37,17 +37,17 @@ add_action( 'wp_enqueue_scripts', 'corporate_enqueue_style' );
  */
 add_action( 'after_setup_theme', 'corporate_theme_setup' );
 function corporate_theme_setup() {
-	add_image_size( 'SLIDE-THUMBPC', 1274, 431, true );
-	add_image_size( 'SLIDE-THUMBSP', 414, 414, true );
-	add_image_size( 'REVIEW-THUMB', 590, 315, true );
-	add_image_size( 'SERVICE-THUMB', 365, 520, true );
-	add_image_size( 'DOCTOR-THUMB', 263, 375, true );
-	add_image_size( 'DOCTOR-MIN-THUMB', 198, 246, true );
-	add_image_size( 'VIDEO-THUMB', 650, 366, true );
-	add_image_size( 'VIDEO-MIN-THUMB', 188, 106, true );
-	add_image_size( 'NEWS-THUMB', 370, 616, true );
-	add_image_size( 'NEWS-PC-THUMB', 370, 616, true );
-	add_image_size( 'SIDEBAR-THUMB', 360, 630, true );
+	// add_image_size( 'SLIDE-THUMBPC', 1274, 431, true );
+	// add_image_size( 'SLIDE-THUMBSP', 414, 414, true );
+	// add_image_size( 'REVIEW-THUMB', 590, 315, true );
+	// add_image_size( 'SERVICE-THUMB', 365, 520, true );
+	// add_image_size( 'DOCTOR-THUMB', 263, 375, true );
+	// add_image_size( 'DOCTOR-MIN-THUMB', 198, 246, true );
+	// add_image_size( 'VIDEO-THUMB', 650, 366, true );
+	// add_image_size( 'VIDEO-MIN-THUMB', 188, 106, true );
+	// add_image_size( 'NEWS-THUMB', 370, 616, true );
+	// add_image_size( 'NEWS-PC-THUMB', 370, 616, true );
+	// add_image_size( 'SIDEBAR-THUMB', 360, 630, true );
 
 	add_image_size( 'NEWS-DETAIL-THUMB', 780, 520, true );
 }

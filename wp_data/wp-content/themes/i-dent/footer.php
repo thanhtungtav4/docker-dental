@@ -17,10 +17,10 @@
           <div class="c-footer_inner">
             <div class="c-footer_block"><strong class="title">KẾT NỐI VỚI I-DENT</strong>
               <ul class="l-social">
-                <li><a class="trans" href=""><img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/ico_facebook.svg" alt=""></a></li>
-                <li><a class="trans" href=""><img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/ico_youtube.svg" alt=""></a></li>
-                <li><a class="trans" href=""><img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/ico_inst.svg" alt="inst"></a></li>
-                <li><a class="trans" href=""><img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/ico_twitter.svg" alt="twitter"></a></li>
+                <li><a class="trans" href="https://www.facebook.com/NhaKhoaIDent"><img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/ico_facebook.svg" alt=""></a></li>
+                <li><a class="trans" href="https://www.youtube.com/channel/UCqFZe36HfQU_h0y-lhVmgEQ"><img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/ico_youtube.svg" alt=""></a></li>
+                <li><a class="trans" href="https://www.instagram.com/identdentalclinic/"><img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/ico_inst.svg" alt="inst"></a></li>
+                <li><a class="trans" href="https://twitter.com/TrungTamImplant"><img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/ico_twitter.svg" alt="twitter"></a></li>
               </ul><strong class="title is-pc">ĐỐI TÁC THANH TOÁN</strong>
               <ul class="l-payment is-pc">
                 <li><a href=""><img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/ico_mc.svg" alt="mc"></a></li>
@@ -28,8 +28,12 @@
                 <li><a href=""><img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/ico_jcb.svg" alt="jcb"></a></li>
               </ul>
               <ul class="l-certi">
-                <li><a href=""><img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/ico_bct.svg" alt="bct"></a></li>
-                <li><a href=""><img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/ico_dmca.svg" alt="dmca"></a></li>
+                <li><a href="http://online.gov.vn/Home/WebDetails/33854"><img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/ico_bct.svg" alt="bct"></a></li>
+                <li>
+                  <a href="http://www.dmca.com/Protection/Status.aspx?ID=ba5e7d05-c2fe-4fa7-949d-113ec65a9b6e&amp;refurl=https://old.nhakhoaident.com/" target="_blank" title="DMCA.com Protection Status" class="dmca-badge">
+                    <img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/ico_dmca.svg" alt="DMCA.com Protection Status">
+                  </a>
+                </li>
               </ul>
             </div>
             <div class="c-footer_block"><strong class="title">NHA KHOA IMPLANT I-DENT</strong>

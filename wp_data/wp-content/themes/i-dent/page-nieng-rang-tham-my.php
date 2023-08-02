@@ -12,14 +12,19 @@
  */
   get_header();
 ?>
-      <div class="mv"><img class="is-pc" loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/bracer/bnr.jpg" alt=""><img class="is-sp" loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/bracer/sp/bnr.jpg" alt="">
+      <div class="mv"><img class="is-pc"   src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/bracer/bnr.jpg.webp" alt="">
+		  <img class="is-sp"   src="/wp-content/uploads/2023/07/banner-nieng-rang-tham-my-mobile.webp" alt="">
         <h1 class="ttl"><strong>NIỀNG RĂNG</strong>THẨM MỸ</h1><span class="txt">CHO NỤ CƯỜI ĐẸP HOÀN HẢO</span>
-        <div class="btn"><a class="popup-with-form" href="#modal-contact"><img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/bracer/bnr_btn.svg" alt="ĐẶT LỊCH HẸN"></a></div>
+        <div class="btn">
+          <a class="popup-with-form" href="#popup-tv-nieng-rang" data-message="đặt lịch hẹn niềng răng(banner)">
+            <img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/bracer/bnr_btn.svg" alt="ĐẶT LỊCH HẸN">
+          </a>
+        </div>
       </div>
       <section class="m-intro">
         <div class="wrapper">
           <div class="explant">
-            <div class="img"><img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/bracer/img_01.png" alt=""></div>
+            <div class="img"><img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/bracer/img_01.png.webp" alt=""></div>
             <div class="info">
               <h2 class="ttl-primary ttl-primary--is-medium u-left">NIỀNG RĂNG THẨM MỸ LÀ GÌ?</h2>
               <p class="text">Niềng răng thẩm mỹ hay còn gọi là Chỉnh nha thẩm mỹ. Đây là kỹ thuật điều chỉnh răng hô, móm, răng mọc lệch lạc… về đúng vị trí khớp cắn chuẩn. Bằng cách sử dụng những khí cụ nha khoa như: mắc cài, dây cung, thun cao su, minivis, khay niềng răng...</p>
@@ -56,42 +61,42 @@
           <ul class="l-issues is-3-col">
             <li class="l-issues_item">
               <div class="inner">
-                <div class="img-ham"><img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/bracer/img_ham_01.png" alt="RRăng mọc lệch lạc"></div>
+                <div class="img-ham"><img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/bracer/img_ham_01.png.webp" alt="RRăng mọc lệch lạc"></div>
                 <div class="ico"><img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/ico_check.svg" alt=""></div>
                 <p class="text">Răng mọc lệch lạc</p>
               </div>
             </li>
             <li class="l-issues_item">
               <div class="inner">
-                <div class="img-ham"><img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/bracer/img_ham_02.png" alt="Răng hô"></div>
+                <div class="img-ham"><img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/bracer/img_ham_02.png.webp" alt="Răng hô"></div>
                 <div class="ico"><img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/ico_check.svg" alt=""></div>
                 <p class="text">Răng hô</p>
               </div>
             </li>
             <li class="l-issues_item">
               <div class="inner">
-                <div class="img-ham"><img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/bracer/img_ham_03.png" alt="Răng móm"></div>
+                <div class="img-ham"><img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/bracer/img_ham_03.png.webp" alt="Răng móm"></div>
                 <div class="ico"><img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/ico_check.svg" alt=""></div>
                 <p class="text">Răng móm</p>
               </div>
             </li>
             <li class="l-issues_item">
               <div class="inner">
-                <div class="img-ham"><img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/bracer/img_ham_04.png" alt="Răng thưa"></div>
+                <div class="img-ham"><img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/bracer/img_ham_04.png.webp" alt="Răng thưa"></div>
                 <div class="ico"><img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/ico_check.svg" alt=""></div>
                 <p class="text">Răng thưa</p>
               </div>
             </li>
             <li class="l-issues_item">
               <div class="inner">
-                <div class="img-ham"><img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/bracer/img_ham_05.png" alt="Khớp cắn hở"></div>
+                <div class="img-ham"><img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/bracer/img_ham_05.png.webp" alt="Khớp cắn hở"></div>
                 <div class="ico"><img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/ico_check.svg" alt=""></div>
                 <p class="text">Khớp cắn hở</p>
               </div>
             </li>
             <li class="l-issues_item">
               <div class="inner">
-                <div class="img-ham"><img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/bracer/img_ham_06.png" alt="Khớp cắn chéo"></div>
+                <div class="img-ham"><img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/bracer/img_ham_06.png.webp" alt="Khớp cắn chéo"></div>
                 <div class="ico"><img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/ico_check.svg" alt=""></div>
                 <p class="text">Khớp cắn chéo</p>
               </div>
@@ -105,9 +110,9 @@
           <p class="text">Khi đến nha khoa, khách hàng sẽ được bác sĩ thăm khám, chụp phim và tư vấn phương án niềng răng phù hợp nhất. Nhằm đảm bảo kết quả niềng răng hiệu quả, tiết kiệm thời gian và chi phí tối đa.</p>
           <ul class="l-tooths is-bracer">
             <li class="l-tooths_item">
-              <div class="img"><img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/bracer/img_02.png" alt=""></div>
+              <div class="img"><img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/bracer/img_02.png.webp" alt=""></div>
               <div class="content">
-                <h3 class="ttl-background">RĂNG SỨ KIM LOẠI THƯỜNG</h3>
+                <h3 class="ttl-background">MẮC CÀI KIM LOẠI</h3>
                 <p class="text">Mắc cài kim loại sử dụng các khí cụ chỉnh nha, bao gồm dây cung và các mắc cài bằng chất liệu hợp kim không gỉ như Niken-Titanium, để nắn chỉnh răng trở về đúng vị trí mong muốn.<br>Hiện nay, niềng răng mắc cài kim loại có 2 hình thức là: niềng răng mắc cài thường và niềng răng mắc cài tự đóng. Tùy vào tình trạng răng và nhu cầu của khách hàng, bác sĩ điều trị sẽ đưa ra phương án phù hợp nhất.<br>Thời gian niềng răng sẽ kéo dài từ 12 tháng – 36 tháng, trường hợp răng phức tạp có thể kéo dài lâu hơn.</p>
                 <div class="info">
                   <div class="info_block"><strong>Ưu điểm</strong>
@@ -124,7 +129,7 @@
               </div>
             </li>
             <li class="l-tooths_item">
-              <div class="img"><img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/bracer/img_03.png" alt=""></div>
+              <div class="img"><img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/bracer/img_03.png.webp" alt=""></div>
               <div class="content">
                 <h3 class="ttl-background">MẮC CÀI SỨ</h3>
                 <p class="text">Đây là kỹ thuật sử dụng hệ thống mắc cài và dây cung để kéo răng về đúng vị trí trên hàm. Các mắc cài được làm từ chất liệu sứ cao cấp, có màu trùng với màu răng.<br>Thời gian niềng mắc cài sứ thường lâu hơn mắc cài kim loại khoảng 6 tháng.</p>
@@ -143,7 +148,7 @@
               </div>
             </li>
             <li class="l-tooths_item">
-              <div class="img"><img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/bracer/img_04.png" alt=""></div>
+              <div class="img"><img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/bracer/img_04.png.webp" alt=""></div>
               <div class="content">
                 <h3 class="ttl-background">MẮC CÀI MẶT TRONG</h3>
                 <p class="text">Sự khác biệt giữa phương pháp này với loại mắc cài truyền thống chính là vị trí đặt các khí cụ. Thay vì gắn lên mặt ngoài thì tất cả mắc cài và dây cung được chuyển vào mặt trong của răng.<br>Thời gian điều trị mất khoảng 18 – 36 tháng, phụ thuộc khớp cắn và mức độ lệch lạc của răng.</p>
@@ -165,7 +170,8 @@
               <div class="img"><img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/bracer/img_05.png" alt=""></div>
               <div class="content">
                 <h3 class="ttl-background">NIỀNG RĂNG INVISALIGN</h3>
-                <p class="text">Thời gian niềng răng sẽ kéo dài hơn, chi phí đắt hơn rất nhiều so với các loại mắc cài niềng răng khác như mắc cài kim loại, mắc cài sứ,... Việc chăm sóc, vệ sinh răng miệng sẽ khó khăn hơn khi thức ăn vướng vào mắc cài.<br>Trong suốt quá trình niềng răng từ 18 – 36 tháng tùy từng trường hợp, sẽ dùng từ 25 – 40 khay niềng.</p>
+                <p class="text">Niềng răng Invisalign hay còn gọi là niềng răng không mắc cài. Phương pháp này sử dụng các khay trong suốt để thực hiện chỉnh nha.<br>Các khay niềng được lắp vào toàn bộ cung răng với những điểm tạo lực để dịch chuyển răng đến vị trí mong muốn.
+<br>Trong suốt quá trình niềng răng từ 18 – 36 tháng tùy từng trường hợp, sẽ dùng từ 25 – 40 khay niềng.</p>
                 <div class="info">
                   <div class="info_block"><strong>Ưu điểm</strong>
                     <ul class="l-dots">
@@ -218,32 +224,40 @@
                 <p class="text">Tháo mắc cài<br>và đeo hàm duy trì</p>
               </div>
             </li>
-          </ul><a class="vidplay trans" href="https://www.youtube.com/watch?v=WXX4qCbyts0"><img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/bracer/bg_video.png"></a>
+          </ul>
+          <a class="vidplay trans" href="https://www.youtube.com/watch?v=LPMH-k7ijDk">
+            <img loading="lazy" class="is-pc" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/bracer/bg_video.png.webp">
+            <img loading="lazy" class="is-sp"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/bracer/bg_video-mobi.jpg">
+          </a>
+
         </div>
       </section>
       <section class="m-bracer-price">
         <div class="wrapper">
           <h2 class="ttl-primary ttl-primary--is-medium">CHI PHÍ NIỀNG RĂNG BAO NHIÊU?</h2>
-          <p class="text">Tại nha khoa I-DENT, sau khi thăm khám và chụp phim X – Quang, bác sĩ sẽ căn cứ vào mức độ khiếm khuyết của răng miệng và điều kiện tài chính của khách hàng, để tư vấn hình thức niềng răng nào là phù hợp nhất.Bảng giá dưới đây là trọn gói cho 1 quá trình niềng răng. Cam kết không phát sinh thêm chi phí trong quá trình điều trị. Ngoài ra, tại nha khoa I-DENT, khách hàng còn được hỗ trợ niềng răng trả góp với lãi suất 0%.</p>
+          <p class="text">Tại nha khoa I-DENT, sau khi thăm khám và chụp phim X – Quang, bác sĩ sẽ căn cứ vào mức độ khiếm khuyết của răng miệng và điều kiện tài chính của khách hàng, để tư vấn hình thức niềng răng nào là phù hợp nhất. Bảng giá dưới đây là trọn gói cho 1 quá trình niềng răng. Cam kết không phát sinh thêm chi phí trong quá trình điều trị. Ngoài ra, tại nha khoa I-DENT, khách hàng còn được hỗ trợ niềng răng trả góp với lãi suất 0%.</p>
           <ul class="l-bra-price">
             <li class="l-bra-price_item">
               <div class="img"><img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/bracer/img_price_01.png" alt=""></div>
               <div class="name js-height">Chỉnh nha cố định mắc cài thường</div>
               <div class="price"><span>15.000.000 VNĐ/ Hàm</span></div>
-              <div class="m-btn "><a class="popup-with-form" href="#modal-contact" >TƯ VẤN NGAY</a></div>
+              <div class="m-btn "><a class="popup-with-form" href="#popup-tv-nieng-rang" data-message="Chỉnh nha cố định mắc cài thường
+                ">TƯ VẤN NGAY</a></div>
             </li>
             <li class="l-bra-price_item">
               <div class="img"><img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/bracer/img_price_02.png" alt=""></div>
               <div class="name js-height">Chỉnh nha cố định mắc cài sứ hoặc nhựa</div>
               <div class="price"><span>20.000.000 VNĐ/ Hàm</span></div>
-              <div class="m-btn"><a class="popup-with-form" href="#modal-contact" >TƯ VẤN NGAY</a></div>
+              <div class="m-btn"><a class="popup-with-form" href="#popup-tv-nieng-rang" data-message="Chỉnh nha cố định mắc cài sứ hoặc nhựa
+                ">TƯ VẤN NGAY</a></div>
             </li>
             <li class="l-bra-price_item is-full">
               <div class="img"><img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/bracer/img_price_03.png" alt=""></div>
               <div class="outer">
                 <div class="name js-height">Chỉnh nha mắc cài mặt lưỡi hoặc Invisalign</div>
                 <div class="price"><span>40.000.000 VNĐ -<br>45.000.000 VNĐ/ Hàm</span></div>
-                <div class="m-btn"><a class="popup-with-form" href="#modal-contact" >TƯ VẤN NGAY</a></div>
+                <div class="m-btn"><a class="popup-with-form" href="#popup-tv-nieng-rang" data-message="Chỉnh nha mắc cài mặt lưỡi hoặc Invisalign
+                  ">TƯ VẤN NGAY</a></div>
               </div>
             </li>
           </ul>
@@ -305,6 +319,9 @@
           </div>
         </div>
       </section>
+      <div class="modal-contact mfp-hide" id="popup-tv-nieng-rang">
+        <?php echo do_shortcode('[contact-form-7 id="9546"]') ?>
+      </div>
       <?php
        require_once( get_stylesheet_directory() . '/module/m-paper.php' );
        require_once( get_stylesheet_directory() . '/module/contact-footer.php' );

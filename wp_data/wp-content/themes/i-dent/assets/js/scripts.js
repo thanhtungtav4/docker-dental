@@ -356,10 +356,10 @@ app.showBox = function () {
       $(this).stop().toggleClass('is-active');
       if ($(this).hasClass('is-active')) {
         $(this).parent().next('.l-anchors').slideDown();
-        $(this).children('span').text('Ẩn');
+        $(this).children('span').text('áº¨n');
       } else {
         $(this).parent().next('.l-anchors').slideUp();
-        $(this).children('span').text('Hiện');
+        $(this).children('span').text('Hiá»‡n');
       }
     })
   }
@@ -403,3 +403,51 @@ $(function () {
   app.init();
 
 });
+
+
+
+$('.popup-with-form', ).on('click', function() {
+  $('input[name="data_message"]').val($(this).data('message'));
+});
+$('.wpcf7-form button[type="submit"]').on('click', function(event) {
+  $('input[name="device"]').val(/iPhone|iPad|iPod|Android/i.test(navigator.userAgent) ? 'Mobile' : 'PC');
+});
+
+$(document).ready(function(){
+  $(".wpcf7-form").on('wpcf7:invalid', function(event) {
+    event.preventDefault();
+    var form = $(this);
+    var inputFields = form.find('input.wpcf7-validates-as-required');
+    var allInputsValid = true;
+    inputFields.each(function() {
+      if ($(this).val().trim() === '') {
+        allInputsValid = false;
+        $(this).siblings('label.error').show();
+      } else {
+        $(this).siblings('label.error').hide();
+      }
+    });
+  });
+  $("button[type='submit']").click(function(event){
+    var form = $(this).closest("form");
+    var inputFields = form.find('input.wpcf7-validates-as-required');
+    var allInputsValid = true;
+    inputFields.each(function() {
+      if ($(this).val().trim() === '') {
+        allInputsValid = false;
+        $(this).siblings('label.error').show();
+      } else {
+        $(this).siblings('label.error').hide();
+      }
+    });
+    if (allInputsValid) {
+      var content_html = `
+      <div class="loading-icon">
+        <div class="loading-spinner"></div>
+      </div>ĐANG GỬI
+      `;
+      $(this).html(content_html);
+      form.submit();
+    }
+  })
+})

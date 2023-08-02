@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
     <meta name="charset" content="utf-8">
     <meta name="format-detection" content="telephone=no">
+
+    <title><?php wp_title(''); ?></title>
+
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <meta http-equiv="content-language" content="vi-vn" />
     <meta property="og:title" content="">
@@ -13,7 +16,7 @@
     <meta property="og:url" content="<?php echo (isset($_SERVER['HTTPS']) ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]"; ?>">
     <meta property="og:site_name" content="<?php echo get_bloginfo( 'name' );?>">
     <meta property="og:description" content="<?php echo get_bloginfo( 'description' );?>">
-    <link rel="canonical" href="<?php echo (isset($_SERVER['HTTPS']) ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]"; ?>">
+    
     <link rel="alternate" href="<?php echo (isset($_SERVER['HTTPS']) ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]"; ?>" hreflang="vi-vn" />
     <meta property="fb:app_id" content="263634224110155" />
     <meta property="fb:pages" content="1501028436840514" />
@@ -40,17 +43,10 @@
     <header class="c-header">
       <div class="wrapper">
         <div class="c-header_inner">
-        <?php if(is_front_page()) : ?>
-            <h1 class="c-header_logo">
-              <a href="<?php echo home_url(); ?>">
-              <img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/logo.svg" alt="Nha khoa Implant I-DENT"></a>
-            </h1>
-          <?php else : ?>
-            <div class="c-header_logo">
-              <a href="<?php echo home_url(); ?>">
-              <img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/logo.svg" alt="Nha khoa Implant I-DENT"></a>
-            </div>
-          <?php endif; ?>
+          <div class="c-header_logo">
+            <a href="<?php echo home_url(); ?>">
+            <img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/logo.svg" alt="Nha khoa Implant I-DENT"></a>
+          </div>
           <div class="c-header_contact is-pc">
             <div class="hotline"><span>HOTLINE</span><a class="hotline_phone" href="tel:0941818616"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/ico_phone.svg" alt="(+84) 94 1818 616">(+84) 94 1818 616</a></div>
             <ul class="language">
@@ -62,7 +58,7 @@
             </ul>
           </div>
           <div class="c-header_book is-sp">
-            <a class="popup-with-form" href="#modal-contact">
+            <a class="popup-with-form" href="#popup-dlh" data-message="Đặt lịch hẹn (header)">
               <img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/btn_book.svg" alt="btn book">
             </a>
           </div>
@@ -85,7 +81,7 @@
                   'walker' => new Aria_Walker_Nav_Menu(),
                   'theme_location'    => 'primary-menu' ) );
               } ?>
-            <div class="m-btn is-sp"><a class="popup-with-form" href="#">ĐẶT LỊCH HẸN</a></div>
+            <div class="m-btn is-sp"><a class="popup-with-form" href="#popup-dlh" data-message="Đặt lịch hẹn (menu)">ĐẶT LỊCH HẸN</a></div>
             <div class="btn-search"><a class="is-icon" href="javascript:;">
               <img class="is-pc" loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/ico_search.svg" alt="ico search">
               <img class="is-sp" loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/ico_search_white.svg" alt="ico search white"></a>
@@ -97,8 +93,8 @@
         </div>
       </nav>
     </header>
-    <div class="modal-contact mfp-hide" id="modal-contact">
- 	<?php echo do_shortcode('[contact-form-7 id="8776" title="Popup"]') ?>
+    <div class="modal-contact mfp-hide" id="popup-dlh">
+ 	    <?php echo do_shortcode('[contact-form-7 id="8776"]') ?>
     </div>
     </div>
     <main class="SiteMain">

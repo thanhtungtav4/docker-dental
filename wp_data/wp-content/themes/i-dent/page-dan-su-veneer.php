@@ -12,17 +12,18 @@
  */
   get_header();
 ?>
-      <div class="mv"><img class="is-pc" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/veneer/bnr.jpg" alt=""><img class="is-sp" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/veneer/sp/bnr.jpg" alt="">
+      <div class="mv"><img class="is-pc" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/veneer/bnr.jpg.webp" alt=""><img class="is-sp" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/veneer/sp/bnr.webp" alt="">
         <h1 class="title">DÁN SỨ VENEER TOÀN HÀM</h1>
-        <div class="btn"><a class="trans" href="#"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/veneer/bnr_btn.svg" alt="ĐẶT LỊCH HẸN"></a></div>
+        <a class="btn trans popup-with-form" href="#popup-tv-su" data-message="đặt lịch hẹn (banner)">
+          <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/veneer/bnr_btn.svg" alt="ĐẶT LỊCH HẸN"></a></div>
       </div>
       <section class="m-intro">
         <div class="wrapper">
           <div class="explant">
-            <div class="img is-pc"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/veneer/img_01.png" alt=""></div>
+            <div class="img is-pc"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/veneer/img_01.png.webp" alt=""></div>
             <div class="info">
               <h2 class="ttl-primary ttl-primary--is-medium u-left">DÁN SỨ VENEER LÀ GÌ? CÓ TỐT KHÔNG?</h2>
-              <div class="img is-sp"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/veneer/img_01.png" alt=""></div>
+              <div class="img is-sp"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/veneer/img_01.png.webp" alt=""></div>
               <p class="text">Công nghệ dán sứ Veneer (hay còn gọi là mặt dán sứ Veneer) là một phương pháp sử dụng mặt dán làm bằng lớp sứ mỏng khoảng từ 0.2 mm - 0.5 mm. Mặt dán sứ này sẽ được dán cố định vào bên ngoài bề mặt răng cần được phục hình bằng keo dán răng sứ chuyên dụng sao cho ôm vừa khít toàn thân răng một cách tự nhiên nhất.<br>Đây được xem là bước đột phá mới trong các phương pháp thẩm mỹ răng dành cho những ai không muốn mài nhiều răng nhưng vẫn khắc phục tình trạng răng ố màu, xỉn vàng, mọc không đều, hở kẻ... của mình thành răng đều đẹp, trắng sáng.</p>
             </div>
           </div>
@@ -32,7 +33,7 @@
         <div class="wrapper">
           <h2 class="ttl-primary ttl-primary--is-medium">6 ƯU ĐIỂM NỖI BẬT CỦA DÁN RĂNG SỨ VENEER ?</h2>
           <div class="content">
-            <div class="img is-pc"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/veneer/img_02.png" alt=""></div>
+            <div class="img is-pc"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/veneer/img_02.png.webp" alt=""></div>
             <ul class="l-veneer">
               <li class="l-veneer_item"><strong class="order">1</strong>
                 <h3 class="ttl-bl">Tính thẩm mỹ cao</h3>
@@ -70,35 +71,35 @@
           <ul class="l-issues is-3-col">
             <li class="l-issues_item">
               <div class="inner">
-                <div class="img-ham"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/veneer/img_ham_04.png" alt="Răng mọc thưa, ở giữa các răng có khe hở nhỏ làm mất thẩm mỹ"></div>
+                <div class="img-ham"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/veneer/img_ham_04.png.webp" alt="Răng mọc thưa, ở giữa các răng có khe hở nhỏ làm mất thẩm mỹ"></div>
                 <div class="ico"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/ico_check.svg" alt=""></div>
                 <p class="text">Răng mọc thưa, ở giữa các răng có khe hở nhỏ làm mất thẩm mỹ</p>
               </div>
             </li>
             <li class="l-issues_item">
               <div class="inner">
-                <div class="img-ham"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/veneer/img_ham_03.png" alt="Răng bị mẻ, nứt hoặc răng bị bào mòn theo thời gian, chân răng ngắn"></div>
+                <div class="img-ham"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/veneer/img_ham_03.png.webp" alt="Răng bị mẻ, nứt hoặc răng bị bào mòn theo thời gian, chân răng ngắn"></div>
                 <div class="ico"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/ico_check.svg" alt=""></div>
                 <p class="text">Răng bị mẻ, nứt hoặc răng bị bào mòn theo thời gian, chân răng ngắn</p>
               </div>
             </li>
             <li class="l-issues_item">
               <div class="inner">
-                <div class="img-ham"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/veneer/img_ham_01.png" alt="Răng bị lệch lạc nhẹ, kích thước của các răng không đều nhau"></div>
+                <div class="img-ham"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/veneer/img_ham_01.png.webp" alt="Răng bị lệch lạc nhẹ, kích thước của các răng không đều nhau"></div>
                 <div class="ico"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/ico_check.svg" alt=""></div>
                 <p class="text">Răng bị lệch lạc nhẹ, kích thước của các răng không đều nhau</p>
               </div>
             </li>
             <li class="l-issues_item">
               <div class="inner">
-                <div class="img-ham"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/veneer/img_ham_02.png" alt="Răng hô, móm, vẩu ở mức độ nhẹ"></div>
+                <div class="img-ham"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/veneer/img_ham_02.png.webp" alt="Răng hô, móm, vẩu ở mức độ nhẹ"></div>
                 <div class="ico"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/ico_check.svg" alt=""></div>
                 <p class="text">Răng hô, móm, vẩu ở mức độ nhẹ</p>
               </div>
             </li>
             <li class="l-issues_item">
               <div class="inner">
-                <div class="img-ham"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/veneer/img_ham_05.png" alt="Răng bị xỉn màu, nhiễm kháng sinh tetracylin, ngả vàng, không thể tẩy trắng được"></div>
+                <div class="img-ham"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/veneer/img_ham_05.png.webp" alt="Răng bị xỉn màu, nhiễm kháng sinh tetracylin, ngả vàng, không thể tẩy trắng được"></div>
                 <div class="ico"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/ico_check.svg" alt=""></div>
                 <p class="text">Răng bị xỉn màu, nhiễm kháng sinh tetracylin, ngả vàng, không thể tẩy trắng được</p>
               </div>
@@ -111,8 +112,8 @@
         <div class="tooth-type">
           <div class="wrapper">
             <div class="tooth-type_inner">
-              <div class="img-tooth"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/promotion/img_06.png" alt=""></div>
-              <div class="img-mau"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/promotion/img_mau.png" alt=""></div>
+              <div class="img-tooth"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/promotion/img_06.png.webp" alt=""></div>
+              <div class="img-mau"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/promotion/img_mau.png.webp" alt=""></div>
             </div>
           </div>
         </div>
@@ -158,9 +159,9 @@
               </div>
             </li>
           </ul>
-          <a class="vidplay trans" href="https://www.youtube.com/watch?v=WXX4qCbyts0">
-            <img class="is-pc" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/veneer/bg_video.png">
-            <img class="is-sp" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/veneer/mobile_banner_video_dan_su.jpg">
+          <a class="vidplay trans" href="https://www.youtube.com/watch?v=1w_Okfvp65Q">
+            <img class="is-pc" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/veneer/bg_video.png.webp">
+            <img class="is-sp" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/veneer/mobile_banner_video_dan_su.webp">
           </a>
         </div>
       </section>
@@ -175,10 +176,12 @@
                 <div class="body">
                   <div class="warranty">(Bảo hành 5 năm)</div>
                   <div class="img">
-                    <div class="img_inner"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/veneer/img_03.png" alt=""></div>
+                    <div class="img_inner"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/veneer/img_03.png.webp" alt=""></div>
                   </div>
                   <div class="box-price"><strong class="price current-price">6.000.000 VNĐ</strong></div>
-                  <div class="m-btn is-sp"><a href="#">Tư vấn ngay</a></div>
+                    <div class="m-btn">
+                    <a class="popup-with-form" href="#popup-tv-su" data-message="Veneer Emax CAD Ivoclar Đức">TƯ VẤN NGAY</a>
+                  </div>              
                 </div>
               </div>
             </li>
@@ -188,10 +191,12 @@
                 <div class="body">
                   <div class="warranty">(Bảo hành 5 năm)</div>
                   <div class="img"><span class="ico"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/service/ico_khuyenmai_20.svg" alt="-20%"></span>
-                    <div class="img_inner"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/veneer/img_04.png" alt=""></div>
+                    <div class="img_inner"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/veneer/img_04.png.webp" alt=""></div>
                   </div>
                   <div class="box-price"><strong class="price old-price">8.000.000 VNĐ</strong><strong class="price new-price">6.400.000 VNĐ</strong></div>
-                  <div class="m-btn is-sp"><a href="#">Tư vấn ngay</a></div>
+                    <div class="m-btn">
+                    <a class="popup-with-form" href="#popup-tv-su" data-message="Veneer Emax Press Ivoclar - Đức">TƯ VẤN NGAY</a>
+                  </div>                
                 </div>
               </div>
             </li>
@@ -201,10 +206,12 @@
                 <div class="body">
                   <div class="warranty">(Bảo hành 5 năm)</div>
                   <div class="img">
-                    <div class="img_inner"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/veneer/img_05.png" alt=""></div>
+                    <div class="img_inner"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/veneer/img_05.png.webp" alt=""></div>
                   </div>
                   <div class="box-price"><strong class="price current-price">10.000.000 VNĐ</strong></div>
-                  <div class="m-btn is-sp"><a href="#">Tư vấn ngay</a></div>
+                    <div class="m-btn">
+                    <a class="popup-with-form" href="#popup-tv-su" data-message="Veneer Lisi Press GG - Mỹ">TƯ VẤN NGAY</a>
+                  </div>                
                 </div>
               </div>
             </li>
@@ -214,11 +221,13 @@
                 <div class="body">
                   <div class="warranty">(Bảo hành 5 năm)</div>
                   <div class="img"><span class="ico"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/service/ico_khuyenmai_20.svg" alt="-20%"></span>
-                    <div class="img_inner"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/veneer/img_06.png" alt=""></div>
+                    <div class="img_inner"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/veneer/img_06.png.webp" alt=""></div>
                   </div>
                   <div class="box-price"><strong class="price old-price">12.000.000 VNĐ</strong><strong class="price new-price">9.600.000 VNĐ</strong></div>
-                  <div class="m-btn is-sp"><a href="#">Tư vấn ngay</a></div>
-                </div>
+                    <div class="m-btn">
+                    <a class="popup-with-form" href="#popup-tv-su" data-message="Veneer Lisi Press Ultra Thin GG - Mỹ">TƯ VẤN NGAY</a>
+                  </div>            
+                   </div>
               </div>
             </li>
           </ul>
@@ -270,7 +279,7 @@
           <ul class="l-demo is-one">
             <li class="l-demo_item">
               <div class="wrap">
-                <div class="demo-img"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/rangsu/quynh-nhu.png" alt=""></div>
+                <div class="demo-img"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/rangsu/quynh-nhu.webp" alt=""></div>
                 <div class="demo-info">
                   <div class="demo-info_name">
                     <h3 class="name">Chị Quỳnh Như - TP HCM</h3><span class="lca">28 Tuổi</span>
@@ -282,7 +291,7 @@
             </li>
             <li class="l-demo_item">
               <div class="wrap">
-                <div class="demo-img"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/rangsu/uyen-phuong.png" alt=""></div>
+                <div class="demo-img"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/rangsu/uyen-phuong.webp" alt=""></div>
                 <div class="demo-info">
                   <div class="demo-info_name">
                     <h3 class="name">Chị Uyên Phương - TP HCM</h3><span class="lca">26 Tuổi</span>
@@ -294,7 +303,7 @@
             </li>
             <li class="l-demo_item">
               <div class="wrap">
-                <div class="demo-img"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/rangsu/thu-yen.png" alt=""></div>
+                <div class="demo-img"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/rangsu/thu-yen.webp" alt=""></div>
                 <div class="demo-info">
                   <div class="demo-info_name">
                     <h3 class="name">Chị Thu Yến - Long An</h3><span class="lca">36 Tuổi</span>
@@ -306,7 +315,7 @@
             </li>
             <li class="l-demo_item">
               <div class="wrap">
-                <div class="demo-img"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/rangsu/kieu_oanh.png" alt=""></div>
+                <div class="demo-img"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/rangsu/kieu_oanh.webp" alt=""></div>
                 <div class="demo-info">
                   <div class="demo-info_name">
                     <h3 class="name">Chị Kiều Oanh - Kiên Giang</h3><span class="lca">34 Tuổi</span>
@@ -318,7 +327,7 @@
             </li>
             <li class="l-demo_item">
               <div class="wrap">
-                <div class="demo-img"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/rangsu/thu-lien.png" alt=""></div>
+                <div class="demo-img"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/rangsu/thu-lien.webp" alt=""></div>
                 <div class="demo-info">
                   <div class="demo-info_name">
                     <h3 class="name">Chị Thu Liên - Bình Dương</h3><span class="lca">36 Tuổi</span>
@@ -330,7 +339,7 @@
             </li>
             <li class="l-demo_item">
               <div class="wrap">
-                <div class="demo-img"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/rangsu/quynh-hoa.png" alt=""></div>
+                <div class="demo-img"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/rangsu/quynh-hoa.webp" alt=""></div>
                 <div class="demo-info">
                   <div class="demo-info_name">
                     <h3 class="name">Chị Quỳnh Hoa - TP HCM</h3><span class="lca">40 Tuổi</span>
@@ -343,6 +352,9 @@
           </ul>
         </div>
       </section>
+         <div class="modal-contact mfp-hide" id="popup-tv-su">
+        <?php echo do_shortcode('[contact-form-7 id="9506"]') ?>
+      </div>
       <?php
        require_once( get_stylesheet_directory() . '/module/m-paper.php' );
        require_once( get_stylesheet_directory() . '/module/contact-footer.php' );

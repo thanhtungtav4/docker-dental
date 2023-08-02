@@ -16,6 +16,7 @@ class CFDB7_Wp_Main_Page
     public function __construct()
     {
         add_action( 'admin_menu', array($this, 'admin_list_table_page' ) );
+
     }
 
 
@@ -111,7 +112,7 @@ class CFDB7_Main_List_Table extends WP_List_Table
         $this->_column_headers = array($columns, $hidden );
         $this->items = $data;
     }
-    
+
     /**
      * Override the parent columns method. Defines the columns to use in your listing table
      *

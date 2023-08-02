@@ -12,10 +12,10 @@
  */
   get_header();
 ?>
-      <div class="mv"><img class="is-pc" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/rangsu/mv.jpg" alt=""><img class="is-sp" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/rangsu/sp/mv.jpg" alt="">
+      <div class="mv"><img class="is-pc" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/rangsu/mv.webp" alt=""><img class="is-sp" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/rangsu/sp/mv.webp" alt="">
         <h1 class="title">RĂNG SỨ THẨM MỸ</h1>
         <span class="name">NỤ CƯỜI HOÀN MỸ</span>
-        <a class="btn popup-with-form" href="#modal-contact">
+        <a class="btn popup-with-form" href="#popup-tv-su" data-message="Tư vấn sứ (Banner)">
           <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/allinone/bnr_btn.svg" alt="ĐẶT LỊCH HẸN">
         </a>
       </div>
@@ -26,11 +26,11 @@
             <p class="text">Bọc răng sứ thẩm mỹ đang là phương án làm đẹp răng được đông đảo nhiều người thực hiện. Nhờ những ưu điểm vượt bật, bọc răng sứ giúp khắc phục các khuyết điểm của răng cũ, mang lại một nụ cười trắng sáng, hàm răng mới đều đẹp tự nhiên, giúp người làm răng sứ tự tin hơn trong giao tiếp, cuộc sống hằng ngày. Vậy thực chất bọc răng sứ là gì? Bọc răng sứ có tốt như quảng cáo không? Chi phí (giá) bọc răng sứ bao nhiêu? Hãy cùng tìm hiểu với Nha khoa I-Dent.</p>
           </div>
           <div class="explant">
-            <div class="img"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/rangsu/img_01.png" alt=""></div>
+            <div class="img"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/rangsu/img_01.png.webp" alt=""></div>
             <div class="info">
               <h3 class="ttl-primary ttl-primary--is-medium u-left">BỌC RĂNG SỨ LÀ GÌ ?</h3>
               <p class="text">
-                <a href="#">Bọc răng sứ thẩm mỹ</a> là phương pháp phục hình bằng vật liệu sứ giúp phục hồi chức năng và cải thiện thẩm mỹ, giúp mang lại dáng răng đều, đẹp, màu sắc tự nhiên như răng thật. Trong đó, Bác sĩ sẽ tiến hành mài nhẹ răng hư để làm cùi răng, sau đó lắp mão răng sứ lên trên. Phần mão sứ này sẽ có độ trong và màu sắc trắng sáng tự nhiên như răng thật. Bên cạnh việc cải thiện thẩm mỹ, phương án bọc răng sứ còn giúp bảo vệ răng thật trước những loại vi khuẩn gây hại cho răng.</p>
+                <strong><a href="#">Bọc răng sứ thẩm mỹ</a></strong> là phương pháp phục hình bằng vật liệu sứ giúp phục hồi chức năng và cải thiện thẩm mỹ, giúp mang lại dáng răng đều, đẹp, màu sắc tự nhiên như răng thật. Trong đó, Bác sĩ sẽ tiến hành mài nhẹ răng hư để làm cùi răng, sau đó lắp mão răng sứ lên trên. Phần mão sứ này sẽ có độ trong và màu sắc trắng sáng tự nhiên như răng thật. Bên cạnh việc cải thiện thẩm mỹ, phương án bọc răng sứ còn giúp bảo vệ răng thật trước những loại vi khuẩn gây hại cho răng.</p>
             </div>
           </div>
         </div>
@@ -40,32 +40,32 @@
           <h2 class="ttl-primary ttl-primary--is-medium">AI NÊN BỌC RĂNG SỨ</h2>
           <p class="text">Với sự phát triển của công nghệ nha khoa, bọc răng sứ thẩm mỹ không chỉ đem lại một hàm răng trắng sáng tự nhiên. Mà còn giúp bạn khắc phục được các nhược điểm của răng như:</p>
           <div class="content">
-            <div class="img"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/rangsu/img_02.png" alt=""></div>
+            <div class="img"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/rangsu/img_02.png.webp" alt=""></div>
             <ul class="l-issues">
               <li class="l-issues_item">
                 <div class="inner">
-                  <div class="img-ham"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/rangsu/img_ham_01.png" alt="Răng bị sâu, sứt mẻ, gãy vỡ, viêm tủy, mòn men răng"></div>
+                  <div class="img-ham"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/rangsu/img_ham_01.png.webp" alt="Răng bị sâu, sứt mẻ, gãy vỡ, viêm tủy, mòn men răng"></div>
                   <div class="ico"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/ico_check.svg" alt=""></div>
                   <p class="text">Răng bị sâu, sứt mẻ, gãy vỡ, viêm tủy, mòn men răng</p>
                 </div>
               </li>
               <li class="l-issues_item">
                 <div class="inner">
-                  <div class="img-ham"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/rangsu/img_ham_02.png" alt="Răng thưa hở, răng mọc lệch lạc, khấp khểnh, răng hô, móm"></div>
+                  <div class="img-ham"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/rangsu/img_ham_02.png.webp" alt="Răng thưa hở, răng mọc lệch lạc, khấp khểnh, răng hô, móm"></div>
                   <div class="ico"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/ico_check.svg" alt=""></div>
                   <p class="text">Răng thưa hở, răng mọc lệch lạc, khấp khểnh, răng hô, móm</p>
                 </div>
               </li>
               <li class="l-issues_item">
                 <div class="inner">
-                  <div class="img-ham"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/rangsu/img_ham_03.png" alt="Răng bị xỉn màu, nhiễm kháng sinh tetracylin, ngả vàng, không thể tẩy trắng được"></div>
+                  <div class="img-ham"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/rangsu/img_ham_03.png.webp" alt="Răng bị xỉn màu, nhiễm kháng sinh tetracylin, ngả vàng, không thể tẩy trắng được"></div>
                   <div class="ico"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/ico_check.svg" alt=""></div>
                   <p class="text">Răng bị xỉn màu, nhiễm kháng sinh tetracylin, ngả vàng, không thể tẩy trắng được</p>
                 </div>
               </li>
               <li class="l-issues_item">
                 <div class="inner">
-                  <div class="img-ham"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/rangsu/img_ham_04.png" alt="Răng hư, có hình dạng to, nhỏ không đồng đều"></div>
+                  <div class="img-ham"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/rangsu/img_ham_04.png.webp" alt="Răng hư, có hình dạng to, nhỏ không đồng đều"></div>
                   <div class="ico"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/ico_check.svg" alt=""></div>
                   <p class="text">Răng hư, có hình dạng to, nhỏ không đồng đều</p>
                 </div>
@@ -81,7 +81,7 @@
           <div class="wrap">
             <div class="loibacsi">
               <quote>
-                <p class="text">Nhờ những công nghệ nha khoa vượt bật hiện nay, giúp phương án bọc răng sứ được thực hiện với hiệu quả cao nhất. Nếu bạn lựa chọn bọc răng sứ tại nha khoa uy tín, có trang thiết bị hiện đại và đội ngũ Bác sĩ có tay nghề chuyên môn cao thì quá trình bọc răng sứ, dán sứ veneer được diễn ra an toàn, hoàn toàn không xảy ra các biến chứng hay ảnh hưởng sức khỏe. Và phương án bọc răng sứ sẽ giúp bạn có được một nụ cười xinh đẹp, tự tin như ý<br>Tuy nhiên, cũng xin lưu ý với mọi người, hiện nay có rất nhiều lời quảng cáo giá rẻ từ những cơ sở làm răng sứ kém chất lượng. Với những lời chào mời hấp dẫn, hình ảnh răng sứ đẹp mắt nhưng chỉ vài trăm nghìn đồng, đến một triệu nhằm thu hút khách hàng. Khi bọc răng sứ tại những địa chỉ này, ban đầu có thể rất đẹp tuy nhiên do chất lượng sứ không đảm bảo, tay nghề bác thực hiện không đúng kỹ thuật có dể dẫn đến biến chứng nguy hiểm sau thời gian ngắn sử dụng như: răng bị xâm lấn nhiều làm chết tủy răng thật, ảnh hưởng đến chức năng ăn nhai, gây hôi miệng, đau ê buốt răng, răng bị nhiễm trùng, thậm chỉ phải nhổ bỏ răng....<br>Tốt nhất, bạn nên đến trực tiếp nha khoa uy tín để bác sĩ tư vấn chính xác phương án cho tính trạng răng của mình rồi mới đồng ý thực hiện bọc răng sứ.</p>
+                <p class="text">Nhờ những công nghệ nha khoa vượt bật hiện nay, giúp phương án bọc răng sứ được thực hiện với hiệu quả cao nhất. Nếu bạn lựa chọn bọc răng sứ tại nha khoa uy tín, có trang thiết bị hiện đại và đội ngũ Bác sĩ có tay nghề chuyên môn cao thì quá trình bọc răng sứ, dán sứ veneer được diễn ra an toàn, hoàn toàn không xảy ra các biến chứng hay ảnh hưởng sức khỏe. Và phương án bọc răng sứ sẽ giúp bạn có được một nụ cười xinh đẹp, tự tin như ý.<br>Tuy nhiên, cũng xin lưu ý với mọi người, hiện nay có rất nhiều lời quảng cáo giá rẻ từ những cơ sở làm răng sứ kém chất lượng. Với những lời chào mời hấp dẫn, hình ảnh răng sứ đẹp mắt nhưng chỉ vài trăm nghìn đồng, đến một triệu nhằm thu hút khách hàng. Khi bọc răng sứ tại những địa chỉ này, ban đầu có thể rất đẹp tuy nhiên do chất lượng sứ không đảm bảo, tay nghề bác thực hiện không đúng kỹ thuật có dể dẫn đến biến chứng nguy hiểm sau thời gian ngắn sử dụng như: răng bị xâm lấn nhiều làm chết tủy răng thật, ảnh hưởng đến chức năng ăn nhai, gây hôi miệng, đau ê buốt răng, răng bị nhiễm trùng, thậm chỉ phải nhổ bỏ răng....<br>Tốt nhất, bạn nên đến trực tiếp nha khoa uy tín để bác sĩ tư vấn chính xác phương án cho tính trạng răng của mình rồi mới đồng ý thực hiện bọc răng sứ.</p>
               </quote><span class="signature">Chia sẻ của Tiến sĩ - Bác sĩ : NGUYỄN HIẾU TÙNG</span>
             </div>
             <div class="img-doc"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/rangsu/img_doc.png" alt=""></div>
@@ -91,12 +91,8 @@
       <section class="m-tooth-type">
         <h2 class="ttl-primary ttl-primary--is-medium">CÁC DÁNG RĂNG SỨ ĐƯỢC LỰA CHỌN NHIỀU TẠI NHA KHOA I-DENT</h2>
         <div class="tooth-type">
-          <div class="wrapper">
-            <div class="tooth-type_inner">
-              <div class="img-tooth"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/promotion/img_06.png" alt=""></div>
-              <div class="img-mau"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/promotion/img_mau.png" alt=""></div>
-            </div>
-          </div>
+          <img loading="lazy" class="is-pc" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/promotion/mau_rang_su_desktop.webp" alt="">
+          <img loading="lazy" class="is-sp" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/promotion/mau_rang_su_mobile.webp" alt="">
         </div>
       </section>
       <div class="box-text">
@@ -140,15 +136,15 @@
               </div>
             </li>
           </ul><a class="vidplay trans" href="https://www.youtube.com/watch?v=4Es_64nz8E0">
-            <img class="is-pc" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/rangsu/bg_video.png">
-            <img class="is-sp" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/rangsu/bg-mobile__quy-trinh-boc-rang-su-tham-my.png">
+            <img class="is-pc" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/rangsu/bg_video.png.webp">
+            <img class="is-sp" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/rangsu/bg-mobile__quy-trinh-boc-rang-su-tham-my.webp">
           </a>
         </div>
       </section>
       <section class="m-promo m-promo-normal">
         <div class="wrapper">
           <h2 class="ttl-primary ttl-primary--is-medium">BỌC RĂNG SỨ GIÁ BAO NHIÊU ?</h2>
-          <p class="text">Tại nha khoa I-Dent, 100% răng sứ cao cấp chính hãng cao cấp nhập khẩu trực tiếp từ Đức và Hoa Kỳ để đảm bảo kết quả tốt nhất cho khách hàng. Bảng giá dưới đây là trọn gói cho 1 răng sứ. Cam kết không phát sinh thêm chi phí trong quá trình điều trị.Chi phí thăm khám ban đầu hoàn toàn miễn phí 100%. Ngoài ra, tại Nha Khoa I-Dent, khách hàng còn được<strong> hỗ trợ thanh toán trả góp với lãi suất 0%.</strong></p>
+          <p class="text">Tại nha khoa I-Dent, 100% răng sứ cao cấp chính hãng cao cấp nhập khẩu trực tiếp từ Đức và Hoa Kỳ để đảm bảo kết quả tốt nhất cho khách hàng. Bảng giá dưới đây là trọn gói cho 1 răng sứ. Cam kết không phát sinh thêm chi phí trong quá trình điều trị. Chi phí thăm khám ban đầu hoàn toàn miễn phí 100%. Ngoài ra, tại Nha Khoa I-Dent, khách hàng còn được<strong> hỗ trợ thanh toán trả góp với lãi suất 0%.</strong></p>
           <ul class="l-uudai">
             <li class="l-uudai_item is-blue">
               <div class="inner">
@@ -156,11 +152,11 @@
                 <div class="body">
                   <div class="warranty">(Bảo hành 3 năm)</div>
                   <div class="img">
-                    <div class="img_inner"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/rangsu/item_01.png" alt=""></div>
+                    <div class="img_inner"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/rangsu/item_01.png.webp" alt=""></div>
                   </div>
                   <div class="box-price"><strong class="price current-price">1.000.000 VNĐ</strong></div>
                   <div class="m-btn">
-                    <a href="#">Tư vấn ngay</a>
+                    <a class="popup-with-form" href="#popup-tv-su">Tư vấn ngay</a>
                   </div>
                 </div>
               </div>
@@ -171,26 +167,26 @@
                 <div class="body">
                   <div class="warranty">(Bảo hành 5 năm)</div>
                   <div class="img">
-                    <div class="img_inner"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/rangsu/item_02.png" alt=""></div>
+                    <div class="img_inner"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/rangsu/item_02.png.webp" alt=""></div>
                   </div>
                   <div class="box-price"><strong class="price current-price">2.500.000 VNĐ</strong></div>
                   <div class="m-btn">
-                    <a href="#">Tư vấn ngay</a>
+                    <a class="popup-with-form" href="#popup-tv-su" data-message="Răng sứ Titan Mỹ">Tư vấn ngay</a>
                   </div>
                 </div>
               </div>
             </li>
             <li class="l-uudai_item is-blue">
               <div class="inner">
-                <div class="heading js-height">Răng sứ kim loại<strong>Chrom-Cobalt- Mỹ</strong></div>
+                <div class="heading js-height">Răng sứ kim loại<strong>Chrom-Cobalt - Mỹ</strong></div>
                 <div class="body">
                   <div class="warranty">(Bảo hành 5 năm)</div>
                   <div class="img">
-                    <div class="img_inner"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/rangsu/item_03.png" alt=""></div>
+                    <div class="img_inner"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/rangsu/item_03.png.webp" alt=""></div>
                   </div>
                   <div class="box-price"><strong class="price current-price">3.500.000 VNĐ</strong></div>
                   <div class="m-btn">
-                    <a href="#">Tư vấn ngay</a>
+                    <a class="popup-with-form" href="#popup-tv-su" data-message="Răng sứ kim loại Chrom-Cobalt- Mỹ">Tư vấn ngay</a>
                   </div>
                 </div>
               </div>
@@ -201,11 +197,11 @@
                 <div class="body">
                   <div class="warranty">(Bảo hành 10 năm)</div>
                   <div class="img"><span class="ico"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/service/ico_khuyenmai_20.svg" alt="-20%"></span>
-                    <div class="img_inner"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/rangsu/item_04.png" alt=""></div>
+                    <div class="img_inner"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/rangsu/item_04.png.webp" alt=""></div>
                   </div>
                   <div class="box-price"><strong class="price old-price">4.500.000 VNĐ</strong><strong class="price new-price">3.600.000 VNĐ</strong></div>
                   <div class="m-btn">
-                    <a href="#">Tư vấn ngay</a>
+                    <a class="popup-with-form" href="#popup-tv-su" data-message="Răng sứ toàn sứ Đức Zirconia DDBio">Tư vấn ngay</a>
                   </div>
                 </div>
               </div>
@@ -216,41 +212,78 @@
                 <div class="body">
                   <div class="warranty">(Bảo hành 10 năm)</div>
                   <div class="img">
-                    <div class="img_inner"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/rangsu/item_05.png" alt=""></div>
+                    <div class="img_inner"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/rangsu/item_05.png.webp" alt=""></div>
                   </div>
-                  <div class="box-price"><strong class="price current-price">1.000.000 VNĐ</strong></div>
+                  <div class="box-price"><strong class="price current-price">5.000.000 VNĐ</strong></div>
                   <div class="m-btn">
-                    <a href="#">Tư vấn ngay</a>
+                    <a class="popup-with-form" href="#popup-tv-su" data-message="Răng sứ toàn sứ Đức DDBio HT">Tư vấn ngay</a>
                   </div>
                 </div>
               </div>
             </li>
             <li class="l-uudai_item is-blue">
               <div class="inner">
-                <div class="heading js-height">Răng sứ toàn sứ Đức<strong>DDBio HT</strong></div>
+                <div class="heading js-height">Răng sứ toàn sứ Đức<strong>Cercon HT</strong></div>
                 <div class="body">
                   <div class="warranty">(Bảo hành 10 năm)</div>
-                  <div class="img"><span class="ico"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/service/ico_khuyenmai_20.svg" alt="-20%"></span>
-                    <div class="img_inner"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/rangsu/item_06.png" alt=""></div>
+                  <div class="img">
+                    <span class="ico"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/service/ico_khuyenmai_20.svg" alt="-20%"></span>
+                    <div class="img_inner"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/rangsu/item_06.png.webp" alt=""></div>
                   </div>
                   <div class="box-price"><strong class="price old-price">6.000.000 VNĐ</strong><strong class="price new-price">4.800.000 VNĐ</strong></div>
                   <div class="m-btn">
-                    <a href="#">Tư vấn ngay</a>
+                    <a class="popup-with-form" href="#popup-tv-su" data-message="Răng sứ toàn sứ Đức Cercon HT">Tư vấn ngay</a>
                   </div>
                 </div>
               </div>
             </li>
+            <li class="l-uudai_item is-blue">
+              <div class="inner">
+                <div class="heading js-height">Răng sứ toàn sứ Mỹ<strong>Lava</strong></div>
+                <div class="body">
+                  <div class="warranty">(Bảo hành 10 năm)</div>
+                  <div class="img">
+                    <div class="img_inner"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/rangsu/rang-su-lava.png" alt=""></div>
+                  </div>
+                  <div class="box-price"><strong class="price current-price">7.000.000 VNĐ</strong></div>
+                  <div class="m-btn">
+                    <a class="popup-with-form" href="#popup-tv-su" data-message="Răng sứ toàn sứ Mỹ Lava">Tư vấn ngay</a>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="l-uudai_item is-blue">
+              <div class="inner">
+                <div class="heading js-height">Răng sứ toàn sứ Mỹ<strong>Lava Plus</strong></div>
+                <div class="body">
+                  <div class="warranty">(Bảo hành 10 năm)</div>
+                  <div class="img">
+                    <span class="ico"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/service/ico_khuyenmai_20.svg" alt="-20%"></span>
+                    <div class="img_inner"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/rangsu/rang-su-lava-plus.png" alt=""></div>
+                  </div>
+                  <div class="box-price">
+                    <strong class="price old-price">8.000.000 VNĐ</strong>
+                    <strong class="price new-price">6.400.000 VNĐ</strong>
+                  </div>
+                  <div class="m-btn">
+                    <a class="popup-with-form"  href="#popup-tv-su" data-message="Răng sứ toàn sứ Mỹ Lava Plus">Tư vấn ngay</a>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+          <ul class="l-uudai">
             <li class="l-uudai_item is-blue">
               <div class="inner">
                 <div class="heading js-height">Răng sứ toàn sứ Đức<strong>Nacera PEAR</strong></div>
                 <div class="body">
                   <div class="warranty">(Bảo hành 15 năm)</div>
                   <div class="img">
-                    <div class="img_inner"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/rangsu/item_07.png" alt=""></div>
+                    <div class="img_inner"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/rangsu/item_07.png.webp" alt=""></div>
                   </div>
                   <div class="box-price"><strong class="price current-price">8.000.000 VNĐ</strong></div>
                   <div class="m-btn">
-                    <a href="#">Tư vấn ngay</a>
+                    <a class="popup-with-form" href="#popup-tv-su" data-message="Răng sứ toàn sứ Đức Nacera PEAR">Tư vấn ngay</a>
                   </div>
                 </div>
               </div>
@@ -260,12 +293,14 @@
                 <div class="heading js-height">Răng sứ toàn sứ Đức<strong>Nacera 9Max</strong></div>
                 <div class="body">
                   <div class="warranty">(Bảo hành 20 năm)</div>
-                  <div class="img"><span class="ico"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/service/ico_khuyenmai_20.svg" alt="-20%"></span>
-                    <div class="img_inner"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/rangsu/item_08.png" alt=""></div>
+                  <div class="img">
+                    <div class="img_inner"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/rangsu/item_08.png.webp" alt=""></div>
                   </div>
-                  <div class="box-price"><strong class="price old-price">9.000.000 VNĐ</strong><strong class="price new-price">7.200.000 VNĐ</strong></div>
+                  <div class="box-price">
+                    <strong class="price current-price">9.000.000 VNĐ</strong>
+                  </div>
                   <div class="m-btn">
-                    <a href="#">Tư vấn ngay</a>
+                    <a class="popup-with-form" href="#popup-tv-su" data-message="Răng sứ toàn sứ Đức Nacera 9Max">Tư vấn ngay</a>
                   </div>
                 </div>
               </div>
@@ -322,15 +357,15 @@
                 <div class="l-doctors_images">
                   <div class="bg is-sp"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/top/bg_circle.png" alt=""></div>
                   <div class="img">
-                    <img class="is-sp" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/top/img_bs_01.png" alt="TIẾN SĨ - BÁC SĨ NGUYỄN HIẾU TÙNG">
-                    <img class="is-pc" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/bs-tung/img_doc_04.png" alt="TIẾN SĨ - BÁC SĨ NGUYỄN HIẾU TÙNG">
+                    <img class="is-sp" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/top/img_bs_01.png.webp" alt="TIẾN SĨ - BÁC SĨ NGUYỄN HIẾU TÙNG">
+                    <img class="is-pc" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/bs-tung/img_doc_04.png.webp" alt="TIẾN SĨ - BÁC SĨ NGUYỄN HIẾU TÙNG">
                   </div>
                 </div>
                 <div class="l-doctors_info">
                   <div class="l-doctors_info_inner">
                     <h2 class="name">TIẾN SĨ - BÁC SĨ NGUYỄN HIẾU TÙNG </h2>
                     <ul class="certificate">
-                      <li>Tiến sĩ Y khoa Bện h Lý Học Ở Người, Khoa Y, ĐH Aix-Marseille, Marseille, Pháp.</li>
+                      <li>Tiến sĩ Y khoa Bệnh Lý Học Ở Người, Khoa Y, ĐH Aix-Marseille, Marseille, Pháp.</li>
                       <li>Bằng Chuyên Khoa Sau Đại Học IMPLANT Nha khoa, ĐH Méditerranée,     Marseille, Pháp.</li>
                       <li>Chứng Chỉ Chuyên Khoa Sau Đại Học Phục Hình Cố Định, ĐH Aix-Marseille, Marseille, Pháp.</li>
                     </ul>
@@ -338,13 +373,13 @@
                       <div class="l-cer-img_wrap swiper-container js-slide-cer">
                         <div class="l-cer-img_inner swiper-wrapper">
                           <div class="l-cer-img_item swiper-slide">
-                            <div><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_01_cer_01.png" alt=""></div>
+                            <div><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_01_cer_01.png.webp" alt=""></div>
                           </div>
                           <div class="l-cer-img_item swiper-slide">
-                            <div><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_01_cer_02.png" alt=""></div>
+                            <div><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_01_cer_02.png.webp" alt=""></div>
                           </div>
                           <div class="l-cer-img_item swiper-slide">
-                            <div><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_01_cer_03.png" alt=""></div>
+                            <div><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_01_cer_03.png.webp" alt=""></div>
                           </div>
                           <div class="l-cer-img_item swiper-slide">
                             <div><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_01_cer_01.png" alt=""></div>
@@ -416,13 +451,13 @@
                       <div class="l-cer-img_wrap swiper-container js-slide-cer">
                         <div class="l-cer-img_inner swiper-wrapper">
                           <div class="l-cer-img_item swiper-slide">
-                            <div><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_02_cer_01.png" alt=""></div>
+                            <div><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_02_cer_01.png.webp" alt=""></div>
                           </div>
                           <div class="l-cer-img_item swiper-slide">
-                            <div><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_02_cer_02.png" alt=""></div>
+                            <div><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_02_cer_02.png.webp" alt=""></div>
                           </div>
                           <div class="l-cer-img_item swiper-slide">
-                            <div><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_02_cer_03.png" alt=""></div>
+                            <div><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_02_cer_03.png.webp" alt=""></div>
                           </div>
 
                         </div>
@@ -454,10 +489,10 @@
                       <div class="l-cer-img_wrap swiper-container js-slide-cer">
                         <div class="l-cer-img_inner swiper-wrapper">
                           <div class="l-cer-img_item swiper-slide">
-                            <div><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_05_cer_01.png" alt=""></div>
+                            <div><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_05_cer_01.png.webp" alt=""></div>
                           </div>
                           <div class="l-cer-img_item swiper-slide">
-                            <div><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_05_cer_02.png" alt=""></div>
+                            <div><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_05_cer_02.png.webp" alt=""></div>
                           </div>
                         </div>
                       </div>
@@ -488,10 +523,10 @@
                       <div class="l-cer-img_wrap swiper-container js-slide-cer">
                         <div class="l-cer-img_inner swiper-wrapper">
                           <div class="l-cer-img_item swiper-slide">
-                            <div><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_06_cer_01.png" alt=""></div>
+                            <div><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_06_cer_01.png.webp" alt=""></div>
                           </div>
                           <div class="l-cer-img_item swiper-slide">
-                            <div><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_06_cer_02.png" alt=""></div>
+                            <div><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_06_cer_02.png.webp" alt=""></div>
                           </div>
                         </div>
                       </div>
@@ -522,13 +557,13 @@
                       <div class="l-cer-img_wrap swiper-container js-slide-cer">
                         <div class="l-cer-img_inner swiper-wrapper">
                           <div class="l-cer-img_item swiper-slide">
-                            <div><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_03_cer_01.png" alt=""></div>
+                            <div><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_03_cer_01.png.webp" alt=""></div>
                           </div>
                           <div class="l-cer-img_item swiper-slide">
-                            <div><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_03_cer_02.png" alt=""></div>
+                            <div><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_03_cer_02.png.webp" alt=""></div>
                           </div>
                           <div class="l-cer-img_item swiper-slide">
-                            <div><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_03_cer_03.png" alt=""></div>
+                            <div><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_03_cer_03.png.webp" alt=""></div>
                           </div>
                         </div>
                       </div>
@@ -543,27 +578,27 @@
           <div class="l-doctors_thumb is-special">
             <div class="js-doc-thumb">
               <div class="thumb-item">
-                <div class="thumb-item_inner"><a href="javascript:;"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/top/img_thumb_01.png" alt="">
-                    <div class="name"><span>Bác sĩ -TIẾN SỸ</span><strong>Nguyễn Hiếu Tùng</strong></div></a></div>
+                <div class="thumb-item_inner"><a href="javascript:;"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/top/img_thumb_01.png.webp" alt="">
+                    <div class="name"><span>Tiến sĩ - Bác sĩ</span><strong>Nguyễn Hiếu Tùng</strong></div></a></div>
               </div>
               <div class="thumb-item">
-                <div class="thumb-item_inner"><a href="javascript:;"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/top/img_thumb_02.png" alt="">
+                <div class="thumb-item_inner"><a href="javascript:;"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/top/img_thumb_02.png.webp" alt="">
                     <div class="name"><span>Bác sĩ Chuyên Khoa I</span><strong>Nguyễn Huỳnh Ngọc Mỹ</strong></div></a></div>
               </div>
               <div class="thumb-item">
-                <div class="thumb-item_inner"><a href="javascript:;"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/promotion/img_doc_01.png" alt="">
+                <div class="thumb-item_inner"><a href="javascript:;"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/promotion/img_doc_01.png.webp" alt="">
                     <div class="name"><span>Bác sĩ Chuyên Khoa I</span><strong>Mai Hồng Thái</strong></div></a></div>
               </div>
               <div class="thumb-item">
-                <div class="thumb-item_inner"><a href="javascript:;"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/promotion/img_doc_02.png" alt="">
+                <div class="thumb-item_inner"><a href="javascript:;"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/promotion/img_doc_02.png.webp" alt="">
                     <div class="name"><span>Bác sĩ Chuyên Khoa I</span><strong>Đặng Duy Tùng</strong></div></a></div>
               </div>
               <div class="thumb-item">
-                <div class="thumb-item_inner"><a href="javascript:;"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/promotion/img_doc_03.png" alt="">
+                <div class="thumb-item_inner"><a href="javascript:;"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/promotion/img_doc_03.png.webp" alt="">
                     <div class="name"><span>Bác sĩ Chuyên Khoa I</span><strong>Ngô Thị Phương Thảo</strong></div></a></div>
               </div>
               <div class="thumb-item">
-                <div class="thumb-item_inner"><a href="javascript:;"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/promotion/img_doc_04.png" alt="">
+                <div class="thumb-item_inner"><a href="javascript:;"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/promotion/img_doc_04.png.webp" alt="">
                     <div class="name"><span>Bác sĩ Chuyên Khoa I</span><strong>Vũ Thiện Khanh</strong></div></a></div>
               </div>
             </div>
@@ -573,20 +608,6 @@
       <section class="m-cus-danhgia">
         <div class="wrapper">
           <h2 class="ttl-primary ttl-primary--is-medium">ĐÁNH GIÁ CỦA KHÁCH HÀNG KHI BỌC RĂNG SỨ TẠI NHA KHOA I-DENT</h2>
-<!--           <ul class="l-demo is-one">
-            <li class="l-demo_item">
-              <div class="wrap">
-                <div class="demo-img"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/rangsu/img_cus.png" alt=""></div>
-                <div class="demo-info">
-                  <div class="demo-info_name">
-                    <h3 class="name">Chị Thu Yến - Long An</h3><span class="lca">36 Tuổi</span>
-                  </div>
-                  <div class="type js-height">Nhờ người bạn đồng nghiệp giới thiệu, chị biết đến I-Dent và thực hiện bọc răng sứ tại đây. Giờ chị có thể tự tin cười nói vui vẻ mà không e ngại hàm răng ố vàng. Cảm ơn Bác sĩ Tùng, Bác sĩ Khanh và I-Dent rất nhiều.</div>
-                  <div class="implant">Bọc sứ 20 răng - Zirconia</div>
-                </div>
-              </div>
-            </li>
-          </ul> -->
         </div>
       </section>
       <section class="m-video is-special">
@@ -625,19 +646,19 @@
             <li class="l-faq_item">
               <div class="heading">
                 <h3 class="question ttl-secondary">1. Bọc răng sứ có tốt không ?</h3>
-                <div class="m-btn is-reverse active"><a href="javascript:;">Thu gọn</a></div>
+                <div class="m-btn is-reverse"><a href="javascript:;">Trả lời</a></div>
               </div>
-              <div class="answer" style="display: block">
+              <div class="answer" style="display: none">
                 <p class="text"><span class="bg">Trả lời:</span> Rất nhiều khách hàng băn khoăn liệu bọc răng sứ có tốt không? Có ảnh hưởng gì đến sức khỏe răng miệng hay không. Thực tế, nếu được chỉ định đúng trường hợp và thực hiện đúng kỹ thuật, thì bọc răng sứ sẽ mang đến nhiều lợi ích:<strong>Tăng tính thẩm mỹ cho khuôn mặt</strong>Răng mọc khấp khểnh, răng thưa, răng hô, móm, răng ố vàng, xỉn màu… khiến nhiều người mất tự tin khi giao tiếp.<br>Bọc răng sứ là lựa chọn tối ưu để khắc phục được các khuyết điểm của răng. Mang đến cho bạn một hàm răng trắng sáng, đều đặn và khuôn mặt trở nên hài hòa hơn rất nhiều.<strong>Bảo vệ răng thật</strong>Trong quá trình ăn nhai hàng ngày, răng thật dễ bị tác động bởi hóa chất, nhiệt độ, vi khuẩn… dẫn tới bị sâu răng, mòn cổ chân răng, viêm tủy… Hoặc sau khi điều trị các bệnh lý răng miệng, khiến răng thật bị yếu đi.<br>Với những trường hợp trên, bọc sứ để bảo vệ răng thật là điều cần thiết. Răng sứ có độ bền cao, chịu lực tốt nên có thể giữ cho răng thật không bị tấn công bởi các tác nhân có hại, giúp răng luôn chắc khỏe.<strong>Cải thiện tình trạng sai lệch khớp cắn</strong>Trong những trường hợp sai khớp cắn nhẹ thì có thể cải thiện bằng cách bọc răng sứ. Thời gian điều trị nhanh chóng, chỉ 3 - 5 ngày là hoàn thiện.<br>Khớp cắn được điều chỉnh, giúp việc ăn uống hàng ngày và vệ sinh răng miệng dễ dàng hơn.</p>
               </div>
             </li>
             <li class="l-faq_item">
               <div class="heading">
                 <h3 class="question ttl-secondary">2. Bọc răng sứ có đau không và những triệu chứng kèm theo?</h3>
-                <div class="m-btn is-reverse active"><a href="javascript:;">Thu gọn</a></div>
+                <div class="m-btn is-reverse"><a href="javascript:;">Trả lời</a></div>
               </div>
-              <div class="answer" style="display: block">
-                <p class="text"><span class="bg">Trả lời:</span> Bọc răng sứ là một kỹ thuật nha khoa được đánh giá là an toàn đối với sức khỏe răng miệng. Tuy nhiên, bọc sứ có đau không sẽ phụ thuộc khá nhiều vào tay nghề của bác sĩ thực hiện và sự hỗ trợ của các trang thiết bị, máy móc.<br>Nếu bạn thực hiện bọc sứ tại một nha khoa kém uy tín, thiếu trang thiết bị và bác sĩ thao tác sai kỹ thuật thì có thể dẫn tới tình trạng đau nhức khi bọc sứ, bởi những nguyên nhân:<strong>Bọc sứ bị viêm nướu</strong>Bác sĩ mài cùi răng quá nhiều, can thiệp sâu đến cấu trúc răng đã tạo điều kiện cho vi khuẩn tấn công và làm tổn thương răng, tổn thương các mô mềm, dẫn tới viêm nướu.<br>Hoặc do răng sứ chế tác sai kỹ thuật, khi gắn lên không sát khít với răng thật, làm cho thức ăn dễ mắc vào và gây viêm.<strong>Bọc sứ bị hở cổ chân răng</strong>Nếu bác sĩ không có tay nghề cao thì quá trình mài răng dễ có nhiều sai sót, cùi bề mặt không nhẵn khiến mão răng sứ chụp lên không sát khít. Lâu ngày răng sứ sẽ bị hở gây mất thẩm mỹ và nhiều hệ lụy khác.<br>Ngoài ra, nếu bạn chăm sóc răng miệng không đúng cách, chải răng theo chiều ngang, chải răng quá mạnh… cũng sẽ khiến răng sứ dễ bị lệch và hở cùi răng.<strong>Bọc sứ bị cộm</strong>Răng sứ bị cộm, cấn không chỉ gây nhiều khó khăn trong quá trình ăn nhai mà còn làm cho bạn thấy đau nhức, khó chịu.<br>Câu hỏi: Bọc răng sứ có bền không ?</p>
+              <div class="answer" style="display: none">
+                <p class="text"><span class="bg">Trả lời:</span> Bọc răng sứ là một kỹ thuật nha khoa được đánh giá là an toàn đối với sức khỏe răng miệng. Tuy nhiên, bọc sứ có đau không sẽ phụ thuộc khá nhiều vào tay nghề của bác sĩ thực hiện và sự hỗ trợ của các trang thiết bị, máy móc.<br>Nếu bạn thực hiện bọc sứ tại một nha khoa kém uy tín, thiếu trang thiết bị và bác sĩ thao tác sai kỹ thuật thì có thể dẫn tới tình trạng đau nhức khi bọc sứ, bởi những nguyên nhân:<strong>Bọc sứ bị viêm nướu</strong>Bác sĩ mài cùi răng quá nhiều, can thiệp sâu đến cấu trúc răng đã tạo điều kiện cho vi khuẩn tấn công và làm tổn thương răng, tổn thương các mô mềm, dẫn tới viêm nướu.<br>Hoặc do răng sứ chế tác sai kỹ thuật, khi gắn lên không sát khít với răng thật, làm cho thức ăn dễ mắc vào và gây viêm.<strong>Bọc sứ bị hở cổ chân răng</strong>Nếu bác sĩ không có tay nghề cao thì quá trình mài răng dễ có nhiều sai sót, cùi bề mặt không nhẵn khiến mão răng sứ chụp lên không sát khít. Lâu ngày răng sứ sẽ bị hở gây mất thẩm mỹ và nhiều hệ lụy khác.<br>Ngoài ra, nếu bạn chăm sóc răng miệng không đúng cách, chải răng theo chiều ngang, chải răng quá mạnh… cũng sẽ khiến răng sứ dễ bị lệch và hở cùi răng.<strong>Bọc sứ bị cộm</strong>Răng sứ bị cộm, cấn không chỉ gây nhiều khó khăn trong quá trình ăn nhai mà còn làm cho bạn thấy đau nhức, khó chịu.<br></p>
               </div>
             </li>
             <li class="l-faq_item">
@@ -645,8 +666,8 @@
                 <h3 class="question ttl-secondary">3. Bọc răng sứ có bền không ?</h3>
                 <div class="m-btn is-reverse"><a href="javascript:;">Trả lời</a></div>
               </div>
-              <div class="answer">
-                <p class="text"><strong>TRẢ LỜI :</strong>Tuổi thọ sử dụng của răng sứ có bền lâu hay không sẽ phụ thuộc vào những yếu tố dưới đây:</p>
+              <div class="answer" style="display: none">
+                <p class="text"><strong>Trả lời :</strong>Tuổi thọ sử dụng của răng sứ có bền lâu hay không sẽ phụ thuộc vào những yếu tố dưới đây:</p>
                 <p class="text">- Lựa chọn nha khoa bọc răng sứ</p>
                 <p class="text">Một nha khoa uy tín, chất lượng sẽ đảm bảo quá trình bọc răng sứ diễn ra an toàn và thành công, nhờ:</p>
                 <p class="text">Đội ngũ bác sĩ tay nghề giỏi, nhiều năm kinh nghiệm. </p>
@@ -660,5 +681,8 @@
           </ul>
         </div>
       </section>
+      <div class="modal-contact mfp-hide" id="popup-tv-su">
+        <?php echo do_shortcode('[contact-form-7 id="9506"]') ?>
+      </div>
  <?php
   get_footer(); ?>

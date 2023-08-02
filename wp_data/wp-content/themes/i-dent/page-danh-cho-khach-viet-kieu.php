@@ -15,7 +15,7 @@
       <div class="breadcrumbs">
         <div class="wrapper">
           <ul class="l-breadcrumbs">
-            <li><a class="trans" href="#">Trang chủ</a></li>
+            <li><a class="trans" href="/">Trang chủ</a></li>
             <li><span>Câu chuyện về nước làm răng của Việt Kiều</span></li>
           </ul>
         </div>
@@ -43,7 +43,7 @@
                   <div class="img"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/story/img_hard_02.svg" alt="Giá cả thiếu minh bạch"></div>
                   <div class="info">
                     <h4 class="ttl-bl">Giá cả thiếu minh bạch</h4>
-                    <p class="text">Bệnh nhân thường muốn biết trước chi phí để chuẩn bị tài chính đầy đủ trước khi về nước. Nhưng tình trạng nhiều nha khoa không công khai minh bạch về giá cả. Dẫn đến trường hợp về nước điều trị lại bị phát sinh thêm chi phí  gây mất lòng tin và hoan mang.</p>
+                    <p class="text">Bệnh nhân thường muốn biết trước chi phí để chuẩn bị tài chính đầy đủ trước khi về nước. Nhưng tình trạng nhiều nha khoa không công khai minh bạch về giá cả. Dẫn đến trường hợp về nước điều trị lại bị phát sinh thêm chi phí  gây mất lòng tin và hoang mang.</p>
                   </div>
                 </li>
                 <li class="l-cons_item">
@@ -57,7 +57,7 @@
                   <div class="img"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/story/img_hard_04.svg" alt="Lựa chọn cơ sở uy tín"></div>
                   <div class="info">
                     <h4 class="ttl-bl">Lựa chọn cơ sở uy tín</h4>
-                    <p class="text">Hiện nay có hàng nghìn nha khoa lớn nhỏ khác nhau trên khắp cả nước, Không phải phòng khám nào cũng có năng lực điều trị cao, sử dụng công nghệ tiên tiến, uy tín thật sự.<br>Điều này khiến cho khách Việt kiều hoang mang, lo lắng, không biết phải lựa chọn nha khoa nào mới chất lượng và đáp ứng được nhu cầu của bản thân.</p>
+                    <p class="text">Hiện nay có hàng nghìn nha khoa lớn nhỏ khác nhau trên khắp cả nước, không phải phòng khám nào cũng có năng lực điều trị cao, sử dụng công nghệ tiên tiến, uy tín thật sự.<br>Điều này khiến cho khách Việt kiều hoang mang, lo lắng, không biết phải lựa chọn nha khoa nào mới chất lượng và đáp ứng được nhu cầu của bản thân.</p>
                   </div>
                 </li>
               </ul>
@@ -72,15 +72,15 @@
                   <div class="info">
                     <h4 class="ttl-bl">THẤU HIỂU KHÁCH HÀNG</h4>
                     <p class="text js-height">Hiểu rõ những đắn đo của bệnh nhân việt kiều. Nha khoa I-Dent đã cho ra dịch vụ lập phác đồ điều trị online cụ thể bao gồm những thông tin quan trọng gồm: Tình trạng của bệnh nhân, Phương án điều trị (vị trí cấy, loại trụ, phương pháp cây), Thời gian thực hiện, Người thực hiện, Giá trọn gói và Phương án thanh toán giúp bệnh nhân chủ động 100% khi quyết định về nước.</p>
-                    <div class="m-btn"><a href="#">XEM KẾ HOẠCH ĐIỀU TRỊ</a></div>
+                    <div class="m-btn"><a href="/phac-do-dieu-tri-mau/">XEM KẾ HOẠCH ĐIỀU TRỊ</a></div>
                   </div>
                 </li>
                 <li class="l-trust_item">
                   <div class="img"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/story/img_02.png" alt=""></div>
                   <div class="info">
                     <h4 class="ttl-bl">ĐỘI NGŨ CHUYÊN SÂU</h4>
-                    <p class="text js-height">Đứng đầu là bác sĩ Tiến Sĩ Nguyễn Hiếu Tùng 10 năm tu nghiệp tại Pháp cùng các bác sĩ khác 100% đều là các bác sĩ từ CKI ( Thạc sĩ y khoa ) Trở lên. Toàn bộ thông tin bác sĩ đều được công khai trên Website</p>
-                    <div class="m-btn"><a href="#">XEM HỒ SƠ ĐỘI NGŨ BÁC SĨ</a></div>
+                    <p class="text js-height">Đứng đầu là Tiến Sĩ - Bác sĩ Nguyễn Hiếu Tùng 10 năm tu nghiệp tại Pháp cùng các bác sĩ khác 100% đều là các bác sĩ từ CKI (Thạc sĩ y khoa) trở lên. Toàn bộ thông tin bác sĩ đều được công khai trên website</p>
+                    <div class="m-btn"><a href="/gioi-thieu/doi-ngu-tien-si-bac-si/">XEM HỒ SƠ ĐỘI NGŨ BÁC SĨ</a></div>
                   </div>
                 </li>
                 <li class="l-trust_item">
@@ -88,6 +88,7 @@
                   <div class="info">
                     <h4 class="ttl-bl">MINH BẠCH GIÁ CẢ</h4>
                     <p class="text js-height">Toàn bộ thông tin về chi phí được minh bạch trên Website. Nha khoa I-Dent niêm yết giá trọn gói, cam kết không phát sinh bất kỳ chi phí nào khác.</p>
+                    <div class="m-btn"><a href="/bang-gia/implant/">XEM BẢNG GIÁ</a></div>
                   </div>
                 </li>
                 <li class="l-trust_item">
@@ -95,6 +96,7 @@
                   <div class="info">
                     <h4 class="ttl-bl">CÔNG NGHỆ VƯỢT TRỘI</h4>
                     <p class="text js-height">Nha Khoa I-Dent sử dụng công nghệ cấy Implant Pháp. An toàn tuyệt đối, nhanh chóng và không đau. Sử dụng thiết bị hoàn toàn nhập từ Châu Âu. Được bộ y tế cấp phép hoạt động. Và 100% trụ implant cao cấp.</p>
+                    <div class="m-btn"><a href="/gioi-thieu/co-so-vat-chat/">XEM CƠ SỞ VẬT CHẤT</a></div>
                   </div>
                 </li>
               </ul>
@@ -146,7 +148,7 @@
       </section>
       <section class="m-video is-short">
         <div class="wrapper">
-          <h2 class="ttl-primary ttl-primary--is-medium">BỆNH NHÂN VIỆT KIỀU ĐÃ CẤY IMPLANT TẠI NHA KHOA IDENT</h2>
+          <h2 class="ttl-primary ttl-primary--is-medium">BỆNH NHÂN VIỆT KIỀU ĐÃ CẤY IMPLANT TẠI NHA KHOA I-DENT</h2>
           <div class="m-video_inner">
             <div class="m-video_main"><a class="vidplay" href="https://www.youtube.com/watch?v=X0fkB-SaOJQ"><img src="/wp-content/uploads/2023/06/TU-PHOI.jpg.webp"></a></div>
             <ul class="l-video">

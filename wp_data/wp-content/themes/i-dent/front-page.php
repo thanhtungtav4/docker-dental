@@ -16,7 +16,7 @@
 ?>
   <section class="intro">
     <div class="wrapper">
-      <h2 class="ttl-primary">NHA KHOA I-DENT<br class="is-sp"> PHÒNG KHÁM NHA KHOA <br class="is-sp">SỐ 1 TP HỒ CHÍ MINH</h2>
+      <h1 class="ttl-primary">NHA KHOA I-DENT<br class="is-sp"> PHÒNG KHÁM NHA KHOA <br class="is-sp">SỐ 1 TP HỒ CHÍ MINH</h1>
       <?php
         echo do_shortcode('[contact-form-7 id="7215" title="HỖ TRỢ TƯ VẤN 24/7"]');
         require_once( get_stylesheet_directory() . '/module/main-review.php' );
@@ -29,7 +29,7 @@
   ?>
   <section class="m-prize">
     <div class="wrapper">
-      <h2 class="ttl-primary is-white">NHA KHOA I-DENT ĐIỂM ĐẾN TIN CẬY CỦA KHÁCH HÀNG TRONG VÀ NGOÀI NƯỚC</h2>
+      <h2 class="ttl-primary is-white">NHA KHOA I-DENT<br class="is-sp"> ĐIỂM ĐẾN TIN CẬY CỦA KHÁCH HÀNG TRONG VÀ NGOÀI NƯỚC</h2>
       <ul class="l-prize">
         <li>
           <div class="vec">
@@ -53,7 +53,7 @@
           <div class="vec">
             <img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/top/vec_03.svg" alt="vec_03">
           </div>
-          <p>Hơn 6,000 ca <br class="is-pc">Thẩm mỹ răng sứ và <br class="is-pc">Niềng răng thẩm mỹ thành công </p>
+          <p>Hơn 6.000 ca <br class="is-pc">Thẩm mỹ răng sứ và <br class="is-pc">Niềng răng thẩm mỹ thành công </p>
         </li>
       </ul>
     </div>
@@ -73,7 +73,7 @@
         </div>
         <div class="img">
           <div class="img_item"><img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/top/img_cup.png" alt="cup"></div>
-          <div class="img_item"><img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/top/img-certificate.png" alt="certificate"></div>
+          <div class="img_item"><img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/top/img-certificate.png.webp" alt="certificate"></div>
         </div>
       </div>
     </div>

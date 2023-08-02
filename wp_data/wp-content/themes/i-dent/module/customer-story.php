@@ -18,6 +18,8 @@ $queryCustomer = new WP_Query(
       <?php if ( $queryCustomer->have_posts() ) :
             while ( $queryCustomer->have_posts() ) : $queryCustomer->the_post();
             $sex = get_field('sex', get_the_ID());
+            $name = get_field('customer_name');
+            $from = get_field('customer_service_from');
             $title = get_the_title();
       ?>
         <div class="m-customer_item">
@@ -26,8 +28,9 @@ $queryCustomer = new WP_Query(
               <?php handle_thumbnail_id(get_field('customer_image_main'), 'full') ?>
             </figure>
             <div class="info">
-              <h3 class="cus-name"><?php echo $sex . '&nbsp;' . $title; ?></h3>
-              <p class="text"><?php echo wp_trim_words(get_the_excerpt(), 20, '...'); ?></p>
+              <h3 class="cus-name"><?php echo $sex . '&nbsp;' . $name; ?></h3>
+              <p class="from"><?php echo $from; ?></p>
+              <p class="text"><?php echo wp_trim_words(get_the_excerpt(), 18, '...'); ?></p>
               <div class="m-btn">
                 <a href="<?php the_permalink() ?>">Xem chi tiết</a>
               </div>

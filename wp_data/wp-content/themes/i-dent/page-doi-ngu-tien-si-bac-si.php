@@ -13,17 +13,23 @@
   get_header();
 ?>
   <div class="mv">
-    <img loading="lazy" class="is-pc" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/reason/bnr.jpg" alt="">
-    <img loading="lazy" class="is-sp" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/reason/sp/bnr.jpg" alt="">
+    <img  class="is-pc" src="/wp-content/uploads/2023/07/banner-bs-web-2.webp" alt="">
+    <img  class="is-sp" src="/wp-content/uploads/2023/07/banner-bs-web-mobile-2.webp" alt="">
   </div>
   <div class="wrapper">
     <div class="doc-intro">
-      <p class="text">Nha khoa Implant I-DENT với Đội ngũ BS và Chuyên gia nhiều năm kinh nghiệm trong lĩnh vực cấy ghép Implant, bọc răng sứ, dán sứ veneer,chỉnh hình niềng răng,...</p>
+      <p class="text"><br>Để mang đến kết quả điều trị thành công và an toàn cho tất cả bệnh nhân, nha khoa I-DENT xây dựng đội ngũ bác sĩ giỏi chuyên môn, giàu kinh nghiệm và trên hết phải đặt Y đức, sự tận tâm lên hàng đầu.</br>
+<br>Tại I-DENT quy tụ các Tiến sĩ, bác sĩ Chuyên khoa răng hàm mặt. Trong đó, nhiều bác sĩ từng học tập, tu nghiệp và đào tạo chuyên sâu nhiều năm tại Pháp, Canada, Thụy Sỹ...</br>
+<br>Với kiến thức chuyên môn vững vàng, dày dặn kinh nghiệm cùng tay nghề khéo léo, đội ngũ bác sĩ I-DENT có thể thực hiện tốt nhiều kỹ thuật nha khoa, đặc biệt là các phương pháp khó như Cấy ghép Implant, Thẩm mỹ răng sứ, Niềng răng, Phẫu thuật chỉnh hàm… </br>
+<br>Bên cạnh chuyên môn cao, các bác sĩ tại I-DENT luôn làm việc với chữ “Tâm” đặt lên hàng đầu. Mang đến cho bệnh nhân cảm giác thoải mái như người thân trong gia đình.</br>
+<br>Đến nay, đã có hơn 16,000 ca điều trị được đội ngũ bác sĩ I-DENT thực hiện thành công và nhận được những đánh giá tích cực cùng sự tín nhiệm của bệnh nhân trong nước, Kiều bào và người nước ngoài.</br>
+
+</p>
     </div>
     <ul class="l-doctors">
       <li class="l-doctors_item">
         <div class="l-doctors_images">
-          <img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_01.png" alt="TIẾN SĨ - BÁC SĨ NGUYỄN HIẾU TÙNG">
+          <img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_01.png.webp" alt="TIẾN SĨ - BÁC SĨ NGUYỄN HIẾU TÙNG">
         </div>
         <div class="l-doctors_info">
           <div class="l-doctors_info_inner">
@@ -98,7 +104,58 @@
       </li>
       <li class="l-doctors_item">
         <div class="l-doctors_images">
-          <img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_02.png" alt="BÁC SĨ CKI MAI HỒNG THÁI">
+          <img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_03.png.webp" alt="BÁC SĨ CKI VŨ THIỆN KHANH">
+        </div>
+        <div class="l-doctors_info">
+          <div class="l-doctors_info_inner">
+            <h2 class="name">BÁC SĨ CKI VŨ THIỆN KHANH</h2>
+            <ul class="certificate">
+              <li>BÁC SĨ CHUYÊN KHOA I – ĐẠI HỌC Y DƯỢC TP. HỒ CHÍ MINH</li>
+              <li>Chứng chỉ hành nghề số: 0002812/BL – CCHN</li>
+              <li>Đào tạo Cấy ghép Implant tại Bệnh Viện RHM Trung Ương TP HCM.</li>
+              <li>Tu nghiệp chuyên sâu Implant tại Đại học Tổng hợp Bern, Hochschulstrasse, Thụy Sỹ.</li>
+              <li>Báo cáo viên cố định Hội nghị Cấy ghép nha khoa HSDI.</li>
+            </ul>
+            <div class="m-btn is-reverse is-small">
+              <a href="/gioi-thieu/bac-si-vu-thien-khanh/">Xem chi tiết</a>
+            </div>
+            <div class="l-cer-img swiper-container js-slide-cer">
+              <div class="l-cer-img_inner swiper-wrapper">
+                <div class="l-cer-img_item swiper-slide">
+                  <div>
+                    <img loading="lazy" src="/wp-content/uploads/2023/07/bang-cap-bac-si-khanh.webp" alt="">
+                  </div>
+                </div>
+                <div class="l-cer-img_item swiper-slide">
+                  <div>
+                    <img loading="lazy" src="/wp-content/uploads/2023/07/bang-cap-bac-si-khanh-1.webp" alt="">
+                  </div>
+                </div>
+                <div class="l-cer-img_item swiper-slide">
+                  <div>
+                    <img loading="lazy" src="/wp-content/uploads/2023/07/bang-cap-bac-si-khanh-2.webp" alt="">
+                  </div>
+                </div>
+                <div class="l-cer-img_item swiper-slide">
+                  <div>
+                    <img loading="lazy" src="/wp-content/uploads/2023/07/bang-cap-bac-si-khanh-3.webp" alt="">
+                  </div>
+                </div>
+                <div class="l-cer-img_item swiper-slide">
+                  <div>
+                    <img loading="lazy" src="/wp-content/uploads/2023/07/bang-cap-bac-si-khanh-4.webp" alt="">
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-btn swiper-prev"></div>
+              <div class="swiper-btn swiper-next"></div>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="l-doctors_item">
+        <div class="l-doctors_images">
+          <img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_02.png.webp" alt="BÁC SĨ CKI MAI HỒNG THÁI">
         </div>
         <div class="l-doctors_info">
           <div class="l-doctors_info_inner">
@@ -109,23 +166,33 @@
               <li>Chuyên Cấy ghép Implant, Phục hình sứ trên Implant, Phục hình thẩm mỹ Răng sứ - Veneer</li>
             </ul>
             <div class="m-btn is-reverse is-small">
-              <a href="#">Xem chi tiết</a>
+              <a class="popup-with-form" href="#popup-dlh" data-message="Đăng ký BS Thái Thăm khám">Đặt lịch thăm khám</a>
             </div>
             <div class="l-cer-img swiper-container js-slide-cer">
               <div class="l-cer-img_inner swiper-wrapper">
                 <div class="l-cer-img_item swiper-slide">
                   <div>
-                    <img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_02_cer_01.png" alt="">
+                    <img loading="lazy" src="/wp-content/uploads/2023/07/bang-cap-bac-si-thai.webp" alt="">
                   </div>
                 </div>
                 <div class="l-cer-img_item swiper-slide">
                   <div>
-                    <img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_02_cer_02.png" alt="">
+                    <img loading="lazy" src="/wp-content/uploads/2023/07/bang-cap-bac-si-thai-1.webp" alt="">
                   </div>
                 </div>
                 <div class="l-cer-img_item swiper-slide">
                   <div>
-                    <img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_02_cer_03.png" alt="">
+                    <img loading="lazy" src="/wp-content/uploads/2023/07/bang-cap-bac-si-thai-2.webp" alt="">
+                  </div>
+                </div>
+                <div class="l-cer-img_item swiper-slide">
+                  <div>
+                    <img loading="lazy" src="/wp-content/uploads/2023/07/bang-cap-bac-si-thai-3.webp" alt="">
+                  </div>
+                </div>
+                <div class="l-cer-img_item swiper-slide">
+                  <div>
+                    <img loading="lazy" src="/wp-content/uploads/2023/07/bang-cap-bac-si-thai-4.webp" alt="">
                   </div>
                 </div>
               </div>
@@ -135,48 +202,10 @@
           </div>
         </div>
       </li>
+      
       <li class="l-doctors_item">
         <div class="l-doctors_images">
-          <img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_03.png" alt="BÁC SĨ CKI VŨ THIỆN KHANH">
-        </div>
-        <div class="l-doctors_info">
-          <div class="l-doctors_info_inner">
-            <h2 class="name">BÁC SĨ CKI VŨ THIỆN KHANH</h2>
-            <ul class="certificate">
-              <li>BÁC SĨ CHUYÊN KHOA I – ĐẠI HỌC Y DƯỢC TP. HỒ CHÍ MINH</li>
-              <li>Chứng chỉ hành nghề số: 0002812/BL – CCHN</li>
-              <li>Chuyên Cấy ghép Implant, Phục hình sứ trên Implant, Phục hình thẩm mỹ Răng sứ - Veneer</li>
-            </ul>
-            <div class="m-btn is-reverse is-small">
-              <a href="#">Xem chi tiết</a>
-            </div>
-            <div class="l-cer-img swiper-container js-slide-cer">
-              <div class="l-cer-img_inner swiper-wrapper">
-                <div class="l-cer-img_item swiper-slide">
-                  <div>
-                    <img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_03_cer_01.png" alt="">
-                  </div>
-                </div>
-                <div class="l-cer-img_item swiper-slide">
-                  <div>
-                    <img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_03_cer_02.png" alt="">
-                  </div>
-                </div>
-                <div class="l-cer-img_item swiper-slide">
-                  <div>
-                    <img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_03_cer_03.png" alt="">
-                  </div>
-                </div>
-              </div>
-              <div class="swiper-btn swiper-prev"></div>
-              <div class="swiper-btn swiper-next"></div>
-            </div>
-          </div>
-        </div>
-      </li>
-      <li class="l-doctors_item">
-        <div class="l-doctors_images">
-          <img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_04.png" alt="BÁC SĨ CKI NGUYỄN HUỲNH NGỌC MỸ">
+          <img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_04.png.webp" alt="BÁC SĨ CKI NGUYỄN HUỲNH NGỌC MỸ">
         </div>
         <div class="l-doctors_info">
           <div class="l-doctors_info_inner">
@@ -187,23 +216,23 @@
               <li>Chuyên Phục hình sứ trên Implant, Phục hình thẩm mỹ Răng sứ - Veneer</li>
             </ul>
             <div class="m-btn is-reverse is-small">
-              <a href="#">Xem chi tiết</a>
+              <a class="popup-with-form" href="#popup-dlh" data-message="Đăng ký BS Mỹ Thăm khám">Đặt lịch thăm khám</a>
             </div>
             <div class="l-cer-img swiper-container js-slide-cer">
               <div class="l-cer-img_inner swiper-wrapper">
                 <div class="l-cer-img_item swiper-slide">
                   <div>
-                    <img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_04_cer_01.png" alt="">
+                    <img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_04_cer_01.png.webp" alt="">
                   </div>
                 </div>
                 <div class="l-cer-img_item swiper-slide">
                   <div>
-                    <img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_04_cer_02.png" alt="">
+                    <img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_04_cer_02.png.webp" alt="">
                   </div>
                 </div>
                 <div class="l-cer-img_item swiper-slide">
                   <div>
-                    <img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_04_cer_03.png" alt="">
+                    <img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_04_cer_03.png.webp" alt="">
                   </div>
                 </div>
               </div>
@@ -215,7 +244,7 @@
       </li>
       <li class="l-doctors_item">
         <div class="l-doctors_images">
-          <img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_05.png" alt="BÁC SĨ CKI ĐẶNG DUY TÙNG">
+          <img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_05.png.webp" alt="BÁC SĨ CKI ĐẶNG DUY TÙNG">
         </div>
         <div class="l-doctors_info">
           <div class="l-doctors_info_inner">
@@ -226,18 +255,18 @@
               <li>Chuyên Cấy ghép Implant, Phục hình sứ trên Implant, Phục hình thẩm mỹ răng sứ - Veneer, Phục hình và Phẫu thuật nha chu.</li>
             </ul>
             <div class="m-btn is-reverse is-small">
-              <a href="#">Xem chi tiết</a>
+              <a class="popup-with-form" href="#popup-dlh" data-message="Đăng ký BS Mỹ Thăm khám">Đặt lịch thăm khám</a>
             </div>
             <div class="l-cer-img swiper-container js-slide-cer">
               <div class="l-cer-img_inner swiper-wrapper">
                 <div class="l-cer-img_item swiper-slide">
                   <div>
-                    <img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_05_cer_01.png" alt="">
+                    <img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_05_cer_01.png.webp" alt="">
                   </div>
                 </div>
                 <div class="l-cer-img_item swiper-slide">
                   <div>
-                    <img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_05_cer_02.png" alt="">
+                    <img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_05_cer_02.png.webp" alt="">
                   </div>
                 </div>
               </div>
@@ -249,7 +278,7 @@
       </li>
       <li class="l-doctors_item">
         <div class="l-doctors_images">
-          <img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_06.png" alt="BÁC SĨ CKI NGÔ THỊ PHƯƠNG THẢO">
+          <img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_06.png.webp" alt="BÁC SĨ CKI NGÔ THỊ PHƯƠNG THẢO">
         </div>
         <div class="l-doctors_info">
           <div class="l-doctors_info_inner">
@@ -257,21 +286,21 @@
             <ul class="certificate">
               <li>BÁC SĨ CHUYÊN KHOA I – ĐẠI HỌC Y DƯỢC TP. HỒ CHÍ MINH</li>
               <li>Chứng chỉ hành nghề số: 005787/CT - CHCN</li>
-              <li>Chuyên thẩm mỹ răng sứ - Veneer, Điều trị bệnh lý nha khoa, Phục hình và Phẫu thuật nha chu.</li>
+              <li>Chuyên Cấy ghép Implant, Chuyên thẩm mỹ răng sứ - Veneer, Điều trị bệnh lý nha khoa, Phục hình và Phẫu thuật nha chu.</li>
             </ul>
             <div class="m-btn is-reverse is-small">
-              <a href="#">Xem chi tiết</a>
+              <a class="popup-with-form" href="#popup-dlh" data-message="Đăng ký BS Thảo Thăm khám">Đặt lịch thăm khám</a>
             </div>
             <div class="l-cer-img swiper-container js-slide-cer">
               <div class="l-cer-img_inner swiper-wrapper">
                 <div class="l-cer-img_item swiper-slide">
                   <div>
-                    <img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_06_cer_01.png" alt="">
+                    <img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_06_cer_01.png.webp" alt="">
                   </div>
                 </div>
                 <div class="l-cer-img_item swiper-slide">
                   <div>
-                    <img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_06_cer_02.png" alt="">
+                    <img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_06_cer_02.png.webp" alt="">
                   </div>
                 </div>
                 <div class="l-cer-img_item swiper-slide">
@@ -288,7 +317,7 @@
       </li>
       <li class="l-doctors_item">
         <div class="l-doctors_images">
-          <img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_07.png" alt="BÁC SĨ CKI HOÀNG NGUYỄN ĐÌNH TÍN">
+          <img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_07.png.webp" alt="BÁC SĨ CKI HOÀNG NGUYỄN ĐÌNH TÍN">
         </div>
         <div class="l-doctors_info">
           <div class="l-doctors_info_inner">
@@ -296,26 +325,26 @@
             <ul class="certificate">
               <li>BÁC SĨ CHUYÊN KHOA I – ĐẠI HỌC Y DƯỢC TP. HỒ CHÍ MINH</li>
               <li>Chứng chỉ hành nghề số: 010054/ DL - CCHN</li>
-              <li>Chuyên thẩm mỹ răng sứ - Veneer, Điều trị bệnh lý nha khoa, Nhổ răng tiểu phẫu</li>
+              <li>Chuyên Cấy ghép Implant, Phục hình sứ trên Implant, Phục hình thẩm mỹ răng sứ - Veneer, Điều trị bệnh lý nha khoa.</li>
             </ul>
             <div class="m-btn is-reverse is-small">
-              <a href="#">Xem chi tiết</a>
+              <a class="popup-with-form" href="#popup-dlh" data-message="Đăng ký BS Tín Thăm khám">Đặt lịch thăm khám</a>
             </div>
             <div class="l-cer-img swiper-container js-slide-cer">
               <div class="l-cer-img_inner swiper-wrapper">
                 <div class="l-cer-img_item swiper-slide">
                   <div>
-                    <img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_07_cer_01.png" alt="">
+                    <img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_07_cer_01.png.webp" alt="">
                   </div>
                 </div>
                 <div class="l-cer-img_item swiper-slide">
                   <div>
-                    <img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_07_cer_02.png" alt="">
+                    <img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_07_cer_02.png.webp" alt="">
                   </div>
                 </div>
                 <div class="l-cer-img_item swiper-slide">
                   <div>
-                    <img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_07_cer_03.png" alt="">
+                    <img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_07_cer_03.png.webp" alt="">
                   </div>
                 </div>
               </div>
@@ -327,7 +356,7 @@
       </li>
       <li class="l-doctors_item">
         <div class="l-doctors_images">
-          <img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_08.png" alt="BÁC SĨ NGUYỄN HOÀNG NHÂN">
+          <img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_08.png.webp" alt="BÁC SĨ NGUYỄN HOÀNG NHÂN">
         </div>
         <div class="l-doctors_info">
           <div class="l-doctors_info_inner">
@@ -335,21 +364,21 @@
             <ul class="certificate">
               <li>BÁC SĨ RĂNG HÀM MẶT - ĐẠI HỌC Y DƯỢC TP. HỒ CHÍ MINH</li>
               <li>Chứng chỉ hành nghề số: 0003895/VL - CCHN</li>
-              <li>Chuyên phẫu thuật tạo hình nướu (Smile design), phục hình răng sứ - Veneer, phục hình sứ trên Implant</li>
+              <li>Chuyên Cấy ghép Implant, Phục hình sứ trên Implant, Phục hình thẩm mỹ răng sứ - Veneer, Phục hình và Phẫu thuật nha chu.</li>
             </ul>
             <div class="m-btn is-reverse is-small">
-              <a href="#">Xem chi tiết</a>
+              <a class="popup-with-form" href="#popup-dlh" data-message="Đăng ký BS Nhân Thăm khám">Đặt lịch thăm khám</a>
             </div>
             <div class="l-cer-img swiper-container js-slide-cer">
               <div class="l-cer-img_inner swiper-wrapper">
                 <div class="l-cer-img_item swiper-slide">
                   <div>
-                    <img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_08_cer_01.png" alt="">
+                    <img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_08_cer_01.png.webp" alt="">
                   </div>
                 </div>
                 <div class="l-cer-img_item swiper-slide">
                   <div>
-                    <img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_08_cer_02.png" alt="">
+                    <img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_08_cer_02.png.webp" alt="">
                   </div>
                 </div>
               </div>
@@ -361,7 +390,7 @@
       </li>
       <li class="l-doctors_item">
         <div class="l-doctors_images">
-          <img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_09.png" alt="BÁC SĨ NGUYỄN HOÀNG THẠNH QUÂN">
+          <img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_09.png.webp" alt="BÁC SĨ NGUYỄN HOÀNG THẠNH QUÂN">
         </div>
         <div class="l-doctors_info">
           <div class="l-doctors_info_inner">
@@ -372,7 +401,7 @@
               <li>Chuyên Niềng răng</li>
             </ul>
             <div class="m-btn is-reverse is-small">
-              <a href="#">Xem chi tiết</a>
+              <a class="popup-with-form" href="#popup-dlh" data-message="Đăng ký BS Hoàng Thăm khám">Đặt lịch thăm khám</a>
             </div>
             <div class="l-cer-img swiper-container js-slide-cer">
               <div class="l-cer-img_inner swiper-wrapper">
@@ -401,7 +430,40 @@
               <li>Chuyên Cấy ghép Implant, phục hình sứ trên Implant, phục hình thẩm mỹ răng sứ - Veneer</li>
             </ul>
             <div class="m-btn is-reverse is-small">
-              <a href="#">Xem chi tiết</a>
+              <a class="popup-with-form" href="#popup-dlh" data-message="Đăng ký BS Vinh Thăm khám">Đặt lịch thăm khám</a>
+            </div>
+            <div class="l-cer-img swiper-container js-slide-cer">
+              <div class="l-cer-img_inner swiper-wrapper">
+                <div class="l-cer-img_item swiper-slide">
+                  <div>
+                    <img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_10_cer_01.png" alt="">
+                  </div>
+                </div>
+                <div class="l-cer-img_item swiper-slide">
+                  <div>
+                    <img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_10_cer_02.png" alt="">
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-btn swiper-prev"></div>
+              <div class="swiper-btn swiper-next"></div>
+            </div>
+          </div>
+        </div>
+		</li>
+      <li class="l-doctors_item">
+        <div class="l-doctors_images">
+          <img loading="lazy" src="/wp-content/uploads/2023/08/bs-Phong-_1_.webp" alt="BÁC SĨ NGUYỄN THANH PHONG">
+        </div>
+        <div class="l-doctors_info">
+          <div class="l-doctors_info_inner">
+            <h2 class="name">BÁC SĨ NGUYỄN THANH PHONG</h2>
+            <ul class="certificate">
+              <li>BÁC SĨ RĂNG HÀM MẶT - ĐẠI HỌC Y DƯỢC TP. HỒ CHÍ MINH</li>
+              <li>Chuyên Cấy ghép Implant, Phục hình sứ trên Implant, Phục hình thẩm mỹ răng sứ - Veneer.</li>
+            </ul>
+            <div class="m-btn is-reverse is-small">
+              <a class="popup-with-form" href="#popup-dlh" data-message="Đăng ký BS Phong Thăm khám">Đặt lịch thăm khám</a>
             </div>
             <div class="l-cer-img swiper-container js-slide-cer">
               <div class="l-cer-img_inner swiper-wrapper">

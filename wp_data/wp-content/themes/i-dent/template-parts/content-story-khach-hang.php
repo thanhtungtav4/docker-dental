@@ -48,19 +48,19 @@ $queryEkip = new WP_Query($argsEkip);
     <?php endif; ?>
     <div class="m-detail_head">
       <span class="tag">CÂU CHUYỆN KHÁCH HÀNG</span>
-      <h2 class="post-title ttl-primary"> <?php the_title(); ?> </h2>
+      <h1 class="post-title ttl-primary"> <?php the_title(); ?></h1>
       <span class="time"> <?php echo get_the_date('d.m.Y')?> </span>
-    </div>s
+    </div>
     <?php if($youtube_img && $youtube_url) : ?>
       <div class="m-detail_video is-pc">
         <a class="vidplay" href="<?php echo $youtube_url;?>">
-          <?php handle_thumbnail_id($youtube_img, 'REVIEW-THUMB'); ?>
+          <?php handle_thumbnail_id($youtube_img, 'full'); ?>
         </a>
       </div>
     <?php endif; ?>
     <?php if($treatment_plan): ?>
       <div class="box-short">
-        <strong class="title">TÓM TẮT KẾ HOẠCH ĐIỀU TRỊ</strong>
+        <h2 class="title">TÓM TẮT KẾ HOẠCH ĐIỀU TRỊ</h2>
         <ul class="l-short">
           <?php foreach($treatment_plan as $plan) :?>
             <li>
@@ -72,7 +72,7 @@ $queryEkip = new WP_Query($argsEkip);
     <?php endif; ?>
     <?php if ( $queryEkip->have_posts() ) : ?>
       <div class="ekip">
-        <h3 class="ttl-primary is-small">EKIP THỰC HIỆN</h3>
+        <h2 class="ttl-primary is-small">ĐỘI NGŨ THỰC HIỆN</h2>
         <ul class="l-ekip">
         <?php while ( $queryEkip->have_posts() ) : $queryEkip->the_post(); ?>
           <li class="l-ekip_item">
@@ -86,7 +86,7 @@ $queryEkip = new WP_Query($argsEkip);
               <div class="gr-btn">
                 <?php if(get_field('btn_appointment', get_the_ID())) :  ?>
                   <div class="m-btn is-small">
-                    <a class="popup-with-form" href="#modal-contact">Đặt lịch hẹn</a>
+                    <a class="popup-with-form" href="#popup-dlh" data-message="Đặt lịch hẹn (CCKH)">Đặt lịch hẹn</a>
                   </div>
                 <?php endif; ?>
                 <?php if(get_field('view_profile', get_the_ID())) :  ?>

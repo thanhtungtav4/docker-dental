@@ -12,7 +12,7 @@
         ?>
           <div class="m-video_main">
             <a class="vidplay" href="<?php echo $item['video_url']; ?>">
-              <img loading="lazy" atl="<?php echo $item['video_name']; ?>" src="<?php echo wp_get_attachment_image_url($item['video_image'], 'VIDEO-THUMB' ) ?>">
+              <img loading="lazy" atl="<?php echo $item['video_name']; ?>" src="<?php echo wp_get_attachment_image_url($item['video_image'], 'full' ) ?>">
             </a>
           </div>
         <?php
@@ -23,14 +23,12 @@
           <?php foreach($videosRow as $key => $item) :
               if($key >= 1) :
             ?>
-          <li>
-            <a class="vidplay" href="<?php echo $item['video_url']; ?>">
-              <img loading="lazy" src="<?php echo wp_get_attachment_image_url($item['video_image'], 'VIDEO-MIN-THUMB' ) ?>" alt="<?php echo $item['video_name']; ?>">
+          <li><a class="vidplay" href="<?php echo $item['video_url']; ?>">
+              <img loading="lazy" src="<?php echo wp_get_attachment_image_url($item['video_image'], 'VIDEO-THUMB' ) ?>" alt="<?php echo $item['video_name']; ?>">
             </a>
             <div class="video-info">
               <h3 class="title"><?php echo $item['video_name']; ?></h3><span class="view">Lượt xem : <?php echo $item['view']; ?></span>
-            </div>
-          </li>
+            </div></li>
           <?php
             endif;
             endforeach;

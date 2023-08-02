@@ -124,13 +124,13 @@ class CFDB7_List_Table extends WP_List_Table
         $cfdb          = apply_filters( 'cfdb7_database', $wpdb );
         $table_name    = $cfdb->prefix.'db7_forms';
         $results       = $cfdb->get_results( "
-            SELECT * FROM $table_name 
-            WHERE form_post_id = $form_post_id ORDER BY form_id DESC LIMIT 1", OBJECT 
+            SELECT * FROM $table_name
+            WHERE form_post_id = $form_post_id ORDER BY form_id DESC LIMIT 1", OBJECT
         );
 
         $first_row            = isset($results[0]) ? unserialize( $results[0]->form_value ): 0 ;
         $columns              = array();
-        $rm_underscore        = apply_filters('remove_underscore_data', true); 
+        $rm_underscore        = apply_filters('remove_underscore_data', true);
 
         if( !empty($first_row) ){
             //$columns['form_id'] = $results[0]->form_id;
@@ -147,8 +147,6 @@ class CFDB7_List_Table extends WP_List_Table
 
                 $key_val       = str_replace( array('your-', 'cfdb7_file'), '', $key);
                 $key_val       = str_replace( array('_', '-'), ' ', $key_val);
-                $columns[$key] = ucwords( $key_val );
-                
                 $this->column_titles[] = $key_val;
 
                 if ( sizeof($columns) > 4) break;
@@ -224,18 +222,18 @@ class CFDB7_List_Table extends WP_List_Table
 
         if ( ! empty($search) ) {
 
-           $results = $cfdb->get_results( "SELECT * FROM $table_name 
+           $results = $cfdb->get_results( "SELECT * FROM $table_name
                         WHERE  form_value LIKE '%$search%'
                         AND form_post_id = '$form_post_id'
                         ORDER BY $orderby $order
-                        LIMIT $start,100", OBJECT 
+                        LIMIT $start,100", OBJECT
                     );
         }else{
 
-            $results = $cfdb->get_results( "SELECT * FROM $table_name 
+            $results = $cfdb->get_results( "SELECT * FROM $table_name
                         WHERE form_post_id = $form_post_id
                         ORDER BY $orderby $order
-                        LIMIT $start,100", OBJECT 
+                        LIMIT $start,100", OBJECT
                     );
         }
 
@@ -312,7 +310,7 @@ class CFDB7_List_Table extends WP_List_Table
         if( 'delete' === $action ) {
 
             foreach ($form_ids as $form_id):
-                
+
                 $form_id       = (int) $form_id;
                 $results       = $cfdb->get_results( "SELECT * FROM $table_name WHERE form_id = '$form_id' LIMIT 1", OBJECT );
                 $result_value  = $results[0]->form_value;
@@ -323,7 +321,7 @@ class CFDB7_List_Table extends WP_List_Table
                 foreach ($result_values as $key => $result) {
 
                     if ( ( strpos($key, 'cfdb7_file') !== false ) &&
-                        ! empty( $result ) && 
+                        ! empty( $result ) &&
                         file_exists($cfdb7_dirname.'/'.$result) ) {
 
                         unlink($cfdb7_dirname.'/'.$result);
@@ -340,7 +338,7 @@ class CFDB7_List_Table extends WP_List_Table
 
         }else if( 'read' === $action ){
 
-            
+
             foreach ($form_ids as $form_id):
 
                 $form_id       = (int) $form_id;
@@ -358,7 +356,7 @@ class CFDB7_List_Table extends WP_List_Table
         }else if( 'unread' === $action ){
 
             foreach ($form_ids as $form_id):
-                
+
                 $form_id       = (int) $form_id;
                 $results       = $cfdb->get_results( "SELECT * FROM $table_name WHERE form_id = '$form_id' LIMIT 1", OBJECT );
                 $result_value  = $results[0]->form_value;

@@ -6,15 +6,25 @@
  *
  * @package recruit
  */
-  $categories = get_the_category();
-  $categorie_name = (!empty($categories[0]) && !empty($categories[0]->name)) ? $categories[0]->name : '';
-  $categorie_slug = (!empty($categories[0]) && !empty($categories[0]->term_id)) ? get_category_link($categories[0]->term_id) : '';
+  if(!is_page()){
+    $categories = get_the_category();
+    $categorie_name = (!empty($categories[0]) && !empty($categories[0]->name)) ? $categories[0]->name : '';
+    $categorie_slug = (!empty($categories[0]) && !empty($categories[0]->term_id)) ? get_category_link($categories[0]->term_id) : '';
+  }
+  else{
+    $page_parentID = $post->post_parent;
+  }
 ?>
       <div class="breadcrumbs">
         <div class="wrapper">
           <ul class="l-breadcrumbs">
             <li><a class="trans" href="<?php echo get_home_url()?>/">Trang chủ</a></li>
-            <li><a class="trans" href="<?php echo $categorie_slug ?>"><?php echo $categorie_name ?></a></li>
+            <?php if(!is_page() && $categorie_name) : ?>
+              <li><a class="trans" href="<?php echo $categorie_slug ?>"><?php echo $categorie_name ?></a></li>
+            <?php endif; ?>
+            <?php if(is_page() && $page_parentID) : ?>
+              <li><a class="trans" href="<?php echo get_the_permalink($page_parentID) ?>"><?php echo get_the_title($page_parentID) ?></a></li>
+            <?php endif; ?>
             <li><span><?php the_title()?></span></li>
           </ul>
         </div>
