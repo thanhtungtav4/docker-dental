@@ -33,7 +33,8 @@
         <div class="wrapper">
           <div class="m-phacdo_inner">
             <div class="heading">
-              <h1 class="ttl-primary ttl-primary--is-medium"><?php the_title()?></h1><span class="time"><?php echo get_the_date('d.m.Y')?></span>
+              <h1 class="ttl-primary ttl-primary--is-medium"><?php the_title()?></h1>
+              <span class="time"><?php echo get_the_date('d.m.Y')?></span>
             </div>
             <div class="m-article">
              <?php the_content(); ?>

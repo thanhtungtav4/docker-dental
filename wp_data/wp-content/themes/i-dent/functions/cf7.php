@@ -10,7 +10,13 @@
         $array['is_mobile'] = wp_is_mobile() ? 'Mobile' : 'PC';
         $array['agent'] = get_user_agent();
         $array['first_url'] = get_cookie_value('first_url');
-        return $array;
+        $submission_count = count_form_ip_submissions_in_24h(get_location());
+        if ( $submission_count < 2 ) {
+            return $array;
+        } else {
+          add_filter( 'wpcf7_skip_mail', '__return_true' );
+          error_log( 'IP ' . get_client_ip() . ' has submitted too many times in the last 24 hours. Email not sent.' );
+        }
     }
     add_filter( 'wpcf7_posted_data', 'action_wpcf7_posted_data', 10, 1 );
 

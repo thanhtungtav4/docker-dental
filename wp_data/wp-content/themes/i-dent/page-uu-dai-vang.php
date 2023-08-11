@@ -385,16 +385,43 @@
                       <div class="l-cer-img_wrap swiper-container js-slide-cer">
                         <div class="l-cer-img_inner swiper-wrapper">
                           <div class="l-cer-img_item swiper-slide">
-                            <div><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_01_cer_01.png.webp" alt=""></div>
+                            <div><img src="/wp-content/uploads/2023/08/Bang-cap-TS-BS-Nguyen-Hieu-Tung-1.webp" alt=""></div>
                           </div>
                           <div class="l-cer-img_item swiper-slide">
-                            <div><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_01_cer_02.png.webp" alt=""></div>
+                            <div><img src="/wp-content/uploads/2023/08/Bang-cap-TS-BS-Nguyen-Hieu-Tung-2.webp" alt=""></div>
                           </div>
                           <div class="l-cer-img_item swiper-slide">
-                            <div><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_01_cer_03.png.webp" alt=""></div>
+                            <div><img src="/wp-content/uploads/2023/08/Bang-cap-TS-BS-Nguyen-Hieu-Tung-3.webp" alt=""></div>
                           </div>
                           <div class="l-cer-img_item swiper-slide">
-                            <div><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_01_cer_01.png.webp" alt=""></div>
+                            <div><img src="/wp-content/uploads/2023/08/Bang-cap-TS-BS-Nguyen-Hieu-Tung-4.webp" alt=""></div>
+                          </div>
+							  <div class="l-cer-img_item swiper-slide">
+                            <div><img src="/wp-content/uploads/2023/08/Bang-cap-TS-BS-Nguyen-Hieu-Tung-5.webp" alt=""></div>
+                          </div>
+							  <div class="l-cer-img_item swiper-slide">
+                            <div><img src="/wp-content/uploads/2023/08/Bang-cap-TS-BS-Nguyen-Hieu-Tung-6.webp" alt=""></div>
+                          </div>
+							  <div class="l-cer-img_item swiper-slide">
+                            <div><img src="/wp-content/uploads/2023/08/Bang-cap-TS-BS-Nguyen-Hieu-Tung-7.webp" alt=""></div>
+                          </div>
+							  <div class="l-cer-img_item swiper-slide">
+                            <div><img src="/wp-content/uploads/2023/08/Bang-cap-TS-BS-Nguyen-Hieu-Tung-8.webp" alt=""></div>
+                          </div>
+							  <div class="l-cer-img_item swiper-slide">
+                            <div><img src="/wp-content/uploads/2023/08/Bang-cap-TS-BS-Nguyen-Hieu-Tung-9.webp" alt=""></div>
+                          </div>
+							  <div class="l-cer-img_item swiper-slide">
+                            <div><img src="/wp-content/uploads/2023/08/Bang-cap-TS-BS-Nguyen-Hieu-Tung-10.webp" alt=""></div>
+                          </div>
+							  <div class="l-cer-img_item swiper-slide">
+                            <div><img src="/wp-content/uploads/2023/08/Bang-cap-TS-BS-Nguyen-Hieu-Tung-11.webp" alt=""></div>
+                          </div>
+							  <div class="l-cer-img_item swiper-slide">
+                            <div><img src="/wp-content/uploads/2023/08/Bang-cap-TS-BS-Nguyen-Hieu-Tung-12.webp" alt=""></div>
+                          </div>
+							  <div class="l-cer-img_item swiper-slide">
+                            <div><img src="/wp-content/uploads/2023/08/Bang-cap-TS-BS-Nguyen-Hieu-Tung-13.webp" alt=""></div>
                           </div>
                         </div>
                       </div>
@@ -426,13 +453,13 @@
                       <div class="l-cer-img_wrap swiper-container js-slide-cer">
                         <div class="l-cer-img_inner swiper-wrapper">
                           <div class="l-cer-img_item swiper-slide">
-                            <div><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_04_cer_01.png.webp" alt=""></div>
+                            <div><img src="/wp-content/uploads/2023/08/bang-cap-bac-si-My-1.webp" alt=""></div>
                           </div>
                           <div class="l-cer-img_item swiper-slide">
-                            <div><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_04_cer_02.png.webp" alt=""></div>
+                            <div><img src="/wp-content/uploads/2023/08/bang-cap-bac-si-My-2-1.webp" alt=""></div>
                           </div>
                           <div class="l-cer-img_item swiper-slide">
-                            <div><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_04_cer_03.png.webp" alt=""></div>
+                            <div><img src="/wp-content/uploads/2023/08/bang-cap-bac-si-My-3-1.webp" alt=""></div>
                           </div>
                         </div>
                       </div>
@@ -463,15 +490,20 @@
                       <div class="l-cer-img_wrap swiper-container js-slide-cer">
                         <div class="l-cer-img_inner swiper-wrapper">
                           <div class="l-cer-img_item swiper-slide">
-                            <div><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_02_cer_01.png.webp" alt=""></div>
+                            <div><img src="/wp-content/uploads/2023/08/bang-cap-bac-si-Thai-1.webp" alt=""></div>
                           </div>
                           <div class="l-cer-img_item swiper-slide">
-                            <div><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_02_cer_02.png.webp" alt=""></div>
+                            <div><img src="/wp-content/uploads/2023/08/bang-cap-bac-si-Thai-2.webp" alt=""></div>
                           </div>
                           <div class="l-cer-img_item swiper-slide">
-                            <div><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_02_cer_03.png.webp" alt=""></div>
+                            <div><img src="/wp-content/uploads/2023/08/bang-cap-bac-si-Thai-3.webp" alt=""></div>
                           </div>
-            
+                           <div class="l-cer-img_item swiper-slide">
+                            <div><img src="/wp-content/uploads/2023/08/bang-cap-bac-si-Thai-4.webp" alt=""></div>
+                          </div>
+							<div class="l-cer-img_item swiper-slide">
+                            <div><img src="/wp-content/uploads/2023/08/bang-cap-bac-si-Thai-5.webp" alt=""></div>
+                          </div>
                         </div>
                       </div>
                       <div class="swiper-btn swiper-prev"></div>
@@ -501,10 +533,13 @@
                       <div class="l-cer-img_wrap swiper-container js-slide-cer">
                         <div class="l-cer-img_inner swiper-wrapper">
                           <div class="l-cer-img_item swiper-slide">
-                            <div><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_05_cer_01.png.webp" alt=""></div>
+                            <div><img src="/wp-content/uploads/2023/08/bang-cap-bac-si-Duy-Tung-1-2.webp" alt=""></div>
                           </div>
                           <div class="l-cer-img_item swiper-slide">
-                            <div><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_05_cer_02.png.webp" alt=""></div>
+                            <div><img src="/wp-content/uploads/2023/08/bang-cap-bac-si-Duy-Tung-2-1.webp" alt=""></div>
+                          </div>
+							<div class="l-cer-img_item swiper-slide">
+                            <div><img src="/wp-content/uploads/2023/08/bang-cap-bac-si-Duy-Tung-3-1.webp" alt=""></div>
                           </div>
                         </div>
                       </div>
@@ -535,10 +570,16 @@
                       <div class="l-cer-img_wrap swiper-container js-slide-cer">
                         <div class="l-cer-img_inner swiper-wrapper">
                           <div class="l-cer-img_item swiper-slide">
-                            <div><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_06_cer_01.png.webp" alt=""></div>
+                            <div><img src="/wp-content/uploads/2023/08/bang-cap-bac-si-Thao-1-1.webp" alt=""></div>
                           </div>
                           <div class="l-cer-img_item swiper-slide">
-                            <div><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_06_cer_02.png.webp" alt=""></div>
+                            <div><img src="/wp-content/uploads/2023/08/bang-cap-bac-si-Thao-2-1.webp" alt=""></div>
+                          </div>
+							 <div class="l-cer-img_item swiper-slide">
+                            <div><img src="/wp-content/uploads/2023/08/bang-cap-bac-si-Thao-3-1.webp" alt=""></div>
+                          </div>
+							 <div class="l-cer-img_item swiper-slide">
+                            <div><img src="/wp-content/uploads/2023/08/bang-cap-bac-si-Thao-4-1.webp" alt=""></div>
                           </div>
                         </div>
                       </div>
@@ -569,13 +610,19 @@
                       <div class="l-cer-img_wrap swiper-container js-slide-cer">
                         <div class="l-cer-img_inner swiper-wrapper">
                           <div class="l-cer-img_item swiper-slide">
-                            <div><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_03_cer_01.png.webp" alt=""></div>
+                            <div><img src="/wp-content/uploads/2023/08/bang-cap-bac-si-Khanh-2.webp" alt=""></div>
                           </div>
                           <div class="l-cer-img_item swiper-slide">
-                            <div><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_03_cer_02.png.webp" alt=""></div>
+                            <div><img src="/wp-content/uploads/2023/08/bang-cap-bac-si-Khanh-3.webp" alt=""></div>
                           </div>
                           <div class="l-cer-img_item swiper-slide">
-                            <div><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_03_cer_03.png.webp" alt=""></div>
+                            <div><img src="/wp-content/uploads/2023/08/bang-cap-bac-si-Khanh-4.webp" alt=""></div>
+                          </div>
+							 <div class="l-cer-img_item swiper-slide">
+                            <div><img src="/wp-content/uploads/2023/08/bang-cap-bac-si-Khanh-5.webp" alt=""></div>
+                          </div>
+							 <div class="l-cer-img_item swiper-slide">
+                            <div><img src="/wp-content/uploads/2023/08/bang-cap-bac-si-Khanh-6.webp" alt=""></div>
                           </div>
                         </div>
                       </div>
@@ -622,8 +669,8 @@
         <div class="wrapper">
           <h2 class="ttl-primary ttl-primary--is-medium">ỨNG DỤNG CÔNG NGHỆ IMPLANT - RĂNG SỨ TIÊU CHUẨN PHÁP</h2>
           <div class="img">
-            <img class="is-pc" loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/promotion/img_04.png" alt="">
-            <img class="is-sp" loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/promotion/sp/img_04.png" alt="">
+            <img class="is-pc" loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/promotion/img_04.png.webp" alt="">
+            <img class="is-sp" loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/promotion/sp/img_04.png.webp" alt="">
           </div>
           <p class="text">100% máy móc, trang thiết bị nhập khẩu trực tiếp từ Mỹ và châu Âu: Hệ thống chẩn đoán hình ảnh đa chiều CT Cone Beam (USA), máy X-Quang 3 chiều KTS Gendex 700 Series (USA), Máy cắm Implant hiện đại PS500 LED (Anh) & phần mềm hỗ trợ cấy ghép Implant Simplant</p>
         </div>

@@ -51,17 +51,17 @@
           <div class="gr-img gr01">
             <img class="is-sp" loading="lazy"  src="/wp-content/uploads/2023/07/co-so-vat-chat-tai-nha-khoa-ident.webp" alt="">
             <div class="big-img is-pc">
-              <img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/basis/img_01.jpg" alt="">
+              <img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/basis/img_01.jpg.webp" alt="">
             </div>
             <div class="side-img is-pc">
-              <img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/basis/img_02.jpg" alt="">
+              <img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/basis/img_02.jpg.webp" alt="">
             </div>
             <div class="small-img is-pc">
               <div class="img">
-                <img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/basis/img_03.jpg" alt="">
+                <img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/basis/img_03.jpg.webp" alt="">
               </div>
               <div class="img">
-                <img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/basis/img_04.jpg" alt="">
+                <img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/basis/img_04.jpg.webp" alt="">
               </div>
             </div>
           </div>
@@ -71,10 +71,10 @@
           <p class="text">Bên cạnh Máy chụp CT hiện đại bậc nhất, Nha khoa I-DENT còn sở hữu các trang thiết bị hiện đại, nhập khẩu hoàn toàn từ Châu Âu, đảm bảo cho quy trình thăm khám và điều trị diễn ra an toàn – hiệu quả. Hệ thống thiết bị bao gồm: Máy phẫu thuật Implant; Công nghệ CAD/CAM; Máy siêu âm Piezotome; Máy cạo vôi siêu âm; Tẩy trắng răng với công nghệ Lumacool; Máy trám răng thẩm mỹ Soft – start; Máy chữa tủy siêu âm; Máy hấp vô trùng Autoclave…</p>
           <div class="gr-img gr02">
             <div class="big-img">
-              <img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/basis/img_05.jpg" alt="">
+              <img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/basis/img_05.jpg.webp" alt="">
             </div>
             <div class="big-img">
-              <img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/basis/img_06.jpg" alt="">
+              <img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/basis/img_06.jpg.webp" alt="">
             </div>
           </div>
         </div>
@@ -86,29 +86,29 @@
           <p class="text">Nha khoa I-DENT tự hào là một trong những nha khoa uy tín, đạt được những tiêu chuẩn nghiêm ngặt của một phòng khám chất lượng cao về cơ sở vật chất, quy trình kiểm soát vô khuẩn, quy trình điều trị… Đặc biệt, I-DENT xây dựng một hệ thống phòng điều trị rộng rãi, được trang bị hệ thống thanh trùng không khí và hệ thống máy điều hoà có bộ lọc không khí, vi khuẩn, virus… đem lại luồng không khí tươi mát và sạch sẽ.Tất cả phòng điều trị của nha khoa đều có đầy đủ máy móc, trang thiết bị hiện đại và nằm hoàn toàn riêng biệt, nhằm thực hiện tốt nhất mỗi case điều trị. Nỗ lực này nhằm đem lại sự an toàn tuyệt đối cũng như đảm bảo một kết quả điều trị tốt nhất cho khách hàng khi đến với Nha khoa I-DENT.</p>
           <div class="gr-img gr02">
             <div class="big-img">
-              <img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/basis/img_07.jpg" alt="">
+              <img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/basis/img_07.jpg.webp" alt="">
             </div>
             <div class="big-img is-pc">
-              <img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/basis/img_08.jpg" alt="">
+              <img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/basis/img_08.jpg.webp" alt="">
             </div>
           </div>
           <h3 class="ttl-bl">2.2 Phòng phẫu thuật</h3>
           <p class="text">I-DENT là nha khoa chuyên sâu về cấy ghép răng Implant, được trang bị tất cả những máy móc hiện đại nhất của chuyên ngành cấy ghép nha khoa như: máy cấy Implant, máy siêu âm phẫu thuật, máy chụp phim kỹ thuật số, phần mềm 3D hỗ trợ cấy ghép, cùng nhiều thiết bị chuyên dụng khác.Phòng cấy ghép của nha khoa hoàn toàn riêng biệt, được trang bị bình oxy, máy theo dõi nhịp tim, máy hút… và hệ thống sát khuẩn bằng tia cực tím, đảm bảo vô trùng tuyệt đối cho phòng phẫu thuật. Tất cả dụng cụ đều được xử lý tiệt trùng nghiêm ngặt, với quy trình vô trùng khép kín. Tại Nha khoa I-DENT, tất cả các ca cấy ghép Implant đều được tiến hành trong điều kiện vô trùng tiêu chuẩn.</p>
           <div class="gr-img gr03">
             <div class="big-img">
-              <img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/basis/img_09.jpg" alt="">
+              <img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/basis/img_09.jpg.webp" alt="">
             </div>
             <div class="big-img small is-pc">
-              <img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/basis/img_10.jpg" alt="">
+              <img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/basis/img_10.jpg.webp" alt="">
             </div>
           </div>
           <h3 class="ttl-bl">2.3 Phòng vô trùng dụng cụ</h3>
           <p class="text">Nha khoa I-DENT đặc biệt coi trọng vấn đề vô trùng, để tránh sự lây nhiễm và đảm bảo an toàn tuyệt đối cho khách hàng. Phòng vô trùng dụng cụ tại I-DENT được thiết kế độc lập, riêng biệt và được trang bị đầy đủ các thiết bị vô trùng cao cấp theo đúng tiêu chuẩn FDA như: dung dịch sát trùng, lò hấp tiệt trùng tự động Auto Clave, máy đóng gói tiệt trùng, tủ đèn chiếu tia cực tím để lưu trữ và bảo quản dụng cụ trong trạng thái vô trùng…Với một hệ thống quy trình vô trùng đúng chuẩn, nghiêm ngặt và khép kín, Nha Khoa I-DENT đảm bảo an toàn tối đa cho bệnh nhân trong suốt quá trình điều trị.</p>
           <div class="image">
-            <img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/basis/img_11.jpg" alt="">
+            <img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/basis/img_11.jpg.webp" alt="">
           </div>
           <div class="image" style="text-align: center;">
-            <img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/basis/img_12.png" alt="">
+            <img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/basis/img_12.png.webp" alt="">
           </div>
         </div>
       </div>
@@ -121,7 +121,7 @@
             <br>Những sản phẩm của phòng LABO nha khoa được đưa vào sử dụng trong các quá trình điều trị như: phục hình răng sứ trên Implant, răng sứ thẩm mỹ, hàm tháo lắp… đảm bảo độ bền cao, rút ngắn thời gian và tiết kiệm chi phí cho khách hàng.
           </p>
           <div class="image">
-            <img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/basis/img_12.jpg" alt="">
+            <img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/basis/img_12.jpg.webp" alt="">
           </div>
         </div>
       </div>

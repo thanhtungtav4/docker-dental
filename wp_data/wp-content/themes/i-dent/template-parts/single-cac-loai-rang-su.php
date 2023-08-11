@@ -15,11 +15,11 @@
 			<p class="text intro-text">Hiện nay có nhiều dòng răng sứ được chế tác từ những vật liệu khác nhau và có đặc điểm riêng biệt, để phù hợp với tình trạng răng cũng như nhu cầu của mỗi người. Nếu khách hàng muốn biết <strong><a href="https://nhakhoaident.com/dich-vu/boc-rang-su-tham-my/#r%C4%83ng%20s%E1%BB%A9">bọc răng sứ</a></strong> loại nào tốt thì có thể tham khảo ưu, nhược điểm của từng loại trong bài viết dưới đây..</p>
 			<div class="tooth-block">
 				<h2 class="ttl-border"><span>1. RĂNG SỨ CÓ MẤY LOẠI ?</span></h2>
-				<p class="text">Dựa vào nguyên liệu cấu tạo có thể chia răng sứ thành 4 loại như sau: răng sứ kim loại thường, răng sứ Titan, răng sứ kim loại quý và răng sứ toàn sứ. Mỗi loại đều có những ưu và nhược điểm khác nhau. Dưới đây là những <strong><a href="https://nhakhoaident.com/kien-thuc-nha-khoa/cac-loai-rang-su/">ưu và nhược điểm các loại răng sứ</a></strong> phổ biến hiện nay:</p>
+				<p class="text">Dựa vào nguyên liệu cấu tạo có thể chia răng sứ thành 4 loại như sau: răng sứ kim loại thường, răng sứ Titan, răng sứ Chrom-Cobalt, răng sứ kim loại quý và răng sứ toàn sứ. Mỗi loại đều có những ưu và nhược điểm khác nhau. Dưới đây là những <strong><a href="https://nhakhoaident.com/kien-thuc-nha-khoa/cac-loai-rang-su/">ưu và nhược điểm các loại răng sứ</a></strong> phổ biến hiện nay:</p>
 				<ul class="l-tooths">
 					<li class="l-tooths_item">
 						<h3 class="ttl-background">RĂNG SỨ KIM LOẠI THƯỜNG</h3>
-						<p class="text text-first">Khung sườn hợp kim Ni – Cr hoặc Co – Cr và bên ngoài phủ một lớp sứ trắng</p>
+						<p class="text text-first">Khung sườn hợp kim Ni – Cr và bên ngoài phủ một lớp sứ trắng.</p>
 						<div class="content">
 							<div class="img"><img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/loairangsu/img_01.png" alt="RĂNG SỨ KIM LOẠI THƯỜNG"></div>
 							<div class="info">
@@ -33,7 +33,7 @@
 									<ul class="l-dots">
 										<li>Phần sườn kim loại sau một thời gian dễ bị oxy hóa, làm đen dần cổ răng.</li>
 										<li>Dễ thấy rõ ánh đen kim loại.</li>
-										<li>Tuổi thọ không cao, khoảng từ 5 - 7 năm</li>
+										<li>Tuổi thọ không cao, khoảng từ 5 - 7 năm.</li>
 									</ul>
 								</div>
 							</div>
@@ -43,18 +43,46 @@
 						<h3 class="ttl-background">RĂNG SỨ TITAN</h3>
 						<p class="text text-first">Khung sườn hợp kim Titan và bên ngoài được làm hoàn toàn bằng sứ.</p>
 						<div class="content">
-							<div class="img"><img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/loairangsu/img_02.png" alt="RĂNG SỨ KIM LOẠI THƯỜNG"></div>
+							<div class="img"><img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/loairangsu/img_02.png" alt="RĂNG SỨ TITAN"></div>
 							<div class="info">
 								<div class="info_block"><strong>Ưu điểm</strong>
 									<ul class="l-dots">
 										<li>Nhẹ hơn so với răng sứ kim loại thường nhưng lại chắc khỏe hơn.</li>
-										<li>Phù hợp với người dị ứng kim loại hoặc buồng tủy lớn không thể dùng răng toàn sứ</li>
+										<li>Phù hợp với người dị ứng kim loại hoặc buồng tủy lớn không thể dùng răng toàn sứ.</li>
 									</ul>
 								</div>
 								<div class="info_block"><strong>Nhược điểm</strong>
 									<ul class="l-dots">
 										<li>Do chứa kim loại nên không được trắng sáng tự nhiên như răng toàn sứ.</li>
-										<li>Vẫn xảy ra hiện tượng đen viền nướu</li>
+										<li>Vẫn xảy ra hiện tượng đen viền nướu.</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</li>
+					<div class="wrapper">
+        <?php echo do_shortcode('[contact-form-7 id="11177"]'); ?>
+      </div>
+					<br> </br>
+					<li class="l-tooths_item">
+						<h3 class="ttl-background">RĂNG SỨ CHROM-COBALT</h3>
+						<p class="text text-first">Thành phần cấu tạo chính từ hợp kim Chromium và Cobalt, đặc biệt không chứa Niken. Phủ bên ngoài là lớp sứ trắng.</p>
+						<div class="content">
+							<div class="img"><img loading="lazy" src="/wp-content/uploads/2023/08/RANG-SU-CHROM-COBALT-1.webp" alt="RĂNG SỨ CHROM-COBALT"></div>
+							<div class="info">
+								<div class="info_block"><strong>Ưu điểm</strong>
+									<ul class="l-dots">
+										<li>Cấu tạo không có thành phần Niken, hạn chế dị ứng, kích ứng răng miệng. Đảm bảo tính tương thích sinh học cao.</li>
+										<li>Lớp sườn kim loại cứng chắc, nên có khả năng chịu lực lớn.</li>
+										<li>Lớp sứ trắng sáng bên ngoài giúp đảm bảo tính thẩm mỹ tương đồng với răng thật.</li>
+										<li>Do có trọng lượng nhẹ, nên loại răng này rất phù hợp để làm những cầu sứ dài.</li>
+
+									</ul>
+								</div>
+								<div class="info_block"><strong>Nhược điểm</strong>
+									<ul class="l-dots">
+										<li>Lõi Crom có màu đen dẫn tới màu sứ bị đục.</li>
+										<li>Có hiện tượng đen viền nướu, bóng mờ dưới ánh sáng.</li>
 									</ul>
 								</div>
 							</div>
@@ -64,7 +92,7 @@
 						<h3 class="ttl-background">RĂNG SỨ KIM LOẠI QUÝ</h3>
 						<p class="text text-first">Khung sườn hợp kim Titan và bên ngoài được làm hoàn toàn bằng sứ.</p>
 						<div class="content">
-							<div class="img"><img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/loairangsu/img_03.png" alt="RĂNG SỨ KIM LOẠI THƯỜNG"></div>
+							<div class="img"><img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/loairangsu/img_03.png" alt="RĂNG SỨ KIM LOẠI QUÝ"></div>
 							<div class="info">
 								<div class="info_block"><strong>Ưu điểm</strong>
 									<ul class="l-dots">
@@ -87,7 +115,7 @@
 						<h3 class="ttl-background">RĂNG SỨ TOÀN SỨ</h3>
 						<p class="text text-first"><strong><a href="https://nhakhoaident.com/kien-thuc-nha-khoa/rang-su-toan-su/">Răng sứ toàn sứ</a></strong> có khung sườn và lớp phủ bên ngoài làm hoàn toàn bằng sứ nguyên chất.</p>
 						<div class="content">
-							<div class="img"><img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/loairangsu/img_04.png" alt="RĂNG SỨ KIM LOẠI THƯỜNG"></div>
+							<div class="img"><img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/loairangsu/img_04.png" alt="RĂNG SỨ TOÀN SỨ"></div>
 							<div class="info">
 								<div class="info_block"><strong>Ưu điểm</strong>
 									<ul class="l-dots">
@@ -129,6 +157,9 @@
 							</div>
 						</div>
 					</li>
+					<div class="wrapper">
+        <?php echo do_shortcode('[contact-form-7 id="11126"]'); ?>
+      </div>
 					<li class="l-type_item type02">
 							<div class="a-outstand"><strong><div>Tổng quan về <a href="https://nhakhoaident.com/kien-thuc-nha-khoa/rang-su-nacera/">răng sứ Nacera</a></strong></div></div>
 						<h3 class="ttl-background">RĂNG TOÀN SỨ ZIRCONIA</h3>
@@ -210,10 +241,25 @@
 							</div>
 						</div>
 					</li>
+					<li class="l-type_item type07">
+						<h3 class="ttl-background">RĂNG SỨ CHROM-COBALT</h3>
+						<div class="inner">
+							<ul class="l-check">
+								<li>Răng sứ Crom Cobalt là dòng sứ kim loại cao cấp.</li>
+								<li>Thành phần cấu tạo chính từ hợp kim Chromium và Cobalt, không chứa Niken, đảm bảo về độ lành tính cho răng  miệng.</li>
+								<li>Phủ bên ngoài là lớp sứ trắng sáng, mang lại độ trắng bóng như răng thật.</li>
+								<li>Do có trọng lượng nhẹ, nên loại răng này rất phù hợp để làm những cầu sứ dài hoặc phục hình trên trụ Implant, đặc biệt là Implant toàn hàm.</li>
+							</ul>
+							<div class="box-img">
+								<div class="img"><img loading="lazy"  src="/wp-content/uploads/2023/08/RANG-SU-CHROM-COBALT-2.webp" alt=""></div>
+								<div class="img"><img loading="lazy"  src="/wp-content/uploads/2023/08/RANG-SU-CHROM-COBALT-3.webp" alt=""></div>
+							</div>
+						</div>
+					</li>
 				</ul>
 			</div>
 			<div class="tooth-block">
-				<h2 class="ttl-border"><span>3. CÁC LOẠI RĂNG SỨ TỐT NHẤT HIỆN NAY</span></h2>
+				<h2 class="ttl-border"><span>3. NÊN BỌC RĂNG SỨ LOẠI NÀO?</span></h2>
 				<p class="text">Mỗi loại răng sứ đều sẽ có những ưu nhược điểm riêng, vì vậy để chọn được loại răng sứ tốt nhất thì nên dựa trên tình trạng răng miệng và nhu cầu của mỗi người. Cụ thể:</p>
 				<div class="box-khuyencao">
 					<div class="img"><img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/loairangsu/img_17.png" alt=""></div>

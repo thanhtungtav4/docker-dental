@@ -970,6 +970,65 @@ tr.table-caption p {
   font-size: 18px;
 }*/
 
+
+.form-su{
+  display: flex;
+  text-align: center;
+}
+.form-su .form-info{
+  width: 390px;
+  height: 500px;
+  border-radius: 30px 0px 0px 30px;
+  background: #025899;
+  padding: 15px;
+}
+.form-su .form-icon{
+  margin:15px;
+}
+.form-su .sub-title{
+  font-style: normal;
+  font-weight: 900;
+  line-height: 33px;
+  color: white;
+  font-size: 22px;
+}
+.form-su .form-title{
+  font-size: 30px;
+  font-style: normal;
+  font-family: Montserrat;
+  font-weight: 800;
+  line-height: 45px;
+  margin-bottom: 10px;
+  background: var(--accent-1, linear-gradient(90deg, #DFAA23 0%, #FBF08D 47.92%, #DFAA23 100%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.form-su .description{
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+  color: white;
+  margin: 15px 0px;
+}
+.form-su .input-group{
+  margin-top: 25px;
+}
+.form-su .row{
+  height: 35px;
+  margin-bottom: 18px;
+}
+@media screen and (max-width: 767px) {
+  .form-su .form-info{
+    width: 100%;
+    border-radius: 30px;
+  }
+  .form-su .description{
+    font-size: 17px;
+  }
+}
+
 /***************************************/
 /***********Special Page*******************************************/
 /***************************************/

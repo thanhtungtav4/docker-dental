@@ -19,7 +19,7 @@
         <h1 class="name">NGUYỄN HIẾU TÙNG</h1>
         <p class="text">“ Sự Tân tâm không chỉ dừng lại ở Trách nhiệm<br>mà còn là Niềm tin và Hy vọng “</p><a class="btn is-sp" href="#"><img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/allinone/bnr_btn.svg" alt="ĐẶT LỊCH HẸN"></a>
       </div>
-      <section class="about-bstung">
+      <section class="about-bs about-bstung-banner">
         <div class="wrapper">
           <h2 class="ttl-primary ttl-primary--is-medium">TIẾN SĨ – BÁC SĨ NGUYỄN HIẾU TÙNG<br>CHUYÊN GIA CẤY GHÉP IMPLANT HÀNG ĐẦU TẠI VIỆT NAM</h2>
           <p class="text">Trồng răng Implant (cấy ghép Implant) đang là giải pháp khắc phục tình trang răng mất tốt nhất hiện nay trên thế giới. Trong đó, vai trò của Bác sĩ quyết định gần như 80% tỷ lệ thành công của một ca cấy ghép Implant. Tuy nhiên hiện nay tại nước ta, không phải Bác sĩ nào cũng có đủ trình độ chuyên môn và kinh nghiệm để thực hiện được kỹ thuật cấy ghép Implant phức tạp. Chỉ những Bác sĩ từng tu nghiệp và tiếp cận những công nghệ Implant hiện đại từ các nền Y học lớn trên thế giới, mới đảm bảo thực hiện thành công phẫu thuật cấy ghép Implant.<br><br>Với chuyên môn cao, cùng kinh nghiệm thực tiễn hơn 10 năm tu nghiệp chuyên sâu Implant tại Pháp, Tiến sĩ - Bác sĩ (TS.BS) Nguyễn Hiếu Tùng là một trong số ít những Bác sĩ cấy ghép Implant hàng đầu tại Việt Nam. Hiện Bác sĩ Tùng đang là Giám đốc Nha khoa I-DENT – Nha khoa chuyên sâu về cấy ghép Implant.</p>
@@ -118,18 +118,18 @@
             <li class="l-demo_item">
               <div class="wrap">
                 <div class="demo-img">
-                  <div class="img-big"><img loading="lazy"  src="/wp-content/uploads/2023/08/1_HUA-TAN-DAT-copy-1.webp" alt=""></div>
+                  <div class="img-big"><img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/bs-tung/img_big_01.jpg.webp" alt=""></div>
                   <div class="img-small">
-                    <div class="img before"><img loading="lazy"  src="/wp-content/uploads/2023/08/1_HUA-TAN-DAT-T-copy-1.webp" alt=""></div>
-                    <div class="img after"><img loading="lazy"  src="/wp-content/uploads/2023/08/1_HUA-TAN-DAT-S-copy-1.webp" alt=""></div>
+                    <div class="img before"><img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/bs-tung/img_small_01.jpg.webp" alt=""></div>
+                    <div class="img after"><img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/bs-tung/img_small_02.jpg.webp" alt=""></div>
                   </div>
                 </div>
                 <div class="demo-info">
                   <div class="demo-info_name">
-                    <h3 class="name">CHÚ HỨA TẤN ĐẠT</h3><span class="lca">TP.HCM</span>
+                    <h3 class="name">CHÚ NGUYỄN HẢI</h3><span class="lca">VIỆT KIỀU MỸ</span>
                   </div>
                   <div class="type">Phương án: Trồng răng toàn hàm ALL ON 4</div>
-                  <div class="implant">Loại trụ: Implant Nobel Biocare Thụy Điển</div>
+                  <div class="implant">Loại trụ: Implant Mis C1 Đức</div>
                 </div>
               </div>
             </li>
@@ -172,18 +172,18 @@
             <li class="l-demo_item">
               <div class="wrap">
                 <div class="demo-img">
-                  <div class="img-big"><img loading="lazy"  src="/wp-content/uploads/2023/08/1_ANH-LONG-LEE-T-copy_11zon-3.webp" alt=""></div>
+                  <div class="img-big"><img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/bs-tung/img_big_04.jpg.webp" alt=""></div>
                   <div class="img-small">
-                    <div class="img before"><img loading="lazy"  src="/wp-content/uploads/2023/08/1_ANH-LONG-M-LEE-T-copy_11zon.webp" alt=""></div>
-                    <div class="img after"><img loading="lazy"  src="/wp-content/uploads/2023/08/1_ANH-LONG-M-LEE-S-copy_11zon-1.webp" alt=""></div>
+                    <div class="img before"><img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/bs-tung/img_small_07.jpg.webp" alt=""></div>
+                    <div class="img after"><img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/bs-tung/img_small_08.jpg.webp" alt=""></div>
                   </div>
                 </div>
                 <div class="demo-info">
                   <div class="demo-info_name">
-                    <h3 class="name">ANH LONG M LEE</h3><span class="lca">VIỆT KIỀU MỸ</span>
+                    <h3 class="name">CHÚ LÊ CHÍ BÌNH</h3><span class="lca">TP. HỒ CHÍ MINH</span>
                   </div>
-                  <div class="type">Phương án: Cấy implant ALL ON 4 hàm dưới, ALL ON 6 hàm trên</div>
-                  <div class="implant">Loại trụ: Implant Straumann Thụy Sỹ</div>
+                  <div class="type">Phương án: Trồng răng toàn hàm ALL ON 6</div>
+                  <div class="implant">Loại trụ: Implant Mis C1 Đức</div>
                 </div>
               </div>
             </li>

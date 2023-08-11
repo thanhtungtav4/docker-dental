@@ -93,9 +93,6 @@
         </div>
       </nav>
     </header>
-    <div class="modal-contact mfp-hide" id="popup-dlh">
- 	    <?php echo do_shortcode('[contact-form-7 id="8776"]') ?>
-    </div>
     </div>
     <main class="SiteMain">
     <?php  require_once( get_stylesheet_directory() . '/module/contact-menu.php' ); ?>

@@ -13,20 +13,18 @@
   get_header();
 ?>
       <div class="mv">
-        <img class="is-pc"   src="/wp-content/uploads/2023/07/banner-bs-vu-thien-khanh.webp" alt="">
-        <img class="is-sp"   src="/wp-content/uploads/2023/07/banner-vu-thien-khanh-mobile.webp" alt="">
+        <img class="is-pc" src="/wp-content/uploads/2023/08/banner-bac-si-hoang-dinh-tin.webp" alt="Bác Sĩ Hoàng Đình Tín">
+        <img class="is-sp" src="/wp-content/uploads/2023/08/banner-bac-si-hoang-dinh-tin-mb.webp" alt="Bác Sĩ Hoàng Đình Tín mobile">
       </div>
-      <section class="about-bs">
+      <section class="about-bs about-bs-banner">
         <div class="wrapper">
-          <h1 class="ttl-primary ttl-primary--is-medium">BÁC SĨ CKI ĐH Y DƯỢC TP HCM
-            <br>CHUYÊN GIA CẤY GHÉP IMPLANT VŨ THIỆN KHANH</h1>
-          <p class="text">Khi nói đến vấn đề điều trị và chăm sóc răng miệng, thì vai trò của Bác sĩ là rất quan trọng. Đặc biệt là trong phương pháp trồng răng Implant, một kỹ thuật nha khoa phức tạp, nên Bác sĩ thực hiện phải đảm bảo tỉ mỉ và chuẩn xác trong mỗi giai đoạn. Để không xảy ra biến chứng nguy hiểm.<br>
-          Với những bệnh nhân đến trồng răng tại Nha khoa I-DENT, có thể an tâm về kết quả điều trị, khi được thực hiện bởi Bác sĩ CKI Vũ Thiện Khanh.</p>
+          <h1 class="ttl-primary ttl-primary--is-medium">BÁC SĨ HOÀNG NGUYỄN ĐÌNH TÍN<br>CHUYÊN GIA CẤY GHÉP IMPLANT VÀ PHỤC HÌNH RĂNG SỨ</h1>
+          <p class="text">Bác sĩ Hoàng Nguyễn Đình Tín có hơn 6 năm kinh nghiệm trong lĩnh vực nha khoa, với nhiều bằng cấp, chứng chỉ từ các khóa đào tạo chuyên sâu. <br>Đồng thời, bác sĩ còn thường xuyên tham gia những hội nghị, hội thảo để tiếp thu các kiến thức, kỹ thuật mới về ứng dụng trong quá trình điều trị cho bệnh nhân. Hiện tại, bác sĩ Hoàng Nguyễn Đình Tín đang là Chuyên gia cấy ghép Implant và Phục hình răng sứ tại nha khoa I-DENT. </p>
           <div class="loibacsi">
             <div class="img is-sp"><img loading="lazy"  src="/wp-content/uploads/2023/06/thumb-bs_0001_khanh-263x375.png.webp" alt="BÁC SĨ CKI VŨ THIỆN KHANH"></div>
             <quote>
-              <p class="text">Người bác sĩ cần có một tấm lòng biết thấu hiểu và chia sẻ, đặt mình vào vị trí của bệnh nhân để biết nên làm những gì là tốt nhất. Bởi Bác sĩ dù giỏi đến đâu nhưng thiếu đi sự tận tâm, thì không thể nào điều trị tốt và mang đến kết quả như mong muốn cho bệnh nhân</p>
-            </quote><span class="signature">Bác sĩ CKI : VŨ THIỆN KHANH</span>
+              <p class="text">Khi điều trị cho bệnh nhân, ngoài việc vận dụng các kiến thức chuyên môn thì một điều rất quan trọng là bác sĩ phải biết lắng nghe để thấu hiểu người bệnh. Bởi mỗi bệnh nhân đều có những nỗi sợ khác nhau. Do đó, bác sĩ phải hiểu được tâm lý, để động viên và hỗ trợ tốt nhất, giúp bệnh nhân an tâm điều trị.</p>
+            </quote><span class="signature">Bác sĩ: HOÀNG NGUYỄN ĐÌNH TÍN</span>
           </div>
         </div>
       </section>
@@ -34,10 +32,10 @@
         <div class="wrapper">
           <div class="l-doctors">
             <div class="l-doctors_item">
-              <div class="l-doctors_images is-pc"><img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_03.png.webp" alt="BÁC SĨ CKI VŨ THIỆN KHANH"></div>
+              <div class="l-doctors_images is-pc"><img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_07.png.webp" alt="BÁC SĨ HOÀNG NGUYỄN ĐÌNH TÍN"></div>
               <div class="l-doctors_info">
                 <div class="l-doctors_info_inner">
-                  <h2 class="name">BẰNG CẤP VÀ CHỨNG CHỈ CỦA BÁC SĨ VŨ THIỆN KHANH</h2>
+                  <h2 class="name">BẰNG CẤP VÀ CHỨNG CHỈ CỦA BÁC SĨ HOÀNG NGUYỄN ĐÌNH TÍN</h2>
                   <ul class="certificate">
                     <li>Tốt nghiệp Chuyên khoa I Đại học Y Dược TP.HCM.</li>
                     <li>Đào tạo Cấy ghép Implant tại Bệnh Viện RHM Trung Ương TP HCM.</li>
@@ -49,20 +47,26 @@
                     <div class="l-cer-img_wrap swiper-container js-slide-cer">
                       <div class="l-cer-img_inner zoom-gallery swiper-wrapper">
                         <div class="l-cer-img_item swiper-slide">
-                          <div><a href="/wp-content/uploads/2023/07/bang-cap-bac-si-khanh-2.webp"><img loading="lazy"  src="/wp-content/uploads/2023/07/bang-cap-bac-si-khanh-2.webp" alt=""></a>
+                          <div><a href="/wp-content/uploads/2023/08/bang-cap-bac-si-Tin-1-1.webp"><img loading="lazy"  src="/wp-content/uploads/2023/08/bang-cap-bac-si-Tin-1-1.webp" alt=""></a>
                           </div>
                         </div>
                         <div class="l-cer-img_item swiper-slide">
-                          <div><a href="/wp-content/uploads/2023/07/bang-cap-bac-si-khanh.webp"><img loading="lazy"  src="/wp-content/uploads/2023/07/bang-cap-bac-si-khanh.webp" alt=""></a></div>
+                          <div><a href="/wp-content/uploads/2023/08/bang-cap-bac-si-Tin-2-1.webp"><img loading="lazy"  src="/wp-content/uploads/2023/08/bang-cap-bac-si-Tin-2-1.webp" alt=""></a></div>
                         </div>
                         <div class="l-cer-img_item swiper-slide">
-                          <div><a href="/wp-content/uploads/2023/07/bang-cap-bac-si-khanh-1.webp"><img loading="lazy"  src="/wp-content/uploads/2023/07/bang-cap-bac-si-khanh-1.webp" alt=""></a></div>
+                          <div><a href="/wp-content/uploads/2023/08/bang-cap-bac-si-Tin-3-1.webp"><img loading="lazy"  src="/wp-content/uploads/2023/08/bang-cap-bac-si-Tin-3-1.webp" alt=""></a></div>
                         </div>
                         <div class="l-cer-img_item swiper-slide">
-                          <div><a href="/wp-content/uploads/2023/07/bang-cap-bac-si-khanh-3.webp"><img loading="lazy"  src="/wp-content/uploads/2023/07/bang-cap-bac-si-khanh-3.webp" alt=""></a></div>
+                          <div><a href="/wp-content/uploads/2023/08/bang-cap-bac-si-Tin-4-1.webp"><img loading="lazy"  src="/wp-content/uploads/2023/08/bang-cap-bac-si-Tin-4-1.webp" alt=""></a></div>
                         </div>
                         <div class="l-cer-img_item swiper-slide">
-                          <div><a href="/wp-content/uploads/2023/07/bang-cap-bac-si-khanh-4.webp"><img loading="lazy"  src="/wp-content/uploads/2023/07/bang-cap-bac-si-khanh-4.webp" alt=""></a></div>
+                          <div><a href="/wp-content/uploads/2023/08/bang-cap-bac-si-Tin-5-1.webp"><img loading="lazy"  src="/wp-content/uploads/2023/08/bang-cap-bac-si-Tin-5-1.webp" alt=""></a></div>
+                        </div>
+                        <div class="l-cer-img_item swiper-slide">
+                          <div><a href="/wp-content/uploads/2023/08/bang-cap-bac-si-Tin-6-1.webp"><img loading="lazy"  src="/wp-content/uploads/2023/08/bang-cap-bac-si-Tin-6-1.webp" alt=""></a></div>
+                        </div>
+                        <div class="l-cer-img_item swiper-slide">
+                          <div><a href="/wp-content/uploads/2023/08/bang-cap-bac-si-Tin-7-1.webp"><img loading="lazy"  src="/wp-content/uploads/2023/08/bang-cap-bac-si-Tin-7-1.webp" alt=""></a></div>
                         </div>
                       </div>
                     </div>

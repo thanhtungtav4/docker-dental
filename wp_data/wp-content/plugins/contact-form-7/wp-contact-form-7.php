@@ -8,6 +8,7 @@ Author URI: https://ideasilo.wordpress.com/
 Text Domain: contact-form-7
 Domain Path: /languages/
 Version: 5.7.7
+Requires PHP: 7.3
 */
 
 define( 'WPCF7_VERSION', '5.7.7' );

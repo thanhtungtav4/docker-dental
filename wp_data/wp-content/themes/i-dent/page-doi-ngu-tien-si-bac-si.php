@@ -44,55 +44,47 @@
             <div class="m-btn is-reverse is-small">
               <a href="/gioi-thieu/tien-si-bac-si-nguyen-hieu-tung/">Xem chi tiết</a>
             </div>
-            <div class="l-cer-img swiper-container js-slide-cer">
-              <div class="l-cer-img_inner swiper-wrapper">
-                <div class="l-cer-img_item swiper-slide">
-                  <div>
-                    <img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/bs-tung/bang-cap-nguyen-hieu-tung-11.jpg" alt="">
+            <div class="l-cer-img">
+              <div class="l-cer-img_wrap swiper-container js-slide-cer">
+                <div class="l-cer-img_inner zoom-gallery swiper-wrapper">
+                  <div class="l-cer-img_item swiper-slide">
+                    <div><a href="/wp-content/uploads/2023/08/Bang-cap-TS-BS-Nguyen-Hieu-Tung-1.webp"><img loading="lazy"  src="/wp-content/uploads/2023/08/Bang-cap-TS-BS-Nguyen-Hieu-Tung-1.webp" alt=""></a></div>
                   </div>
-                </div>
-                <div class="l-cer-img_item swiper-slide">
-                  <div>
-                    <img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/bs-tung/bang-cap-nguyen-hieu-tung-10.jpg" alt="">
+                  <div class="l-cer-img_item swiper-slide">
+                    <div><a href="/wp-content/uploads/2023/08/Bang-cap-TS-BS-Nguyen-Hieu-Tung-2.webp"><img loading="lazy"  src="/wp-content/uploads/2023/08/Bang-cap-TS-BS-Nguyen-Hieu-Tung-2.webp" alt=""></a></div>
                   </div>
-                </div>
-                <div class="l-cer-img_item swiper-slide">
-                  <div>
-                    <img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/bs-tung/bang-cap-nguyen-hieu-tung-9.jpg" alt="">
+                  <div class="l-cer-img_item swiper-slide">
+                    <div><a href="/wp-content/uploads/2023/08/Bang-cap-TS-BS-Nguyen-Hieu-Tung-3.webp"><img loading="lazy"  src="/wp-content/uploads/2023/08/Bang-cap-TS-BS-Nguyen-Hieu-Tung-3.webp" alt=""></a></div>
                   </div>
-                </div>
-                <div class="l-cer-img_item swiper-slide">
-                  <div>
-                    <img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/bs-tung/bang-cap-nguyen-hieu-tung-8.jpg" alt="">
+                  <div class="l-cer-img_item swiper-slide">
+                    <div><a href="/wp-content/uploads/2023/08/Bang-cap-TS-BS-Nguyen-Hieu-Tung-4.webp"><img loading="lazy"  src="/wp-content/uploads/2023/08/Bang-cap-TS-BS-Nguyen-Hieu-Tung-4.webp" alt=""></a></div>
                   </div>
-                </div>
-                <div class="l-cer-img_item swiper-slide">
-                  <div>
-                    <img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/bs-tung/bang-cap-nguyen-hieu-tung-7.jpg" alt="">
+                  <div class="l-cer-img_item swiper-slide">
+                    <div><a href="/wp-content/uploads/2023/08/Bang-cap-TS-BS-Nguyen-Hieu-Tung-5.webp"><img loading="lazy"  src="/wp-content/uploads/2023/08/Bang-cap-TS-BS-Nguyen-Hieu-Tung-5.webp" alt=""></a></div>
                   </div>
-                </div><div class="l-cer-img_item swiper-slide">
-                  <div>
-                    <img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/bs-tung/bang-cap-nguyen-hieu-tung-6.jpg" alt="">
+                  <div class="l-cer-img_item swiper-slide">
+                    <div><a href="/wp-content/uploads/2023/08/Bang-cap-TS-BS-Nguyen-Hieu-Tung-6.webp"><img loading="lazy"  src="/wp-content/uploads/2023/08/Bang-cap-TS-BS-Nguyen-Hieu-Tung-6.webp" alt=""></a></div>
                   </div>
-                </div><div class="l-cer-img_item swiper-slide">
-                  <div>
-                    <img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/bs-tung/bang-cap-nguyen-hieu-tung-5.jpg" alt="">
+                  <div class="l-cer-img_item swiper-slide">
+                    <div><a href="/wp-content/uploads/2023/08/Bang-cap-TS-BS-Nguyen-Hieu-Tung-7.webp"><img loading="lazy"  src="/wp-content/uploads/2023/08/Bang-cap-TS-BS-Nguyen-Hieu-Tung-7.webp" alt=""></a></div>
                   </div>
-                </div><div class="l-cer-img_item swiper-slide">
-                  <div>
-                    <img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/bs-tung/bang-cap-nguyen-hieu-tung-4.jpg" alt="">
+                  <div class="l-cer-img_item swiper-slide">
+                    <div><a href="/wp-content/uploads/2023/08/Bang-cap-TS-BS-Nguyen-Hieu-Tung-8.webp"><img loading="lazy"  src="/wp-content/uploads/2023/08/Bang-cap-TS-BS-Nguyen-Hieu-Tung-8.webp" alt=""></a></div>
                   </div>
-                </div><div class="l-cer-img_item swiper-slide">
-                  <div>
-                    <img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/bs-tung/bang-cap-nguyen-hieu-tung-3.jpg" alt="">
+                  <div class="l-cer-img_item swiper-slide">
+                    <div><a href="/wp-content/uploads/2023/08/Bang-cap-TS-BS-Nguyen-Hieu-Tung-9.webp"><img loading="lazy"  src="/wp-content/uploads/2023/08/Bang-cap-TS-BS-Nguyen-Hieu-Tung-9.webp" alt=""></a></div>
                   </div>
-                </div><div class="l-cer-img_item swiper-slide">
-                  <div>
-                    <img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/bs-tung/bang-cap-nguyen-hieu-tung-2.jpg" alt="">
+                  <div class="l-cer-img_item swiper-slide">
+                    <div><a href="/wp-content/uploads/2023/08/Bang-cap-TS-BS-Nguyen-Hieu-Tung-10.webp"><img loading="lazy"  src="/wp-content/uploads/2023/08/Bang-cap-TS-BS-Nguyen-Hieu-Tung-10.webp" alt=""></a></div>
                   </div>
-                </div><div class="l-cer-img_item swiper-slide">
-                  <div>
-                    <img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/bs-tung/bang-cap-nguyen-hieu-tung-1.jpg" alt="">
+                  <div class="l-cer-img_item swiper-slide">
+                    <div><a href="/wp-content/uploads/2023/08/Bang-cap-TS-BS-Nguyen-Hieu-Tung-11.webp"><img loading="lazy"  src="/wp-content/uploads/2023/08/Bang-cap-TS-BS-Nguyen-Hieu-Tung-11.webp" alt=""></a></div>
+                  </div>
+					 <div class="l-cer-img_item swiper-slide">
+                    <div><a href="/wp-content/uploads/2023/08/Bang-cap-TS-BS-Nguyen-Hieu-Tung-12.webp"><img loading="lazy"  src="/wp-content/uploads/2023/08/Bang-cap-TS-BS-Nguyen-Hieu-Tung-12.webp" alt=""></a></div>
+                  </div>
+					 <div class="l-cer-img_item swiper-slide">
+                    <div><a href="/wp-content/uploads/2023/08/Bang-cap-TS-BS-Nguyen-Hieu-Tung-13.webp"><img loading="lazy"  src="/wp-content/uploads/2023/08/Bang-cap-TS-BS-Nguyen-Hieu-Tung-13.webp" alt=""></a></div>
                   </div>
                 </div>
               </div>
@@ -119,31 +111,43 @@
             <div class="m-btn is-reverse is-small">
               <a href="/gioi-thieu/bac-si-vu-thien-khanh/">Xem chi tiết</a>
             </div>
-            <div class="l-cer-img swiper-container js-slide-cer">
-              <div class="l-cer-img_inner swiper-wrapper">
-                <div class="l-cer-img_item swiper-slide">
-                  <div>
-                    <img loading="lazy" src="/wp-content/uploads/2023/07/bang-cap-bac-si-khanh.webp" alt="">
+            <div class="l-cer-img">
+              <div class="l-cer-img_wrap swiper-container js-slide-cer">
+                <div class="l-cer-img_inner zoom-gallery swiper-wrapper">
+                  <div class="l-cer-img_item swiper-slide">
+                    <div>
+                      <a href="/wp-content/uploads/2023/08/bang-cap-bac-si-Khanh-2.webp">
+                        <img loading="lazy"  src="/wp-content/uploads/2023/08/bang-cap-bac-si-Khanh-2.webp" alt="">
+                      </a>
+                    </div>
                   </div>
-                </div>
-                <div class="l-cer-img_item swiper-slide">
-                  <div>
-                    <img loading="lazy" src="/wp-content/uploads/2023/07/bang-cap-bac-si-khanh-1.webp" alt="">
+                  <div class="l-cer-img_item swiper-slide">
+                    <div>
+                      <a href="/wp-content/uploads/2023/08/bang-cap-bac-si-Khanh-3.webp">
+                        <img loading="lazy" src="/wp-content/uploads/2023/08/bang-cap-bac-si-Khanh-3.webp" alt="">
+                      </a>
+                    </div>
                   </div>
-                </div>
-                <div class="l-cer-img_item swiper-slide">
-                  <div>
-                    <img loading="lazy" src="/wp-content/uploads/2023/07/bang-cap-bac-si-khanh-2.webp" alt="">
+                  <div class="l-cer-img_item swiper-slide">
+                    <div>
+                      <a href="/wp-content/uploads/2023/08/bang-cap-bac-si-Khanh-4.webp">
+                        <img loading="lazy" src="/wp-content/uploads/2023/08/bang-cap-bac-si-Khanh-4.webp" alt="">
+                      </a>
+                    </div>
                   </div>
-                </div>
-                <div class="l-cer-img_item swiper-slide">
-                  <div>
-                    <img loading="lazy" src="/wp-content/uploads/2023/07/bang-cap-bac-si-khanh-3.webp" alt="">
+                  <div class="l-cer-img_item swiper-slide">
+                    <div>
+                      <a href="/wp-content/uploads/2023/08/bang-cap-bac-si-Khanh-5.webp">
+                        <img loading="lazy" src="/wp-content/uploads/2023/08/bang-cap-bac-si-Khanh-5.webp" alt="">
+                      </a>
+                    </div>
                   </div>
-                </div>
-                <div class="l-cer-img_item swiper-slide">
-                  <div>
-                    <img loading="lazy" src="/wp-content/uploads/2023/07/bang-cap-bac-si-khanh-4.webp" alt="">
+                  <div class="l-cer-img_item swiper-slide">
+                    <div>
+                      <a href="/wp-content/uploads/2023/08/bang-cap-bac-si-Khanh-6.webp">
+                        <img loading="lazy" src="/wp-content/uploads/2023/08/bang-cap-bac-si-Khanh-6.webp" alt="">
+                      </a>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -172,27 +176,27 @@
               <div class="l-cer-img_inner swiper-wrapper">
                 <div class="l-cer-img_item swiper-slide">
                   <div>
-                    <img loading="lazy" src="/wp-content/uploads/2023/07/bang-cap-bac-si-thai.webp" alt="">
+                    <img loading="lazy" src="/wp-content/uploads/2023/08/bang-cap-bac-si-Thai-1.webp" alt="">
                   </div>
                 </div>
                 <div class="l-cer-img_item swiper-slide">
                   <div>
-                    <img loading="lazy" src="/wp-content/uploads/2023/07/bang-cap-bac-si-thai-1.webp" alt="">
+                    <img loading="lazy" src="/wp-content/uploads/2023/08/bang-cap-bac-si-Thai-2.webp" alt="">
                   </div>
                 </div>
                 <div class="l-cer-img_item swiper-slide">
                   <div>
-                    <img loading="lazy" src="/wp-content/uploads/2023/07/bang-cap-bac-si-thai-2.webp" alt="">
+                    <img loading="lazy" src="/wp-content/uploads/2023/08/bang-cap-bac-si-Thai-3.webp" alt="">
                   </div>
                 </div>
                 <div class="l-cer-img_item swiper-slide">
                   <div>
-                    <img loading="lazy" src="/wp-content/uploads/2023/07/bang-cap-bac-si-thai-3.webp" alt="">
+                    <img loading="lazy" src="/wp-content/uploads/2023/08/bang-cap-bac-si-Thai-4.webp" alt="">
                   </div>
                 </div>
                 <div class="l-cer-img_item swiper-slide">
                   <div>
-                    <img loading="lazy" src="/wp-content/uploads/2023/07/bang-cap-bac-si-thai-4.webp" alt="">
+                    <img loading="lazy" src="/wp-content/uploads/2023/08/bang-cap-bac-si-Thai-5.webp" alt="">
                   </div>
                 </div>
               </div>
@@ -222,17 +226,17 @@
               <div class="l-cer-img_inner swiper-wrapper">
                 <div class="l-cer-img_item swiper-slide">
                   <div>
-                    <img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_04_cer_01.png.webp" alt="">
+                    <img loading="lazy" src="/wp-content/uploads/2023/08/bang-cap-bac-si-My-1.webp" alt="">
                   </div>
                 </div>
                 <div class="l-cer-img_item swiper-slide">
                   <div>
-                    <img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_04_cer_02.png.webp" alt="">
+                    <img loading="lazy" src="/wp-content/uploads/2023/08/bang-cap-bac-si-My-2-1.webp" alt="">
                   </div>
                 </div>
                 <div class="l-cer-img_item swiper-slide">
                   <div>
-                    <img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_04_cer_03.png.webp" alt="">
+                    <img loading="lazy" src="/wp-content/uploads/2023/08/bang-cap-bac-si-My-3-1.webp" alt="">
                   </div>
                 </div>
               </div>
@@ -255,18 +259,23 @@
               <li>Chuyên Cấy ghép Implant, Phục hình sứ trên Implant, Phục hình thẩm mỹ răng sứ - Veneer, Phục hình và Phẫu thuật nha chu.</li>
             </ul>
             <div class="m-btn is-reverse is-small">
-              <a class="popup-with-form" href="#popup-dlh" data-message="Đăng ký BS Mỹ Thăm khám">Đặt lịch thăm khám</a>
+              <a class="popup-with-form" href="#popup-dlh" data-message="Đăng ký BS Duy Tùng Thăm khám">Đặt lịch thăm khám</a>
             </div>
             <div class="l-cer-img swiper-container js-slide-cer">
               <div class="l-cer-img_inner swiper-wrapper">
                 <div class="l-cer-img_item swiper-slide">
                   <div>
-                    <img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_05_cer_01.png.webp" alt="">
+                    <img loading="lazy" src="/wp-content/uploads/2023/08/bang-cap-bac-si-Duy-Tung-1-2.webp" alt="">
                   </div>
                 </div>
                 <div class="l-cer-img_item swiper-slide">
                   <div>
-                    <img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_05_cer_02.png.webp" alt="">
+                    <img loading="lazy" src="/wp-content/uploads/2023/08/bang-cap-bac-si-Duy-Tung-2-1.webp" alt="">
+                  </div>
+                </div>
+				        <div class="l-cer-img_item swiper-slide">
+                  <div>
+                    <img loading="lazy" src="/wp-content/uploads/2023/08/bang-cap-bac-si-Duy-Tung-3-1.webp" alt="">
                   </div>
                 </div>
               </div>
@@ -295,17 +304,22 @@
               <div class="l-cer-img_inner swiper-wrapper">
                 <div class="l-cer-img_item swiper-slide">
                   <div>
-                    <img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_06_cer_01.png.webp" alt="">
+                    <img loading="lazy" src="/wp-content/uploads/2023/08/bang-cap-bac-si-Thao-1-1.webp" alt="">
                   </div>
                 </div>
                 <div class="l-cer-img_item swiper-slide">
                   <div>
-                    <img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_06_cer_02.png.webp" alt="">
+                    <img loading="lazy" src="/wp-content/uploads/2023/08/bang-cap-bac-si-Thao-2-1.webp" alt="">
                   </div>
                 </div>
                 <div class="l-cer-img_item swiper-slide">
                   <div>
-                    <img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_06_cer_02.png" alt="">
+                    <img loading="lazy" src="/wp-content/uploads/2023/08/bang-cap-bac-si-Thao-3-1.webp" alt="">
+                  </div>
+                </div>
+					       <div class="l-cer-img_item swiper-slide">
+                  <div>
+                    <img loading="lazy" src="/wp-content/uploads/2023/08/bang-cap-bac-si-Thao-4-1.webp" alt="">
                   </div>
                 </div>
               </div>
@@ -334,17 +348,37 @@
               <div class="l-cer-img_inner swiper-wrapper">
                 <div class="l-cer-img_item swiper-slide">
                   <div>
-                    <img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_07_cer_01.png.webp" alt="">
+                    <img loading="lazy" src="/wp-content/uploads/2023/08/bang-cap-bac-si-Tin-1-1.webp" alt="">
                   </div>
                 </div>
                 <div class="l-cer-img_item swiper-slide">
                   <div>
-                    <img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_07_cer_02.png.webp" alt="">
+                    <img loading="lazy" src="/wp-content/uploads/2023/08/bang-cap-bac-si-Tin-2-1.webp" alt="">
                   </div>
                 </div>
                 <div class="l-cer-img_item swiper-slide">
                   <div>
-                    <img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_07_cer_03.png.webp" alt="">
+                    <img loading="lazy" src="/wp-content/uploads/2023/08/bang-cap-bac-si-Tin-3-1.webp" alt="">
+                  </div>
+                </div>
+                <div class="l-cer-img_item swiper-slide">
+                  <div>
+                    <img loading="lazy" src="/wp-content/uploads/2023/08/bang-cap-bac-si-Tin-4-1.webp" alt="">
+                  </div>
+                </div>
+				  <div class="l-cer-img_item swiper-slide">
+                  <div>
+                    <img loading="lazy" src="/wp-content/uploads/2023/08/bang-cap-bac-si-Tin-5-1.webp" alt="">
+                  </div>
+                </div>
+				  <div class="l-cer-img_item swiper-slide">
+                  <div>
+                    <img loading="lazy" src="/wp-content/uploads/2023/08/bang-cap-bac-si-Tin-6-1.webp" alt="">
+                  </div>
+                </div>
+				   <div class="l-cer-img_item swiper-slide">
+                  <div>
+                    <img loading="lazy" src="/wp-content/uploads/2023/08/bang-cap-bac-si-Tin-7-1.webp" alt="">
                   </div>
                 </div>
               </div>
@@ -373,46 +407,17 @@
               <div class="l-cer-img_inner swiper-wrapper">
                 <div class="l-cer-img_item swiper-slide">
                   <div>
-                    <img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_08_cer_01.png.webp" alt="">
+                    <img loading="lazy" src="/wp-content/uploads/2023/08/bang-cap-bac-si-Nhan1.webp" alt="">
                   </div>
                 </div>
                 <div class="l-cer-img_item swiper-slide">
                   <div>
-                    <img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_08_cer_02.png.webp" alt="">
+                    <img loading="lazy" src="/wp-content/uploads/2023/08/bang-cap-bac-si-Nhan2.webp" alt="">
                   </div>
                 </div>
               </div>
               <div class="swiper-btn swiper-prev"></div>
               <div class="swiper-btn swiper-next"></div>
-            </div>
-          </div>
-        </div>
-      </li>
-      <li class="l-doctors_item">
-        <div class="l-doctors_images">
-          <img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_09.png.webp" alt="BÁC SĨ NGUYỄN HOÀNG THẠNH QUÂN">
-        </div>
-        <div class="l-doctors_info">
-          <div class="l-doctors_info_inner">
-            <h2 class="name">BÁC SĨ NGUYỄN HOÀNG THẠNH QUÂN</h2>
-            <ul class="certificate">
-              <li>BÁC SĨ RĂNG HÀM MẶT - ĐẠI HỌC Y DƯỢC TP. HỒ CHÍ MINH</li>
-              <li>Chứng chỉ hành nghề số: 010737/HCM - CCHN</li>
-              <li>Chuyên Niềng răng</li>
-            </ul>
-            <div class="m-btn is-reverse is-small">
-              <a class="popup-with-form" href="#popup-dlh" data-message="Đăng ký BS Hoàng Thăm khám">Đặt lịch thăm khám</a>
-            </div>
-            <div class="l-cer-img swiper-container js-slide-cer">
-              <div class="l-cer-img_inner swiper-wrapper">
-                <div class="l-cer-img_item swiper-slide">
-                  <div>
-                    <img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_09_cer_01.png" alt="">
-                  </div>
-                </div>
-                <div class="swiper-btn swiper-prev"></div>
-                <div class="swiper-btn swiper-next"></div>
-              </div>
             </div>
           </div>
         </div>
@@ -436,12 +441,37 @@
               <div class="l-cer-img_inner swiper-wrapper">
                 <div class="l-cer-img_item swiper-slide">
                   <div>
-                    <img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_10_cer_01.png" alt="">
+                    <img loading="lazy" src="/wp-content/uploads/2023/08/bang-cap-bac-si-Vinh-1-1.webp" alt="">
                   </div>
                 </div>
                 <div class="l-cer-img_item swiper-slide">
                   <div>
-                    <img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_10_cer_02.png" alt="">
+                    <img loading="lazy" src="/wp-content/uploads/2023/08/bang-cap-bac-si-Vinh-2-1.webp" alt="">
+                  </div>
+                </div>
+				<div class="l-cer-img_item swiper-slide">
+                  <div>
+                    <img loading="lazy" src="/wp-content/uploads/2023/08/bang-cap-bac-si-Vinh-3.webp" alt="">
+                  </div>
+                </div>
+				<div class="l-cer-img_item swiper-slide">
+                  <div>
+                    <img loading="lazy" src="/wp-content/uploads/2023/08/bang-cap-bac-si-Vinh-4.webp" alt="">
+                  </div>
+                </div>
+				 <div class="l-cer-img_item swiper-slide">
+                  <div>
+                    <img loading="lazy" src="/wp-content/uploads/2023/08/bang-cap-bac-si-Vinh-5.webp" alt="">
+                  </div>
+                </div>
+				<div class="l-cer-img_item swiper-slide">
+                  <div>
+                    <img loading="lazy" src="/wp-content/uploads/2023/08/bang-cap-bac-si-Vinh-6.webp" alt="">
+                  </div>
+                </div>
+				<div class="l-cer-img_item swiper-slide">
+                  <div>
+                    <img loading="lazy" src="/wp-content/uploads/2023/08/bang-cap-bac-si-Vinh-7.webp" alt="">
                   </div>
                 </div>
               </div>
@@ -453,7 +483,7 @@
 		</li>
       <li class="l-doctors_item">
         <div class="l-doctors_images">
-          <img loading="lazy" src="/wp-content/uploads/2023/08/bs-Phong-_1_.webp" alt="BÁC SĨ NGUYỄN THANH PHONG">
+          <img loading="lazy" src="/wp-content/uploads/2023/08/PHONG.png" alt="BÁC SĨ NGUYỄN THANH PHONG">
         </div>
         <div class="l-doctors_info">
           <div class="l-doctors_info_inner">
@@ -469,12 +499,32 @@
               <div class="l-cer-img_inner swiper-wrapper">
                 <div class="l-cer-img_item swiper-slide">
                   <div>
-                    <img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_10_cer_01.png" alt="">
+                    <img loading="lazy" src="/wp-content/uploads/2023/08/bang-cap-bac-si-Phong-1.webp" alt="">
                   </div>
                 </div>
-                <div class="l-cer-img_item swiper-slide">
+				<div class="l-cer-img_item swiper-slide">
                   <div>
-                    <img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_10_cer_02.png" alt="">
+                    <img loading="lazy" src="/wp-content/uploads/2023/08/bang-cap-bac-si-Phong-2.webp" alt="">
+                  </div>
+                </div>
+				<div class="l-cer-img_item swiper-slide">
+                  <div>
+                    <img loading="lazy" src="/wp-content/uploads/2023/08/bang-cap-bac-si-Phong-3.webp" alt="">
+                  </div>
+                </div>
+				 <div class="l-cer-img_item swiper-slide">
+                  <div>
+                    <img loading="lazy" src="/wp-content/uploads/2023/08/bang-cap-bac-si-Phong-4.webp" alt="">
+                  </div>
+                </div>
+				  <div class="l-cer-img_item swiper-slide">
+                  <div>
+                    <img loading="lazy" src="/wp-content/uploads/2023/08/bang-cap-bac-si-Phong-5.webp" alt="">
+                  </div>
+                </div>
+				  <div class="l-cer-img_item swiper-slide">
+                  <div>
+                    <img loading="lazy" src="/wp-content/uploads/2023/08/bang-cap-bac-si-Phong-6.webp" alt="">
                   </div>
                 </div>
               </div>
@@ -483,7 +533,35 @@
             </div>
           </div>
         </div>
-      </li>
+	</li>
+      <li class="l-doctors_item">
+        <div class="l-doctors_images">
+          <img loading="lazy" src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/doctor/img_doc_09.png.webp" alt="BÁC SĨ NGUYỄN HOÀNG THẠNH QUÂN">
+        </div>
+        <div class="l-doctors_info">
+          <div class="l-doctors_info_inner">
+            <h2 class="name">BÁC SĨ NGUYỄN HOÀNG THẠNH QUÂN</h2>
+            <ul class="certificate">
+              <li>BÁC SĨ RĂNG HÀM MẶT - ĐẠI HỌC Y DƯỢC TP. HỒ CHÍ MINH</li>
+              <li>Chứng chỉ hành nghề số: 010737/HCM - CCHN</li>
+              <li>Chuyên Niềng răng</li>
+            </ul>
+            <div class="m-btn is-reverse is-small">
+              <a class="popup-with-form" href="#popup-dlh" data-message="Đăng ký BS Quân Thăm khám">Đặt lịch thăm khám</a>
+            </div>
+            <div class="l-cer-img swiper-container js-slide-cer">
+              <div class="l-cer-img_inner swiper-wrapper">
+                <div class="l-cer-img_item swiper-slide">
+                  <div>
+                    <img loading="lazy" src="/wp-content/uploads/2023/08/bang-cap-bac-si-Quan-1-1.webp" alt="">
+                  </div>
+                </div>
+                <div class="swiper-btn swiper-prev"></div>
+                <div class="swiper-btn swiper-next"></div>
+              </div>
+            </div>
+          </div>
+        </div>
     </ul>
   </div>
 <?php

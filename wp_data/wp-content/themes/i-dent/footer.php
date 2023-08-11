@@ -47,7 +47,7 @@
                   <p class="phone">Điện thoại : (028) 38336818</p>
                 </li>
                 <li>
-                  <p class="addr">CS3: 83 Đường Số 3, KDC CityLand, P.10, Q.Gò Vấp, Tp.Hồ Chí Minh</p>
+                  <p class="addr">CS3: 83 Đường Số 3, KDC CityLand Park Hills, P.10, Q.Gò Vấp, Tp.Hồ Chí Minh</p>
                   <p class="phone">Điện thoại : (028) 22036818</p>
                 </li>
                 <li>
@@ -88,11 +88,24 @@
     <script src="<?php echo get_stylesheet_directory_uri() ?>/assets/js/libs/jquery.matchHeight-min.js"></script>
     <script src="<?php echo get_stylesheet_directory_uri() ?>/assets/js/libs/jquery.syotimer.min.js"></script>
     <script src="<?php echo get_stylesheet_directory_uri() ?>/assets/js/scripts.js"></script>
-    <?php wp_footer(); ?>
     <script>
       if ($('.wpcf7-form.sent').length) {
         $(location).attr('href', '/dat-hen-thanh-cong')
       }
     </script>
+    <?php wp_footer(); ?>
+    <!-- // popup handel -->
+    <?php 
+       if( have_rows('popup_check', 'option') ):
+        while( have_rows('popup_check', 'option') ) : the_row(); 
+    ?>
+          <div class="modal-contact mfp-hide" id="<?php the_sub_field('form_id'); ?>">
+            <?php echo do_shortcode(get_sub_field('short_code')); ?>
+          </div>
+    <?php 
+        endwhile;
+      endif; 
+    ?>
+    <!-- // popup handel -->
   </body>
 </html>

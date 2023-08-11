@@ -1,18 +1,18 @@
 @charset "UTF-8";
 /*------------------------------------------------------------
-	Clearfix
+  Clearfix
 ------------------------------------------------------------*/
 /*------------------------------------------------------------
-	Font
+  Font
 ------------------------------------------------------------*/
 /*------------------------------------------------------------
-	Media
+  Media
 ------------------------------------------------------------*/
 /*------------------------------------------------------------
-	Flex Box
+  Flex Box
 ------------------------------------------------------------*/
 /*------------------------------------------------------------
-	Reset
+  Reset
 ------------------------------------------------------------*/
 html,
 body,
@@ -237,8 +237,12 @@ main {
   }
 }
 
+@font-face {
+  font-family: Montserrat;
+  src: url(./Montserrat-Black.ttf);
+}
 /*------------------------------------------------------------
-	Layout
+  Layout
 ------------------------------------------------------------*/
 .l-main {
   width: 100%;
@@ -251,7 +255,7 @@ main {
 }
 
 /*------------------------------------------------------------
-	Header
+  Header
 ------------------------------------------------------------*/
 .nav-icon {
   width: 30px;
@@ -738,7 +742,7 @@ main {
 }
 
 /*------------------------------------------------------------
-	Footer
+  Footer
 ------------------------------------------------------------*/
 .c-footer_upper {
   background: linear-gradient(90deg, #DFAA23 0%, #FBF08D 47.92%, #DFAA23 100%);
@@ -916,10 +920,10 @@ main {
 }
 
 /*------------------------------------------------------------
-	Side
+  Side
 ------------------------------------------------------------*/
 /*------------------------------------------------------------
-	Button
+  Button
 ------------------------------------------------------------*/
 .m-btn a,
 .m-btn button {
@@ -990,7 +994,7 @@ main {
 }
 
 /*------------------------------------------------------------
-	Title
+  Title
 ------------------------------------------------------------*/
 .ttl-primary {
   text-align: center;
@@ -1084,10 +1088,10 @@ main {
 }
 
 /*------------------------------------------------------------
-	Text
+  Text
 ------------------------------------------------------------*/
 /*------------------------------------------------------------
-	Form
+  Form
 ------------------------------------------------------------*/
 .m-input {
   background: #FFFFFF;
@@ -1343,10 +1347,10 @@ main {
 }
 
 /*------------------------------------------------------------
-	Navi
+  Navi
 ------------------------------------------------------------*/
 /*------------------------------------------------------------
-	Table
+  Table
 ------------------------------------------------------------*/
 .table-common {
   border-collapse: collapse;
@@ -1404,13 +1408,13 @@ main {
 }
 
 /*------------------------------------------------------------
-	List
+  List
 ------------------------------------------------------------*/
 /*------------------------------------------------------------
-	Slider
+  Slider
 ------------------------------------------------------------*/
 /*------------------------------------------------------------
-	Other
+  Other
 ------------------------------------------------------------*/
 .m-news {
   padding: 50px 0px 70px;
@@ -1942,7 +1946,7 @@ main {
 .form-support .m-input {
   width: 365px;
   max-width: 100%;
-  margin: 0 10px;
+  margin: 0;
 }
 .form-support .btn-sub {
   appearance: none;
@@ -4600,21 +4604,29 @@ div#contact-menu ul li a img {
   }
 }
 
-.about-bstung {
+.about-bstung-banner{
+   background: url("../images/bs-tung/bg.jpg.webp") no-repeat center/cover;
+}
+.about-bstung-banner .loibacsi{
+  max-width: 800px;
+}
+.about-bs-banner{
+  background: url("/wp-content/uploads/2023/08/anh-nen-scaled.webp") no-repeat center/cover;
+}
+.about-bs {
   padding: 50px 0;
-  background: url("../images/bs-tung/bg.jpg.webp") no-repeat center/cover;
+ 
   margin-bottom: 50px;
 }
-.about-bstung .loibacsi {
-  max-width: 800px;
+.about-bs .loibacsi {
   margin-top: 40px;
 }
-.about-bstung .loibacsi quote {
+.about-bs .loibacsi quote {
   padding: 30px 10px;
   position: relative;
   display: block;
 }
-.about-bstung .loibacsi quote::before, .about-bstung .loibacsi quote::after {
+.about-bs .loibacsi quote::before, .about-bs .loibacsi quote::after {
   position: absolute;
   content: "";
   width: 29px;
@@ -4623,38 +4635,38 @@ div#contact-menu ul li a img {
   background-repeat: no-repeat;
 }
 @media screen and (max-width: 767px) {
-  .about-bstung .loibacsi quote::before, .about-bstung .loibacsi quote::after {
+  .about-bs .loibacsi quote::before, .about-bs .loibacsi quote::after {
     width: 24px;
     height: 17px;
   }
 }
-.about-bstung .loibacsi quote::before {
+.about-bs .loibacsi quote::before {
   top: 0;
   left: 0;
   background-image: url(../images/ico_quote.svg);
 }
 @media screen and (max-width: 767px) {
-  .about-bstung .loibacsi quote::before {
+  .about-bs .loibacsi quote::before {
     top: 7px;
     left: 10px;
   }
 }
-.about-bstung .loibacsi quote::after {
+.about-bs .loibacsi quote::after {
   bottom: 0;
   right: 0;
   background-image: url(../images/ico_quote_rev.svg);
 }
 @media screen and (max-width: 767px) {
-  .about-bstung .loibacsi quote::after {
+  .about-bs .loibacsi quote::after {
     bottom: 10px;
     right: 7px;
   }
 }
-.about-bstung .loibacsi .text {
+.about-bs .loibacsi .text {
   font-style: italic;
   color: #025899;
 }
-.about-bstung .loibacsi .signature {
+.about-bs .loibacsi .signature {
   display: block;
   font-weight: 700;
   font-size: 18px;
@@ -4663,40 +4675,40 @@ div#contact-menu ul li a img {
   text-align: right;
   margin-top: 27px;
 }
-.about-bstung .wrap {
+.about-bs .wrap {
   display: flex;
   align-items: flex-end;
   gap: 40px;
 }
-.about-bstung .wrap .loibacsi {
+.about-bs .wrap .loibacsi {
   flex: 1;
 }
-.about-bstung .wrap .loibacsi .text {
+.about-bs .wrap .loibacsi .text {
   text-align: justify;
 }
-.about-bstung .wrap .img-doc {
+.about-bs .wrap .img-doc {
   width: 405px;
 }
 @media screen and (max-width: 860px) {
-  .about-bstung .wrap {
+  .about-bs .wrap {
     flex-direction: column;
   }
-  .about-bstung .wrap .loibacsi {
+  .about-bs .wrap .loibacsi {
     max-width: 100%;
   }
-  .about-bstung .wrap .loibacsi .text {
+  .about-bs .wrap .loibacsi .text {
     text-align: justify;
   }
-  .about-bstung .wrap .img-doc {
+  .about-bs .wrap .img-doc {
     width: 100%;
     text-align: center;
   }
 }
 @media screen and (max-width: 767px) {
-  .about-bstung .ttl-primary {
+  .about-bs .ttl-primary {
     margin-bottom: 20px;
   }
-  .about-bstung .loibacsi .img {
+  .about-bs .loibacsi .img {
     max-width: 265px;
     margin: 0 auto 10px;
   }
@@ -7025,6 +7037,9 @@ div#contact-menu ul li a img {
 }
 .l-type_item.type06 .inner {
   background-image: url(../images/loairangsu/bg_girl_06.png);
+}
+.l-type_item.type07 .inner {
+  background-image: url(/wp-content/uploads/2023/08/mau.png);
 }
 .l-type .ttl-background {
   border-radius: 0;
