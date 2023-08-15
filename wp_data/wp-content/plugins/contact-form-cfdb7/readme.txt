@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=H5F3Z6S3
 Tags: cf7, contact form 7, contact form 7 db, contact form db, contact form seven, contact form storage, export contact form, save contact form, wpcf7
 Requires at least: 4.8
 Tested up to: 6.2
-Stable tag: 1.2.6.6
+Stable tag: 1.2.6.7
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Requires PHP: 5.6
@@ -66,6 +66,9 @@ Extensions : [Contact form 7 more Add-ons](https://ciphercoin.com/contact-form-7
 
 == Changelog ==
 
+= 1.2.6.7 =
+Improve I18N Issues
+
 = 1.2.6.5 =
 Fixed csv security issues 
 
@@ -81,11 +84,7 @@ Fixed nonce issue
 = 1.2.5.9 =
 Fixed upload issue 
 
-= 1.2.5.8 =
-This is a security and maintenance release and we strongly encourage you to update to it immediately.
 
-= 1.2.5.4 =
-Input sanitization
 
 
 

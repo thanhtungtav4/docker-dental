@@ -428,10 +428,12 @@ $(document).ready(function(){
       }
     });
   });
-  $("button[type='submit']").click(function(event){
-    var form = $(this).closest("form");
+  $("button[type='submit']").click(function(event) {
+    var submitButton = $(this);
+    var form = submitButton.closest("form");
     var inputFields = form.find('input.wpcf7-validates-as-required');
     var allInputsValid = true;
+  
     inputFields.each(function() {
       if ($(this).val().trim() === '') {
         allInputsValid = false;
@@ -442,13 +444,14 @@ $(document).ready(function(){
     });
     if (allInputsValid) {
       var content_html = `
-      <div class="loading-icon">
-        <div class="loading-spinner"></div>
-      </div>ĐANG GỬI
+        <div class="loading-icon">
+          <div class="loading-spinner"></div>
+        </div>ĐANG GỬI
       `;
-      $(this).html(content_html);
+      submitButton.html(content_html);
+      submitButton.attr('disabled', 'disabled'); // Disable the button
       form.submit();
     }
-  })
+  });  
 })
 

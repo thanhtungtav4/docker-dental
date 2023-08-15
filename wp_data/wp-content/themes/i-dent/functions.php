@@ -19,8 +19,9 @@
   include_once( get_stylesheet_directory() . '/functions/cf7.php' );
   include_once( get_stylesheet_directory() . '/functions/url.php' );
   include_once( get_stylesheet_directory() . '/functions/removeTagb.php' );
- // include_once( get_stylesheet_directory() . '/functions/oaZalo.php' );
- include_once( get_stylesheet_directory() . '/functions/antiSpam.php' );
+  include_once( get_stylesheet_directory() . '/functions/antiSpam.php' );
+  include_once( get_stylesheet_directory() . '/functions/oaZalo.php' );
+
 
   add_filter('jpeg_quality', function($arg){return 100;});
   add_filter('wp_editor_set_quality', function($arg){return 100;});

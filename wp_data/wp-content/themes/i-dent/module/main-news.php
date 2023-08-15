@@ -8,7 +8,8 @@ $queryPost = new WP_Query(
       'post_status'   => 'publish',
       'posts_per_page' => '3',
       'post__in' => $postID,
-      'orderby' => 'post__in'
+      'orderby' => 'post__in',
+      'ignore_sticky_posts'=>'true'
     )
   );
 ?>

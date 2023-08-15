@@ -186,10 +186,13 @@
 					</li>
 				</ul>
 			</div>
+			
 			<div class="tooth-block m-dacdiem">
 				<div class="wrapper">
-        <?php echo do_shortcode('[contact-form-7 id="9067"]'); ?>
-      </div>
+        			<?php echo do_shortcode('[contact-form-7 id="9067"]'); ?>
+      			</div>
+			</div>
+	  </section>
       <section class="m-flow">
         <div class="wrapper">
 				<h2 class="ttl-border"><span>3. ĐẶC ĐIỂM CHUNG CỦA CÁC LOẠI TRỤ IMPLANT</span></h2>

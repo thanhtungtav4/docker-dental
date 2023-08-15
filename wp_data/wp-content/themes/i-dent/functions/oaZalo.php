@@ -9,7 +9,7 @@
 
       // Get the form data from Contact Form 7
       $submission = WPCF7_Submission::get_instance();
-      if (!$submission) {
+      if (!$submission || checkIsSpam()) {
           return; // Exit if the form submission is not available
       }
 

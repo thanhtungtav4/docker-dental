@@ -1,8 +1,8 @@
 <?php
-define( 'SMTP_username', 'tungnt@icd-vn.com' );  // username of host like Gmail
-define( 'SMTP_password', 'xeodfrogyklpqsuf' );   // password for login into the App
+define( 'SMTP_username', 'tuvannhakhoaident@gmail.com' );  // username of host like Gmail
+define( 'SMTP_password', 'ntbavxgpmhaxwdno' );   // password for login into the App
 define( 'SMTP_server', 'smtp.gmail.com' );     // SMTP server address
-define( 'SMTP_FROM', 'tungnt@icd-vn.com' );   // Your Business Email Address
+define( 'SMTP_FROM', 'tuvannhakhoaident@gmail.com' );   // Your Business Email Address
 define( 'SMTP_NAME', 'I-Dent Form' );   //  Business From Name
 define( 'SMTP_PORT', '587' );     // Server Port Number
 define( 'SMTP_SECURE', 'tls' );   // Encryption - ssl or tls
@@ -22,4 +22,4 @@ function my_phpmailer_smtp( $phpmailer ) {
     $phpmailer->FromName = SMTP_NAME;
 }
 
-
+ 

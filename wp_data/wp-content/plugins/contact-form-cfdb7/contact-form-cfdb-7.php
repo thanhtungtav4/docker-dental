@@ -7,7 +7,7 @@ Author: Arshid
 Author URI: http://ciphercoin.com/
 Text Domain: contact-form-cfdb7
 Domain Path: /languages/
-Version: 1.2.6.6
+Version: 1.2.6.7
 */
 
 function cfdb7_create_table(){
@@ -73,7 +73,7 @@ function cfdb7_upgrade_function( $upgrader_object, $options ) {
     $cfdb7_dirname = $upload_dir['basedir'].'/cfdb7_uploads';
 
     if ( file_exists( $cfdb7_dirname.'/index.php' ) ) return;
-
+        
     if ( file_exists( $cfdb7_dirname ) ) {
         $fp = fopen( $cfdb7_dirname.'/index.php', 'w');
         fwrite($fp, "<?php \n\t // Silence is golden.");
@@ -111,7 +111,7 @@ function cfdb7_before_send_mail( $form_tag ) {
     $submission   = WPCF7_Submission::get_instance();
     $contact_form = $submission->get_contact_form();
     $tags_names   = array();
-    $strict_keys  = apply_filters('cfdb7_strict_keys', false);
+    $strict_keys  = apply_filters('cfdb7_strict_keys', false);  
 
     if ( $submission ) {
 
@@ -147,7 +147,7 @@ function cfdb7_before_send_mail( $form_tag ) {
 
         $form_data['cfdb7_status'] = 'unread';
         foreach ($data as $key => $d) {
-
+            
             if( $strict_keys && !in_array($key, $allowed_tags) ) continue;
 
             if ( !in_array($key, $not_allowed_tags ) && !in_array($key, $uploaded_files )  ) {
@@ -158,7 +158,7 @@ function cfdb7_before_send_mail( $form_tag ) {
                     $tmpD = str_replace($bl, $wl, $tmpD );
                 }else{
                     $tmpD = array_map(function($item) use($bl, $wl){
-                               return str_replace($bl, $wl, $item );
+                               return str_replace($bl, $wl, $item ); 
                             }, $tmpD);
                 }
 
@@ -167,7 +167,7 @@ function cfdb7_before_send_mail( $form_tag ) {
             }
             if ( in_array($key, $uploaded_files ) ) {
                 $file = is_array( $files[ $key ] ) ? reset( $files[ $key ] ) : $files[ $key ];
-                $file_name = empty( $file ) ? '' : $time_now.'-'.$key.'-'.basename( $file );
+                $file_name = empty( $file ) ? '' : $time_now.'-'.$key.'-'.basename( $file ); 
                 $key = sanitize_text_field( $key );
                 $form_data[$key.'cfdb7_file'] = $file_name;
             }
@@ -251,9 +251,9 @@ function cfdb7_admin_notice() {
         echo '<div class="updated"><p>';
 
         printf(
-            __( 'Awesome, you\'ve been using <a href="admin.php?page=cfdb7-list.php">Contact Form CFDB7</a> for more than 1 week. May we ask you to give it a 5-star rating on WordPress? | <a href="%2$s" target="_blank">Ok, you deserved it</a> | <a href="%1$s">I already did</a> | <a href="%1$s">No, not good enough</a>',
-		        'contact-form-cfdb7'
-		    ),
+            __( 'Awesome, you\'ve been using <a href="admin.php?page=cfdb7-list.php">Contact Form CFDB7</a> for more than 1 week. May we ask you to give it a 5-star rating on WordPress? | <a href="%2$s" target="_blank">Ok, you deserved it</a> | <a href="%1$s">I already did</a> | <a href="%1$s">No, not good enough</a>', 
+		        'contact-form-cfdb7' 
+		    ), 
             add_query_arg('cfdb7-ignore-notice', 0, admin_url()),
             'https://wordpress.org/plugins/contact-form-cfdb7/'
         );
@@ -275,7 +275,7 @@ function cfdb7_view_ignore_notice() {
  * @return array of links
  */
 function cfdb7_settings_link( $links ) {
-    $forms_link = '<a href="admin.php?page=cfdb7-list.php">Submissions</a>';
+    $forms_link = '<a href="admin.php?page=cfdb7-list.php">' . __( 'Submissions', 'contact-form-cfdb7' ) . '</a>';
     array_unshift($links, $forms_link);
     return $links;
 }

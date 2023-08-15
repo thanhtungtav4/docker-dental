@@ -21,7 +21,7 @@
           <h1 class="ttl-primary ttl-primary--is-medium">BÁC SĨ HOÀNG NGUYỄN ĐÌNH TÍN<br>CHUYÊN GIA CẤY GHÉP IMPLANT VÀ PHỤC HÌNH RĂNG SỨ</h1>
           <p class="text">Bác sĩ Hoàng Nguyễn Đình Tín có hơn 6 năm kinh nghiệm trong lĩnh vực nha khoa, với nhiều bằng cấp, chứng chỉ từ các khóa đào tạo chuyên sâu. <br>Đồng thời, bác sĩ còn thường xuyên tham gia những hội nghị, hội thảo để tiếp thu các kiến thức, kỹ thuật mới về ứng dụng trong quá trình điều trị cho bệnh nhân. Hiện tại, bác sĩ Hoàng Nguyễn Đình Tín đang là Chuyên gia cấy ghép Implant và Phục hình răng sứ tại nha khoa I-DENT. </p>
           <div class="loibacsi">
-            <div class="img is-sp"><img loading="lazy"  src="/wp-content/uploads/2023/06/thumb-bs_0001_khanh-263x375.png.webp" alt="BÁC SĨ CKI VŨ THIỆN KHANH"></div>
+            <div class="img is-sp"><img loading="lazy"  src="/wp-content/uploads/2023/08/bac-si-hoang-nguyen-dinh-tin-_1_.webp" alt="BÁC SĨ CKI VŨ THIỆN KHANH"></div>
             <quote>
               <p class="text">Khi điều trị cho bệnh nhân, ngoài việc vận dụng các kiến thức chuyên môn thì một điều rất quan trọng là bác sĩ phải biết lắng nghe để thấu hiểu người bệnh. Bởi mỗi bệnh nhân đều có những nỗi sợ khác nhau. Do đó, bác sĩ phải hiểu được tâm lý, để động viên và hỗ trợ tốt nhất, giúp bệnh nhân an tâm điều trị.</p>
             </quote><span class="signature">Bác sĩ: HOÀNG NGUYỄN ĐÌNH TÍN</span>
@@ -37,11 +37,12 @@
                 <div class="l-doctors_info_inner">
                   <h2 class="name">BẰNG CẤP VÀ CHỨNG CHỈ CỦA BÁC SĨ HOÀNG NGUYỄN ĐÌNH TÍN</h2>
                   <ul class="certificate">
-                    <li>Tốt nghiệp Chuyên khoa I Đại học Y Dược TP.HCM.</li>
-                    <li>Đào tạo Cấy ghép Implant tại Bệnh Viện RHM Trung Ương TP HCM.</li>
-                    <li>Tu nghiệp chuyên sâu Implant tại Đại học Tổng hợp Bern, Hochschulstrasse, Thụy Sỹ.</li>
-                    <li>Báo cáo viên cố định Hội nghị Cấy ghép nha khoa HSDI.</li>
-                    <li>Bác sĩ chuyên cấy ghép Implant tại Nha khoa I-DENT.</li>
+                    <li>Bác sĩ chuyên khoa thực hành BV RHM TW.</li>
+                    <li>Chuyên sâu cấy ghép nha khoa tại khoa Implant BV RHM TW.</li>
+                    <li>Chứng chỉ cấy ghép nha khoa BV RHM TW.</li>
+                    <li>Chứng chỉ nội nha: tái tạo và bảo tồn.</li>
+                    <li>Khóa học cấy ghép Implant xâm lấn tối thiểu.</li>
+                    <li>Khóa học "The art of preparation".</li>
                   </ul>
                   <div class="l-cer-img">
                     <div class="l-cer-img_wrap swiper-container js-slide-cer">
@@ -79,105 +80,184 @@
           </div>
         </div>
       </section>
-      <section class="m-doc-demo">
-        <div class="wrapper">
-          <h2 class="ttl-primary ttl-primary--is-medium">BÁC SĨ CKI VŨ THIỆN KHANH THỰC HIỆN HƠN 2.000 CA IMPLANT THÀNH CÔNG</h2>
-          <p class="text">Bác sĩ Vũ Thiện Khanh đặc biệt ứng dụng máng phẫu thuật Implant trong tất cả ca điều trị, để đảm bảo 3 tiêu chí quan trọng:giảm thiểu xâm lấn, thành công cao và phục hình sau cùng đẹp nhất.<br>
-          Trực tiếp Bác sĩ Khanh đã thực hiện thành công hơn 2.000 ca Implant, cho hàng ngàn bệnh nhân trong và ngoài nước.có hơn 5 năm kinh nghiệm trong lĩnh vực Implant.</p>
-        </div>
-      </section>
       <section class="customer-review">
         <div class="wrapper">
-          <h2 class="ttl-primary ttl-primary--is-medium">CHUYÊN GIA IMPLANT VỚI NHỮNG TRƯỜNG HỢP KHÓ VÀ PHỨC TẠP</h2>
-          <p class="text">Với những ca mất răng phức tạp như:
-          mất nhiều răng liền kề; mất răng lâu năm gây tiêu xương hàm; xương hàm mỏng và xốp; bệnh nhân lớn tuổi mất răng… việc cấy ghép Implant sẽ khó khăn hơn rất nhiều. Bởi vừa phải kết hợp ghép thêm mô xương, vừa phải xác định đúng vị trí cắm trụ.</p>
-          <p class="text">
-          Để đạt được 2 mục tiêu trên, Bác sĩ Vũ Thiện Khanh đã nghiên cứu và ứng dụng thành công máng phẫu thuật. Giúp giảm thiểu những sai sót về vị trí, hướng và rút ngắn thời gian thực hiện, mang lại hiệu quả tối ưu so với phẫu thuật không qua máng.</p>
-          <p class="text">
-          Bên cạnh đó, Bác sĩ Khanh còn đưa ra những đánh giá dựa trên film CT 3D, để xác định đúng chất lượng xương hàm, hướng đặt trụ cũng như lường trước những tình huống có thể xảy ra. Hơn hết, Bác sĩ còn biết cách kiểm soát cơn đau, giúp bệnh nhân thoải mái trong và sau quá trình thực hiện.</p>
+          <p class="text" style="color:#025899">Các hội nghị, hội thảo tham gia:</p> 
+          <ul class="certificate">
+            <li>Hội nghị cấy ghép nha khoa.</li>
+            <li>Hội nghị khoa học và đào tạo liên tục BV RHM TW.</li>
+            <li>Hội nghị "Bio-Brother" Tricalcium Silicate hoạt tính sinh học: Giải pháp điều trị bảo tồn răng.</li>
+          </ul>
           <div class="hinhdanh">
             <div class="wrap">
               <div class="img"><img loading="lazy"  src="/wp-content/uploads/2023/07/hanh-cay-ghep-implant-cho-benh-nhanh.webp" alt=""></div>
               <div class="img"><img loading="lazy"  src="/wp-content/uploads/2023/07/bs-khanh-tham-kham-cho-benh-nhan.webp" alt=""></div>
-            </div><strong>Bác sĩ CKI Vũ Thiện Khanh</strong>
+            </div><strong></strong>
           </div>
 
-          <h2 class="ttl-primary ttl-primary--is-medium">THAM GIA NHIỀU KHÓA TU NGHIỆP TẠI NƯỚC NGOÀI VÀ CÁC HỘI THẢO QUỐC TẾ</h2>
-          <p class="text">Không chỉ đào tạo chuyên sâu về Implant tại Bệnh viện RHM Trung Ương, Bác sĩ Khanh còn tham gia khóa tu nghiệp được tổ chức tại Đại học Tổng hợp Bern, Thụy Sỹ. Tại đây, Bác sĩ có cơ hội tiếp thu và học hỏi kinh nghiệm cùng những chuyên gia Implant hàng đầu trên thế giới. Không dừng lại ở đó, Bác sĩ Khanh còn thường xuyên tham gia các hội thảo, hội nghị Implant Quốc tế, để cập nhật những kiến thức, công nghệ mới nhất về điều trị cho bệnh nhân.</p>
-          <h2 class="ttl-primary ttl-primary--is-medium">BÁC SĨ IMPLANT GIỎI VÀ LUÔN TẬN TÂM VỚI NGƯỜI BỆNH</h2>
-          <p class="text">Thấu hiểu được tâm lý của người bệnh mất răng thường e ngại khi thăm khám và lo lắng quá trình trồng răng sẽ đau đớn. Bác sĩ Khanh luôn chủ động trò chuyện thoải mái với bệnh nhân, không chỉ giải thích kỹ lưỡng về lộ trình trồng răng, mà còn sẵn sàng giải đáp mọi thắc mắc của người bệnh.</p>
-          <p class="text">
-          Đặc biệt trong quá trình gây tê hay phẫu thuật, Bác sĩ Khanh luôn quan tâm từng phản ứng của bệnh nhân để điều chỉnh thao tác nhẹ nhàng nhất. Chính điều này đã giúp cho người bệnh, đặc biệt là những người lớn tuổi tin tưởng và lựa chọn Bác sĩ Khanh tiếp tục điều trị cho những lần sau.</p>
-          <p class="text">Tay nghề và chữ Tâm trong điều trị của Bác sĩ Vũ Thiện Khanh không chỉ được chứng minh qua bằng cấp, số ca Implant thành công mà còn qua những phản hồi từ các bệnh nhân đã thực hiện.
-          </p>
-
-          <div class="m-review">
-            <div class="m-review_img is-pc"><img loading="lazy"  src="/wp-content/uploads/2023/07/benh-nhan-co-thanh-nga.webp" alt=""></div>
-            <div class="m-review_info">
-              <div class="head">
-                <div class="img is-sp"><img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/bs-khanh/benh-nhan-co-thanh-nga.png" alt=""></div>
-                <div class="name"><span>Khách hàng</span>
-                  <div class="nm">CÔ THANH NGA<small>40 Tuổi</small></div>
-                  <div class="lca">TP HCM</div>
-                </div>
-              </div>
-              <div class="body">
-                <p class="text">Cô cắm đến 7 trụ Implant ở 2 hàm trên, dưới. Lúc đầu cũng lo lắng, vì sợ cắm nhiều trụ nó sẽ đau. Nhưng lúc lên thì Bác Khanh chích thuốc tê rồi làm, cô không có thấy đau, mà lại nhẹ nhàng và thoải mái. Cám ơn Bác sĩ Khanh rất là nhiều, vì đã giúp cô có hàm răng mới ăn uống khỏe hơn!</p>
-              </div>
-            </div>
+          <h2 class="ttl-primary ttl-primary--is-medium">VỊ TRÍ CHUYÊN MÔN TẠI NHA KHOA I-DENT</h2>
+          <p class="text">Bác sĩ Hoàng Nguyễn Đình Tín đang công tác tại nha khoa I-DENT, với vị trí bác sĩ chuyên môn về:</p>
+          <div class="block-chuyen-mon">
+            <ul>
+              <li>Cấy ghép xương nhân tạo.</li>
+              <li>Cấy ghép Implant.</li>
+              <li>Phục hình răng sứ trên Implant và răng sứ thẩm mỹ/dán sứ Veneer.</li>
+            </ul>
           </div>
-          <div class="m-review is-reverse">
-            <div class="m-review_img is-pc"><img loading="lazy"  src="/wp-content/uploads/2023/07/benh-nhanh-anh-truong-dan.webp" alt=""></div>
-            <div class="m-review_info">
-              <div class="head">
-                <div class="img is-sp"><img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/bs-khanh/benh-nhanh-anh-truong-dan.png" alt=""></div>
-                <div class="name"><span>Khách hàng</span>
-                  <div class="nm">ANH TRƯỜNG DÂN<small>45 Tuổi</small></div>
-                  <div class="lca">Việt kiều Úc</div>
-                </div>
-              </div>
-              <div class="body">
-                <p class="text">Từ lúc được Bác sĩ Khanh tư vấn, anh đã hài lòng rồi. Bác sĩ thăm khám và giải thích chi tiết mọi thắc mắc của anh. Đến khi phẫu thuật thì tay nghề Bác Khanh rất tốt, không làm anh cảm thấy đau. Về nhà cũng không ê, sưng, dù anh làm đến 5 răng. Anh còn giới thiệu cho người thân về Việt Nam làm răng với Bác Khanh nữa</p>
-              </div>
-            </div>
-          </div>
-          <p class="text">Sau hơn 5 năm chuyên sâu trong lĩnh vực Implant và được đánh giá cao về tay nghề từ các Chuyên gia nha khoa, Bác sĩ Vũ Thiện Khanh vẫn không ngừng nỗ lực học hỏi và tìm hiểu thêm nhiều kiến thức mới, nâng cao các kỹ năng. Để đảm bảo mỗi ca trồng răng Implant cho bệnh nhân được chính xác, nhanh chóng, an toàn và không đau. Mang đến nụ cười trọn vẹn và sức khỏe dài lâu cho mỗi bệnh nhân thân yêu.</p>
+          
+          <h2 class="ttl-primary ttl-primary--is-medium">THỰC HIỆN NHIỀU CA ĐIỀU TRỊ KHÓ VÀ PHỨC TẠP</h2>
+          <p class="text">Trong hơn 6 năm làm việc, bác sĩ Hoàng Nguyễn Đình Tín đã thực hiện điều trị cho hơn 2,000 bệnh nhân. Trong đó, bác sĩ từng tiếp nhận nhiều ca có độ khó cao như: đặt trụ Implant cho vùng xương hàm tiêu nhiều, nhiễm trùng răng sứ, viêm tủy, viêm nha chu nặng, bệnh nhân mắc các bệnh tiểu đường, huyết áp… Bằng chuyên môn, kỹ năng và sự tận tâm, bác sĩ đã giúp bệnh nhân có kết quả điều trị thành công như mong đợi.</p>
         </div>
       </section>
-      <section class="m-paper">
+      <section class="p-bs khach-hang-review">
         <div class="wrapper">
-          <h2 class="ttl-primary ttl-primary--is-medium">BÁO CHÍ ĐƯA TIN VỀ BÁC SĨ CKI VŨ THIỆN KHANH</h2>
-          <div class="l-paper js-paper-slide">
-            <div class="m-paper_item">
-              <div class="m-paper_inner">
-                <div class="m-paper_wrap"><img loading=""  src="/wp-content/uploads/2023/07/bao-chi-noi-ve-bac-khanh.webp" alt="">
-                  <div class="m-paper_btn">
-                    <div class="m-btn"><a target="_blank" href="https://afamily.vn/chia-se-cua-bac-si-cki-vu-thien-khanh-sau-hon-2000-ca-cay-implant-tai-tphcm-20220627063157138.chn">Xem chi tiết</a></div>
-                  </div>
-                </div>
+          <div class="service-slide js-service-slide">
+            <div class="group service-slide_item">
+              <div class="head">
+                <div class="title">Chú Nguyễn Hải <div class="location">Việt Kiều Mỹ</div></div>
+                <div class="sub_title">Viêm nha chu nặng, tiêu xương hàm và mất nhiều răng.</div>
+              </div>
+              <div class="body">
+                <p class="text">Từng chủ quan trong việc chăm sóc răng miệng, cộng thêm thói quen hút thuốc khiến chú Nguyễn Hải mắc bệnh lý viêm nha chu nặng. Lâu ngày gây tiêu xương và làm lung lay, gãy rụng răng gần hết cả 2 hàm.<br>  Với tình trạng này, bác sĩ Tín phải tiến hành điều trị nha chu và nhổ các răng lung lay để ngăn ổ nhiễm trùng lan rộng. Sau đó chỉ định cấy ghép Implant All On 4, đặt 4 trụ Implant cho 1 hàm, nhằm đảm bảo thẩm mỹ cũng như chức năng ăn nhai cho chú. Sau khi có răng mới, chú Hải không còn phải chịu đựng tình trạng đau nhức răng và khó ăn nhai. Sức khỏe cũng nhờ đó được cải thiện hơn</p>
+                <quote>
+                  <p class="text">
+                    Một trong những lý do chú chọn I-Dent là vì gặp được bác sĩ Tín tư vấn nhiệt tình, tỉ mỉ và tận tâm. Thấy chú lo lắng thì luôn động viên. Cảm ơn bác sĩ Tín rất nhiều
+                  </p>
+                </quote>
               </div>
             </div>
-            <div class="m-paper_item">
-              <div class="m-paper_inner">
-                <div class="m-paper_wrap"><img loading=""  src="/wp-content/uploads/2023/07/bao-chi-noi-ve-bac-khanh-1.webp" alt="">
-                  <div class="m-paper_btn">
-                    <div class="m-btn"><a target="_blank" href="https://eva.vn/tin-tuc-suc-khoe/bac-si-cki-vu-thien-khanh-chuyen-gia-cay-ghep-implant-tai-tp-hcm-c296a522054.html">Xem chi tiết</a></div>
-                  </div>
-                </div>
+            <div class="group service-slide_item">
+              <div class="head">
+                <div class="title">Cô Nguyễn Thị Thanh Hương<div class="location">TP Hồ Chí Minh</div></div>
+                <div class="sub_title">Dùng hàm tháo lắp lâu năm gây tiêu xương, tụt nướu, hóp má.</div>
+              </div>
+              <div class="body">
+                <p class="text">Giống như nhiều cô chú lớn tuổi khác, cô Thanh Hương cũng chọn làm hàm tháo lắp khi bị mất răng. Tuy nhiên, sau một thời gian sử dụng lại gây ra nhiều biến chứng như tiêu xương hàm, tụt nướu và làm biến đổi cấu trúc khuôn mặt.<br>
+                Chưa kể sức ăn nhai cũng rất kém, khiến cô mắc bệnh về đường tiêu hóa và sức khỏe suy yếu dần.<br>
+                Bác sĩ Đình Tín đã chỉ định cho cô phương pháp cấy ghép Implant All On 4, giúp khôi phục toàn bộ răng mất trên 1 hàm. Sau khi trụ Implant tích hợp cứng chắc, bác sĩ Tín tiến hành phục hình răng sứ trên Implant. Đảm bảo răng sứ có màu sắc tự nhiên và bền chắc, giúp cô Thanh Hương lấy lại khả năng ăn nhai.
+                </p>
               </div>
             </div>
-            <div class="m-paper_item">
-              <div class="m-paper_inner">
-                <div class="m-paper_wrap"><img loading=""  src="/wp-content/uploads/2023/07/bao-chi-noi-ve-bac-khanh-2.webp" alt="">
-                  <div class="m-paper_btn">
-                    <div class="m-btn"><a target="_blank" href="https://www.24h.com.vn/tin-tuc-suc-khoe/cay-ghep-implant-an-toan-khong-dau-cung-bac-si-cki-vu-thien-khanh-c683a1368581.html">Xem chi tiết</a></div>
-                  </div>
-                </div>
+            <div class="group service-slide_item">
+              <div class="head">
+                <div class="title">Chị Ly Phan<div class="location">Việt Kiều Mỹ</div></div>
+                <div class="sub_title">Bọc răng sứ hàm trên bị hư, nhiễm trùng chân răng.</div>
+              </div>
+              <div class="body">
+                <p class="text">Biến chứng từ việc bọc răng sứ bởi bác sĩ kém tay nghề và sử dụng vật liệu sứ không chất lượng, khiến chị Ly Phan phải chịu đựng những cơn đau dai dẳng do nhiễm trùng chân răng và miệng có mùi hôi khó chịu.<br>
+                Để có thể bảo tồn răng thật cho chị, bác sĩ Tín chỉ định tháo bỏ toàn bộ răng sứ cũ, điều trị nhiễm trùng và cho đến khi răng phục hồi mới tiến hành bọc lại sứ mới.<br>
+                Nhờ tay nghề cao của bác sĩ, nên toàn bộ quá trình tháo gỡ răng sứ cũ và phục hình mới đều diễn ra nhẹ nhàng, chị Ly Phan không phải chịu đau đớn quá nhiều.</p>
+                <quote>
+                  <p class="text">
+                    Lúc đầu chị chỉ tính sửa lại hàm trên bị hư thôi, nhưng bác Tín làm xong đẹp quá mà còn rất êm. Nên chị làm luôn cả hàm dưới
+                  </p>
+                </quote>
               </div>
             </div>
           </div>
+          
+
+          <div class=""></div>
         </div>
       </section>
+      <section>
+        <div class="wrapper">
+          <h2 class="ttl-primary ttl-primary--is-medium">LUÔN ĐỀ CAO Y ĐỨC TRONG QUÁ TRÌNH ĐIỀU TRỊ VÀ THĂM KHÁM</h2>
+          <p class="text">
+            Đối với bác sĩ Đình Tín, một ca điều trị thành công không chỉ giúp cải thiện thẩm mỹ, đảm bảo ăn nhai mà còn phải giữ an toàn cho sức khỏe về lâu dài. Do đó, bên cạnh chuyên môn vững chắc, bác sĩ luôn dành hết tâm huyết cho từng ca điều trị để mang đến kết quả tốt nhất cho bệnh nhân.<br>
+            Ngoài ra, việc thấu hiểu được tâm lý sợ đau của hầu hết người bệnh nên bác sĩ luôn tỉ mỉ, nhẹ nhàng trong từng thao tác để hạn chế xâm lấn cũng như cảm giác đau nhức.<br>
+            Qua đó có thể thấy rằng, cảm nhận và sức khỏe của bệnh nhân là yếu tố mà bác sĩ Tín đặt lên hàng đầu.
+          </p>
+        </div>
+      </section>
+      <style type="text/css">
+        .block-chuyen-mon{
+          background: #025899;
+          color: white;
+          padding: 10px 36px;
+          font-size: 18px;
+          line-height: 27px;
+          margin-bottom: 30px;
+        }
+        .block-chuyen-mon li{
+          position: relative;
+          padding-left: 15px;
+        }
+        .block-chuyen-mon li:before{
+          position: absolute;
+          content: "";
+          width: 5px;
+          height: 5px;
+          border-radius: 50%;
+          left: 0;
+          top: 11px;
+          background: white;
+        }
+        .khach-hang-review .group{
+          margin-bottom: 30px;
+        }
+        .khach-hang-review .head{
+          background: #025899;
+          border-radius: 20px 20px 0px 0px;
+          padding: 15px 30px;
+        }
+
+        .khach-hang-review .head .title{
+          color: white;
+          font-size: 22px;
+          line-height: 33px;
+          font-weight: 700;
+          display: inline;
+        }
+        .khach-hang-review .head .location{
+          float: right;
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 27px;
+        }
+        .khach-hang-review .head .sub_title{
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 27px;
+          color: white;
+          margin-top: 5px;
+        }
+        .khach-hang-review .body{
+          background: #E4F4FF;
+          border-radius: 0px 0px 20px 20px;
+          padding: 10px 20px;
+        }
+        .khach-hang-review quote{
+          padding: 0px 45px;
+          position: relative;
+          display: block;
+        }
+        .khach-hang-review quote .text{
+          color: #025899;
+        }
+        .khach-hang-review quote:before, .khach-hang-review quote:after{
+          position: absolute;
+          content: "";
+          width: 29px;
+          height: 20px;
+          background-size: 100%;
+          background-repeat: no-repeat;
+        }
+        .khach-hang-review quote:before{
+          top: 0;
+          left: 0;
+          background-image: url(/wp-content/themes/i-dent/assets/images/ico_quote_small.svg);
+        }
+        .khach-hang-review quote:after{
+          bottom: 0;
+          right: 0;
+          background-image: url(/wp-content/themes/i-dent/assets/images/ico_quote_small_rev.svg);
+        }
+      }
+      </style>
+      
 <?php
   require_once( get_stylesheet_directory() . '/module/contact-footer.php' );
   get_footer();

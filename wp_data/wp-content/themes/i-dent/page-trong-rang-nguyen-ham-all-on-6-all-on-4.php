@@ -566,7 +566,7 @@
 					<thead>
 						<tr class="table-caption">
 							<th colspan="3">
-								<h3>PHẦN CHI PHÍ NẾU ĐỔI QUA RĂNG SỨ TOÀN SỨ</h3>
+								<h3>PHẦN CHI PHÍ BÙ THÊM NẾU ĐỔI QUA RĂNG SỨ TOÀN SỨ</h3>
 							</th>
 						</tr>	
 					</thead>

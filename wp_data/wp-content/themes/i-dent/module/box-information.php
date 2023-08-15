@@ -5,6 +5,7 @@ $args = array(
   'post_type' => array( 'post', 'page'),
   'post__in' => $relatedpost,
   'post_status' => 'publish',
+  'ignore_sticky_posts'=>'true'
 );
   $queryRelated = new WP_Query( $args );
 ?>

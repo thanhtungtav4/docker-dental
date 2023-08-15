@@ -10,16 +10,17 @@
         $array['is_mobile'] = wp_is_mobile() ? 'Mobile' : 'PC';
         $array['agent'] = get_user_agent();
         $array['first_url'] = get_cookie_value('first_url');
-        $submission_count = count_form_ip_submissions_in_24h(get_location());
-        if ( $submission_count < 2 ) {
-            return $array;
-        } else {
-          add_filter( 'wpcf7_skip_mail', '__return_true' );
-          error_log( 'IP ' . get_client_ip() . ' has submitted too many times in the last 24 hours. Email not sent.' );
-        }
+        return $array;
     }
     add_filter( 'wpcf7_posted_data', 'action_wpcf7_posted_data', 10, 1 );
-
+    // skip spam mail
+    function spam_skip_mail($data){
+        if(checkIsSpam() == true){
+            error_log(get_client_ip());
+            return true;
+        }
+    }
+    add_filter('wpcf7_skip_mail','spam_skip_mail');
 
     // Function to get the client IP address
     function get_client_ip() {
@@ -78,7 +79,7 @@
         } else if (preg_match('/Safari[\/\s](\d+\.\d+)/', $agent)) {
             return "Safari";
         } else {
-            return "Kh ng x c d?nh";
+            return "Không xác định";
         }
     }
 
@@ -118,19 +119,19 @@
         return  '<div class="timer" id="timer">
                     <div class="timer_block">
                         <div class="var">00</div>
-                        <div class="unit">Ng y</div>
+                        <div class="unit">Ngày</div>
                     </div>
                     <div class="timer_block">
                         <div class="var">00</div>
-                        <div class="unit">Gi?</div>
+                        <div class="unit">Giờ</div>
                     </div>
                     <div class="timer_block">
                         <div class="var">00</div>
-                        <div class="unit">Ph t</div>
+                        <div class="unit">Phút</div>
                     </div>
                     <div class="timer_block">
                         <div class="var">00</div>
-                        <div class="unit">Gi y</div>
+                        <div class="unit">Giây</div>
                     </div>
                 </div>';
        }
@@ -178,14 +179,14 @@ function cfdb7_data_table_callback() {
     $table_name = $wpdb->prefix . 'db7_forms';
 
     // Pagination
-    $entries_per_page = 10; // Number of entries per page
+    $entries_per_page = 200; // Number of entries per page
     $current_page = isset($_GET['paged']) ? max(1, intval($_GET['paged'])) : 1; // Current page number
     $total_entries = $wpdb->get_var("SELECT COUNT(*) FROM $table_name"); // Total number of entries
     $total_pages = ceil($total_entries / $entries_per_page); // Calculate total number of pages
 
     // Retrieve data with pagination
     $offset = ($current_page - 1) * $entries_per_page;
-    $query = "SELECT * FROM $table_name ORDER BY form_id DESC LIMIT $entries_per_page OFFSET $offset";
+    $query = "SELECT * FROM $table_name WHERE form_value NOT LIKE '%Spam%' ORDER BY form_id DESC LIMIT $entries_per_page OFFSET $offset";
     $data = $wpdb->get_results($query, ARRAY_A);
     ?>
 
@@ -204,6 +205,7 @@ function cfdb7_data_table_callback() {
                     <th class="manage-column">URL Lead</th>
                     <th class="manage-column">First URL</th>
                     <th class="manage-column">Is Driver</th>
+                    <th class="manage-column">IP</th>
                     <th class="manage-column">Time Submit</th>
                 </tr>
             </thead>
@@ -222,6 +224,7 @@ function cfdb7_data_table_callback() {
                         <td><?php ($form_data && $form_data['url_lead']) ? print $form_data['url_lead'] : print "N/a" ?></td>
                         <td><?php ($form_data && $form_data['first_url']) ? print $form_data['first_url'] : print "N/a" ?></td>
                         <td><?php ($form_data && $form_data['is_mobile']) ? print $form_data['is_mobile'] : print "N/a" ?></td>
+		    <td><?php ($form_data && $form_data['remote_ip']) ? print $form_data['remote_ip'] : print "N/a" ?></td>
                         <td><?php echo $entry['form_date']; ?></td>
                     </tr>
                 <?php endforeach; ?>

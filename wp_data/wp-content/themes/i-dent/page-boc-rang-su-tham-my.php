@@ -74,7 +74,7 @@
           </div>
         </div>
       </section>
-      <section class="about-bstung">
+      <section class="about-bs">
         <div class="wrapper">
           <h2 class="ttl-primary ttl-primary--is-medium">BỌC RĂNG SỨ CÓ TỐT KHÔNG?</h2>
           <p class="text">Bọc răng sứ mang lại nhiều ưu điểm về mặt thẩm mỹ. Tuy nhiên, nhiều khách hàng vẫn lo lắng về bọc răng sứ có tốt không? Có gây biến chứng hay ảnh hưởng đến sức khỏe gì không?</p>
