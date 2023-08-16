@@ -35,6 +35,7 @@ function deleteFormEntry($form_id) {
 
 add_filter('cfdb7_before_save_data', 'cfdb7_before_save_check_spam', 10, 2);
 function cfdb7_before_save_check_spam($form_data) {
+    $form_data['first_url'] = get_cookie_value('first_url');
     if (checkIsSpam() == true) {
       unset($form_data);
       return 'Spam';

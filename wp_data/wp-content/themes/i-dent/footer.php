@@ -94,18 +94,84 @@
       }
     </script>
     <?php wp_footer(); ?>
-    <!-- // popup handel -->
-    <?php 
-       if( have_rows('popup_check', 'option') ):
-        while( have_rows('popup_check', 'option') ) : the_row(); 
+    <!-- // popup static -->
+    <?php
+       if( have_rows('popup_static', 'option') ):
+        while( have_rows('popup_static', 'option') ) : the_row();
     ?>
           <div class="modal-contact mfp-hide" id="<?php the_sub_field('form_id'); ?>">
             <?php echo do_shortcode(get_sub_field('short_code')); ?>
           </div>
-    <?php 
+    <?php
         endwhile;
-      endif; 
+      endif;
     ?>
-    <!-- // popup handel -->
+    <!-- // popup static -->
+    <!-- // popup dynamic -->
+    <?php
+    if (have_rows('popup_dynamic', 'option')):
+      while (have_rows('popup_dynamic', 'option')) : the_row();
+        if (is_page(get_sub_field('show_in_page')) || is_single(get_sub_field('show_in_post')) || is_singular(get_sub_field('show_in_post'), 'story-khach-hang')) :
+          ?>
+          <div class="modal-contact mfp-hide" data-city="<?php echo get_sub_field('country_in', $c); ?>" data-country="<?php echo get_sub_field('country_in'); ?>"
+              data-page-scroll="<?php echo get_sub_field('page_scroll'); ?>"
+              data-show-after-time="<?php echo get_sub_field('show_after_time') ?: 0; ?>" id="popup_dynamic">
+            <?php echo do_shortcode(get_sub_field('short_code')); ?>
+          </div>
+          <script>
+            document.addEventListener("DOMContentLoaded", function () {
+              var popupElement = document.getElementById("popup_dynamic");
+              var showAfterTime = parseInt(popupElement.getAttribute("data-show-after-time")) * 1000;
+              var hasShownPopup = localStorage.getItem("hasShownPopup");
+
+              if (!hasShownPopup && showAfterTime > 0) {
+                setTimeout(showPopup, showAfterTime);
+              }
+            });
+
+            window.addEventListener("scroll", function () {
+              var popupElement = document.getElementById("popup_dynamic");
+              var scrollThreshold = parseFloat(popupElement.getAttribute("data-page-scroll"));
+              var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+              var totalHeight = document.documentElement.scrollHeight - window.innerHeight;
+              var scrollPercentage = (scrollTop / totalHeight) * 100;
+              var hasShownPopup = localStorage.getItem("hasShownPopup");
+
+              if (!hasShownPopup && scrollPercentage >= scrollThreshold) {
+                showPopup();
+              }
+            });
+
+            function showPopup() {
+              $.magnificPopup.open({
+                items: {
+                  src: '#popup_dynamic',
+                  type: 'inline'
+                },
+                preloader: false,
+                callbacks: {
+                  beforeOpen: function () {
+                    if ($(window).width() < 700) {
+                      this.st.focus = false;
+                    } else {
+                      this.st.focus = '#name';
+                    }
+                    $('body').addClass('iframe-modal');
+                  },
+                  beforeClose: function () {
+                    $('body').removeClass('iframe-modal');
+                    localStorage.setItem("hasShownPopup", true); // Mark popup as shown
+                  }
+                }
+              });
+            }
+          </script>
+        <?php
+        endif;
+      endwhile;
+    endif;
+    ?>
+    <!-- // popup dynamic -->
+
   </body>
 </html>

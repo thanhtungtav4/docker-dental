@@ -49,6 +49,19 @@
         return !empty($location) ? $location : null;
     }
 
+
+    function get_client_location($type = 'country'){
+        $client_ip = get_client_ip();
+        $geo = unserialize(file_get_contents("http://www.geoplugin.net/php.gp?ip=$client_ip"));
+        if($type == 'country'){
+            $location  = $geo["geoplugin_countryName"];
+        }
+        else{
+            $location = $geo["geoplugin_city"];
+        }
+        return !empty($location) ? $location : null;
+    }
+
     function url_origin( $s, $use_forwarded_host = false ) {
         $ssl      = ( ! empty( $s['HTTPS'] ) && $s['HTTPS'] == 'on' );
         $sp       = strtolower( $s['SERVER_PROTOCOL'] );
