@@ -113,65 +113,126 @@
       while (have_rows('popup_dynamic', 'option')) : the_row();
         if (is_page(get_sub_field('show_in_page')) || is_single(get_sub_field('show_in_post')) || is_singular(get_sub_field('show_in_post'), 'story-khach-hang')) :
           ?>
-          <div class="modal-contact mfp-hide" data-city="<?php echo get_sub_field('country_in', $c); ?>" data-country="<?php echo get_sub_field('country_in'); ?>"
-              data-page-scroll="<?php echo get_sub_field('page_scroll'); ?>"
-              data-show-after-time="<?php echo get_sub_field('show_after_time') ?: 0; ?>" id="popup_dynamic">
-            <?php echo do_shortcode(get_sub_field('short_code')); ?>
-          </div>
-          <script>
-            document.addEventListener("DOMContentLoaded", function () {
-              var popupElement = document.getElementById("popup_dynamic");
-              var showAfterTime = parseInt(popupElement.getAttribute("data-show-after-time")) * 1000;
-              var hasShownPopup = localStorage.getItem("hasShownPopup");
-
-              if (!hasShownPopup && showAfterTime > 0) {
-                setTimeout(showPopup, showAfterTime);
-              }
-            });
-
-            window.addEventListener("scroll", function () {
-              var popupElement = document.getElementById("popup_dynamic");
-              var scrollThreshold = parseFloat(popupElement.getAttribute("data-page-scroll"));
-              var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-              var totalHeight = document.documentElement.scrollHeight - window.innerHeight;
-              var scrollPercentage = (scrollTop / totalHeight) * 100;
-              var hasShownPopup = localStorage.getItem("hasShownPopup");
-
-              if (!hasShownPopup && scrollPercentage >= scrollThreshold) {
-                showPopup();
-              }
-            });
-
-            function showPopup() {
-              $.magnificPopup.open({
-                items: {
-                  src: '#popup_dynamic',
-                  type: 'inline'
-                },
-                preloader: false,
-                callbacks: {
-                  beforeOpen: function () {
-                    if ($(window).width() < 700) {
-                      this.st.focus = false;
-                    } else {
-                      this.st.focus = '#name';
-                    }
-                    $('body').addClass('iframe-modal');
-                  },
-                  beforeClose: function () {
-                    $('body').removeClass('iframe-modal');
-                    localStorage.setItem("hasShownPopup", true); // Mark popup as shown
-                  }
-                }
-              });
-            }
-          </script>
+              <?php
+                if(empty(get_sub_field('country_in')) || ((get_sub_field('country_in') == 'Vietnam') && empty(get_sub_field('show_location')))) :
+                  ?>
+                    <div class="modal-contact mfp-hide" data-city="<?php echo get_client_location('city') ?>" data-country="<?php echo get_client_location() ?>"
+                        data-page-scroll="<?php echo get_sub_field('page_scroll'); ?>"
+                        data-show-after-time="<?php echo get_sub_field('show_after_time') ?: 0; ?>" id="popup_dynamic">
+                          <?php
+                          echo do_shortcode(get_sub_field('short_code'));
+                          ?>
+                    </div>
+                <?php elseif(!empty(get_sub_field('country_in') && get_sub_field('country_in') == 'Foreign')): ?>
+                  <div class="modal-contact mfp-hide" data-city="<?php echo get_client_location('city') ?>" data-country="<?php echo get_client_location() ?>"
+                      data-page-scroll="<?php echo get_sub_field('page_scroll'); ?>"
+                      data-show-after-time="<?php echo get_sub_field('show_after_time') ?: 0; ?>" id="popup_dynamic">
+                        <?php
+                        echo do_shortcode(get_sub_field('short_code_foreign'));
+                        ?>
+                  </div>
+                <?php elseif(!empty(get_sub_field('show_location')) && in_array(get_client_location('city'), get_sub_field('show_location'))): ?>
+                  <div class="modal-contact mfp-hide" data-city="<?php echo get_client_location('city') ?>" data-country="<?php echo get_client_location() ?>"
+                      data-page-scroll="<?php echo get_sub_field('page_scroll'); ?>"
+                      data-show-after-time="<?php echo get_sub_field('show_after_time') ?: 0; ?>" id="popup_dynamic">
+                        <?php
+                          if(have_rows('short_code_local')){
+                            while( have_rows('short_code_local') ): the_row();
+                              $slugClientCity = sanitize_title(get_client_location('city'));
+                              $shortCodeName = sanitize_title(get_sub_field('location_name'));
+                              if($slugClientCity == $shortCodeName){
+                                echo do_shortcode(get_sub_field('short_code_city'));
+                              }
+                            endwhile;
+                          }
+                        ?>
+                  </div>
+                <?php endif; ?>
         <?php
         endif;
       endwhile;
+      ?>
+        <script>
+          document.addEventListener("DOMContentLoaded", function () {
+            var popupElement = document.getElementById("popup_dynamic");
+            var showAfterTime = parseInt(popupElement.getAttribute("data-show-after-time")) * 1000;
+            var hasShownPopup = localStorage.getItem("hasShownPopup");
+
+            if (locationRuleShow() && !hasShownPopup && showAfterTime > 0) {
+              setTimeout(showPopup, showAfterTime);
+            }
+          });
+
+          window.addEventListener("scroll", function () {
+            var popupElement = document.getElementById("popup_dynamic");
+            var scrollThreshold = parseFloat(popupElement.getAttribute("data-page-scroll"));
+            var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+            var totalHeight = document.documentElement.scrollHeight - window.innerHeight;
+            var scrollPercentage = (scrollTop / totalHeight) * 100;
+            var hasShownPopup = localStorage.getItem("hasShownPopup");
+
+            if (locationRuleShow() && !hasShownPopup && scrollPercentage >= scrollThreshold) {
+              showPopup();
+            }
+          });
+
+          function showPopup() {
+            $.magnificPopup.open({
+              items: {
+                src: '#popup_dynamic',
+                type: 'inline'
+              },
+              preloader: false,
+              callbacks: {
+                beforeOpen: function () {
+                  if ($(window).width() < 700) {
+                    this.st.focus = false;
+                  } else {
+                    this.st.focus = '#name';
+                  }
+                  $('body').addClass('iframe-modal');
+                },
+                beforeClose: function () {
+                  $('body').removeClass('iframe-modal');
+                  localStorage.setItem("hasShownPopup", true); // Mark popup as shown
+                }
+              }
+            });
+          }
+          function showVietNam() {
+            var popupElement = document.getElementById("popup_dynamic");
+            var clienCity = popupElement.getAttribute("data-city");
+            var ruleCountry = '<?php get_sub_field('country_in') ? print get_sub_field('country_in') : print 'null' ; ?>';
+            var clienCountry = '<?php print get_client_location() ?>';
+            var ruleCity = '<?php get_sub_field('show_location') ? print implode(", ", get_sub_field('show_location')) : print 'null' ?>';
+            var checkCity = ruleCity.includes(clienCity);
+            if((clienCountry == 'Vietnam' && ruleCity == 'null')
+            || ruleCountry == 'null' && ruleCity == 'null'
+            || clienCountry == 'Vietnam' && ruleCity != 'null' && checkCity === true) {
+              return true;
+            }
+            return false;
+          }
+          function showForeign() {
+            var popupElement = document.getElementById("popup_dynamic");
+            var ruleCountry = '<?php print get_client_location() ?>';
+            if(ruleCountry !== 'Vietnam'){
+              return true;
+            }
+            return false;
+          }
+
+          function locationRuleShow(){
+            var Country = '<?php get_sub_field('country_in') ? print get_sub_field('country_in') : print 'null' ; ?>';
+            if(Country == 'null' || (Country == 'Foreign' && showForeign()) || (Country == 'Vietnam' && showVietNam())){
+              return true;
+            }
+            return false;
+          }
+        </script>
+      <?php
     endif;
     ?>
     <!-- // popup dynamic -->
-
   </body>
 </html>

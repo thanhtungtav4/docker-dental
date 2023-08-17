@@ -88,6 +88,7 @@
 							</div>
 						</div>
 					</li>
+				<div class="a-outstand"><div><strong><a href="https://nhakhoaident.com/kien-thuc-nha-khoa/rang-su-lava-plus/">Răng sứ Lava Plus</a></strong> là gì? Có tốt không?</div></div>
 					<li class="l-tooths_item">
 						<h3 class="ttl-background">RĂNG SỨ KIM LOẠI QUÝ</h3>
 						<p class="text text-first">Khung sườn hợp kim Titan và bên ngoài được làm hoàn toàn bằng sứ.</p>
@@ -161,7 +162,7 @@
         <?php echo do_shortcode('[contact-form-7 id="11126"]'); ?>
       </div>
 					<li class="l-type_item type02">
-							<div class="a-outstand"><strong><div>Tổng quan về <a href="https://nhakhoaident.com/kien-thuc-nha-khoa/rang-su-nacera/">răng sứ Nacera</a></strong></div></div>
+							<div class="a-outstand"><div>Tổng quan về <strong><a href="https://nhakhoaident.com/kien-thuc-nha-khoa/rang-su-nacera/">răng sứ Nacera</a></strong></div></div>
 						<h3 class="ttl-background">RĂNG TOÀN SỨ ZIRCONIA</h3>
 						<div class="inner">
 							<ul class="l-check">
@@ -209,6 +210,7 @@
 							</div>
 						</div>
 					</li>
+					<div class="a-outstand"><div><strong><a href="https://nhakhoaident.com/kien-thuc-nha-khoa/rang-su-lava-esthetic/">Răng Sứ Lava Esthetic</a></strong> là gì? Giá bao nhiêu?</div></div>
 					<li class="l-type_item type05">
 						<h3 class="ttl-background">RĂNG TOÀN SỨ ZOLID</h3>
 						<div class="inner">
@@ -278,7 +280,7 @@
 			</div>
 		</div>
 		<div class="a-outstand"><div>Chi phí <strong><a href="https://nhakhoaident.com/kien-thuc-nha-khoa/chi-phi-boc-su-rang-cua/">bọc răng sứ răng cửa</a></strong></div></div>
-		<div class="a-outstand"><strong><div>Có nên làm <a href="https://nhakhoaident.com/kien-thuc-nha-khoa/cau-rang-su-rang-cua/">cầu răng sứ răng cửa</a></strong> không?</div></div>
+		<div class="a-outstand"><div>Có nên làm <strong><a href="https://nhakhoaident.com/kien-thuc-nha-khoa/cau-rang-su-rang-cua/">cầu răng sứ răng cửa</a></strong> không?</div></div>
 		<?php
 			require_once( get_stylesheet_directory() . '/module/box-information.php' );
 		?>
