@@ -116,7 +116,7 @@
               <?php
                 if(empty(get_sub_field('country_in')) || ((get_sub_field('country_in') == 'Vietnam') && empty(get_sub_field('show_location')))) :
                   ?>
-                    <div class="modal-contact mfp-hide" data-city="<?php echo get_client_location('city') ?>" data-country="<?php echo get_client_location() ?>"
+                    <div class="modal-contact mfp-hide" data-city="<?php echo get_client_location('regionname') ?>" data-country="<?php echo get_client_location('country') ?>"
                         data-page-scroll="<?php echo get_sub_field('page_scroll'); ?>"
                         data-show-after-time="<?php echo get_sub_field('show_after_time') ?: 0; ?>" id="popup_dynamic">
                           <?php
@@ -124,21 +124,21 @@
                           ?>
                     </div>
                 <?php elseif(!empty(get_sub_field('country_in') && get_sub_field('country_in') == 'Foreign')): ?>
-                  <div class="modal-contact mfp-hide" data-city="<?php echo get_client_location('city') ?>" data-country="<?php echo get_client_location() ?>"
+                  <div class="modal-contact mfp-hide" data-city="<?php echo get_client_location('regionname') ?>" data-country="<?php echo get_client_location('country') ?>"
                       data-page-scroll="<?php echo get_sub_field('page_scroll'); ?>"
                       data-show-after-time="<?php echo get_sub_field('show_after_time') ?: 0; ?>" id="popup_dynamic">
                         <?php
                         echo do_shortcode(get_sub_field('short_code_foreign'));
                         ?>
                   </div>
-                <?php elseif(!empty(get_sub_field('show_location')) && in_array(get_client_location('city'), get_sub_field('show_location'))): ?>
-                  <div class="modal-contact mfp-hide" data-city="<?php echo get_client_location('city') ?>" data-country="<?php echo get_client_location() ?>"
+                <?php elseif(!empty(get_sub_field('show_location')) && in_array(get_client_location('regionname'), get_sub_field('show_location'))): ?>
+                  <div class="modal-contact mfp-hide" data-city="<?php echo get_client_location('regionname') ?>" data-country="<?php echo get_client_location('country') ?>"
                       data-page-scroll="<?php echo get_sub_field('page_scroll'); ?>"
                       data-show-after-time="<?php echo get_sub_field('show_after_time') ?: 0; ?>" id="popup_dynamic">
                         <?php
                           if(have_rows('short_code_local')){
                             while( have_rows('short_code_local') ): the_row();
-                              $slugClientCity = sanitize_title(get_client_location('city'));
+                              $slugClientCity = sanitize_title(get_client_location('regionname'));
                               $shortCodeName = sanitize_title(get_sub_field('location_name'));
                               if($slugClientCity == $shortCodeName){
                                 echo do_shortcode(get_sub_field('short_code_city'));

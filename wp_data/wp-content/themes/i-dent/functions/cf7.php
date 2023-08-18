@@ -24,22 +24,23 @@
 
     // Function to get the client IP address
     function get_client_ip() {
-        $ipaddress = '';
-        if (isset($_SERVER['HTTP_CLIENT_IP']))
-            $ipaddress = $_SERVER['HTTP_CLIENT_IP'];
-        else if(isset($_SERVER['HTTP_X_FORWARDED_FOR']))
-            $ipaddress = $_SERVER['HTTP_X_FORWARDED_FOR'];
-        else if(isset($_SERVER['HTTP_X_FORWARDED']))
-            $ipaddress = $_SERVER['HTTP_X_FORWARDED'];
-        else if(isset($_SERVER['HTTP_FORWARDED_FOR']))
-            $ipaddress = $_SERVER['HTTP_FORWARDED_FOR'];
-        else if(isset($_SERVER['HTTP_FORWARDED']))
-            $ipaddress = $_SERVER['HTTP_FORWARDED'];
-        else if(isset($_SERVER['REMOTE_ADDR']))
-            $ipaddress = $_SERVER['REMOTE_ADDR'];
-        else
-            $ipaddress = 'UNKNOWN';
-        return $ipaddress;
+        // $ipaddress = '';
+        // if (isset($_SERVER['HTTP_CLIENT_IP']))
+        //     $ipaddress = $_SERVER['HTTP_CLIENT_IP'];
+        // else if(isset($_SERVER['HTTP_X_FORWARDED_FOR']))
+        //     $ipaddress = $_SERVER['HTTP_X_FORWARDED_FOR'];
+        // else if(isset($_SERVER['HTTP_X_FORWARDED']))
+        //     $ipaddress = $_SERVER['HTTP_X_FORWARDED'];
+        // else if(isset($_SERVER['HTTP_FORWARDED_FOR']))
+        //     $ipaddress = $_SERVER['HTTP_FORWARDED_FOR'];
+        // else if(isset($_SERVER['HTTP_FORWARDED']))
+        //     $ipaddress = $_SERVER['HTTP_FORWARDED'];
+        // else if(isset($_SERVER['REMOTE_ADDR']))
+        //     $ipaddress = $_SERVER['REMOTE_ADDR'];
+        // else
+        //     $ipaddress = 'UNKNOWN';
+        // return $ipaddress;
+        return '115.79.196.136';
     }
 
     function get_location(){
@@ -55,6 +56,9 @@
         $geo = unserialize(file_get_contents("http://www.geoplugin.net/php.gp?ip=$client_ip"));
         if($type == 'country'){
             $location  = $geo["geoplugin_countryName"];
+        }
+        if($type == 'regionname'){
+            $location  = $geo["geoplugin_regionName"];
         }
         else{
             $location = $geo["geoplugin_city"];
