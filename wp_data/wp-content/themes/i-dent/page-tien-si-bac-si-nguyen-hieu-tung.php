@@ -17,7 +17,7 @@
         <img class="is-sp"   src="/wp-content/uploads/2023/07/Ts-Bs-Nguyen-Hieu-Tung-10-nam-tunghiep-tai-phap.webp" alt="">
         <span class="title">TIẾN SĨ - BÁC SĨ</span>
         <h1 class="name">NGUYỄN HIẾU TÙNG</h1>
-        <p class="text">“ Sự Tân tâm không chỉ dừng lại ở Trách nhiệm<br>mà còn là Niềm tin và Hy vọng “</p><a class="btn is-sp" href="#"><img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/allinone/bnr_btn.svg" alt="ĐẶT LỊCH HẸN"></a>
+        <p class="text">"Sự Tận tâm không chỉ dừng lại ở Trách nhiệm<br>mà còn là Niềm tin và Hy vọng"</p><a class="btn is-sp" href="#"><img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/allinone/bnr_btn.svg" alt="ĐẶT LỊCH HẸN"></a>
       </div>
       <section class="about-bs about-bstung-banner">
         <div class="wrapper">

@@ -36,12 +36,12 @@
   </div>
   <div class="wrapper">
     <div class="doc-intro">
-      <p class="text">Với hệ thống cơ sở vật chất, trang thiết bị hiện đại, được nhập khẩu trực tiếp 100% từ châu Âu đã giúp các bác sĩ I-DENT điều trị cho bệnh nhân chính xác và nhanh hơn. Đây là lý do hàng năm, có hàng nghìn bệnh nhân trong và ngoài nước lựa chọn Nha khoa I-DENT để trồng răng Implant, bọc sứ thẩm mỹ, điều trị bệnh lý răng miệng</p>
+      <p class="text">Với hệ thống cơ sở vật chất, trang thiết bị hiện đại, được nhập khẩu trực tiếp 100% từ châu Âu đã giúp các bác sĩ I-DENT điều trị cho bệnh nhân chính xác và nhanh hơn. Đây là lý do hàng năm, có hàng nghìn bệnh nhân trong và ngoài nước lựa chọn Nha khoa I-DENT để trồng răng Implant, bọc sứ thẩm mỹ, điều trị bệnh lý răng miệng.</p>
     </div>
     <?php do_shortcode('[ez-toc]')?>
     <div class="m-basis">
       <div class="m-basis_block">
-        <h2 class="ttl-secondary">1.TRANG THIẾT BỊ MÁY MÓC HIỆN ĐẠI TẠI NHA KHOA</h2>
+        <h2 class="ttl-secondary">1. TRANG THIẾT BỊ MÁY MÓC HIỆN ĐẠI TẠI NHA KHOA</h2>
         <div class="block_inner">
           <h3 class="ttl-bl">1.1 Máy CT Cone beam 3D - Chẩn đoán hình ảnh trên không gian 3 chiều</h3>
           <p class="text">Tại Nha khoa I-DENT được trang bị hệ thống máy chụp phim hiện đại nhất hiện nay – Máy CT Cone beam 3D. Đây là hệ thống X-quang cho hình ảnh không gian 3 chiều, giúp bác sĩ biết được chính xác bề rộng và bề sâu của xương. <br>
@@ -80,7 +80,7 @@
         </div>
       </div>
       <div class="m-basis_block">
-        <h2 class="ttl-secondary">2.PHÒNG KHÁM VÔ TRÙNG THEO TIÊU CHUẨN BỘ Y TẾ</h2>
+        <h2 class="ttl-secondary">2. PHÒNG KHÁM VÔ TRÙNG THEO TIÊU CHUẨN BỘ Y TẾ</h2>
         <div class="block_inner">
           <h3 class="ttl-bl">2.1 Phòng điều trị riêng biệt cho từng bệnh nhân</h3>
           <p class="text">Nha khoa I-DENT tự hào là một trong những nha khoa uy tín, đạt được những tiêu chuẩn nghiêm ngặt của một phòng khám chất lượng cao về cơ sở vật chất, quy trình kiểm soát vô khuẩn, quy trình điều trị… Đặc biệt, I-DENT xây dựng một hệ thống phòng điều trị rộng rãi, được trang bị hệ thống thanh trùng không khí và hệ thống máy điều hoà có bộ lọc không khí, vi khuẩn, virus… đem lại luồng không khí tươi mát và sạch sẽ.Tất cả phòng điều trị của nha khoa đều có đầy đủ máy móc, trang thiết bị hiện đại và nằm hoàn toàn riêng biệt, nhằm thực hiện tốt nhất mỗi case điều trị. Nỗ lực này nhằm đem lại sự an toàn tuyệt đối cũng như đảm bảo một kết quả điều trị tốt nhất cho khách hàng khi đến với Nha khoa I-DENT.</p>
@@ -93,7 +93,7 @@
             </div>
           </div>
           <h3 class="ttl-bl">2.2 Phòng phẫu thuật</h3>
-          <p class="text">I-DENT là nha khoa chuyên sâu về cấy ghép răng Implant, được trang bị tất cả những máy móc hiện đại nhất của chuyên ngành cấy ghép nha khoa như: máy cấy Implant, máy siêu âm phẫu thuật, máy chụp phim kỹ thuật số, phần mềm 3D hỗ trợ cấy ghép, cùng nhiều thiết bị chuyên dụng khác.Phòng cấy ghép của nha khoa hoàn toàn riêng biệt, được trang bị bình oxy, máy theo dõi nhịp tim, máy hút… và hệ thống sát khuẩn bằng tia cực tím, đảm bảo vô trùng tuyệt đối cho phòng phẫu thuật. Tất cả dụng cụ đều được xử lý tiệt trùng nghiêm ngặt, với quy trình vô trùng khép kín. Tại Nha khoa I-DENT, tất cả các ca cấy ghép Implant đều được tiến hành trong điều kiện vô trùng tiêu chuẩn.</p>
+          <p class="text">I-DENT là nha khoa chuyên sâu về cấy ghép răng Implant, được trang bị tất cả những máy móc hiện đại nhất của chuyên ngành cấy ghép nha khoa như: máy cấy Implant, máy siêu âm phẫu thuật, máy chụp phim kỹ thuật số, phần mềm 3D hỗ trợ cấy ghép, cùng nhiều thiết bị chuyên dụng khác. Phòng cấy ghép của nha khoa hoàn toàn riêng biệt, được trang bị bình oxy, máy theo dõi nhịp tim, máy hút… và hệ thống sát khuẩn bằng tia cực tím, đảm bảo vô trùng tuyệt đối cho phòng phẫu thuật. Tất cả dụng cụ đều được xử lý tiệt trùng nghiêm ngặt, với quy trình vô trùng khép kín. Tại Nha khoa I-DENT, tất cả các ca cấy ghép Implant đều được tiến hành trong điều kiện vô trùng tiêu chuẩn.</p>
           <div class="gr-img gr03">
             <div class="big-img">
               <img loading="lazy"  src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/basis/img_09.jpg.webp" alt="">
@@ -113,7 +113,7 @@
         </div>
       </div>
       <div class="m-basis_block">
-        <h2 class="ttl-secondary">3.PHÒNG LABO HIỆN ĐẠI NGAY TẠI NHA KHOA</h2>
+        <h2 class="ttl-secondary">3. PHÒNG LABO HIỆN ĐẠI NGAY TẠI NHA KHOA</h2>
         <div class="block_inner">
           <p class="text">I-DENT là một trong số ít nha khoa tại TP HCM có thế mạnh sở hữu phòng LABO riêng, được trang bị hệ thống máy móc hiện đại. <br>Đội ngũ chuyên viên kỹ thuật lành nghề, giàu kinh nghiệm và luôn tận tâm trong công việc, nhằm mang đến những sản phẩm răng đẹp nhất cho khách hàng. <br>
             <br>Phòng LABO Nha khoa I-DENT sử dụng các trang bị các thiết bị máy móc tối tân cùng các vật liệu nha khoa nhập khẩu chính hãng từ các quốc gia Đức, Úc, Pháp… <br>

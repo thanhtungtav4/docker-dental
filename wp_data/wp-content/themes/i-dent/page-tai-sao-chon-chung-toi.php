@@ -82,7 +82,7 @@
           </li>
           <li class="l-commit_item">
             <p>
-              <span>2.</span>Đội ngũ bác sĩ điều trị có trình độ chuyên môn cao, có đầy đủ chứng chỉ và giấy phép hành nghề do Sở Y tế cấp. Các ca trồng răng Implant được trực tiếp thực hiện bởi Tiến Sĩ Bác sĩ Nguyễn Hiếu Tùng có hơn 10 năm kinh nghiệm tu nghiệp chuyên sâu Implant tại Pháp, thực hiện hơn 7,000 ca Implant thành công. Là một trong số ít các bác sĩ hàng đầu tại Việt Nam về trồng răng Implant.
+              <span>2.</span>Đội ngũ bác sĩ điều trị có trình độ chuyên môn cao, có đầy đủ chứng chỉ và giấy phép hành nghề do Sở Y tế cấp. Các ca trồng răng Implant được trực tiếp thực hiện bởi Tiến Sĩ - Bác sĩ Nguyễn Hiếu Tùng có hơn 10 năm kinh nghiệm tu nghiệp chuyên sâu Implant tại Pháp, thực hiện hơn 10,000 ca Implant thành công. Là một trong số ít các bác sĩ hàng đầu tại Việt Nam về trồng răng Implant.
             </p>
           </li>
           <li class="l-commit_item">
